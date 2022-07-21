@@ -1,0 +1,18 @@
+.home{
+    color: #fff;
+}
+
+.ongoing-box img {
+    width: 100%;
+    height: 500px;
+}
+
+.ongoing-box h2,h1, h3, h4,h5,h6,p{
+    color: #fff;
+    
+}
+.ongoing-box hr {
+    color: #fff;
+    opacity: 1;
+    margin: 10px 90px;
+}

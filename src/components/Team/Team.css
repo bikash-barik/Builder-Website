@@ -1,0 +1,14 @@
+.team-details p{
+    color: #000;
+    margin: auto;
+    height: 100%;
+    font-size: 25px;
+}
+.team-img img{
+    height: 190px;
+}
+.team-details{
+    background-color: #fff;
+    height: 100%;
+    padding: 20px;
+}

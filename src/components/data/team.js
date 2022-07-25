@@ -1,0 +1,39 @@
+const TeamData =[
+    {
+        id:1,
+        name:"",
+        designation:"",
+        details:"",
+        image:""
+    },
+    {
+        id:2,
+        name:"",
+        designation:"",
+        details:"",
+        image:""
+    },
+    {
+        id:3,
+        name:"",
+        designation:"",
+        details:"",
+        image:""
+    },
+    {
+        id:4,
+        name:"",
+        designation:"",
+        details:"",
+        image:""
+    },
+    {
+        id:5,
+        name:"",
+        designation:"",
+        details:"",
+        image:""
+    },
+];
+
+export default TeamData

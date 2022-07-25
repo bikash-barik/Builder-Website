@@ -1,7 +1,8 @@
 import React from "react";
 import "./Ongoing.css"
-import image from "../../images/ongoing/poster1.png";
-import OngoingData from "../data/ongoing";
+
+import OngoingData from "../../data/ongoing";
+import { Link } from "react-router-dom";
 
 export default function Ongoing() {
   return (
@@ -12,6 +13,8 @@ export default function Ongoing() {
         <div className="d-flex">
 
         <h5>Ongoing Projects </h5>
+
+
         <hr style={{width:"150px", backgroundColor:"white", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
         </div>
         <div className="row text-center align-items-center justify-content-center">

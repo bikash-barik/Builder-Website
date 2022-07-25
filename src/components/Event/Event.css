@@ -1,0 +1,21 @@
+.hero-img img{
+    width: 100vw ;
+    height: 80vh;
+}
+.no-upcoming{
+    background-color: rgb(249, 235, 249);
+}
+.no-upcoming h1,h2,h3, h4{
+    color: black ;
+    /* margin-top: 100px; */
+    font-weight: bolder;
+}
+.year{
+    background-color: rgb(224, 0, 0);
+    padding: 10px;
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+    border-radius: 2px;
+    color: #fff !important; 
+}

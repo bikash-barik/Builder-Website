@@ -11,7 +11,7 @@ export default function Completed() {
 const [category, setCategory] = useState("residential")
 const [modal, setModal] = useState(false)
   return (
-    <div className="home">
+    <div className="Communities">
       <div className="container" >
         <section className="completed my-5">
 
@@ -45,11 +45,11 @@ const [modal, setModal] = useState(false)
         <div className="row text-center align-items-center justify-content-center">
 
 {
-  CompletedData.filter(p=>p.category===category).map((project)=>{
+  CompletedData.filter(p=>p.category===category).map((project,i)=>{
     return(<>
          <div className="col-lg-6">
             <div className="ongoing-box text-center align-items-center justify-content-center my-2">
-              <img src={project.image} className={modal===true?"img-responsive show-image":"img-responsive"}  onClick={()=>{
+              <img src={project.image}  className=""  data-aos={i%2===0?"fade-right":"fade-left"} data-aos-duration="2000" onClick={()=>{
                 modal===false?
                 setModal(true):setModal(false)}}></img>
               {/* <img src={image}></img> */}
@@ -57,6 +57,14 @@ const [modal, setModal] = useState(false)
               <hr/>
 
               <h3 className="my-3">YEAR OF COMPLETION : {project.date}</h3>
+            </div>
+            <div>
+                <img src={project.image} className={modal===true?"img-responsive show-image":"d-none"}
+                 onClick={()=>{
+              setModal(false)
+                }}
+                  data-aos="fade-left" data-aos-duration="2000"
+                  />
             </div>
           </div>
         

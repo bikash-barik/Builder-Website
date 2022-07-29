@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Ongoing() {
   return (
-    <div className="home">
+    <div className="Communities">
       <div className="container">
         <section className="upcoming">
 
@@ -20,10 +20,11 @@ export default function Ongoing() {
         <div className="row text-center align-items-center justify-content-center">
 
 {
-  OngoingData.map((project)=>{
+  OngoingData.map((project,i)=>{
     return(<>
          <div className="col-lg-4">
-            <div className="ongoing-box text-center align-items-center justify-content-center">
+            <div className="ongoing-box text-center align-items-center justify-content-center" 
+            data-aos={i%2===0?"fade-right":"fade-left"} data-aos-duration="2000">
               <img src={project.image} className="img-responsive"></img>
               {/* <img src={image}></img> */}
               <h4 className="my-3">{project.title}</h4>

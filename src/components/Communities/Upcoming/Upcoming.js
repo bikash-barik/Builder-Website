@@ -10,7 +10,7 @@ export default function Upcoming() {
 const [category, setCategory] = useState("commercial")
 
   return (
-    <div className="home">
+    <div className="Communities">
       <div className="container">
         <section className="upcoming my-5">
 

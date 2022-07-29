@@ -1,0 +1,27 @@
+.navbar-bg{
+    background-color: #e8fdf6;
+    height: 100px;
+}
+.n-link{
+    color :rgb(0, 85, 255) !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+.active{
+    border-bottom: 1px solid rgb(0, 85, 255);
+    padding-bottom: 4px;
+    /* text-decoration: underline !important; */
+}
+a{
+    text-decoration:none !important;
+}
+.right-link p{
+    color:rgb(0, 85, 255);
+    font-size: 15px;
+    font-weight:bold;
+    margin-bottom: 0;
+}
+.right-link i{
+    color:rgb(0, 85, 255);
+    font-size: 20px;
+}

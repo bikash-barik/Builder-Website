@@ -35,16 +35,16 @@ const CarouselData =[
     {
         id: 5,
         image:img1,
-        description :"The project is extremely successful and we booked a 3 bhk with a good cost at a prime location in the heart of the temple city. They are doing the good construction as per exact time schedule, which is the most important objective for us now a days before buying a property.",
-        name:"Harry",
-        title :"Manager",
+        description :"We are totally pleased with your company, your people and your subcontractors on the craftsmanship of your product. We continue to be totally satisfied with the Apartment that you built for us two years ago",
+        name:"Nisarg Rachna",
+        title :"ARCHITECT",
     },
     {
         id: 6,
         image:img1,
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
-        name:"Harry",
-        title :"Manager",
+        description :"We are totally pleased with your company, your people and your subcontractors on the craftsmanship of your product. We continue to be totally satisfied with the Apartment that you built for us two years ago",
+        name:"Rajendra Goel",
+        title :"CLIENT, ARCHID",
     },
     {
         id: 7,

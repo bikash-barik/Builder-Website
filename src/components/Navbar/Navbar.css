@@ -25,3 +25,6 @@ a{
     color:rgb(0, 85, 255);
     font-size: 20px;
 }
+.right-link button{
+    width: 100%;
+}

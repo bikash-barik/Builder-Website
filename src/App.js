@@ -36,9 +36,9 @@ useEffect(() => {
 <BrowserRouter>
 
   <Drawer/>
-  <Main/>
+  {/* <Main/> */}
         <Routes>
-
+        <Route exact path="/" element={<div><Main/></div>}/>
          <Route exact path="/communities" element={<div><Communities/></div>}/>
          <Route path ="/event" element={<div><Event/></div>}/>
          <Route path ="/team" element={<div><Team/></div>}/>

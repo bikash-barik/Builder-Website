@@ -16,3 +16,9 @@
     opacity: 1;
     margin: 10px 90px;
 }
+.white-text{
+    color: white !important;
+}
+.black-text{
+    color: black !important;
+}

@@ -13,6 +13,8 @@ import Team from './components/Team/Team';
 import Ongoing from './components/Communities/Ongoing/Ongoing';
 import AOS from 'aos';
 import Drawer from './components/Navbar/Navbar';
+import SingleProperty from './components/SingleProperty/SingleProperty';
+import OngoingData from './components/data/ongoing';
 
 function App() {
 
@@ -36,6 +38,7 @@ useEffect(() => {
          <Route path ="/event" element={<div><Event/></div>}/>
          <Route path ="/team" element={<div><Team/></div>}/>
          <Route path ="/latest-launch" element={<div><Ongoing/></div>}/>
+         <Route path ="/communities/:id" element={<div><SingleProperty OngoingData={OngoingData}/></div>}/>
         </Routes>
 </BrowserRouter>
   );

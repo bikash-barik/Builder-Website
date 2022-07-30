@@ -1,0 +1,141 @@
+.project{
+    background-color: rgb(73, 70, 70);
+    padding-left: 7vw;
+    padding-bottom: 4.5vw;
+}
+.archid,.testimonial{
+    background-color: white;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.archid h6{
+    color: black;
+    position: relative;
+    padding-left: 7vw;
+    font-size: 2vw;
+    max-width: 57vw;
+}
+.archid h6:after{
+    content: "";
+    display: block;
+    width: 20vw;
+    top:50%;
+    right: 0;
+    height: 1.5px;
+    position: absolute;
+    background: black;
+}
+.small{
+    text-align: center;
+}
+.archimg{
+    background-image: url("../../images/project-highlight/archid.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 3vw;
+    display: flex;
+    color: white;
+    font-size: 3vw;
+    font-weight: 600;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vw;
+    width: 100%;
+    object-fit: cover;
+}
+.testimonial h6{
+    color: black;
+    position: relative;
+    padding-left: 7vw;
+    font-size: 2vw;
+    max-width: 42vw;
+}
+.testimonial h6:after{
+    content: "";
+    display: block;
+    width: 20vw;
+    top:50%;
+    right: 0;
+    height: 1.5px;
+    position: absolute;
+    background: black;
+}
+.highlights{
+    padding-top: 5vw;
+}
+.highlights h6{
+    color: rgb(209, 205, 205);
+    position: relative;
+    font-size: 1.3vw;
+    max-width: 29vw;
+    
+}
+.highlights h6:after{
+    content: "";
+    display: block;
+    width: 15vw;
+    top:50%;
+    right: 0;
+    height: 1px;
+    position: absolute;
+    background: rgb(209, 205, 205);
+}
+.anim1 h6,.anim2 h6,.anim3 h6{
+    animation-name: textzoom;
+    animation-duration: 3s;
+    align-items: center;
+    display: flex;
+    gap: 1.25vw;
+}
+.anim img{
+    width: 3vw;
+    animation-name: textzoom;
+}
+.anim3 img{
+width: 4vw;
+}
+.anim2 h6{
+    animation-delay: 2s;
+}
+.anim3 h6{
+    animation-delay: 4s;
+}
+@keyframes textzoom{ 
+    0%,100%{ 
+        transform: scale(1); 
+        margin-left: 0;
+    } 
+     
+    40%,60%{ 
+        margin-left: 15vw;
+        transform: scale(1.5);
+    } 
+}
+.test{
+    background-image: url("../../images/team/ourTeam.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+}
+
+.testimonial_card_container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3vw;
+}
+
+.carousel-root {
+    height: 100% !important;
+}
+
+.carousel.carousel-slider {
+    overflow: visible !important;
+}
+
+.carousel .control-dots {
+    margin: -40px 0 !important;
+}

@@ -1,0 +1,53 @@
+.card{
+    width: 20vw;
+    height: 20vw;
+    background-color:rgb(73, 70, 70);
+    padding: 1vw;
+    border-radius: 0;
+}
+.rec.rec-arrow{
+    display: none;
+}
+button{
+    width: 50px;
+}
+button.rec-dot{
+    background-color: white;
+    box-shadow: none;
+}
+button.rec-dot:active,button.rec-dot:focus,button.rec-dot:hover{
+    background-color: rgb(73, 70, 70);
+    box-shadow: none;
+}
+.cir{
+    width: 7vw !important;
+    height: 7vw;
+    border-radius: 50%;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    top: 3vw;
+    margin: auto;
+    z-index: 1;
+}
+.desc{
+    font-size: 1vw;
+    margin-top: 3vw;
+    line-height: 1.2;
+    margin-bottom: 0.8vw;
+    text-align: start;
+}
+.title{
+    font-size: 0.8vw;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0.5vw;
+    line-height: 1;
+    color: rgb(66, 103, 178);
+}
+.name{
+    font-size: 1.2vw;
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgb(66, 103, 178);
+}

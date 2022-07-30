@@ -139,3 +139,9 @@ width: 4vw;
 .carousel .control-dots {
     margin: -40px 0 !important;
 }
+
+@media screen and (max-width: 1000px) {
+    .archimg{
+        font-size: 3.5vw;
+    }
+  }

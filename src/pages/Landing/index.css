@@ -1,0 +1,6 @@
+.landing-screen{
+    display: flex;
+    flex-direction: column;
+    background-color: white !important;
+}
+

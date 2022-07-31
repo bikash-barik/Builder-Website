@@ -1,0 +1,16 @@
+.footer-image-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 150px;
+    width: 100%;
+}

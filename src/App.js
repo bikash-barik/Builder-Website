@@ -16,6 +16,7 @@ import OngoingData from './components/data/ongoing';
 import Drawer from './components/Navbar/Navbar'
 import Landing from "./pages/Landing"
 
+import Footer from './components/footer';
 
 function App() {
 
@@ -40,7 +41,8 @@ useEffect(() => {
          <Route path ="/latest-launch" element={<div><Ongoing/></div>}/>
          <Route path ="/communities/:id" element={<div><SingleProperty OngoingData={OngoingData}/></div>}/>
          <Route exact path="/slider" element={<div><Slider2/></div>}/>
-        </Routes>
+         </Routes>
+    <Footer/>
 </BrowserRouter>
   );
        

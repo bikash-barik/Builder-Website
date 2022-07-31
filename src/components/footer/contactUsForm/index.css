@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+
+.contact-us-form-container {
+    display: flex;
+    max-width: 396px;
+    width: 100%;
+    background-color: white;
+    height: 269px;
+
+}
+
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 194px;
+    width: 100%;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #383334;
+
+}
+
+.form-line {
+    width: 55px;
+    margin-left: 4px;
+    border-top: 1px solid #000000;
+
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-form-label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    color: #383334;
+}
+
+.contact-us-form input {
+    width: 165px;
+    height: 21px;
+    background: rgba(219, 222, 228, 0.95);
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.form-button {
+    max-width: 118px;
+    width: 100%;
+    height: 24px;
+    background: linear-gradient(180deg, #6FA0D1 0%, #3B64B5 96.35%);
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width : 1277px) {
+    .contact-us-form-container {
+        margin-top: 80px;
+    }
+
+
+}
+
+@media screen and (max-width : 440px) {
+    .image-remove {
+        display: none;
+
+    }
+
+    .contact-us-form-container {
+        max-width: 200px;
+    }
+
+
+}

@@ -1,0 +1,33 @@
+.main{
+    background-color: white;
+    height: 120vh;
+    width: 100vw;
+}
+.main2{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: gray;
+}
+.card{
+    width: fit-content;
+    height: 45vw;
+}
+.carousel-indicators{
+    height: 0px;
+    width: 0px;
+}
+.carousel-control-prev-icon{
+    background-image: url("../../images/ongoing/arrow.png"); 
+    transform: rotateY(180deg);
+    width: 10vw;
+    height: 5vw;
+}
+.carousel-control-next-icon{
+    background-image: url("../../images/ongoing/arrow.png");
+    width: 10vw;
+    height: 5vw;
+}
+.carousel-inner .active img{
+    padding-bottom: 0px;
+    margin: auto;
+}

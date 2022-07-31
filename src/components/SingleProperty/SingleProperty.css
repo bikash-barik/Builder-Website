@@ -7,13 +7,12 @@
 }
 .button-grp{
     position: absolute;
-    bottom: 10px;
-    right: 20px;
-    width: 500px;
+    bottom: 0vw;
+    right: 5vw;
  
 }
 .button-grp .btn{
-    width : 100px;
+    border-radius: 0;
 }
 
 .detail-1{

@@ -1,12 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import './SingleProperty.css';
+import facilities from '../../images/ongoing/facilities.png'
 import gallery from '../../images/ongoing/gallery.png'
 import share from '../../images/ongoing/share2.png'
 import { Link } from "react-router-dom";
-import facilities from '../../images/ongoing/archid.png';
-
-
 // import OngoingData from '../data/ongoing';
 
 export default function SingleProperty({OngoingData}) {
@@ -32,8 +30,8 @@ export default function SingleProperty({OngoingData}) {
         </div>
         <div className='button-grp'>
         <div className='btn btn-primary mx-2 px-2'>REGISTER YOUR INTEREST </div>
-        <Link to={`/slider`}><div className='btn btn-light mx-2 '>GALLERY <img src={gallery} style={{width:"1.3rem", marginLeft:"6px"}}/> </div></Link>
-        <div className='btn btn-light mx-2 '>SHARE <img src={share} style={{width:"1.2rem",marginLeft:"6px"}}/> </div>
+        <Link to={`/slider`}><div className='btn btn-light mx-2 '>GALLERY <img src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FIcons%2FArchid%20Pramod%20Icons%2Fimage%20183.png?alt=media&token=bea36622-2395-4e4f-b574-a1f8445bba0c" style={{width:"1.3rem", marginLeft:"6px"}}/> </div></Link>
+        <div className='btn btn-light mx-2 '>SHARE <img src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FIcons%2FArchid%20Pramod%20Icons%2FGroup%206375.png?alt=media&token=fe3de582-6a46-4e10-9d52-6828975f4b9d" style={{width:"1rem",marginLeft:"6px"}}/> </div>
         </div>
         <section className='highlights container-fluid text-center'>
         <div className="d-flex">

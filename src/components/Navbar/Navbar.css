@@ -6,6 +6,7 @@
     color :rgb(0, 85, 255) !important;
     font-size: 15px;
     font-weight: bold;
+    padding: 20px;
 }
 .active{
     border-bottom: 1px solid rgb(0, 85, 255);
@@ -17,7 +18,7 @@ a{
 }
 .right-link p{
     color:rgb(0, 85, 255);
-    font-size: 15px;
+    font-size: 18px;
     font-weight:bold;
     margin-bottom: 0;
 }
@@ -27,4 +28,19 @@ a{
 }
 .right-link button{
     width: 100%;
+}
+.contact-modal{
+    background-color: rgba(28, 26, 26, 0.623);
+    position: fixed;
+}
+.ReactModal__Overlay--after-open{
+    background-color: rgba(66, 66, 66, 0.61) !important;
+}
+
+
+@media (max-width:400px){
+    .n-link{
+        padding-top: 20px!important;
+        padding-bottom: 20px !important;
+    }
 }

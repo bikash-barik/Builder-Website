@@ -1,11 +1,11 @@
 .team-details p{
     color: #000;
-    margin: auto;
-    height: 100%;
+    margin: 20px;
+    height: 95%;
     font-size: 25px;
 }
 .team-img img{
-    height: 190px;
+    height: 260px;
 }
 .team-details{
     background-color: #fff;

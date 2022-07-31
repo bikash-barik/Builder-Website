@@ -18,6 +18,7 @@ import Main from './components/Main/Main';
 // =======
 import SingleProperty from './components/SingleProperty/SingleProperty';
 import OngoingData from './components/data/ongoing';
+import Drawer from './components/Navbar/Navbar'
 // >>>>>>> 180bd6a469c6c345835528e1cbce39eefecd3b06
 
 function App() {
@@ -35,9 +36,10 @@ useEffect(() => {
     
 <BrowserRouter>
 
-  <Main/>
+  <Drawer/>
+  {/* <Main/> */}
         <Routes>
-
+        <Route exact path="/" element={<div><Main/></div>}/>
          <Route exact path="/communities" element={<div><Communities/></div>}/>
          <Route path ="/event" element={<div><Event/></div>}/>
          <Route path ="/team" element={<div><Team/></div>}/>

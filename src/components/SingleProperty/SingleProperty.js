@@ -28,7 +28,7 @@ export default function SingleProperty({OngoingData}) {
                     <p></p>
                 
         <div className="landing-image">
-            <img src="https://source.unsplash.com/1600x900/?house"/>
+            <img src={data.detailImage1}/>
         </div>
         <div className='button-grp'>
         <div className='btn btn-primary mx-2 px-2'>REGISTER YOUR INTEREST </div>
@@ -82,7 +82,7 @@ export default function SingleProperty({OngoingData}) {
                   </div>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                         <img data-aos="fade-down-left" data-aos-easing="linear"
-     data-aos-duration="1500" src={data.detailImage1} style={{height:"100%"}} className='img-fluid'></img>
+     data-aos-duration="1500" src={data.detailImage2} style={{height:"100%",width:"100%"}} className='img-fluid'></img>
                   </div>
               </div>
         </div>
@@ -92,7 +92,7 @@ export default function SingleProperty({OngoingData}) {
             <div className='row '>
                 <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                 <img data-aos="fade-up-right" data-aos-easing="linear"
-     data-aos-duration="1500"  src={data.detailImage2} style={{height:"100%"}} className='img-fluid'></img>
+     data-aos-duration="1500"  src={data.detailImage3} style={{height:"100%",width:"100%"}} className='img-fluid'></img>
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                 <div className='detail-3'>
@@ -125,7 +125,7 @@ export default function SingleProperty({OngoingData}) {
                   </div>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                         <img data-aos="fade-down-left" data-aos-easing="linear"
-     data-aos-duration="1500"  data-aos-offset="400" src={data.detailImage3} style={{height:"100%"}} className='img-fluid'></img>
+     data-aos-duration="1500"  data-aos-offset="400" src={data.detailImage4} style={{height:"100%", width:"100%"}} className='img-fluid'></img>
                   </div>
               </div>
         </div>
@@ -150,7 +150,7 @@ export default function SingleProperty({OngoingData}) {
               </div>
         </div>
 
-        </section>s
+        </section>
                 </div>
         </>
        )

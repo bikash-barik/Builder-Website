@@ -2,7 +2,8 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: black !important;
+  background-color: 
+  #464242 !important;
 }
 h1,h2,h3,h4,h5,p{
   /* color: #fff; */

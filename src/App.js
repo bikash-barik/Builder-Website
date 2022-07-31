@@ -14,6 +14,7 @@ import SingleProperty from './components/SingleProperty/SingleProperty';
 import Slider2 from './components/SingleProperty/Slider2';
 import OngoingData from './components/data/ongoing';
 import Drawer from './components/Navbar/Navbar'
+import Offer from './components/offers/Offers'
 import Landing from "./pages/Landing"
 
 import Footer from './components/footer';
@@ -39,6 +40,7 @@ useEffect(() => {
          <Route path ="/event" element={<div><Event/></div>}/>
          <Route path ="/team" element={<div><Team/></div>}/>
          <Route path ="/latest-launch" element={<div><Ongoing/></div>}/>
+         <Route path ="/offers" element={<div><Offer/></div>}/>
          <Route path ="/communities/:id" element={<div><SingleProperty OngoingData={OngoingData}/></div>}/>
          <Route exact path="/slider" element={<div><Slider2/></div>}/>
          </Routes>

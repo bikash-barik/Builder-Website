@@ -1,0 +1,9 @@
+.offers-background-img {
+  position: absolute;
+  width: 1600px;
+  height: 1000px;
+  left: 0px;
+  top: 107px;
+  background-image: url("offers-bk-img.png");
+  background-repeat: no-repeat;
+}

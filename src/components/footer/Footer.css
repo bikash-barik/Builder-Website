@@ -1,0 +1,308 @@
+.back-img {
+  position: absolute;
+  width: 100%;
+  height: 393px;
+
+  background: #2c2828;
+
+}
+.fab{
+  font-size: 30px;
+  color: white;
+  margin:5px;
+}
+.logo-img {
+  position: absolute;
+  width: 134px;
+  height: 132.78px;
+  /* left: 54px;
+  top: 48px; */
+
+  /* background: url("image 150.png"); */
+}
+
+/* .gps-symbol {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 361px;
+  top: 57px;
+  float: left;
+  background: url(image1.png);
+} */
+/* .gps-symbol.txt {
+  position: absolute;
+  width: 365px;
+  height: 120px;
+  padding-left: 506px;
+  padding-top: 34px;
+  float: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: white;
+} */
+
+.map-component {
+  /* position: absolute; */
+  /* width: 50%; */
+  height: 25px;
+  margin: 5% 15%;
+  /* left: 480px;
+  top: 159px; */
+/* margin-left: 20px; */
+  background: #2e69a5;
+  border-radius: 3px;
+}
+
+.map-vector-component {
+  /* position: absolute; */
+  /* width: 3.18px;
+  height: 3.18px; */
+  /* left: 92px;
+  top: 11px; */
+
+  /* border: 1px solid #ffffff; */
+}
+
+.map-text {
+  /* position: absolute; */
+  /* width: 25px; */
+  height: 15px;
+ padding-left:13%;
+  
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.mail-symbol {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 363px;
+  top: 225px;
+
+  background: url("mail.png");
+}
+
+.mail-txt {
+  position: absolute;
+  width: 190px;
+  height: 19px;
+  padding-left: 413px;
+  top: 225px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.call-symbol {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 363px;
+  top: 279px;
+
+  background: url("phone.png");
+}
+
+.call-txt {
+  position: absolute;
+  width: 137px;
+  height: 19px;
+  left: 400px;
+  top: 279px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.call-symbol-2 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 535px;
+  top: 279px;
+
+  background: url("phone.png");
+}
+
+.call-txt-2 {
+  position: absolute;
+  width: 136px;
+  height: 19px;
+  left: 570px;
+  top: 279px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.end-component {
+  position: absolute;
+  width: 1675px;
+  height: 17px;
+  left: 2px;
+  top: 3671px;
+  background: #ffffff;
+}
+
+.end-component-txt {
+  position: absolute;
+  width: 257px;
+  height: 17px;
+  left: 518px;
+  top: 3675px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 11px;
+
+  color: #2c2828;
+}
+
+.form1-component {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 396px;
+  height: 269px;
+  left: 845px;
+  top: 37px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+.form2-component {
+  position: absolute;
+  width: 203px;
+  height: 269px;
+  left: 1060px;
+  top: 37px;
+
+  background: url("form-2.png");
+}
+
+.form-txt {
+  position: absolute;
+  width: 132px;
+  height: 23px;
+  left: 885px;
+  top: 65px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #383334;
+}
+.form-input-component {
+  position: absolute;
+  width: 140px;
+  height: 11px;
+  left: 882px;
+  top: 96px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  color: #383334;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #6fa0d1;
+  border-color: #3b64b5;
+  padding-left: 9px;
+  width: 75px;
+  margin-left: 35px;
+  border-radius: 16px;
+}
+
+.facebook-component {
+  position: absolute;
+  left: 330px;
+  right: 0%;
+  top: 133px;
+  bottom: 0%;
+
+  background-image: url("fb-symbol.png");
+  background-repeat: no-repeat;
+}
+
+.twitter-component {
+  position: absolute;
+  left: 280px;
+  right: 0%;
+  top: 133px;
+  bottom: 0%;
+
+  background-image: url("twitter-symbol.png");
+  background-repeat: no-repeat;
+}
+
+.instagram-component {
+  position: absolute;
+  left: 280px;
+  right: 0%;
+  top: 133px;
+  bottom: 0%;
+
+  background-image: url("");
+  background-repeat: no-repeat;
+}
+
+.map-outer-vector-component {
+  position: absolute;
+  width: 9.55px;
+  height: 11.67px;
+  left: 88px;
+  top: 6px;
+  background-image: url("map-outer.png");
+  background-repeat: no-repeat;
+}
+
+.scroll-to-top {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 600px;
+  top: 313px;
+  border-radius: 50%;
+  background: #df6464;
+}

@@ -35,6 +35,7 @@ a{
 }
 .ReactModal__Overlay--after-open{
     background-color: rgba(66, 66, 66, 0.61) !important;
+    z-index: 10;
 }
 
 

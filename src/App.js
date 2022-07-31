@@ -12,10 +12,10 @@ import Communities from './pages/Communities/Communities.js';
 import Team from './components/Team/Team';
 import Ongoing from './components/Communities/Ongoing/Ongoing';
 import AOS from 'aos';
-import Drawer from './components/Navbar/Navbar';
+import Main from './components/Main/Main';
+// import Drawer from './components/Navbar/Navbar';
 // <<<<<<< HEAD
-import Main from './components/Main/Main'
-// ======
+// =======
 import SingleProperty from './components/SingleProperty/SingleProperty';
 import OngoingData from './components/data/ongoing';
 // >>>>>>> 180bd6a469c6c345835528e1cbce39eefecd3b06
@@ -35,7 +35,6 @@ useEffect(() => {
     
 <BrowserRouter>
 
-  <Drawer/>
   <Main/>
         <Routes>
 

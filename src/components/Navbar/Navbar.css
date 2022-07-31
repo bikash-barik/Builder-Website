@@ -44,3 +44,10 @@ a{
         padding-bottom: 20px !important;
     }
 }
+@media (max-width: 1200px){
+    .n-link{
+padding-left:10px !important;
+padding-right:10px !important;
+/* display: none !important; */
+    }
+}

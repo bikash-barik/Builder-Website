@@ -8,14 +8,12 @@ export default function Ongoing() {
   return (
     <div className="Communities">
       <div className="container">
-        <section className="upcoming">
+        <section className="upcoming my-5">
 
         <div className="d-flex">
 
-        <h5 className="white-text">Ongoing Projects </h5>
-
-
-        <hr style={{width:"150px", backgroundColor:"white", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
+        <h5 className="white-text" style={{fontSize:"29px", fontWeight:"400", marginLeft:"30px",lineHeight:"50px"}}>Ongoing Projects </h5>
+        <hr style={{width:"150px", backgroundColor:"white", fontWeight:"", height:"1.3px",marginTop:"30px",marginLeft:"5px" , opacity:"0.8"}}/>
         </div>
         <div className="row text-center align-items-center justify-content-center">
 

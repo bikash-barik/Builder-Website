@@ -26,47 +26,46 @@ const BannerMapper = [
 ];
 const Banner = () => {
   return (
-      <div>
+    <div>
       <Carousel indicators={false} fade interval={3000} controls={false}>
-      {BannerMapper.map((el, idx) => {
-        if (el.text === "coming soon") {
-          return (
+        {BannerMapper?.map((el, idx) => {
+          if (el.text === "coming soon") {
+            return (
               <Carousel.Item key={idx} interval={5000}>
-                <div className="banner-background"   style={{
-                  backgroundImage: `url(${el.image})`,
-                }} >
-                <div className="coming-soon">
+                <div
+                  className="banner-background"
+                  style={{
+                    backgroundImage: `url(${el?.image})`,
+                  }}
+                >
+                  <div className="coming-soon">
                     <div className="coming-soon-text">COMING SOON</div>
                     <div className="coming-place-name-cover">
-                    <div className="coming-place-name">Patia in 2022</div>
+                      <div className="coming-place-name">Patia in 2022</div>
                       <div className="coming-place-name">Atala in 2022</div>
-                      </div>
-                      </div>
-                      </div>
-                      </Carousel.Item>
-                      );
-                    } else {
-            return (
-              <Carousel.Item key={idx} interval={5000} >
-              <div className="banner-background"   style={{
-                backgroundImage: `url(${el.image})`,
-              }}>
-              <div
-              
-              className="place-name"
-              >
-              {el.text}
-              </div>
-              </div>
+                    </div>
+                  </div>
+                </div>
               </Carousel.Item>
-              );
-            }
-          })}
-          </Carousel>
-          <SearchFilter/>
-          </div>
-    
-   
+            );
+          } else {
+            return (
+              <Carousel.Item key={idx} interval={5000}>
+                <div
+                  className="banner-background"
+                  style={{
+                    backgroundImage: `url(${el?.image})`,
+                  }}
+                >
+                  <div className="place-name">{el?.text}</div>
+                </div>
+              </Carousel.Item>
+            );
+          }
+        })}
+      </Carousel>
+      <SearchFilter />
+    </div>
   );
 };
 

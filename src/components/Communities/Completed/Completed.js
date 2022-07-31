@@ -12,14 +12,14 @@ const [category, setCategory] = useState("residential")
 const [modal, setModal] = useState(false)
   return (
     <div className="Communities">
-      <div className="container" >
+      <div className="container-fluid" >
         <section className="completed my-5">
 
         <div className="row">
             <div className="col-md-6 col-sm-6 col-lg-6">
                 <div className="d-flex">
 
-        <h5 className="white-text">Completed Projects </h5>
+        <h4 className="white-text">Completed Projects </h4>
         <hr style={{width:"150px", backgroundColor:"white", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
       </div>
                 </div>

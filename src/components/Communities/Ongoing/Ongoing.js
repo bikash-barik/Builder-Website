@@ -30,10 +30,10 @@ export default function Ongoing() {
               <img src={project.image} className="img-responsive"></img>
               </Link>
               {/* <img src={image}></img> */}
-              <h4 className="my-3">{project.title}</h4>
+              <h4 className="my-3" style={{fontSize:"24px", fontWeight:"400", lineHeight:"29px"}}>{project.title}</h4>
               <hr/>
-              <h5 className="my-3">{project.tagLine}</h5>
-              <p className="my-3">{project.description}</p>
+              <h5 className="my-3" style={{fontSize:"17px", fontWeight:"400"}}>{project.tagLine}</h5>
+              <p className="my-3" style={{fontSize:"17px", fontWeight:"400"}}>{project.description}</p>
             </div>
           </div>
         

@@ -3,31 +3,24 @@ import './App.css';
 import Event from './pages/Event/Event';
 import {
   BrowserRouter ,
-  Switch,
   Route,
-  Link,
   Routes
 } from "react-router-dom";
 import Communities from './pages/Communities/Communities.js';
 import Team from './components/Team/Team';
 import Ongoing from './components/Communities/Ongoing/Ongoing';
 import AOS from 'aos';
-import Main from './components/Main/Main';
-// import Drawer from './components/Navbar/Navbar';
-// <<<<<<< HEAD
-// =======
 import SingleProperty from './components/SingleProperty/SingleProperty';
 import Slider2 from './components/SingleProperty/Slider2';
 import OngoingData from './components/data/ongoing';
 import Drawer from './components/Navbar/Navbar'
-// >>>>>>> 180bd6a469c6c345835528e1cbce39eefecd3b06
+import Landing from "./pages/Landing"
+
 
 function App() {
 
 useEffect(() => {
   AOS.init()
-
- 
 }, [])
 
 
@@ -38,9 +31,9 @@ useEffect(() => {
 <BrowserRouter>
 
   <Drawer/>
-  {/* <Main/> */}
+ 
         <Routes>
-        <Route exact path="/" element={<div><Main/></div>}/>
+        <Route exact path="/" element={<Landing/>}/>
          <Route exact path="/communities" element={<div><Communities/></div>}/>
          <Route path ="/event" element={<div><Event/></div>}/>
          <Route path ="/team" element={<div><Team/></div>}/>

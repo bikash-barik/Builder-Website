@@ -1,10 +1,12 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import './SingleProperty.css';
-import facilities from '../../images/ongoing/facilities.png'
 import gallery from '../../images/ongoing/gallery.png'
 import share from '../../images/ongoing/share2.png'
 import { Link } from "react-router-dom";
+import facilities from '../../images/ongoing/archid.png';
+
+
 // import OngoingData from '../data/ongoing';
 
 export default function SingleProperty({OngoingData}) {
@@ -40,11 +42,12 @@ export default function SingleProperty({OngoingData}) {
         </div>
         <div className='row my-2 justify-content-center'>
 {
-    data.highlight.map((img)=>(
+    data.highlight.map((img,i)=>(
 
 
             <div className='col-lg-3 col-md-3 col-sm-4 my-2'>
-                <img src={img.detail} className="detail-img"></img>
+                <img src={img.detail} className="detail-img"  data-aos={i<=4 ? "fade-right":"fade-left"} data-aos-easing="linear"
+     data-aos-duration="1500"></img>
             </div>
     ))
 }
@@ -63,7 +66,7 @@ export default function SingleProperty({OngoingData}) {
             </h5>
         </div>
         </div>
-        <div className=' container'>
+        <div className=' container-fluid'>
               <div className='row'>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                         <div className='detail-2'>
@@ -71,22 +74,25 @@ export default function SingleProperty({OngoingData}) {
             <h5 className='black-text'>Project highlights </h5>
             <hr style={{width:"150px", backgroundColor:"black", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
         </div>
-                              <p className='black-text'>
+                              <p className='black-text'  data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500" >
                                   {data.details_2}
                               </p>
                         </div>
                   </div>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
-                        <img src={data.detailImage1} style={{height:"100%"}} className='img-fluid'></img>
+                        <img data-aos="fade-down-left" data-aos-easing="linear"
+     data-aos-duration="1500" src={data.detailImage1} style={{height:"100%"}} className='img-fluid'></img>
                   </div>
               </div>
         </div>
 
 
-        <div className='container my-5'>
+        <div className='container-fluid my-5'>
             <div className='row '>
                 <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
-                <img src={data.detailImage2} style={{height:"100%"}} className='img-fluid'></img>
+                <img data-aos="fade-up-right" data-aos-easing="linear"
+     data-aos-duration="1500"  src={data.detailImage2} style={{height:"100%"}} className='img-fluid'></img>
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                 <div className='detail-3'>
@@ -94,7 +100,8 @@ export default function SingleProperty({OngoingData}) {
             <h5 className='black-text'>Project highlights </h5>
             <hr style={{width:"150px", backgroundColor:"black", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
         </div>
-                              <p className='black-text'>
+                              <p className='black-text' data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500" >
                               {data.details_3}
                               </p>
                         </div>
@@ -102,7 +109,7 @@ export default function SingleProperty({OngoingData}) {
             </div>
         </div>
 
-        <div className=' container'>
+        <div className=' container-fluid'>
               <div className='row'>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                         <div className='detail-2'>
@@ -110,13 +117,15 @@ export default function SingleProperty({OngoingData}) {
             <h5 className='black-text'>Project highlights </h5>
             <hr style={{width:"150px", backgroundColor:"black", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
         </div>
-                              <p className='black-text'>
+                              <p className='black-text'  data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500" >
                               {data.details_4}
                               </p>
                         </div>
                   </div>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
-                        <img src={data.detailImage3} style={{height:"100%"}} className='img-fluid'></img>
+                        <img data-aos="fade-down-left" data-aos-easing="linear"
+     data-aos-duration="1500"  data-aos-offset="400" src={data.detailImage3} style={{height:"100%"}} className='img-fluid'></img>
                   </div>
               </div>
         </div>
@@ -129,7 +138,8 @@ export default function SingleProperty({OngoingData}) {
             <h5 className='black-text'>Project highlights </h5>
             <hr style={{width:"150px", backgroundColor:"black", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
         </div>
-                              <p className='black-text'>
+                              <p className='black-text'  data-aos="fade-up" data-aos-easing="linear"
+     data-aos-duration="1500" >
                               {data.amenities}
                               </p>
                         </div>
@@ -140,7 +150,7 @@ export default function SingleProperty({OngoingData}) {
               </div>
         </div>
 
-        </section>
+        </section>s
                 </div>
         </>
        )

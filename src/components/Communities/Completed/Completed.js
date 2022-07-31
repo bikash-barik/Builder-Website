@@ -53,10 +53,10 @@ const [modal, setModal] = useState(false)
                 modal===false?
                 setModal(true):setModal(false)}}></img>
               {/* <img src={image}></img> */}
-              <h4 className="my-3">{project.title}</h4>
+              <h4 className="my-3" style={{fontSize:"24px", fontWeight:"400"}}>{project.title}</h4>
               <hr/>
 
-              <h3 className="my-3">YEAR OF COMPLETION : {project.date}</h3>
+              <h3 className="my-3" style={{fontSize:"24px", fontWeight:"400"}}>YEAR OF COMPLETION : {project.date}</h3>
             </div>
             <div>
                 <img src={project.image} className={modal===true?"img-responsive show-image":"d-none"}

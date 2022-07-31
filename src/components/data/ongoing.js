@@ -27,43 +27,43 @@ const OngoingData =[
 
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%201%207.jpg?alt=media&token=938e09e9-9821-4e92-962a-e9a62585f866",
             },
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%201.jpg?alt=media&token=a4f214ac-76ab-4880-ba06-87ae9077348c",
             },
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%202.jpg?alt=media&token=81c49078-75e3-4334-8b09-5131a04a7984",
             },
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%203.jpg?alt=media&token=32f51c96-a7d5-40d1-bb91-8a5c8a6a64d9",
             },
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%204.jpg?alt=media&token=596458f7-806e-4faf-9d27-f0c3ad653450",
             },
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%205.jpg?alt=media&token=015a8116-4876-477d-bebb-a4b292058732",
             },
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%206.jpg?alt=media&token=8ee27db5-0a0c-4001-88c1-10ace8ba4d15",
             },
             {
 
-                detail:"https://source.unsplash.com/1600x900/?house",
+                detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%208.jpg?alt=media&token=76d7d98e-6c00-45c3-84fc-4370b4226548",
             },
 
         
         ],
-        detailImage1:"https://source.unsplash.com/1600x900/?house",
-        detailImage2:"https://source.unsplash.com/1600x900/?house",
-        detailImage3:"https://source.unsplash.com/1600x900/?house",
-        detailImage4:"https://source.unsplash.com/1600x900/?house",
+        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%20(start).jpg?alt=media&token=89cec819-c2d7-4fb0-a20f-a23833cff679",
+        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%202.jpg?alt=media&token=51079b07-c68c-4fe7-a455-2025cd6ccfd1",
+        detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%203.jpg?alt=media&token=a6b77a04-287b-4d18-bd68-598ef1247aaa",
+        detailImage4:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%203.jpg?alt=media&token=a6b77a04-287b-4d18-bd68-598ef1247aaa",
         amenities:" With an 3000 square feet exclusive community building you’llexplore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go for chilling with your friends any time you wish. And when you’re done practising your swing, you can hitthe gym, relax by the community pool, or take your little ones for a mini-adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
 
         details_1:"Archid Pramod Retreat is one of such project of us which will Stroll through the greenery and let the thr most enchanting views soothe your soul.Experience a truly global lifestyle that offers you the latest in modern living in the lap of nature,yet seamlessly connected to the busy world outside.A home built to the highest standards with exactly your needs in mind.The location, for one, couldn’t be better, as it is within immediate reach of the best of everything you need – schools, colleges, hospitals, Hotels, supermarkets, banks and more. The airport, and the rail station are easily accessible as well through arterial roads.",
@@ -97,43 +97,33 @@ const OngoingData =[
          
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%203.jpg?alt=media&token=386f427b-8fb2-4f08-babe-91deb373c22b",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%204.jpg?alt=media&token=2383e2b5-7305-4e0c-aeac-d35eebdbc48b",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%205.jpg?alt=media&token=19117135-ae5d-41bb-a958-5f96a6a5b298",
                         },
-                        {
-            
-                            detail:"https://source.unsplash.com/1600x900/?house",
-                        },
-                        {
-            
-                            detail:"https://source.unsplash.com/1600x900/?house",
-                        },
-                        {
-            
-                            detail:"https://source.unsplash.com/1600x900/?house",
-                        },
+                       
             
                     
                     ],
-        detailImage1:"https://source.unsplash.com/1600x900/?house",
-        detailImage2:"https://source.unsplash.com/1600x900/?house",
-        detailImage3:"https://source.unsplash.com/1600x900/?house",
-        detailImage4:"https://source.unsplash.com/1600x900/?house",
+        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
+        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%204.jpg?alt=media&token=2383e2b5-7305-4e0c-aeac-d35eebdbc48b",
+        detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
+
+        detailImage4:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
         amenities:"Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community  centre, and an impressive array of parks and walkways, the    community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
 
         details_1:"this gated community is well placed at the heart of a pristine location in Ranasinghpur, Bhubaneswar. Driven by design, the meticulous planning infuses spice into space. Whether yours is a nuclear or joint family, the smartly calibrated villas fit seamlessly into your individualised lifestyle. The upscale class reflects in quality of materials utilised to create the ambience you always wanted from your dream home.",
@@ -167,43 +157,43 @@ const OngoingData =[
          
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%20%208.jpg?alt=media&token=95349da6-a9af-4be8-bf96-43522401b52c",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%201.jpg?alt=media&token=84478633-6bf9-43a0-8478-e3489931a93b",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2010.jpg?alt=media&token=70c1f6bc-1ec3-4074-ac3e-9f724341ff4a",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2011.jpg?alt=media&token=44b59bb5-e26b-4dd3-b0a4-fb3704a0c658",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2014.jpg?alt=media&token=3f025595-32f6-4dbf-8a86-c53da6a3d282",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2015.jpg?alt=media&token=3358a650-9867-4d4a-aab0-a19883049150",
                         },
                         {
             
-                            detail:"https://source.unsplash.com/1600x900/?house",
+                            detail:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%202.jpg?alt=media&token=788982cb-9b46-4dbb-b8bb-2b016aa0c9aa",
                         },
             
                     
                     ],
-        detailImage1:"https://source.unsplash.com/1600x900/?house",
-        detailImage2:"https://source.unsplash.com/1600x900/?house",
-        detailImage3:"https://source.unsplash.com/1600x900/?house",
-        detailImage4:"https://source.unsplash.com/1600x900/?house",
+        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%20(MAIN).jpg?alt=media&token=46996180-5c71-4e5b-905f-bcee780639ab",
+        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%202.jpg?alt=media&token=de5df1f0-24c8-413d-852c-347f0ecd2aaa",
+        detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%203.jpg?alt=media&token=e3666f6c-34a6-4542-93e9-3a4059df5423",
+        detailImage4:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%204.jpg?alt=media&token=630fc183-54e1-45f5-99f5-feef083d5266",
         amenities:"Whether you want to give your parents a peaceful stay ,you know you have it all. you’ll have every world-class amenity you could ever need on your doorstep.",
 
         details_1:"Beautiful project, Archid Sailabala is themed around wellness and focused on residents’ well-being. It is set to become the center of luxury in Bhubaneswar by bringing together a rare combination of contemporary design, natural greenery and thoughtful amenities. ",

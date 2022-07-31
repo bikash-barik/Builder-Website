@@ -136,3 +136,14 @@ input[type="radio"]:checked {
   
   }
     }
+
+@media screen and (max-width: 760px) {
+    
+  .menu-title{
+    
+  font-size: 13px;
+  
+  }
+
+  }
+    

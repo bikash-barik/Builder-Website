@@ -3,6 +3,7 @@ import AboutUs from "./AboutUs";
 import LatestLaunches from "./latestLaunches";
 import "./index.css"
 import Main from '../../components/Main/Main';
+import ConstructionUpdates from "../../components/SingleProperty/subcomponent/ConstructionUpdates";
 
 
 const LandingScreen = () => {
@@ -11,8 +12,10 @@ const LandingScreen = () => {
         <Banner/>
         <AboutUs/>
         <LatestLaunches/>
+        
         <Main/>
         </div> );
+        // <ConstructionUpdates/>
 }
  
 export default LandingScreen;

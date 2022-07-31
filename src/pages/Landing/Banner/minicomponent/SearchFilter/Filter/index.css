@@ -45,6 +45,9 @@ margin-top: 10px;
   border-radius: 0px;
   max-width: 293px;
   width: 100%;
+  margin-top: 50px;
+  margin-left: -10px;
+  
 }
 
 .banner-option{
@@ -110,6 +113,12 @@ input[type="radio"]:checked {
     max-width: 223px;
  
   }
+  .form {
+  
+    margin-top: 40px;
+   
+    
+  }
   .menu-title{
     
   font-size: 10px;
@@ -140,9 +149,10 @@ input[type="radio"]:checked {
 @media screen and (max-width: 760px) {
     
   .menu-title{
-    
   font-size: 13px;
-  
+  }
+  .form {
+    margin-top: 10px;
   }
 
   }

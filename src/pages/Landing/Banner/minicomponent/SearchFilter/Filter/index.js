@@ -11,11 +11,11 @@ const Filter = (props) => {
     <div className="menu-title">{title}</div>
     <Dropdown>
       <Dropdown.Toggle as="div" className=" drop-down-button "
-      id="dropdown-basic">
+      id="dropdown-basic" align="end">
         {state}
       </Dropdown.Toggle>
 
-      <Dropdown.Menu className="form">
+      <Dropdown.Menu className="form" >
       {options?.map((option, idx) => {
             return (
               <label className="form-radio" key={idx}>

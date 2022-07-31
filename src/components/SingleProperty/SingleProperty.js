@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import './SingleProperty.css';
-import facilities from '../../images/ongoing/facilities.png'
+import facilities from '../../images/ongoing/archid.png';
+
+
 // import OngoingData from '../data/ongoing';
 
 export default function SingleProperty({OngoingData}) {
@@ -27,7 +29,7 @@ export default function SingleProperty({OngoingData}) {
         </div>
         <div className='button-grp'>
         <div className='btn btn-primary mx-2'>hello</div>
-        <div className='btn btn-primary mx-2'>hello</div>
+        <div className='btn btn-primary mx-2'>Gallery</div>
             <div className='btn btn-primary mx-2'>hello</div>
         </div>
         <section className='highlights container-fluid text-center'>
@@ -60,7 +62,7 @@ export default function SingleProperty({OngoingData}) {
             </h5>
         </div>
         </div>
-        <div className=' container'>
+        <div className=' container-fluid'>
               <div className='row'>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                         <div className='detail-2'>
@@ -80,7 +82,7 @@ export default function SingleProperty({OngoingData}) {
         </div>
 
 
-        <div className='container my-5'>
+        <div className='container-fluid my-5'>
             <div className='row '>
                 <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                 <img src={data.detailImage2} style={{height:"100%"}} className='img-fluid'></img>
@@ -99,7 +101,7 @@ export default function SingleProperty({OngoingData}) {
             </div>
         </div>
 
-        <div className=' container'>
+        <div className=' container-fluid'>
               <div className='row'>
                   <div className='col-lg-6 col-md-6 col-sm-12 p-0'>
                         <div className='detail-2'>

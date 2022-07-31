@@ -2,6 +2,9 @@ import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import './SingleProperty.css';
 import facilities from '../../images/ongoing/facilities.png'
+import gallery from '../../images/ongoing/gallery.png'
+import share from '../../images/ongoing/share2.png'
+import { Link } from "react-router-dom";
 // import OngoingData from '../data/ongoing';
 
 export default function SingleProperty({OngoingData}) {
@@ -26,9 +29,9 @@ export default function SingleProperty({OngoingData}) {
             <img src="https://source.unsplash.com/1600x900/?house"/>
         </div>
         <div className='button-grp'>
-        <div className='btn btn-primary mx-2'>hello</div>
-        <div className='btn btn-primary mx-2'>hello</div>
-            <div className='btn btn-primary mx-2'>hello</div>
+        <div className='btn btn-primary mx-2 px-2'>REGISTER YOUR INTEREST </div>
+        <Link to={`/slider`}><div className='btn btn-light mx-2 '>GALLERY <img src={gallery} style={{width:"1.3rem", marginLeft:"6px"}}/> </div></Link>
+        <div className='btn btn-light mx-2 '>SHARE <img src={share} style={{width:"1.2rem",marginLeft:"6px"}}/> </div>
         </div>
         <section className='highlights container-fluid text-center'>
         <div className="d-flex">

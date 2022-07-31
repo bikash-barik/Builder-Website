@@ -17,6 +17,7 @@ import Main from './components/Main/Main';
 // <<<<<<< HEAD
 // =======
 import SingleProperty from './components/SingleProperty/SingleProperty';
+import Slider2 from './components/SingleProperty/Slider2';
 import OngoingData from './components/data/ongoing';
 import Drawer from './components/Navbar/Navbar'
 // >>>>>>> 180bd6a469c6c345835528e1cbce39eefecd3b06
@@ -45,6 +46,7 @@ useEffect(() => {
          <Route path ="/team" element={<div><Team/></div>}/>
          <Route path ="/latest-launch" element={<div><Ongoing/></div>}/>
          <Route path ="/communities/:id" element={<div><SingleProperty OngoingData={OngoingData}/></div>}/>
+         <Route exact path="/slider" element={<div><Slider2/></div>}/>
         </Routes>
 </BrowserRouter>
   );

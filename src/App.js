@@ -16,8 +16,8 @@ import OngoingData from './components/data/ongoing';
 import Drawer from './components/Navbar/Navbar'
 import Offer from './components/offers/Offers'
 import Landing from "./pages/Landing"
-import Footer from "./components/footer/Footer"
-import Footer1 from './components/footer/Footer1';
+
+import Footer from './components/footer';
 
 function App() {
 
@@ -44,7 +44,7 @@ useEffect(() => {
          <Route path ="/communities/:id" element={<div><SingleProperty OngoingData={OngoingData}/></div>}/>
          <Route exact path="/slider" element={<div><Slider2/></div>}/>
          </Routes>
-    <Footer1/>
+    <Footer/>
 </BrowserRouter>
   );
        

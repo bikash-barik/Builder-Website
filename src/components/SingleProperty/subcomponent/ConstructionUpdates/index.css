@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.construction-update {
+    height: 568px;
+    background: #F7F6FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px 40px;
+}
+
+
+.construction-update-heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 48px;
+    color: #2C2828;
+    display: inline-block;
+}
+
+.construction-update-line {
+    width: 200px;
+    border-top: 1px solid #2C2828;
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-left: 10px;
+
+}
+
+.construction-update-image-container {
+    width: 326px;
+    height: 406px;
+    background: #2C2828;
+}

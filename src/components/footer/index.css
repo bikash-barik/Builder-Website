@@ -1,4 +1,111 @@
-.back-img {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+.footer-container{
+min-height: 362px;
+height: auto;
+background: #383334;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px 20px;
+flex-wrap: wrap;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 9px;
+line-height: 11px;
+color: #2C2828;
+height: 30px;
+background-color: white;
+}
+
+@media screen and ( max-width : 1277px ) {
+  .footer-container{
+    padding: 30px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .back-img {
   position: absolute;
   width: 100%;
   height: 393px;
@@ -15,13 +122,13 @@
   position: absolute;
   width: 134px;
   height: 132.78px;
-  /* left: 54px;
-  top: 48px; */
+  left: 54px;
+  top: 48px;
 
-  /* background: url("image 150.png"); */
+  background: url("image 150.png");
 }
 
-/* .gps-symbol {
+.gps-symbol {
   position: absolute;
   width: 28px;
   height: 28px;
@@ -29,8 +136,8 @@
   top: 57px;
   float: left;
   background: url(image1.png);
-} */
-/* .gps-symbol.txt {
+}
+.gps-symbol.txt {
   position: absolute;
   width: 365px;
   height: 120px;
@@ -44,33 +151,33 @@
   line-height: 19px;
 
   color: white;
-} */
+}
 
 .map-component {
-  /* position: absolute; */
-  /* width: 50%; */
+  position: absolute;
+  width: 50%;
   height: 25px;
   margin: 5% 15%;
-  /* left: 480px;
-  top: 159px; */
-/* margin-left: 20px; */
+  left: 480px;
+  top: 159px;
+margin-left: 20px;
   background: #2e69a5;
   border-radius: 3px;
 }
 
 .map-vector-component {
-  /* position: absolute; */
-  /* width: 3.18px;
-  height: 3.18px; */
-  /* left: 92px;
-  top: 11px; */
+  position: absolute;
+  width: 3.18px;
+  height: 3.18px;
+  left: 92px;
+  top: 11px;
 
-  /* border: 1px solid #ffffff; */
+  border: 1px solid #ffffff;
 }
 
 .map-text {
-  /* position: absolute; */
-  /* width: 25px; */
+  position: absolute;
+  width: 25px;
   height: 15px;
  padding-left:13%;
   
@@ -80,7 +187,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
+  identical to box height
 
   color: #ffffff;
 }
@@ -223,7 +330,7 @@
   font-weight: 500;
   font-size: 19px;
   line-height: 23px;
-  /* identical to box height */
+  identical to box height
 
   text-transform: uppercase;
 
@@ -244,7 +351,7 @@
   color: #383334;
 }
 
-/* .btn-primary {
+.btn-primary {
   color: #fff;
   background-color: #6fa0d1;
   border-color: #3b64b5;
@@ -252,7 +359,7 @@
   width: 75px;
   margin-left: 35px;
   border-radius: 16px;
-} */
+}
 
 .facebook-component {
   position: absolute;
@@ -305,4 +412,4 @@
   top: 313px;
   border-radius: 50%;
   background: #df6464;
-}
+} */

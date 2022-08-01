@@ -22,7 +22,7 @@ const OngoingData =[
         },      
        ],
         tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         highlight:[
 
             {
@@ -78,7 +78,7 @@ const OngoingData =[
         title :"Archid Shreekunj, Ranasinghpur",
         image:img2,
         tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         images:[
             {
                 image:"https://source.unsplash.com/1600x900/?house"
@@ -137,8 +137,8 @@ const OngoingData =[
         id: "3",
         title :"Archid Sailabala, Old Town",
         image:img2,
-        tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        tagLine :"LIVE A MODERN LIFESTYLE",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         images:[
             {
                 image:"https://source.unsplash.com/1600x900/?house"

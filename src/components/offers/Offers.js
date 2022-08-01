@@ -1,11 +1,14 @@
 import React from "react";
 import Footer from "./footer1/Footer1";
+import offerImg from "./offers-bk-img.png"
 import "./Offers.css";
 const Offers = () => {
   return (
     <>
-      <div className="offers-background-img"></div>
-      <Footer />
+      <div className="">
+        <img src={offerImg} style={{width:"100vw", height:"90vh"}} className="img-fluid" ></img>
+      </div>
+
     </>
   );
 };

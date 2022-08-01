@@ -31,7 +31,7 @@ export default function SingleProperty({ OngoingData }) {
   
 
   return (
-    <div>
+    <div className="single_background">
       {OngoingData.filter((list) => list.id === paramId).map((data, i) => (
         <>
           <div>
@@ -60,7 +60,7 @@ export default function SingleProperty({ OngoingData }) {
                 />{" "}
               </div>
             </div>
-            <section className="highlights container-fluid text-center">
+            <section className="highlights container-fluid text-center ">
               <div className="d-flex">
                 <h5>Project highlights </h5>
                 <hr

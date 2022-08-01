@@ -1,3 +1,5 @@
 .Communities-page{
-    background-color: #4b4949;
+    background-image: linear-gradient(rgba(0,0,0,0.5)70%,rgba(0,0,0,0.5)70%), url('https://i.gifer.com/XTpm.gif');
+    background-position: center;
+    background-size: cover;
 }

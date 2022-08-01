@@ -10,7 +10,7 @@ const UpcomingData =[
         id: 1,
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
-        image:img1,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2Fupcoming%20project%201.jpg?alt=media&token=a4991cc2-e2da-417b-b3e6-4c3ba0fcfae6",
         tagLine :"LIVE AMODERN LIFESTYLE",
         // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"residential",
@@ -19,7 +19,7 @@ const UpcomingData =[
     {
         id: 2,
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
-        image:img2,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2Fupcoming%20proj%20photo%202.jpg?alt=media&token=c969e994-0632-4ed8-af35-8f7b08af34b6",
         tagLine :"LIVE AMODERN LIFESTYLE",
         // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"residential",
@@ -27,7 +27,7 @@ const UpcomingData =[
     {
         id: 3,
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
-        image:img3,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Commercial%2Fupcoming%20project%20photo%203.jpg?alt=media&token=fd8f9f73-c4d4-4f48-92f7-f8087b973112",
         tagLine :"LIVE AMODERN LIFESTYLE",
         // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"commercial",
@@ -35,7 +35,7 @@ const UpcomingData =[
     {
         id: 4,
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
-        image:img4,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Commercial%2Fupcoming%20project%20photo%203.jpg?alt=media&token=fd8f9f73-c4d4-4f48-92f7-f8087b973112",
         tagLine :"LIVE AMODERN LIFESTYLE",
         // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"commercial",
@@ -43,7 +43,7 @@ const UpcomingData =[
     {
         id: 5,
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
-        image:img5,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Commercial%2Fupcoming%20project%20photo%203.jpg?alt=media&token=fd8f9f73-c4d4-4f48-92f7-f8087b973112",
         tagLine :"LIVE AMODERN LIFESTYLE",
         // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"commercial",

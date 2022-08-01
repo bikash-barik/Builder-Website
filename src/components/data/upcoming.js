@@ -12,7 +12,7 @@ const UpcomingData =[
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
         image:img1,
         tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"residential",
 
     },
@@ -21,7 +21,7 @@ const UpcomingData =[
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
         image:img2,
         tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"residential",
     },
     {
@@ -29,7 +29,7 @@ const UpcomingData =[
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
         image:img3,
         tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"commercial",
     },
     {
@@ -37,7 +37,7 @@ const UpcomingData =[
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
         image:img4,
         tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"commercial",
     },
     {
@@ -45,7 +45,7 @@ const UpcomingData =[
         title :"ARCHID PROMOD RETREAT, PATRAPADA",
         image:img5,
         tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"commercial",
     }
 ]

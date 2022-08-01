@@ -1,12 +1,10 @@
-import img1 from "../../images/ongoing/poster1.png"
-import img2 from "../../images/ongoing/poster2.png"
 
 const OngoingData =[
     {
         id: "1",
         title :"Archid Pramod Retreat, Patrapada",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
-        image:img1,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO.jpg?alt=media&token=d0a65701-4672-49f5-9609-b771d4c8e890",
        images:[
         {
             image:"https://source.unsplash.com/1600x900/?house"
@@ -93,9 +91,9 @@ const OngoingData =[
             },
          
         ],
-        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%20(start).jpg?alt=media&token=89cec819-c2d7-4fb0-a20f-a23833cff679",
-        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%202.jpg?alt=media&token=51079b07-c68c-4fe7-a455-2025cd6ccfd1",
-        detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%203.jpg?alt=media&token=a6b77a04-287b-4d18-bd68-598ef1247aaa",
+        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%202.jpg?alt=media&token=51079b07-c68c-4fe7-a455-2025cd6ccfd1",
+        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%203.jpg?alt=media&token=a6b77a04-287b-4d18-bd68-598ef1247aaa",
+        detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%206.jpg?alt=media&token=8ee27db5-0a0c-4001-88c1-10ace8ba4d15",
         detailImage4:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%203.jpg?alt=media&token=a6b77a04-287b-4d18-bd68-598ef1247aaa",
         amenities:" With an 3000 square feet exclusive community building you’llexplore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go for chilling with your friends any time you wish. And when you’re done practising your swing, you can hitthe gym, relax by the community pool, or take your little ones for a mini-adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
 
@@ -109,7 +107,7 @@ const OngoingData =[
     {
         id: "2",
         title :"Archid Shreekunj, Ranasinghpur",
-        image:img2,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
         tagLine :"LIVE AMODERN LIFESTYLE",
         description :"3 BHK DUPLEXES",
         brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
@@ -177,9 +175,9 @@ const OngoingData =[
                         },
                      
                     ],
-        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
-        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%204.jpg?alt=media&token=2383e2b5-7305-4e0c-aeac-d35eebdbc48b",
-        detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
+        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%20%208.jpg?alt=media&token=95349da6-a9af-4be8-bf96-43522401b52c",
+        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2011.jpg?alt=media&token=44b59bb5-e26b-4dd3-b0a4-fb3704a0c658",
+        detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
 
         detailImage4:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
         amenities:"Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community  centre, and an impressive array of parks and walkways, the    community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
@@ -194,7 +192,7 @@ const OngoingData =[
     {
         id: "3",
         title :"Archid Sailabala, Old Town",
-        image:img2,
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%203.jpg?alt=media&token=0b36f879-7279-4238-a13a-680989144fb8",
         tagLine :"LIVE A MODERN LIFESTYLE",
         description :"2 & 3 BHK FLATS",
         brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
@@ -271,8 +269,8 @@ const OngoingData =[
          
         ],
         
-        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%20(MAIN).jpg?alt=media&token=46996180-5c71-4e5b-905f-bcee780639ab",
-        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%202.jpg?alt=media&token=de5df1f0-24c8-413d-852c-347f0ecd2aaa",
+        detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
+        detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
         detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%203.jpg?alt=media&token=e3666f6c-34a6-4542-93e9-3a4059df5423",
         detailImage4:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%204.jpg?alt=media&token=630fc183-54e1-45f5-99f5-feef083d5266",
         amenities:"Whether you want to give your parents a peaceful stay ,you know you have it all. you’ll have every world-class amenity you could ever need on your doorstep.",

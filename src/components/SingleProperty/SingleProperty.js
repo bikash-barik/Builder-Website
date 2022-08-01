@@ -6,7 +6,8 @@ import share from "../../images/ongoing/share2.png";
 import { Link } from "react-router-dom";
 import facilities from "../../images/ongoing/archid.png";
 import Modal from 'react-modal';
-
+import FloorPlan from "./subcomponent/onGoingSiteFloorPlans/FloorPlan";
+import { ranasinghpur,patrapada,oldTown } from "./subcomponent/onGoingSiteFloorPlans/imageConfig";
 // import OngoingData from '../data/ongoing';
 
 export default function SingleProperty({ OngoingData }) {
@@ -25,8 +26,9 @@ export default function SingleProperty({ OngoingData }) {
       zIndex:"200"
     },
   };
-  // console.log(id)
+  console.log(id)
   const [paramId, setparamid] = useState(id);
+  
 
   return (
     <div>
@@ -251,7 +253,7 @@ export default function SingleProperty({ OngoingData }) {
                       </p>
                       <a href={data.brochure} target="blank">
 
-                      <div className="btn btn-primary" style={{width:"400px", fontSize:"20px", backgroundColor:"grey"}}>Download Brochure</div>
+                      <div className="btn btn-primary" style={{maxWidth:"400px",width:"100%", fontSize:"20px", backgroundColor:"grey"}}>Download Brochure</div>
                       </a>
                     </div>
                   </div>
@@ -264,6 +266,10 @@ export default function SingleProperty({ OngoingData }) {
                   </div>
                 </div>
               </div>
+              {id==="1" && <FloorPlan floorPlanData={patrapada}/>}
+              {id==="2" && <FloorPlan floorPlanData={ranasinghpur}/>}
+              {id==="3" && <FloorPlan floorPlanData={oldTown}/>}
+              
 
               <div className=" container-fluid my-5" style={{backgroundColor:"azure"}}>
                 <div>
@@ -313,6 +319,7 @@ export default function SingleProperty({ OngoingData }) {
                   }
                 </div>
               </div>
+             
               <div className="container-fluid my-5">
                     <div className="row">
                         {

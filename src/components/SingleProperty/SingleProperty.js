@@ -6,7 +6,6 @@ import share from "../../images/ongoing/share2.png";
 import { Link } from "react-router-dom";
 import facilities from "../../images/ongoing/archid.png";
 
-
 // import OngoingData from '../data/ongoing';
 
 export default function SingleProperty({ OngoingData }) {
@@ -95,7 +94,9 @@ export default function SingleProperty({ OngoingData }) {
                   <div className="col-lg-6 col-md-6 col-sm-12 p-0">
                     <div className="detail-2">
                       <div className="d-flex">
-                        <h5 className="black-text">Project highlights </h5>
+                        <h5 className="black-text">
+                          WELL CONSTRUCTED LUXURIOUS FLATS{" "}
+                        </h5>
                         <hr
                           style={{
                             width: "150px",
@@ -145,7 +146,9 @@ export default function SingleProperty({ OngoingData }) {
                   <div className="col-lg-6 col-md-6 col-sm-12 p-0">
                     <div className="detail-3">
                       <div className="d-flex">
-                        <h5 className="black-text">Project highlights </h5>
+                        <h5 className="black-text">
+                          EXPANSIVE LANDSCAPED OPEN SPACES{" "}
+                        </h5>
                         <hr
                           style={{
                             width: "150px",
@@ -175,10 +178,12 @@ export default function SingleProperty({ OngoingData }) {
                   <div className="col-lg-6 col-md-6 col-sm-12 p-0">
                     <div className="detail-2">
                       <div className="d-flex">
-                        <h5 className="black-text">Project highlights </h5>
+                        <h5 className="black-text">
+                          PLETHORA OF LIFESTYLE AMENETIES{" "}
+                        </h5>
                         <hr
                           style={{
-                            width: "150px",
+                            width: "300px",
                             backgroundColor: "black",
                             fontWeight: "",
                             height: "1.3px",
@@ -216,7 +221,7 @@ export default function SingleProperty({ OngoingData }) {
                   <div className="col-lg-6 col-md-6 col-sm-12 p-0">
                     <div className="detail-2">
                       <div className="d-flex">
-                        <h5 className="black-text">Project highlights </h5>
+                        <h5 className="black-text">AMENETIES </h5>
                         <hr
                           style={{
                             width: "150px",
@@ -247,10 +252,8 @@ export default function SingleProperty({ OngoingData }) {
                   </div>
                 </div>
               </div>
-            </section>            
+            </section>
           </div>
-          
-          
         </>
       ))}
     </div>

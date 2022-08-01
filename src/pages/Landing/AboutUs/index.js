@@ -3,7 +3,7 @@ import house from "../images/aboutUs/image3.svg"
 
 const AboutUs = () => {
   return (
-    <div className="  about-us-container">
+    <div className="about-us-container">
       <div className="about-us">
         <div>
           <div>

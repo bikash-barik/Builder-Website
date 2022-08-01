@@ -4,11 +4,11 @@ import './Team.css'
 import TeamData from '../data/team' 
 export default function Team() {
   return (
-    <div>
+    <div className="Team_background">
             <div  className='hero-img'>
                  <img src={heroImg}/>
             </div>
-                <div className='row m-4'>
+                <div className='row m-4 Team_page'>
 
                     {
                         TeamData.map((data)=>(

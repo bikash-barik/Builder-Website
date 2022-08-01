@@ -14,7 +14,9 @@
 .button-grp .btn{
     border-radius: 0;
 }
-
+.single_background{
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+}
 .detail-1{
     background-color: azure;
     /* color: black !important; */

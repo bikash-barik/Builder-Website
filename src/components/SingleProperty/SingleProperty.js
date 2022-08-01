@@ -301,11 +301,11 @@ export default function SingleProperty({ OngoingData }) {
                     <img
                       src={img.image}
                       style={{ height: "100px", width: "200px", padding:"10px" }}
-                      className="black-text"
+                      className="black-text  img-fluid"
                       data-aos="fade-up"
                       data-aos-easing="linear"
                       data-aos-duration="1500"
-                      className="img-fluid"
+                    
                     ></img>
                   </div>
 

@@ -1,5 +1,6 @@
 .Team_background{
-    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif');
+    background-position: center;
 }
 .team-details p{
     color: #000;

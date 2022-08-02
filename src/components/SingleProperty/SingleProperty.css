@@ -15,7 +15,7 @@
     border-radius: 0;
 }
 .single_background{
-    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif');
 }
 .detail-1{
     background-color: azure;

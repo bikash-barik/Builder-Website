@@ -1,7 +1,7 @@
 .Communities{
     color: #fff;
-    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/XTpm.gif');
-    background-position: center;
+    /* background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/XTpm.gif');
+    background-position: center; */
     
     
 }
@@ -26,6 +26,17 @@
 .black-text{
     color:#4b4949 !important;
 }
-.d-flex{
-    
-}
+.textline{
+    display:flex;
+   align-items: center;
+    padding-top: 48px;
+    padding-bottom: 23px;
+  }
+  .textline h4{
+    margin:0px;
+    font-size:12px;
+    font-family: sans-serif ;
+  }
+  .hrline{
+    width:100px;
+  }

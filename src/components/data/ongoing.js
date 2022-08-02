@@ -2,7 +2,7 @@
 const OngoingData =[
     {
         id: "1",
-        title :"Archid Pramod Retreat, Patrapada",
+        title :"ARCHID PRAMOD PETREAT, PATRAPADA",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO.jpg?alt=media&token=d0a65701-4672-49f5-9609-b771d4c8e890",
        images:[
@@ -19,8 +19,8 @@ const OngoingData =[
             image:"https://source.unsplash.com/1600x900/?house"
         },      
        ],
-        tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"2 & 3 BHK LUXURIOUS APPARTMENT",
+        tagLine :"LIVE A MODERN LIFESTYLE IN THE LAP OF NATURE",
+        description :"2 & 3 BHK Luxurious Apartment",
         finance:[{
             image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=9df0ea2e-8225-4a69-91c2-24f236f20b48"
         },
@@ -106,10 +106,10 @@ const OngoingData =[
     },
     {
         id: "2",
-        title :"Archid Shreekunj, Ranasinghpur",
+        title :"ARCHID SHREEKUNJ, RANASINGHPUR",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
-        tagLine :"LIVE AMODERN LIFESTYLE",
-        description :"3 BHK DUPLEXES",
+        tagLine :"FROM PREMIUM LIVING TO ABUNDANCE OF PEACE & GLORY",
+        description :"3 Bhk Duplexes",
         brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
         images:[
             {
@@ -191,10 +191,10 @@ const OngoingData =[
     },
     {
         id: "3",
-        title :"Archid Sailabala, Old Town",
+        title :"ARCHID SAILABALA, OLD TOWN",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%203.jpg?alt=media&token=0b36f879-7279-4238-a13a-680989144fb8",
-        tagLine :"LIVE A MODERN LIFESTYLE",
-        description :"2 & 3 BHK FLATS",
+        tagLine :"CONTEMPORARY DESIGN IN NATURAL GREENLAND WITH ALL THOUGHTFUL AMENITIES",
+        description :"2 & 3 Bhk Flats",
         brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
         images:[
             {

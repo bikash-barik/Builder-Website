@@ -1,7 +1,7 @@
 const TeamData =[
     {
         id:1,
-        name:"Mr. Bandan Mohantycd",
+        name:"Mr. Bandan Mohanty",
         designation:"MANAGING DIRECTOR",
         details:"Through this, he has succeeded in infusing a high level of professionalism very early in the organization, which was not seen in the realty sector. He has demonstrated the power of his vision and the strength of his values. ",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fbandan.jpg?alt=media&token=9a925479-1a97-4874-827b-a0f12a826dcb"

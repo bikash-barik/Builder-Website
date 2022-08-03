@@ -1,54 +1,108 @@
-.navbar-bg{
+.navbar-bg {
     background-color: #e8fdf6;
     height: 100px;
 }
-.n-link{
-    color :rgb(0, 85, 255) !important;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 20px;
+
+.n-link {
+    color: rgb(0, 85, 255) !important;
+    font-size: 16px;
+    font: weight 300px;
+    margin-left: 25px;
+    /* padding: 10px; */
 }
-.active{
+
+.active {
     border-bottom: 1px solid rgb(0, 85, 255);
     padding-bottom: 4px;
     /* text-decoration: underline !important; */
 }
-a{
-    text-decoration:none !important;
+
+a {
+    text-decoration: none !important;
 }
-.right-link p{
-    color:rgb(0, 85, 255);
-    font-size: 18px;
-    font-weight:bold;
+
+.right-link p {
+    color: rgb(0, 85, 255);
+    font-size: 16px;
+    font: weight 300px;
     margin-bottom: 0;
 }
-.right-link i{
-    color:rgb(0, 85, 255);
+
+.right-link i {
+    color: rgb(0, 85, 255);
     font-size: 20px;
 }
-.right-link button{
+
+.right-link button {
     width: 100%;
+    height: 50px;
 }
-.contact-modal{
+
+.contact-modal {
     background-color: rgba(28, 26, 26, 0.623);
     position: fixed;
 }
-.ReactModal__Overlay--after-open{
+
+.ReactModal__Overlay--after-open {
     background-color: rgba(66, 66, 66, 0.61) !important;
     z-index: 10;
 }
 
 
-@media (max-width:400px){
-    .n-link{
-        padding-top: 20px!important;
+@media (max-width:400px) {
+    .n-link {
+        padding-top: 20px !important;
         padding-bottom: 20px !important;
     }
 }
-@media (max-width: 1200px){
-    .n-link{
-padding-left:10px !important;
-padding-right:10px !important;
-/* display: none !important; */
+
+@media (max-width: 1200px) {
+    .n-link {
+        padding-left: 10px !important;
+        font-size: 14px;
+        margin-left: 20px;
+        padding-right: 10px !important;
+        /* display: none !important; */
+    }
+    .right-link button {
+        width: 100%;
+        height: 50px;
+        font-size: 13px;
+    }
+    .right-link p {
+        color: rgb(0, 85, 255);
+        font-size: 14px;
+        font: weight 300px;
+       margin-top: 3px;
+    }
+    
+    .right-link i {
+        color: rgb(0, 85, 255);
+        font-size: 18px;
+    }
+}
+@media (min-width: 1200px) {
+    .n-link {
+        padding-left: 10px !important;
+        font-size: 16px;
+        margin-left: 25px;
+        padding-right: 10px !important;
+        /* display: none !important; */
+    }
+    .right-link button {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+    }
+    .right-link p {
+        color: rgb(0, 85, 255);
+        font-size: 16px;
+        font: weight 300px;
+       margin-top: 2px;
+    }
+    
+    .right-link i {
+        color: rgb(0, 85, 255);
+        font-size: 18px;
     }
 }

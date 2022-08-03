@@ -31,21 +31,26 @@
     text-align: center;
 }
 .archimg{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FARCHID%20BUILDER%20HIGHLIGHT%20PHOTO.jpg?alt=media&token=bc6eb8f9-4cf6-4e39-9b8c-032ac49a8069");
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FARCHID%20BUILDER%20HIGHLIGHT%20PHOTO.jpg?alt=media&token=bc6eb8f9-4cf6-4e39-9b8c-032ac49a8069");
     background-size: cover;
     background-position: center;
     margin-top: 3vw;
     display: flex;
     color: white;
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: 600;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding-left: 11vw;
+    padding-right: 11vw;
     justify-content: space-between;
     align-items: center;
     height: 12vw;
     width: 100%;
     object-fit: cover;
+}
+.archid_no{
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 .testimonial h6{
     color: black;
@@ -86,17 +91,27 @@
     position: absolute;
     background: rgb(255, 255, 255);
 }
-.anim1 h6,.anim2 h6,.anim3 h6{
+.anim h6{
     animation-name: textzoom;
     animation-duration: 3s;
     align-items: center;
     display: flex;
     gap: 1.25vw;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .anim img{
     width: 3vw;
     animation-name: textzoom;
+}
+.anim h6:hover{
+    margin-left: 15vw;
+    transform: scale(1.5) !important;
+    transition-duration: 3s;
 }
 .anim3 img{
 width: 4vw;
@@ -107,6 +122,7 @@ width: 4vw;
 .anim3 h6{
     animation-delay: 4s;
 }
+
 @keyframes textzoom{ 
     0%,100%{ 
         transform: scale(1); 
@@ -128,6 +144,9 @@ width: 4vw;
 @media screen and (max-width: 1000px) {
     .archimg{
         font-size: 3.5vw;
+    }
+    .archid_no{
+        font-size: 3.7vw;
     }
     .anim p{
         font-size: 2.5vw !important ;

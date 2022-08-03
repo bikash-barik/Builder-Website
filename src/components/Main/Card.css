@@ -1,9 +1,12 @@
 .desc{
     font-size: 1vw;
-    margin-top: 1vw;
     line-height: 1.2;
-    margin-bottom: 0.8vw;
-    text-align: start;
+    margin-bottom: 0;
+    height: 10vw;
+    margin-top: 3vw;
+}
+.card_lower{
+    margin-top:1.8vw;
 }
 .title{
     font-size: 0.8vw;
@@ -43,7 +46,6 @@
     margin: auto;
     z-index: 1;
 }
-
 .card_container {
     width: 100%;
     display: flex;
@@ -55,7 +57,10 @@
 .owl-carousel .active > .card_main {
     margin-inline: auto;
 }
-
+.owl-carousel .active .owl-theme{
+    text-decoration: none !important;
+    outline: none !important;
+}
 .owl-theme .owl-dots .owl-dot {
     width: max-content;
 }
@@ -70,6 +75,9 @@
         width: 5px !important;
         height: 5px !important;
     }
+    .card_lower{
+        margin-top:9vw;
+    }
     .card_main{
         width: 30vw;
         height: 34vw;
@@ -80,20 +88,24 @@
         top: calc(10vw - 43%);
     }
     .title{
-        font-size: 1.6vw;
+        font-size: 1.4vw;
     }
     .desc{
         font-size: 1.5vw;
-       
+        height: 10vw;
+        margin-top: 6vw;
     }
     .name{
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
 }
 @media screen and (max-width: 768px){
     .card_main{
         width: 37vw;
         height: 37vw;
+    }
+    .card_lower{
+        margin-top:5vw;
     }
     .card_img {
         width: 15vw !important;
@@ -102,7 +114,8 @@
     }
     .desc{
         font-size: 1.7vw;
-        margin-top: 3vw;
+        margin-top: 6vw;
+        height: 15vw;
     }
     .name{
         font-size: 2.3vw;
@@ -113,6 +126,9 @@
         width: 47vw;
         height: 47vw;
     }
+    .card_lower{
+        margin-top:13vw;
+    }
     .card_img {
         width: 18vw !important;
         height: 18vw;
@@ -120,10 +136,11 @@
     }
     .desc{
         font-size: 2.2vw;
-        margin-top: 6vw;
+        margin-top: 7vw;
+        height: 12vw;
     }
     .name{
-        font-size: 2.8vw;
+        font-size: 2.3vw;
     }
     .title{
         font-size: 2vw;

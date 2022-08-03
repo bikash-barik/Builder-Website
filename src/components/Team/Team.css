@@ -1,18 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 .Team_background{
-    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif');
+    /* background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif'); */
     background-position: center;
 }
 .team-details p{
     color: #000;
-    margin: 20px;
+    /* margin: 20px; */
     height: 95%;
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.team-img {
+    font-family: 'Lato', sans-serif;
 }
 .team-img img{
     height: 260px;
 }
 .team-details{
     background-color: #fff;
-    height: 100%;
-    padding: 20px;
+    height: 85%;
+    padding: 30px 40px;
+    text-align: start;
+    font-family: 'Lato', sans-serif;
 }
+
+@media (max-width: 1450px) {
+    .team-details {
+        height: 89%;
+        padding: 2% 6
+        
+    }
+    .team-details p{
+        font-size: 20px;
+    }
+    .team-img h5{
+        font-size: 20px !important;
+    }
+    .team-img h2{
+        font-size: 25px;
+    }
+  }
+  @media (max-width: 950px){
+    .team-details{
+        height: 100%;
+    }
+    .hero-img img {
+        width: 100vw;
+        height: 67vh;
+    }
+  }

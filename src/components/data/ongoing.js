@@ -22,7 +22,30 @@ const OngoingData =[
         },      
        ],
         tagLine :"LIVE AMODERN LIFESTYLE",
-        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        description :"2 & 3 BHK LUXURIOUS APPARTMENT",
+        finance:[{
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=9df0ea2e-8225-4a69-91c2-24f236f20b48"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FBANK%20OF%20BARODA.jpg?alt=media&token=94d98c8b-9a40-4342-9b56-85696a7212f6"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FHDFC.jpg?alt=media&token=88a4fb58-1122-4ba2-9401-b1a4938283a1"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=52576701-3711-4125-b24a-846d1a05be6a"
+        }, 
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FINDIAN%20OVERSEAS%20BANK.jpg?alt=media&token=6a311dbc-4d1e-4140-aea4-cb836c5dfbf5"
+        }, 
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FLIC.jpg?alt=media&token=1247b2ec-e820-433a-9da7-e672a66ca430"
+        }, 
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FSTATE%20BANK%20OF%20INDIA.jpg?alt=media&token=26daf6a4-d5e5-4d4b-a3f0-62a5abe9efe0"
+        }, 
+    
+    ],
         highlight:[
 
             {
@@ -60,6 +83,16 @@ const OngoingData =[
 
         
         ],
+        brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FArchid-Pramod-Retreat-Brochure-18-1-2022-2-1-1.pdf?alt=media&token=9160bca6-4f20-4acb-b65c-a6fd5326a2d7",
+        location:[
+            {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMap%20Section%20Photos%2FArchid%20Pramod%20Retreat%2C%20Patrapada%20MAP.jpg?alt=media&token=d7dc293e-b5aa-443c-9d0b-ace43b70ecfb",
+            },
+            {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMap%20Section%20Photos%2FLOACTION%20MAP%20SECTION.jpg?alt=media&token=2fa02ba9-f3fa-47a0-a0c9-cd836426468a",
+            },
+         
+        ],
         detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%20(start).jpg?alt=media&token=89cec819-c2d7-4fb0-a20f-a23833cff679",
         detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%202.jpg?alt=media&token=51079b07-c68c-4fe7-a455-2025cd6ccfd1",
         detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%203.jpg?alt=media&token=a6b77a04-287b-4d18-bd68-598ef1247aaa",
@@ -78,7 +111,8 @@ const OngoingData =[
         title :"Archid Shreekunj, Ranasinghpur",
         image:img2,
         tagLine :"LIVE AMODERN LIFESTYLE",
-        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        description :"3 BHK DUPLEXES",
+        brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
         images:[
             {
                 image:"https://source.unsplash.com/1600x900/?house"
@@ -93,6 +127,21 @@ const OngoingData =[
                 image:"https://source.unsplash.com/1600x900/?house"
             },      
            ],
+           finance:[{
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=46f7045f-f653-4fba-a483-832b2c7b5fec"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=253ade9c-0559-4e88-8b50-54d1a299ee7d"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FLIC.jpg?alt=media&token=25687c0f-2ef1-495a-981d-827a33cb2cf5"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FSBI.jpg?alt=media&token=c28cde0a-4a66-4b4e-a1d8-20ba1d365146"
+        }, 
+       
+    
+    ],
         highlight:[
          
                         {
@@ -119,6 +168,15 @@ const OngoingData =[
             
                     
                     ],
+        location:[
+                        {
+                            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP%202.jpg?alt=media&token=74813f1e-bf7a-4a77-b7de-fb0aa540aae6",
+                        },
+                        {
+                            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP.jpg?alt=media&token=221ac6ad-f817-4395-96c7-30a1d0632d98",
+                        },
+                     
+                    ],
         detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
         detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%204.jpg?alt=media&token=2383e2b5-7305-4e0c-aeac-d35eebdbc48b",
         detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
@@ -138,7 +196,8 @@ const OngoingData =[
         title :"Archid Sailabala, Old Town",
         image:img2,
         tagLine :"LIVE A MODERN LIFESTYLE",
-        // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
+        description :"2 & 3 BHK FLATS",
+        brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
         images:[
             {
                 image:"https://source.unsplash.com/1600x900/?house"
@@ -153,6 +212,18 @@ const OngoingData =[
                 image:"https://source.unsplash.com/1600x900/?house"
             },      
            ],
+           finance:[{
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=46f7045f-f653-4fba-a483-832b2c7b5fec"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=253ade9c-0559-4e88-8b50-54d1a299ee7d"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FLIC.jpg?alt=media&token=25687c0f-2ef1-495a-981d-827a33cb2cf5"
+        },
+        {
+            image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FSBI.jpg?alt=media&token=c28cde0a-4a66-4b4e-a1d8-20ba1d365146"
+        }, ],  
         highlight:[
          
                         {
@@ -190,6 +261,16 @@ const OngoingData =[
             
                     
                     ],
+        location:[
+            {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP.jpg?alt=media&token=303e9361-8689-4619-a771-d387ac3ad590",
+            },
+            {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP2.jpg?alt=media&token=5d89ed53-d1ae-4950-99e3-9772c0ac5664",
+            },
+         
+        ],
+        
         detailImage1:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%20(MAIN).jpg?alt=media&token=46996180-5c71-4e5b-905f-bcee780639ab",
         detailImage2:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%202.jpg?alt=media&token=de5df1f0-24c8-413d-852c-347f0ecd2aaa",
         detailImage3:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%203.jpg?alt=media&token=e3666f6c-34a6-4542-93e9-3a4059df5423",

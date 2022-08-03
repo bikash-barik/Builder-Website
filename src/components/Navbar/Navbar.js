@@ -33,7 +33,7 @@ export default function Drawer() {
     <Navbar collapseOnSelect expand="lg" className='navbar-bg'>
       <Container fluid style={{ zIndex:"10", backgroundColor: '#e8fdf6' }}>
       
-        <NavLink to="/" style={{ paddingLeft: 30, borderWidth: 0, }}>
+        <NavLink to="/" style={{ paddingLeft: 50, borderWidth: 0, }}>
           <Image src={Logo} style={{ height: 95, }}/>
         </NavLink>
         {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
@@ -41,32 +41,32 @@ export default function Drawer() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
 
-            <Nav.Link className="n-link" style={{ }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
 
               <NavLink to="/communities" >
                 COMMUNITIES
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{   }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/offers">OFFERS
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{  }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/event">
 
                 EVENTS
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{  }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/latest-launch">
                 LATEST LAUNCHES
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{}}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/team">
 
                 OUR TEAM
@@ -75,15 +75,15 @@ export default function Drawer() {
            
           </Nav>
           <Nav>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"17px" , fontSize:"16px"}}>
-              <i class="fa fa-video mx-2  my-1"></i>
+            <Nav.Link className='d-flex right-link' style={{paddingTop:"17px" , fontSize:"18px"}}>
+              <i class="fa-solid fa-video mx-2  my-1"></i>
               <p className="" >Instant Video Call</p>
             </Nav.Link>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"16px"}}>
+            <Nav.Link className='d-flex right-link' style={{paddingTop:"17px"}}>
               <i class="fa-brands fa-whatsapp mx-2  my-1"></i>
               <p className="" >Whatsapp</p>
             </Nav.Link>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"10px"}}>
+            <Nav.Link className='d-flex right-link' style={{paddingTop:"15px"}}>
               <button className='btn btn-primary' onClick={()=>{
                 modal===true ? setModal(false):setModal(true)
 
@@ -96,7 +96,7 @@ export default function Drawer() {
 
 
 {/* modal */}
-<Modal data-aos="fade-left"
+<Modal 
         isOpen={modal}
        style={customStyles}
         contentLabel="Example Modal"

@@ -1,11 +1,12 @@
 .navbar-bg {
-    background-color: #e8fdf6;
+    background-color: #ffffff;
+    /* background-color: #e8fdf6; */
     height: 100px;
 }
 
 .n-link {
     color: rgb(0, 85, 255) !important;
-    font-size: 16px;
+    font-size: 15px;
     font: weight 300px;
     margin-left: 25px;
     /* padding: 10px; */
@@ -84,7 +85,7 @@ a {
 @media (min-width: 1200px) {
     .n-link {
         padding-left: 10px !important;
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 25px;
         padding-right: 10px !important;
         /* display: none !important; */

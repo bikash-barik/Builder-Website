@@ -66,23 +66,25 @@
 }
 .highlights{
     padding-top: 5vw;
+    padding-left: 3%;
 }
 .highlights h6{
-    color: rgb(209, 205, 205);
+    color: rgb(255, 255, 255);
     position: relative;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     max-width: 29vw;
     
 }
 .highlights h6:after{
     content: "";
     display: block;
-    width: 15vw;
-    top:50%;
-    right: 0;
+    width: 10vw;
+    top:40%;
+    right: 25%;
+    
     height: 1px;
     position: absolute;
-    background: rgb(209, 205, 205);
+    background: rgb(255, 255, 255);
 }
 .anim1 h6,.anim2 h6,.anim3 h6{
     animation-name: textzoom;
@@ -91,6 +93,7 @@
     display: flex;
     gap: 1.25vw;
 }
+
 .anim img{
     width: 3vw;
     animation-name: textzoom;

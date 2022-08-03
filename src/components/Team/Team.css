@@ -39,7 +39,10 @@
         font-size: 20px !important;
     }
     .team-img h2{
-        font-size: 25px;
+        font-size: 23px;
+        font-weight: 500;
+font-size: 23px;
+line-height: 29px;
     }
   }
   @media (max-width: 950px){

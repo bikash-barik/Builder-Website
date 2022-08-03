@@ -1,57 +1,111 @@
-import React from 'react'
-import heroImg from "../../images/events/Screenshot (129).png"
-import noUpcomingImg from "../../images/events/noUp.jpg"
-import './Event.css';
-import EventData from '../data/event';
-
+import React from "react";
+import heroImg from "../../images/events/Screenshot (129).png";
+import noUpcomingImg from "../../images/events/noUp.png";
+import "./Event.css";
+import EventData from "../data/event";
+import image1 from "./PastEventsImages/image1.png";
+import image2 from "./PastEventsImages/image2.png";
+import image3 from "./PastEventsImages/image3.png";
+import image4 from "./PastEventsImages/image4.png";
+import image5 from "./PastEventsImages/image5.png";
 
 export default function PastEvents() {
   return (
     <div>
-      
-        <div className="d-flex my-5">
-
-<h3 style={{fontSize:"44px", fontWeight:"400", marginLeft:"30px"}}>Past Events</h3>
-<hr style={{width:"150px", backgroundColor:"white", fontWeight:"", height:"1.3px",marginLeft:"5px",marginTop:"40px" , opacity:"0.8"}}/>
-</div>
-
-
-    {
-        EventData.map((e)=>{
-           
-           return(<>
-<div className='row no-upcoming mt-5'>
-           
-           
-    <div className='col-md-7 col-sm-6 m-auto px-3'>
-        <h2 className='text-center px-5' style={{fontSize:"49px", fontWeight:"400", marginLeft:"30px",lineHeight:"50px"}}>
-         {e.title}
-        </h2>
-        <div className='year'>
-            <h3 className='text-center'style={{fontSize:"44px", fontWeight:"400", marginLeft:"0px"}}>
-
-            {e.year}
-            </h3>
-        </div>
+      <div className="d-flex my-5">
+        <h3
+          style={{
+            fontSize: "33px",
+            fontWeight: "600",
+            marginLeft: "30px",
+            fontFamily: "Lato",
+            fontStyle: "normal",
+          }}
+        >
+          PAST EVENTS
+        </h3>
+        <hr
+          style={{
+            width: "150px",
+            backgroundColor: "white",
+            fontWeight: "",
+            height: "1.3px",
+            marginLeft: "5px",
+            marginTop: "19px",
+            opacity: "0.8",
+          }}
+        />
+      </div>
+      <div>
+        <img
+          style={{
+            maxWidth: "100%",
+            width: "1264px",
+            height: "415px",
+            left: "-8px",
+            top: "1521px",
+          }}
+          src={image1}
+          alt=" "
+        ></img>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          src={image2}
+          alt=" "
+          style={{
+            maxWidth: "100%",
+            width: "1264px",
+            height: "415px",
+            left: "-5px",
+          }}
+        ></img>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          src={image3}
+          alt=" "
+          style={{
+            maxWidth: "100%",
+            width: "1264px",
+            height: "415px",
+            left: "-2px",
+          }}
+        ></img>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          src={image4}
+          alt=" "
+          style={{
+            maxWidth: "100%",
+            width: "1264px",
+            height: "415px",
+            left: "6px",
+          }}
+        ></img>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          src={image5}
+          alt=" "
+          style={{
+            maxWidth: "100%",
+            width: "1264px",
+            height: "415px",
+            left: "11px",
+            marginBottom: "190px",
+          }}
+        ></img>
+      </div>
     </div>
-    <div className='col-md-5 col-sm-6 m-auto text-center'>
-
-{
-    e.images.map((img)=>{
-        return(<>
-        
-        <img src={img.image} className="img-fluid m-3"/>
-        
-        </>);
-    })
-}
-
-    </div>
-           
-    </div>
-           </>);
-        })
-    }
-    </div>
-  )
+  );
 }

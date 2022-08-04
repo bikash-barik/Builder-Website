@@ -31,7 +31,7 @@ export default function Drawer() {
     <div>
 
     <Navbar collapseOnSelect expand="lg" className='navbar-bg'>
-      <Container fluid style={{ zIndex:"10", backgroundColor: '#e8fdf6' }}>
+      <Container fluid style={{ zIndex:"10", backgroundColor: 'white' }}>
       
         <NavLink to="/" style={{ paddingLeft: 50, borderWidth: 0, }}>
           <Image src={Logo} style={{ height: 95, }}/>
@@ -75,16 +75,18 @@ export default function Drawer() {
            
           </Nav>
           <Nav>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"17px" , fontSize:"18px"}}>
-              <i class="fa-solid fa-video mx-2  my-1"></i>
-              <p className="" >Instant Video Call</p>
+            <Nav.Link className='d-flex right-link navbtn' >
+              {/* <i class="fa fa-video mx-2  my-1"></i> */}
+              <i class="bi bi-camera-video iconbi"></i>
+              <p className="textp" >Instant Video Call</p>
             </Nav.Link>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"17px"}}>
-              <i class="fa-brands fa-whatsapp mx-2  my-1"></i>
-              <p className="" >Whatsapp</p>
+            <Nav.Link className='d-flex right-link navbtn' >
+              {/* <i class="fa-brands fa-whatsapp mx-2  my-1"></i> */}
+              <i class="bi bi-whatsapp iconbi"></i>
+              <p className="textp" >Whatsapp</p>
             </Nav.Link>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"15px"}}>
-              <button className='btn btn-primary' onClick={()=>{
+            <Nav.Link className='d-flex right-link getbtn' style={{paddingTop:"10px"}}>
+              <button className='btn btn-primary ' onClick={()=>{
                 modal===true ? setModal(false):setModal(true)
 
               }}>Get in touch</button>

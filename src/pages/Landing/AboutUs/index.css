@@ -6,8 +6,8 @@
 }
 
 .about-us {
-    width: 80%;
-    height: 661px;
+    width: 85%;
+    height: 550px;
     background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%, rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/XTpm.gif');
     background-position: center;
     background-size: cover;
@@ -61,7 +61,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 45px;
-    margin-top: 20px;
+    margin-top: 20  px;
     color: #FFFFFF;
     max-width: 580px;
     width: 100%;
@@ -71,9 +71,10 @@
 
 .about-us-image {
     max-width: 629px;
-    height: auto;
-    width: 40%;
-    margin-right: -10%;
+    height: 50;
+    width: 45%;
+    margin-right: -100px;
+
 }
 
 @media screen and (max-width: 1280px) {

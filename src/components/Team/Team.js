@@ -6,7 +6,7 @@ export default function Team() {
   return (
     <div className="Team_background">
             <div  className='hero-img'>
-                 <img src={heroImg}/>
+                 <img src={heroImg} className="img-fluid" />
             </div>
                 <div className='row m-4 Team_page'>
 

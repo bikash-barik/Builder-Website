@@ -13,7 +13,7 @@ const SearchFilter = () => {
       <Row  >
         <Col xs={6} sm={3} >
           <Filter
-            title="PROPERTY"
+            title="PROPERTY TYPE"
             options={["Residential", "Comercial"]}
             state={property}
             setState={setProperty}

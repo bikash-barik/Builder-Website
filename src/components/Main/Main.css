@@ -5,10 +5,15 @@
     padding-right: 7vw;
     padding-bottom: 4.5vw;
 }
-.archid,.testimonial{
+.archid{
     background-color: white;
     padding-top: 3vw;
     padding-bottom: 3vw;
+}
+.testimonial{
+    background-color: white;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
 }
 .archid h6{
     color: black;
@@ -31,21 +36,26 @@
     text-align: center;
 }
 .archimg{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FARCHID%20BUILDER%20HIGHLIGHT%20PHOTO.jpg?alt=media&token=bc6eb8f9-4cf6-4e39-9b8c-032ac49a8069");
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FARCHID%20BUILDER%20HIGHLIGHT%20PHOTO.jpg?alt=media&token=bc6eb8f9-4cf6-4e39-9b8c-032ac49a8069");
     background-size: cover;
     background-position: center;
     margin-top: 3vw;
     display: flex;
     color: white;
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: 600;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding-left: 11vw;
+    padding-right: 11vw;
     justify-content: space-between;
     align-items: center;
     height: 12vw;
     width: 100%;
     object-fit: cover;
+}
+.archid_no{
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 .testimonial h6{
     color: black;
@@ -66,31 +76,44 @@
 }
 .highlights{
     padding-top: 5vw;
+    padding-left: 3%;
 }
 .highlights h6{
-    color: rgb(209, 205, 205);
+    color: rgb(255, 255, 255);
     position: relative;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     max-width: 29vw;
     
 }
 .highlights h6:after{
     content: "";
     display: block;
-    width: 15vw;
-    top:50%;
-    right: 0;
+    width: 10vw;
+    top:40%;
+    right: 25%;
+    
     height: 1px;
     position: absolute;
-    background: rgb(209, 205, 205);
+    background: rgb(255, 255, 255);
 }
-.anim1 h6,.anim2 h6,.anim3 h6{
+.anim h6{
     animation-name: textzoom;
     animation-duration: 3s;
     align-items: center;
     display: flex;
     gap: 1.25vw;
+    width: max-content;
+    -webkit-transition: transform 1s ease;
+    -moz-transition: transform 1s ease;
+    -o-transition: transform 1s ease;
+    -ms-transition: transform 1s ease;
+    transition: transform 1s ease;
 }
+    .anim h6:hover{
+        transform: scale(1.5) !important;
+        transition-duration: 1s;
+    }
+
 .anim img{
     width: 3vw;
     animation-name: textzoom;
@@ -104,6 +127,7 @@ width: 4vw;
 .anim3 h6{
     animation-delay: 4s;
 }
+
 @keyframes textzoom{ 
     0%,100%{ 
         transform: scale(1); 
@@ -111,7 +135,7 @@ width: 4vw;
     } 
      
     40%,60%{ 
-        margin-left: 15vw;
+        margin-left: 0;
         transform: scale(1.5);
     } 
 }
@@ -126,6 +150,9 @@ width: 4vw;
     .archimg{
         font-size: 3.5vw;
     }
+    .archid_no{
+        font-size: 3.7vw;
+    }
     .anim p{
         font-size: 2.5vw !important ;
     }
@@ -134,7 +161,7 @@ width: 4vw;
     }
   .highlights h6{
     font-size: 2.8vw;
-    max-width: 45vw;
+    max-width: 52vw;
   }
   .testimonial h6{
     font-size: 2.8vw;

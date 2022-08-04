@@ -50,7 +50,7 @@ const Banner = () => {
             );
           } else {
             return (
-              <Carousel.Item key={idx} interval={5000}>
+              <Carousel.Item key={idx} interval={3000}>
                 <div
                   className="banner-background"
                   style={{

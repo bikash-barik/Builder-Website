@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Logo from '../../images/Company_Logo/ArchidLogo.png';
+import Logo from '../../images/Company_Logo/png ar.png';
 import Image from 'react-bootstrap/Image'
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
@@ -31,63 +31,65 @@ export default function Drawer() {
     <div>
 
     <Navbar collapseOnSelect expand="lg" className='navbar-bg'>
-      <Container fluid style={{ zIndex:"10", backgroundColor: '#e8fdf6' }}>
+      <Container fluid style={{ zIndex:"10", backgroundColor: 'white',padding:0 }}>
       
-        <NavLink to="/" style={{ paddingLeft: 50, borderWidth: 0, }}>
-          <Image src={Logo} style={{ height: 95, }}/>
+        <NavLink className="logoimg" to="/" style={{ paddingLeft: 27,paddingbottom:0, borderWidth: 0, }}>
+          <img src={Logo} style={{ height: 100, }}/>
         </NavLink>
         {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto navtext">
 
-            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
+            <Nav.Link className="n-link" style={{ color: '#3171B1', fontWeight: 600 }}>
 
-              <NavLink to="/communities" >
+              <NavLink to="/communities" style={{ padding:10}} >
                 COMMUNITIES
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/offers">OFFERS
+            <Nav.Link className="n-link" style={{  color: '#3171B1', fontWeight: 600 }}>
+              <NavLink to="/offers" style={{ padding:10}}>OFFERS
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/event">
+            <Nav.Link className="n-link" style={{ color: '#3171B1', fontWeight: 600 }}>
+              <NavLink to="/event" style={{ padding:10}}>
 
                 EVENTS
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/latest-launch">
+            <Nav.Link className="n-link" style={{  color: '#3171B1', fontWeight: 600 }}>
+              <NavLink to="/latest-launch" style={{ padding:10}}>
                 LATEST LAUNCHES
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/team">
+            <Nav.Link className="n-link" style={{  color: '#3171B1', fontWeight: 600 }}>
+              <NavLink to="/team" style={{ padding:10}}>
 
                 OUR TEAM
               </NavLink>
             </Nav.Link>
            
           </Nav>
-          <Nav>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"17px" , fontSize:"18px"}}>
-              <i class="fa-solid fa-video mx-2  my-1"></i>
-              <p className="" >Instant Video Call</p>
+          <Nav className="rightnav">
+            <Nav.Link className=' right-link navbtn' >
+              {/* <i class="fa fa-video mx-2  my-1"></i> */}
+              <i class="bi bi-camera-video iconbi"></i>
+              <p className="textp" >Instant Video Call</p>
             </Nav.Link>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"17px"}}>
-              <i class="fa-brands fa-whatsapp mx-2  my-1"></i>
-              <p className="" >Whatsapp</p>
+            <Nav.Link className=' right-link navbtn' >
+              {/* <i class="fa-brands fa-whatsapp mx-2  my-1"></i> */}
+              <i class="bi bi-whatsapp iconbi"></i>
+              <p className="textp" >Whatsapp</p>
             </Nav.Link>
-            <Nav.Link className='d-flex right-link' style={{paddingTop:"15px"}}>
-              <button className='btn btn-primary' onClick={()=>{
+            <Nav.Link className=' right-link getbtn' style={{}}>
+              <button className='btn btn-primary ' onClick={()=>{
                 modal===true ? setModal(false):setModal(true)
 
-              }}>Get in touch</button>
+              }}>GET IN TOUCH</button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

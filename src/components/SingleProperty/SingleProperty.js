@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import facilities from "../../images/ongoing/archid.png";
 import Modal from 'react-modal';
 import FloorPlan from "./subcomponent/onGoingSiteFloorPlans/FloorPlan";
+import ConstructionUpdates from "./subcomponent/ConstructionUpdates";
 import { ranasinghpur,patrapada,oldTown } from "./subcomponent/onGoingSiteFloorPlans/imageConfig";
 // import OngoingData from '../data/ongoing';
 
@@ -334,6 +335,7 @@ export default function SingleProperty({ OngoingData }) {
               </div>
             </section>            
           </div>
+          <ConstructionUpdates/>
           
           
         </>

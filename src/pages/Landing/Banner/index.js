@@ -27,7 +27,7 @@ const BannerMapper = [
 const Banner = () => {
   return (
     <div>
-      <Carousel indicators={false} fade controls={false}>
+      <Carousel  indicators={false} fade controls={false}>
         {BannerMapper?.map((el, idx) => {
           if (el.text === "coming soon") {
             return (

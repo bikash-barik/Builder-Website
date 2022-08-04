@@ -2,7 +2,7 @@
     background-color: 
     #464242;
     padding-left: 7vw;
-    padding-right: 7vw;
+    padding-right: 5vw;
     padding-bottom: 4.5vw;
 }
 .archid{
@@ -81,8 +81,9 @@
 .highlights h6{
     color: rgb(255, 255, 255);
     position: relative;
-    font-size: 1.1vw;
-    max-width: 29vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    max-width: 34vw;
     
 }
 .highlights h6:after{
@@ -91,7 +92,6 @@
     width: 10vw;
     top:40%;
     right: 25%;
-    
     height: 1px;
     position: absolute;
     background: rgb(255, 255, 255);

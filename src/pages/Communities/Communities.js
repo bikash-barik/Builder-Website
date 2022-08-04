@@ -9,7 +9,7 @@ import Upcoming  from "../../components/Communities/Upcoming/Upcoming";
 export default function Communities() {
   return (
     <div className="Communities-page">
-      <Ongoing/>
+      <Ongoing head="ONGOING PROJECTS"/>
 
       <Upcoming/>
  

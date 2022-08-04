@@ -39,7 +39,7 @@ useEffect(() => {
          <Route exact path="/communities" element={<div><Communities/></div>}/>
          <Route path ="/event" element={<div><Event/></div>}/>
          <Route path ="/team" element={<div><Team/></div>}/>
-         <Route path ="/latest-launch" element={<div><Ongoing/></div>}/>
+         <Route path ="/latest-launch" element={<div><Ongoing head="LATEST ONGOING PROJECTS"/></div>}/>
          <Route path ="/offers" element={<div><Offer/></div>}/>
          <Route path ="/communities/:id" element={<div><SingleProperty OngoingData={OngoingData}/></div>}/>
          <Route exact path="/slider" element={<div><Slider2/></div>}/>

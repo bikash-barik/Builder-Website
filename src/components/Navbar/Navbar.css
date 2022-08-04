@@ -2,18 +2,30 @@
 html{
     font-size:62.5%;
 }
+.navbar-nav a{
+    margin:0;
+    padding:0;
+
+}
 .navbar-bg {
     background-color: #ffffff;
     /* background-color: #e8fdf6; */
     height: 100px;
 }
-
+.navtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 41px;
+    gap: 6rem;
+  }
 .n-link {
-    color: rgb(0, 85, 255) !important;
+  
     font-size: 15px;
-    font: weight 300px;
+
+    /* font: weight 300px; 
     margin-left: 25px;
-    /* padding: 10px; */
+    padding: 10px; */
 }
 
 .active {
@@ -54,13 +66,21 @@ a {
     background-color: rgba(66, 66, 66, 0.61) !important;
     z-index: 10;
 }
+.rightnav{
+    margin-right:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:6px;
+}
 .navbtn{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-right:0.7rem;
+  gap:0.1rem;
   
 }
+
 .navbtn .textp{
     font-size:1.4rem;
     margin-left: 1.2rem;
@@ -73,10 +93,10 @@ a {
     color:rgba(57, 136, 170, 0.757);
     
 }
-.getbtn{
-    margin-right:10px;
-}
+
 .getbtn button{
+    margin-left:2rem;
+    margin-right:1rem;
     font-size:1.4rem;
     width:110px;
     height:40px;
@@ -92,10 +112,22 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-@media all and (max-width: 1024px),(max-height:600px){
-  
+@media all and (max-width:1024px){
+ .logoimg img{
+   /* height:4rem;d */
+   width:6rem;
+ }
+    .navtext{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        gap: 2rem;
+      }
     .navbar-nav a{
         font-size:1rem;
+        margin:0;
+        padding:0;
     }
     .navbtn{
         margin-right:1rem;
@@ -107,15 +139,16 @@ font-family: 'Roboto', sans-serif;
     font-size:1rem;
 }
 .getbtn{
+    
     margin-right:2.2rem;
 }
 }
 
-@media all and (max-width:412px),(max-height:914px){
+/* @media all and (max-width:412px),(max-height:914px){
     .navbtn{
         
     }
-}
+} */
 /* @media (max-width:400px) {
     .n-link {
         padding-top: 2.0rem !important;

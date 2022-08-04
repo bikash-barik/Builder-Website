@@ -10,10 +10,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 713px;
+    height: 400px;
     background: #EFF7FF;
     border: 1px solid #000000;
-    padding-left: 55px;
+    padding-left: 60px;
     padding-right: 15px;
 
 }

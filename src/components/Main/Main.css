@@ -5,10 +5,15 @@
     padding-right: 7vw;
     padding-bottom: 4.5vw;
 }
-.archid,.testimonial{
+.archid{
     background-color: white;
     padding-top: 3vw;
     padding-bottom: 3vw;
+}
+.testimonial{
+    background-color: white;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
 }
 .archid h6{
     color: black;
@@ -156,7 +161,7 @@ width: 4vw;
     }
   .highlights h6{
     font-size: 2.8vw;
-    max-width: 45vw;
+    max-width: 52vw;
   }
   .testimonial h6{
     font-size: 2.8vw;

@@ -34,7 +34,7 @@ export default function Drawer() {
       <Container fluid style={{ zIndex:"10", backgroundColor: 'white',padding:0 }}>
       
         <NavLink className="logoimg" to="/" style={{ paddingLeft: 27,paddingbottom:0, borderWidth: 0, }}>
-          <img src={Logo} style={{ height: 75, }}/>
+          <img src={Logo} style={{ height: 100, }}/>
         </NavLink>
         {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -43,31 +43,31 @@ export default function Drawer() {
 
             <Nav.Link className="n-link" style={{ color: '#3171B1', fontWeight: 600 }}>
 
-              <NavLink to="/communities" >
+              <NavLink to="/communities" style={{ padding:10}} >
                 COMMUNITIES
               </NavLink>
             </Nav.Link>
 
             <Nav.Link className="n-link" style={{  color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/offers">OFFERS
+              <NavLink to="/offers" style={{ padding:10}}>OFFERS
               </NavLink>
             </Nav.Link>
 
             <Nav.Link className="n-link" style={{ color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/event">
+              <NavLink to="/event" style={{ padding:10}}>
 
                 EVENTS
               </NavLink>
             </Nav.Link>
 
             <Nav.Link className="n-link" style={{  color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/latest-launch">
+              <NavLink to="/latest-launch" style={{ padding:10}}>
                 LATEST LAUNCHES
               </NavLink>
             </Nav.Link>
 
             <Nav.Link className="n-link" style={{  color: '#3171B1', fontWeight: 600 }}>
-              <NavLink to="/team">
+              <NavLink to="/team" style={{ padding:10}}>
 
                 OUR TEAM
               </NavLink>
@@ -89,7 +89,7 @@ export default function Drawer() {
               <button className='btn btn-primary ' onClick={()=>{
                 modal===true ? setModal(false):setModal(true)
 
-              }}>Get in touch</button>
+              }}>GET IN TOUCH</button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

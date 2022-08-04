@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 652.44px;
+    height: 590.44px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
 .coming-soon {
     max-width: 658px;
     width: 100%;
-    margin-top: -300px;
+    margin-top: -200px;
 }
 
 .coming-soon-text {
@@ -70,7 +70,7 @@
     color: #FFFFFF;
     background-color: black;
     border: 1px solid white;
-    margin-top: -300px;
+    margin-top: -200px;
 
 
 

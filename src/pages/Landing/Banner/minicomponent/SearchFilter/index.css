@@ -22,7 +22,7 @@
 
 .banner-search {
     max-width: 293px;
-    height: 80px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 25px;
     cursor: pointer;
     letter-spacing: 0.06em;
     color: #FFFFFF;

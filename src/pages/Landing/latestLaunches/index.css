@@ -22,7 +22,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.09em;
     color: #2C2828;
@@ -43,7 +43,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 31px;
     letter-spacing: 0.09em;
     color: #000000;
@@ -114,6 +114,18 @@
     .latest-launches-image-container1 {
         margin-top: 20px;
 
+    }
+    .latest-launches-container {
+        margin: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 713px;
+        background: #EFF7FF;
+        border: 1px solid #000000;
+        padding-left: 32px;
+        padding-right: 15px;
+    
     }
 }
 

@@ -61,7 +61,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 45px;
-    margin-top: 20px;
+    margin-top: 20  px;
     color: #FFFFFF;
     max-width: 580px;
     width: 100%;
@@ -72,8 +72,8 @@
 .about-us-image {
     max-width: 629px;
     height: auto;
-    width: 45%;
-    margin-right: -10%;
+    margin-right: -200px;
+
 }
 
 @media screen and (max-width: 1280px) {

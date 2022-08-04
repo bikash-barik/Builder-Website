@@ -33,40 +33,40 @@ export default function Drawer() {
     <Navbar collapseOnSelect expand="lg" className='navbar-bg'>
       <Container fluid style={{ zIndex:"10", backgroundColor: 'white' }}>
       
-        <NavLink className="logoone" to="/" style={{ paddingLeft:15, borderWidth: 0, }}>
-          <Image className="logoimg" src={Logo} style={{ height: 65, }}/>
+        <NavLink to="/" style={{ paddingLeft: 50, borderWidth: 0, }}>
+          <Image src={Logo} style={{ height: 95, }}/>
         </NavLink>
         {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
 
-            <Nav.Link className="n-link" style={{ }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
 
               <NavLink to="/communities" >
                 COMMUNITIES
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{   }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/offers">OFFERS
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{  }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/event">
 
                 EVENTS
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{  }}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/latest-launch">
                 LATEST LAUNCHES
               </NavLink>
             </Nav.Link>
 
-            <Nav.Link className="n-link" style={{}}>
+            <Nav.Link className="n-link" style={{ padding: 30, fontSize: 18, color: '#3171B1', fontWeight: 600 }}>
               <NavLink to="/team">
 
                 OUR TEAM
@@ -98,7 +98,7 @@ export default function Drawer() {
 
 
 {/* modal */}
-<Modal data-aos="fade-left"
+<Modal 
         isOpen={modal}
        style={customStyles}
         contentLabel="Example Modal"

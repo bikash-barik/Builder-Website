@@ -13,7 +13,7 @@
     height: 713px;
     background: #EFF7FF;
     border: 1px solid #000000;
-    padding-left: 25px;
+    padding-left: 55px;
     padding-right: 15px;
 
 }
@@ -47,6 +47,10 @@
     line-height: 31px;
     letter-spacing: 0.09em;
     color: #000000;
+    max-width: 648px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
 }
 
 .view-all-button {
@@ -64,7 +68,7 @@
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    margin-left: 30px;
+    margin-left: 15%;
     margin-top: 35px;
     cursor: pointer;
 }
@@ -161,6 +165,7 @@
     .latest-launches-text {
         margin-top: 35px;
         font-size: 12px;
+        max-width: 400px;
 
 
     }
@@ -171,7 +176,7 @@
         height: 33px;
         font-size: 8px;
         line-height: 10px;
-        margin-left: 20px;
+        
         margin-top: 30px;
 
     }
@@ -221,6 +226,9 @@
         margin-top: 28px;
         font-size: 8px;
         line-height: 13px;
+        max-width: 300px;
+
+        
 
 
     }
@@ -231,7 +239,7 @@
         height: 25px;
         font-size: 6px;
         line-height: 8px;
-        margin-left: 20px;
+       
         margin-top: 25px;
 
     }
@@ -239,7 +247,7 @@
 
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 645px) {
     .latest-launches-container {
         height: auto;
         flex-direction: column;
@@ -264,6 +272,9 @@
     .latest-launches-text {
         margin-top: 35px;
         font-size: 10px;
+        max-width: 550px;
+       
+
     }
 
     .view-all-button {

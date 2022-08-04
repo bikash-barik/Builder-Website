@@ -40,7 +40,7 @@ export default function SingleProperty({ OngoingData }) {
           <div>
             <p></p>
             <div className="landing-image">
-              <img src="https://source.unsplash.com/1600x900/?house" />
+              <img src={data.bg} />
             </div>
             <div className="button-grp">
               <div
@@ -119,7 +119,7 @@ export default function SingleProperty({ OngoingData }) {
                     <div className="detail-2">
                       <div className="d-flex">
                         <h5 className="black-text" style={{ width: "800px" }}>
-                          WELL CONSTRUCTED LUXURIOUS FLATS{" "}
+                          {data.heading_2}{" "}
                         </h5>
                         <br />
                         <br />
@@ -173,7 +173,7 @@ export default function SingleProperty({ OngoingData }) {
                     <div className="detail-3">
                       <div className="d-flex">
                         <h5 className="black-text" style={{ width: "800px" }}>
-                          EXPANSIVE LANDSCAPED OPEN SPACES{" "}
+                        {data.heading_3}{" "}
                         </h5>
                         <br />
                         <br />
@@ -207,7 +207,7 @@ export default function SingleProperty({ OngoingData }) {
                     <div className="detail-2">
                       <div className="d-flex">
                         <h5 className="black-text" style={{ width: "800px" }}>
-                          PLETHORA OF LIFESTYLE AMENETIES{" "}
+                           {data.heading_4}{" "}
                         </h5>
                         <br />
                         <br />

@@ -103,11 +103,11 @@
     display: flex;
     gap: 1.25vw;
     width: max-content;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: transform 1s ease;
+    -moz-transition: transform 1s ease;
+    -o-transition: transform 1s ease;
+    -ms-transition: transform 1s ease;
+    transition: transform 1s ease;
 }
     .anim h6:hover{
         transform: scale(1.5) !important;

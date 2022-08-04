@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import "./Main.css"
 import CarouselData from "../../components/data/carousel";
 import OwlCarousel from 'react-owl-carousel';

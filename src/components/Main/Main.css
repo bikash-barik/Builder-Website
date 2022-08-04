@@ -102,21 +102,21 @@
     align-items: center;
     display: flex;
     gap: 1.25vw;
+    width: max-content;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
+    .anim h6:hover{
+        transform: scale(1.5) !important;
+        transition-duration: 1s;
+    }
 
 .anim img{
     width: 3vw;
     animation-name: textzoom;
-}
-.anim h6:hover{
-    margin-left: 15vw;
-    transform: scale(1.5) !important;
-    transition-duration: 3s;
 }
 .anim3 img{
 width: 4vw;
@@ -135,7 +135,7 @@ width: 4vw;
     } 
      
     40%,60%{ 
-        margin-left: 15vw;
+        margin-left: 0;
         transform: scale(1.5);
     } 
 }

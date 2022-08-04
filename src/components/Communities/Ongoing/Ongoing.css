@@ -5,7 +5,9 @@
     
     
 }
-
+.check img{ 
+    height: 500px;
+}
 .ongoing-box img {
     width: 100%;
     height: 500px;

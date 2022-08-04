@@ -97,10 +97,10 @@ export default function SingleProperty({ OngoingData }) {
               </div>
               <div className="detail-1">
                 <div className="d-flex">
-                  <h4 className="black-text">{data.title}</h4>
+                  <h4 className="black-text" style={{ width: "330px" }}>{data.title}</h4>
                   <hr
                     style={{
-                      width: "150px",
+                      width: "250px",
                       backgroundColor: "black",
                       fontWeight: "",
                       height: "1.3px",
@@ -118,14 +118,12 @@ export default function SingleProperty({ OngoingData }) {
                   <div className="col-lg-6 col-md-6 col-sm-12 p-0">
                     <div className="detail-2">
                       <div className="d-flex">
-                        <h5 className="black-text" style={{ width: "800px" }}>
-                          {data.heading_2}{" "}
+                        <h5 className="black-text" style={{width:"400px"}}>
+                          {data.heading_2}
                         </h5>
-                        <br />
-                        <br />
                         <hr
                           style={{
-                            width: "150px",
+                            width: "200px",
                             backgroundColor: "black",
                             fontWeight: "",
                             height: "1.3px",
@@ -172,14 +170,12 @@ export default function SingleProperty({ OngoingData }) {
                   <div className="col-lg-6 col-md-6 col-sm-12 p-0">
                     <div className="detail-3">
                       <div className="d-flex">
-                        <h5 className="black-text" style={{ width: "800px" }}>
-                        {data.heading_3}{" "}
+                        <h5 className="black-text" style={{width:"400px"}} >
+                        {data.heading_3} 
                         </h5>
-                        <br />
-                        <br />
                         <hr
                           style={{
-                            width: "150px",
+                            width: "200px",
                             backgroundColor: "black",
                             fontWeight: "",
                             height: "1.3px",
@@ -206,14 +202,12 @@ export default function SingleProperty({ OngoingData }) {
                   <div className="col-lg-6 col-md-6 col-sm-12 p-0">
                     <div className="detail-2">
                       <div className="d-flex">
-                        <h5 className="black-text" style={{ width: "800px" }}>
-                           {data.heading_4}{" "}
+                        <h5 className="black-text" style={{width:"400px"}} >
+                           {data.heading_4}
                         </h5>
-                        <br />
-                        <br />
                         <hr
                           style={{
-                            width: "300px",
+                            width: "200px",
                             backgroundColor: "black",
                             fontWeight: "",
                             height: "1.3px",
@@ -254,7 +248,7 @@ export default function SingleProperty({ OngoingData }) {
                         <h5 className="black-text">AMENETIES </h5>
                         <hr
                           style={{
-                            width: "150px",
+                            width: "200px",
                             backgroundColor: "black",
                             fontWeight: "",
                             height: "1.3px",

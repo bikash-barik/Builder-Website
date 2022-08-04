@@ -31,8 +31,18 @@
     height: 100%;
     padding: 70px;
 }
+.detail-1 h5{
+    text-align: start;
+}
+.detail-2 h5{
+    text-align: start;
+}
+.detail-3 h5{
+    text-align: start;
+}
 .detail-2 p{
     font-size: 25px;
+    text-align: start;
 }
 .detail-3{
     background-color: azure;
@@ -42,6 +52,7 @@
 }
 .detail-3 p{
     font-size: 25px;
+    text-align: start;
 }
 .detail-img{
     width: 230px;

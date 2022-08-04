@@ -4,15 +4,15 @@ import "./Ongoing.css"
 import OngoingData from "../../data/ongoing";
 import { Link } from "react-router-dom";
 
-export default function Ongoing() {
+export default function Ongoing(props) {
   return (
     <div className="Communities">
       <div className="container-fluid" >
         <section className="upcoming">
 
           <div className="textline">
-
-            <h4 className="white-text">LATEST ONGOING PROJECTS </h4>
+          
+            <h4 className="white-text">{props.head} </h4>
 
 
             <hr style={{ width: "150px", backgroundColor: "white", fontWeight: "", height: "1.3px", marginLeft: "5px", opacity: "0.8" }} />

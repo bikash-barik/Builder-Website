@@ -6,11 +6,11 @@ import "./index.css"
 const FooterImageSection = () => {
     return ( 
         <div className="footer-image-section">
-        <img src={logo} alt="Loading..." />
+        <img className="footer-logo-image" src={logo} alt="Loading..." />
         <div className="footer-icons">
-        <img src={instagram} alt="Loading..." />
-        <img src={twitter} alt="Loading..." />
-        <img src={facebook} alt="Loading..." />
+        <img className="footer-icon-image" src={instagram} alt="Loading..." />
+        <img className="footer-icon-image" src={twitter} alt="Loading..." />
+        <img className="footer-icon-image" src={facebook} alt="Loading..." />
         </div>
         </div>
      );

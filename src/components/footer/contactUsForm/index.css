@@ -74,11 +74,54 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
-
     color: #FFFFFF;
 }
 
-@media screen and (max-width : 1277px) {
+@media screen and (max-width : 1280px) {
+    .contact-us-form-container {
+        max-width: 360px;
+    }
+
+    
+.contact-us-form {
+   
+    max-width: 158px;
+    
+}
+
+.form-heading {
+    
+    font-size: 15px;
+    line-height: 18px;
+   
+
+}
+
+.form-line {
+    width: 48px;
+  
+
+}
+
+
+.contact-us-form input {
+    width: 140px;
+    height: 18px;
+}
+
+.form-button {
+    max-width: 90px;
+    height: 18px;
+   
+}
+
+   
+   
+
+
+}
+
+@media screen and (max-width : 1000px) {
     .contact-us-form-container {
         margin-top: 80px;
     }
@@ -87,13 +130,13 @@
 }
 
 @media screen and (max-width : 440px) {
-    .image-remove {
+    .footer-form-image {
         display: none;
 
     }
 
     .contact-us-form-container {
-        max-width: 200px;
+        max-width: 160px;
     }
 
 

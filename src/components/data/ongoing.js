@@ -2,6 +2,7 @@
 const OngoingData =[
     {
         id: "1",
+        bg:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%201.jpg?alt=media&token=a4f214ac-76ab-4880-ba06-87ae9077348c",
         title :"ARCHID PRAMOD PETREAT, PATRAPADA",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO.jpg?alt=media&token=d0a65701-4672-49f5-9609-b771d4c8e890",
@@ -98,14 +99,16 @@ const OngoingData =[
         amenities:" With an 3000 square feet exclusive community building you’llexplore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go for chilling with your friends any time you wish. And when you’re done practising your swing, you can hitthe gym, relax by the community pool, or take your little ones for a mini-adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
 
         details_1:"Archid Pramod Retreat is one of such project of us which will Stroll through the greenery and let the thr most enchanting views soothe your soul.Experience a truly global lifestyle that offers you the latest in modern living in the lap of nature,yet seamlessly connected to the busy world outside.A home built to the highest standards with exactly your needs in mind.The location, for one, couldn’t be better, as it is within immediate reach of the best of everything you need – schools, colleges, hospitals, Hotels, supermarkets, banks and more. The airport, and the rail station are easily accessible as well through arterial roads.",
-        
+        heading_2:"WELL CONSTRUCTED LUXURIOUS FLATS",
         details_2:"For another, your home at Archid Pramod Retreat is designed to be compliant with the stipulations of Vaastu. In 3 side open flats you will enjoy an abundance of natural light and ventilation, which is aided by the strategic juxtaposition of the apartment blocks to facilitate the free flow of air and light from all directions.These Well constructed luxurious flats will be more specious with puja and designated store room for your needs.",
-
+        heading_3:"EXPANSIVE LANDSCAPED OPEN SPACES",
         details_3:"In it’s signature style, you will enjoy the undiluted pleasure of expansive landscaped open spaces, making it an ideal locale for you to meet and mingle with your fellow residents, while giving you the benefit of being close to nature.",
+        heading_4:"PLETHORA OF LIFESTYLE AMENETIES",
         details_4: "Finally, Archid Pramod Retreat gives a lavish clubhouse which puts at your command a plethora of lifestyle amenities to keep your leisure moments productively and entertainingly occupied.To put it simply, this is where your search for the perfect home ends and your new life in a wonderful new dwelling begins."
     },
     {
         id: "2",
+        bg:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%20(MAIN).jpg?alt=media&token=46996180-5c71-4e5b-905f-bcee780639ab",
         title :"ARCHID SHREEKUNJ, RANASINGHPUR",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
         tagLine :"FROM PREMIUM LIVING TO ABUNDANCE OF PEACE & GLORY",
@@ -183,14 +186,16 @@ const OngoingData =[
         amenities:"Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community  centre, and an impressive array of parks and walkways, the    community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
 
         details_1:"this gated community is well placed at the heart of a pristine location in Ranasinghpur, Bhubaneswar. Driven by design, the meticulous planning infuses spice into space. Whether yours is a nuclear or joint family, the smartly calibrated villas fit seamlessly into your individualised lifestyle. The upscale class reflects in quality of materials utilised to create the ambience you always wanted from your dream home.",
-                    
+        heading_2:"LUXRIOUS FEATURES",         
         details_2:"From glorious living to luxurious features, the project has everything you need to make a lifestyle statement. The address accentuates warmth of a suburb with easy connectivity to every part of the city. ",
-            
+        heading_3:"WELL-DESIGNED, SUPERIOR CONSTRUCTIONS",
         details_3:" The well-designed, superior construction sets the benchmark. After all, at ARCHID BUILDERS, its our passion to enhance your lifestyle and we have always strived in developing quality homes for life.",
+        heading_4:"THE STANDARD OF PREMIUM LIVING",
         details_4:"The community play areas delight children of all ages, while the parks are perfect for family picnics. And if it gets too warm or you’ve had a long day at work, a few laps in the swimming pool and cozy moment in 6300 sqft exclusive club house will make you refreshed in no time. You’ll find 40% open space in the society which gives the residents a comfortable living ."
     },
     {
         id: "3",
+        bg:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
         title :"ARCHID SAILABALA, OLD TOWN",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%203.jpg?alt=media&token=0b36f879-7279-4238-a13a-680989144fb8",
         tagLine :"CONTEMPORARY DESIGN IN NATURAL GREENLAND WITH ALL THOUGHTFUL AMENITIES",
@@ -276,10 +281,11 @@ const OngoingData =[
         amenities:"Whether you want to give your parents a peaceful stay ,you know you have it all. you’ll have every world-class amenity you could ever need on your doorstep.",
 
         details_1:"Beautiful project, Archid Sailabala is themed around wellness and focused on residents’ well-being. It is set to become the center of luxury in Bhubaneswar by bringing together a rare combination of contemporary design, natural greenery and thoughtful amenities. ",
-                    
+        heading_2:"LUXURIOUS PROPERTY",     
         details_2:"It is set in surroundings that are private, yet well connected to daily urban life. This luxurious property is enviously located in Sunderpada, oldtown, Bhubaneswar.",
-            
+        heading_3:"LUSH GREENERY AND ASTOUNDING VIEWS",
         details_3:"The apartment is situated amongst abundant sunlight, lush greenery and astounding views. Intertwined with modern amenities and location advantage,highly coveted, pristine neighbourhood.",
+        heading_4:"IMMERSED IN NATURE",
         details_4:"Each elegant flat amplifies the beautiful views from the balcony gives a      peaceful breathe. It seems to bring you even closer to nature."
     }
 ]

@@ -8,8 +8,8 @@
   color: #000;
   /* margin: 20px; */
   height: 95%;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   font-family: "Lato", sans-serif;
 }
 .team-img {
@@ -44,9 +44,10 @@
   }
   .team-details p {
     font-size: 16px;
+    padding-bottom: 15px;
   }
   .team-img h5 {
-    font-size: 18px !important;
+    font-size: 15px !important;
   }
   .team-img h2 {
     font-size: 20px;

@@ -19,3 +19,28 @@
     opacity: 1;
     margin: 10px 90px;
 }
+.dropdown-toggle{
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 0;
+}
+@media screen and (max-width: 655px){
+    .dropdown-toggle{
+        font-size: 10px;
+        padding:5px !important;
+    }
+    .line{
+        width: 100px !important;
+    }
+}
+@media screen and (max-width: 300px){
+    .line{
+        width: 70px !important;
+    }
+}

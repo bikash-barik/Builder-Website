@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 export default function Completed() {
 
 
-const [category, setCategory] = useState("residential")
+const [category, setCategory] = useState("RESIDENTIAL PROJECT")
 const [modal, setModal] = useState(false)
   return (
     <div className="Communities">
@@ -28,13 +28,13 @@ const [modal, setModal] = useState(false)
         <div style={{float:"right"}}>
         <DropdownButton id="dropdown-basic-button" title={category}>
             {
-                category==="commercial" ? <Dropdown.Item
+                category==="COMMERCIAL PROJECT" ? <Dropdown.Item
                 onClick={()=>{
-                  setCategory("residential")
-                }}>residential</Dropdown.Item>:   <Dropdown.Item 
+                  setCategory("RESIDENTIAL PROJECT")
+                }}>RESIDENTIAL PROJECT</Dropdown.Item>:   <Dropdown.Item 
                 onClick={()=>{
-                  setCategory("commercial")
-                }}>commercial</Dropdown.Item>
+                  setCategory("COMMERCIAL PROJECT")
+                }}>COMMERCIAL PROJECT</Dropdown.Item>
              
             }
             </DropdownButton>

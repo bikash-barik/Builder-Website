@@ -1,54 +1,105 @@
-.landing-image{
-    height: 800px;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.landing-image {
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.single-property-button-group{
+.single-property-button-group {
     position: absolute;
-    top: 400px;
-    right: 30px;
+    bottom: 65px;
+    right: 93px;
     display: flex;
     margin-left: 10px;
- 
-}
-.single-property-request-button{
-    padding: 4px 30px;
-background: #3171B1;
-font-weight: 400;
-font-size: 16px;
-line-height: 48px;
-color: #FFFFFF;
+
 }
 
-.detail-1{
-    background-color: azure;
-    /* color: black !important; */
+.single-property-request-button { 
+    background: #3171B1 !important;
+    color: #FFFFFF !important;
+}
+
+.single-property-button {
+    margin-left: 26px;
+    padding: 4px 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    color: #2C2828;
+    background: #FFFFFF;
+    display: flex;
+    cursor: pointer;
+}
+
+.single-property-button img {
+    margin-left: 10px;
+    margin-top: 13px;
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width:1280px) {
+    .single-property-button-group {
+        right: 70px;
+    }
+    
+    .single-property-button {
+        margin-left: 20px;
+        padding: 2px 20px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    
+    .single-property-button img {
+        margin-top: 7px;
+        height: 15px;
+        width: 15px;
+    }
+    
+}
+
+
+
+
+/* .detail-1 {
+    background-color: azur;
     margin: 60px 0px !important;
     padding: 20px;
 }
-.detail-1 hr ,h5{
-    /* color: black !important; */
+
+.detail-1 hr,
+h5 {
+
 }
-.detail-2{
+
+.detail-2 {
     background-color: azure;
     height: 100%;
     padding: 70px;
 }
-.detail-2 p{
+
+.detail-2 p {
     font-size: 25px;
+    text-align: start;
 }
-.detail-3{
+
+.detail-3 {
     background-color: azure;
     height: 100%;
-    
+
     padding: 70px;
 }
-.detail-3 p{
+
+.detail-3 p {
     font-size: 25px;
+    text-align: start;
 }
-.detail-img{
+
+.detail-img {
     width: 230px;
     height: 120px;
-}
+} */

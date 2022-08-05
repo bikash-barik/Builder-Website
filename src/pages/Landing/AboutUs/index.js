@@ -20,13 +20,12 @@ const AboutUs = () => {
             about our community and neighborhoods.
           </div>
         </div>
-        <img className="about-us-image" src={house}   alt="...Loading"   />
+        <img className="about-us-image" src={house}   alt="...Loading" data-aos="fade-down-left"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        data-aos-offset="200"   />
       </div>
     </div>
   );
 };
 export default AboutUs;
-// data-aos="fade-left"
-//                       data-aos-easing="linear"
-//                       data-aos-duration="300"
-//                       data-aos-offset="50" 

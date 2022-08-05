@@ -1,0 +1,43 @@
+.ameneties-container{
+    display: flex;
+
+}
+
+.ameneties-content{
+    width: 100%;
+    padding: 100px 73px;
+    background-color: #F3F3FB;;
+}
+
+.ameneties-heading{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 48px;
+color: #2C2828;
+display: flex;
+align-items: center;
+}
+
+.ameneties-line{
+    width: 197px;
+border-top: 1px solid #2C2828;
+margin-left: 10px;
+}
+
+.ameneties-detail{
+max-width: 527px;
+width: 100%;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 49px;
+color: #2C2828;
+
+}
+
+.ameneties-image{
+    width: 55%;
+}

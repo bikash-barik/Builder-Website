@@ -14,3 +14,27 @@
     max-width: 150px;
     width: 100%;
 }
+
+@media screen and (max-width : 1280px ) {
+    .footer-image-section{
+       
+        max-width: 250px;
+       
+    }
+    
+    .footer-icons{
+       
+        max-width: 100px;
+        
+    }
+    .footer-logo-image{
+        width: 100px;
+        
+    }
+
+    .footer-icon-image{
+        width: 15px;
+        height:auto;
+    }
+    
+}

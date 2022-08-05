@@ -1,74 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
-.Team_background{
-    /* background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif'); */
-    background-position: center;
+.Team_background {
+  /* background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif'); */
+  background-position: center;
 }
-.team-details p{
-    color: #000;
-    /* margin: 20px; */
-    height: 95%;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Lato', sans-serif;
+.team-details p {
+  color: #000;
+  /* margin: 20px; */
+  height: 95%;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
 }
 .team-img {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
-.team-img img{
-    height: 260px;
+.team-img img {
+  height: 260px;
 }
-.team-details{
-    background-color: #fff;
-    height: 80%;
-    padding: 30px 40px;
-    text-align: start;
-    font-family: 'Lato', sans-serif;
+.team-details {
+  background-color: #fff;
+  height: 80%;
+  padding: 30px 40px;
+  text-align: start;
+  font-family: "Lato", sans-serif;
 }
-.team-img h5{
-    font-size: 22px !important;
+.team-img h5 {
+  font-size: 22px !important;
 }
-.team-img h2{
-    font-size: 20px;
-    font-weight: 500;
-font-size: 23px;
-line-height: 29px;
+.team-img h2 {
+  font-size: 20px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 29px;
 }
 @media (max-width: 1450px) {
-    .team-details {
-        height: 78%;
-        padding: 8% 6%;
-        
-    }
-    .team-img img {
-        height: 225px;
-    }
-    .team-details p{
-        font-size: 16px;
-    }
-    .team-img h5{
-        font-size: 18px !important;
-    }
-    .team-img h2{
-        font-size: 20px;
-        font-weight: 500;
-font-size: 23px;
-line-height: 29px;
-    }
+  .team-details {
+    height: 78%;
+    padding: 8% 6%;
   }
-  @media (max-width: 950px){
-    .team-details{
-        height: 100%;
-    }
-    .hero-img img {
-        width: 100vw;
-        height: 67vh;
-    }
+  .team-img img {
+    height: 225px;
   }
-  @media (max-width: 600px){
-
-    .hero-img img {
-        width: 100vw;
-        height: 35vh;
-    }
+  .team-details p {
+    font-size: 16px;
   }
+  .team-img h5 {
+    font-size: 18px !important;
+  }
+  .team-img h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 950px) {
+  .team-details {
+    height: 100%;
+  }
+  .hero-img img {
+    width: 100vw;
+    height: 61vh;
+  }
+}
+@media (max-width: 600px) {
+  .hero-img img {
+    width: 100vw;
+    height: 35vh;
+  }
+}

@@ -97,7 +97,7 @@ export default function SingleProperty({ OngoingData }) {
               </div>
               <div className="detail-1">
                 <div className="d-flex">
-                  <h4 className="black-text" style={{ width: "330px" }}>{data.title}</h4>
+                  <h4 className="black-text" style={{ width: "350px" }}>{data.title}</h4>
                   <hr
                     style={{
                       width: "250px",

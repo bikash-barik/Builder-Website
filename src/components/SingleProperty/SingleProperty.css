@@ -1,22 +1,27 @@
 .landing-image{
-    height: 100vh;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.landing-image img{
-    height: 95%;
-    width: 100%;
-}
-.button-grp{
+
+.single-property-button-group{
     position: absolute;
-    bottom: 0vw;
-    right: 5vw;
+    top: 400px;
+    right: 30px;
+    display: flex;
+    margin-left: 10px;
  
 }
-.button-grp .btn{
-    border-radius: 0;
+.single-property-request-button{
+    padding: 4px 30px;
+background: #3171B1;
+font-weight: 400;
+font-size: 16px;
+line-height: 48px;
+color: #FFFFFF;
 }
-/* .single_background{
-    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif');
-} */
+
 .detail-1{
     background-color: azure;
     /* color: black !important; */

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 .construction-update {
-    height: 568px;
+    min-height: 568px;
+    height: auto;
     background: #F7F6FF;
     display: flex;
     flex-direction: column;
@@ -29,8 +30,18 @@
 
 }
 
-.construction-update-image-container {
+
+.construction-update-images-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 28px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.construction-update-image-background {
     width: 326px;
     height: 406px;
     background: #2C2828;
+    margin: 20px;
 }

@@ -36,13 +36,18 @@ export default function PastEvents() {
           }}
         />
       </div>
-      <div>
+      <div
+        style={{
+          margin: "0px",
+          padding: "0px",
+          overflowX: "hidden",
+        }}
+      >
         <img
           style={{
-            maxWidth: "100%",
-            width: "1264px",
-            height: "415px",
-            left: "-8px",
+            width: "100%",
+            height: "auto",
+
             top: "1521px",
           }}
           src={image1}
@@ -56,10 +61,8 @@ export default function PastEvents() {
           src={image2}
           alt=" "
           style={{
-            maxWidth: "100%",
-            width: "1264px",
-            height: "415px",
-            left: "-5px",
+            width: "100%",
+            height: "auto",
           }}
         ></img>
         <br />
@@ -70,10 +73,8 @@ export default function PastEvents() {
           src={image3}
           alt=" "
           style={{
-            maxWidth: "100%",
-            width: "1264px",
-            height: "415px",
-            left: "-2px",
+            width: "100%",
+            height: "auto",
           }}
         ></img>
         <br />
@@ -84,10 +85,8 @@ export default function PastEvents() {
           src={image4}
           alt=" "
           style={{
-            maxWidth: "100%",
-            width: "1264px",
-            height: "415px",
-            left: "6px",
+            width: "100%",
+            height: "auto",
           }}
         ></img>
         <br />
@@ -98,10 +97,9 @@ export default function PastEvents() {
           src={image5}
           alt=" "
           style={{
-            maxWidth: "100%",
-            width: "1264px",
-            height: "415px",
-            left: "11px",
+            width: "100%",
+            height: "auto",
+
             marginBottom: "190px",
           }}
         ></img>

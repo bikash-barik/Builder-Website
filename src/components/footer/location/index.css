@@ -79,13 +79,61 @@ margin-left: 16px;
     color: rgba(255, 255, 255, 0.8);
 }
 
-@media screen and (max-width : 410px) {
+@media screen and (max-width : 1280px) {
+    
+    
+    .address-text {
+        max-width: 280px;
+       
+        font-size: 13px;
+        line-height: 15px;
+     
+    }
+    
+    .map-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 150px;
+        width: 100%;
+        height: 20px;
+        font-size: 10px;
+        line-height: 10px;
+        color: #FFFFFF;
+       
+    }
+    
+    
+    .contact-mail-id{
+       
+    font-size: 13px;
+    line-height: 15px;
+  
+    }
+    
+    .contact-number{
+        max-width: 290px;
+     
+    }
     
     .phone{
         
         font-size: 13px;
         line-height: 15px;
+       
+    }
+    
+
+}
+@media screen and (max-width : 1000px) {
+    
+    .location {
+        
+        height: 250px;
+        
         
     }
+  
+    
 
 }

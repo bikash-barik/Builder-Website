@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.highlights{
+    padding: 50px 70px;
+}
+
+.highlights-heading{
+    display: flex;
+    align-items: center;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+margin-bottom: 70px;
+margin-left: 65px;
+color: #FFFFFF;
+}
+
+.highlights-line{
+   margin-left: 10px;
+    width: 260px;
+    border-top: 1px solid #FFFFFF;
+}
+
+
+
+.highlights-image{
+    width: 229px;
+    height: 101px;
+}

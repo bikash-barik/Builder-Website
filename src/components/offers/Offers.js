@@ -37,7 +37,11 @@ const Offers = () => {
         <br />
         <br />
         <Box sx={{ width: "100%" }}>
-          <LinearProgress variant="determinate" value={progress} />
+          <LinearProgress
+            className="offer-loader"
+            variant="determinate"
+            value={progress}
+          />
         </Box>
       </div>
     </>

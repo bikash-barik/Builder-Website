@@ -78,8 +78,10 @@ html {
   height: 0px;
   left: 219px;
   top: 144px;
-  background-color: black;
-  border: 2px solid #0a0a0a;
+  size: 20px;
+  color: black;
+  border: 2px solid #2c2828;
+  opacity: 4.8;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -90,6 +92,14 @@ html {
   .offer-heading {
     margin-left: 1rem;
     font-size: 2rem;
+    font-weight: 700px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .offer-line {
+    width: 75px;
+    margin-left: -93px;
+    margin-top: 6px;
   }
   .grid-two-column {
     gap: 0rem;
@@ -101,17 +111,28 @@ html {
   .coming-heading {
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
+    margin-left: 5px;
+    margin-top: 55px;
   }
   .soon-heading {
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
-    margin-left: 2.5rem;
+    margin-left: 37.5rem;
+    margin-top: -35px;
   }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
   .offers-background-img {
     height: 50vh;
+  }
+  .offer-heading {
+    font-size: 35px;
+  }
+
+  .offer-line {
+    width: 134px;
+    margin-left: -21px;
   }
   .grid-two-column {
     display: grid;
@@ -123,12 +144,19 @@ html {
   .coming-heading {
     font-size: 2.3rem;
     letter-spacing: 1rem;
-    font-weight: 500;
+    margin-left: 158px;
+    font-weight: 700;
+    margin-top: -5px;
   }
   .soon-heading {
     font-size: 2.3rem;
     letter-spacing: 1rem;
-    font-weight: 500;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-left: 51px;
+  }
+  .offer-loader {
+    margin-top: -41px;
   }
 }
 
@@ -144,13 +172,22 @@ html {
     margin-top: 7rem;
   }
   .coming-heading {
-    font-size: 2.5rem;
+    font-size: 33px;
     letter-spacing: 1rem;
-    font-weight: 500;
+    font-weight: 700;
+    margin-left: 104px;
+    margin-top: -2px;
   }
   .soon-heading {
-    font-size: 2.5rem;
+    font-size: 33px;
     letter-spacing: 1rem;
-    font-weight: 500;
+    font-weight: 700;
+    margin-top: -2px;
+  }
+  .offer-line {
+    width: 154px;
+  }
+  .offer-loader {
+    margin-top: -46px;
   }
 }

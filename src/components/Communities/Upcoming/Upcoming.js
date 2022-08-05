@@ -7,7 +7,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 export default function Upcoming() {
 
 
-  const [category, setCategory] = useState("commercial")
+  const [category, setCategory] = useState("RESIDENTIAL PROJECT")
 
   return (
     <div className="Communities">
@@ -26,13 +26,13 @@ export default function Upcoming() {
               <div style={{ float: "right" }}>
                 <DropdownButton id="dropdown-basic-button" title={category}>
                   {
-                    category === "commercial" ? <Dropdown.Item
+                    category === "COMMERCIAL PROJECT" ? <Dropdown.Item
                       onClick={() => {
-                        setCategory("residential")
-                      }}>residential</Dropdown.Item> : <Dropdown.Item
+                        setCategory("RESIDENTIAL PROJECT")
+                      }}>RESIDENTIAL PROJECT</Dropdown.Item> : <Dropdown.Item
                         onClick={() => {
-                          setCategory("commercial")
-                        }}>commercial</Dropdown.Item>
+                          setCategory("COMMERCIAL PROJECT")
+                        }}>COMMERCIAL PROJECT</Dropdown.Item>
 
                   }
                 </DropdownButton>

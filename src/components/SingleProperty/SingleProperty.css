@@ -84,6 +84,7 @@ h5 {
 
 .detail-2 p {
     font-size: 25px;
+    text-align: start;
 }
 
 .detail-3 {
@@ -95,6 +96,7 @@ h5 {
 
 .detail-3 p {
     font-size: 25px;
+    text-align: start;
 }
 
 .detail-img {

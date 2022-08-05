@@ -19,7 +19,7 @@
     opacity: 1;
     margin: 10px 90px;
 }
-.dropdown-toggle{
+.dropdown-toggle , .dropdown-menu{
     padding-top:12px;
     padding-bottom:12px;
     padding-right: 10px;
@@ -30,10 +30,18 @@
     border: none;
     border-radius: 0;
 }
+.dropdown-menu{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
 @media screen and (max-width: 655px){
     .dropdown-toggle{
         font-size: 10px;
         padding:5px !important;
+    }
+    .dropdown-menu{
+        font-size: 10px;
+        padding: 0px !important;
     }
     .line{
         width: 100px !important;

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Roboto&display=swap');
 html{
     font-size:62.5%;
 }
 .navbar-nav a{
+    font-size:10px;
     margin:0;
     padding:0;
-
+font-family:lato;
 }
 .navbar-bg {
     background-color: #ffffff;
@@ -16,8 +16,8 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px;
-    gap: 2rem;
+    margin: 0 9px;
+    gap: 1rem;
   }
 .n-link {
   
@@ -82,28 +82,29 @@ a {
 }
 
 .navbtn .textp{
-    font-size:1.4rem;
+    font-size:1.1rem;
     margin-left: 1.2rem;
     padding: 0;
-    color:rgba(57, 136, 170, 0.757);
-    font-family:sans-serif;
+    color:#09a3c8;
+    font-family:lato;
 }
 .navbtn .iconbi{
-    font-size:2.2rem;
-    color:rgba(57, 136, 170, 0.757);
+    font-size:1.8rem;
+    color:#09a3c8;
     
 }
 
 .getbtn button{
+    font-family:lato;
     margin-left:2rem;
     margin-right:1rem;
-    font-size:1.4rem;
-    width:110px;
-    height:40px;
+    font-size: 11px;
+    width: 101px;
+    height: 31px;
     background-color:rgb(45, 104, 136);
     border-radius:0;
-    font-family: 'Mulish', sans-serif;
-font-family: 'Roboto', sans-serif;
+    
+color:white;
 }
 .getbtn button:hover{
     
@@ -125,7 +126,7 @@ font-family: 'Roboto', sans-serif;
         gap: 2rem;
       }
     .navbar-nav a{
-        font-size:1rem;
+        font-size:0.8rem;
         margin:0;
         padding:0;
     }
@@ -133,17 +134,71 @@ font-family: 'Roboto', sans-serif;
         margin-right:1rem;
     }
     .navbtn.iconbi{
-      font-size:0.5rem;
+      font-size:0.3rem;
     }
 .navbar-nav .textp{
-    font-size:1rem;
+    font-size:0.8rem;
 }
 .getbtn{
     
     margin-right:2.2rem;
 }
 }
+@media all and (max-width:768px){
+    .navtext{
+        display:block;
+    }
+    .navbar-nav a{
+        margin-bottom:1rem;
+        font-size:12px;
+    }
+    .rightnav{
+        display:inline-block;
+    }
 
+    .navbtn{
+       /* display:flex; */
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-left:10px;
+    }
+    .navbtn .iconbi{
+        
+    }
+    .navbtn .textp{
+       font-size:12px;
+       margin-right:-60px;
+    }
+}
+
+@media all and (max-width:912px){
+    .navtext{
+        display:block;
+    }
+    .navbar-nav a{
+        font-size:14px;
+        margin-bottom:1rem;
+    }
+    .navbtn .textp{
+        font-size:12px;
+        margin-right:-60px;
+     }
+    .rightnav{
+        display:inline-block;
+    }
+
+    .navbtn{
+       /* display:flex; */
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-left:10px;
+    }
+    .navbtn .iconbi{
+       
+    }
+}
 /* @media all and (max-width:412px),(max-height:914px){
     .navbtn{
         

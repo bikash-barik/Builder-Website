@@ -102,7 +102,7 @@ export default function Drawer() {
               </Nav.Link>
               <Nav.Link className=" right-link getbtn" style={{}}>
                 <button
-                  className="btn btn-primary "
+                  className="btn "
                   onClick={() => {
                     modal === true ? setModal(false) : setModal(true);
                   }}

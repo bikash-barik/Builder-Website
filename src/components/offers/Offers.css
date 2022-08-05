@@ -191,3 +191,28 @@ html {
     margin-top: -46px;
   }
 }
+
+@media (min-width: 10px) and (max-width: 300px) {
+  .offer-line {
+    display: none;
+  }
+  .coming-heading {
+    font-size: 23px;
+    margin-left: 37px;
+    margin-top: 27px;
+  }
+  .soon-heading {
+    font-size: 23px;
+    margin-left: 56px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+  }
+  .offer-heading {
+    margin-left: 93px;
+    padding-top: 99px;
+    font-weight: 600;
+  }
+  .offer-loader {
+    margin-top: -76px;
+  }
+}

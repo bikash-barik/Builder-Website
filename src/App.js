@@ -75,7 +75,7 @@ function App() {
             </div>
           }
         />
-        <Route
+        <Routes
           exact
           path="/slider"
           element={

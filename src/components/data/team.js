@@ -1,7 +1,7 @@
 const TeamData =[
     {
         id:1,
-        name:"BANDAN MOHANTY",
+        name:"MR. BANDAN MOHANTY",
         designation:"MANAGING DIRECTOR",
         details:"Mr. Bandan Mohanty is the founder of the ARCHID GROUP of companies .He founded ARCHID BUILDERS, in 2009 with Construction of Real estate in Bhubaneswar City. His roots from a traditional Odia business family with vision to be at the cutting edge of innovation. Through this, he has succeeded in infusing a high level of professionalism very early in the organization, which was not seen in the realty sector. He has demonstrated the power of his vision and the strength of his values. ",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fbandan.jpg?alt=media&token=9a925479-1a97-4874-827b-a0f12a826dcb"
@@ -31,7 +31,7 @@ const TeamData =[
     {
         id:5,
         name:"Ms. ANKITA MOHANTY",
-        designation:"Marketing Head",
+        designation:"MARKETING HEAD",
         details:"Miss Ankita Mohanty is the Marketing Head of Archid Builders & has earned her Bachelors in Civil Engineering & Masters in Journalism & Mass Communication.She is spearheading new initiatives in Archid Builders, she has enhanced the framework for strategic planning and project development. In addition, she plays a crucial role in the corporate branding & project marketing of the Group.",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fankita.jpg?alt=media&token=90c54df6-c5db-4191-9f7e-1d76e306fade"
     },
@@ -39,7 +39,7 @@ const TeamData =[
     {
         id:6,
         name:"Mrs. PRAGYAN PARIMITA",
-        designation:"HR Head",
+        designation:"HR HEAD",
         details:"Mrs Pragyan Parimita is the HR Head of the Company and is currently Working on the development and implementation of HR initiatives and systems Providing counseling on policies and procedures, recruiting potential candidates for our efficient Team.",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fpragyan.jpg?alt=media&token=c2ca31ef-9381-4886-b4fa-89319b9188cc"
     },
@@ -47,7 +47,7 @@ const TeamData =[
     {
         id:7,
         name:"Ms. PRATYUSHA NANDA",
-        designation:"HR Head",
+        designation:"HR HEAD",
         details:"Miss Pratyusha Nanda is operating as the Customer Relationship Manager in thr company. She plays the important role in keeping a good relationship with our customers, Managing leads ,bank Approvals & other activities.",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fpratyusha.jpg?alt=media&token=270b7a25-95ca-4ec4-b705-f23784f98ddb"
     },

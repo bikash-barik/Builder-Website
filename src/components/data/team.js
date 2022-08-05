@@ -1,7 +1,7 @@
 const TeamData =[
     {
         id:1,
-        name:"BANDAN MOHANTY",
+        name:"MR. BANDAN MOHANTY",
         designation:"MANAGING DIRECTOR",
         details:"Mr. Bandan Mohanty is the founder of the ARCHID GROUP of companies .He founded ARCHID BUILDERS, in 2009 with Construction of Real estate in Bhubaneswar City. His roots from a traditional Odia business family with vision to be at the cutting edge of innovation. Through this, he has succeeded in infusing a high level of professionalism very early in the organization, which was not seen in the realty sector. He has demonstrated the power of his vision and the strength of his values. ",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fbandan.jpg?alt=media&token=9a925479-1a97-4874-827b-a0f12a826dcb"

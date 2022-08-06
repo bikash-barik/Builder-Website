@@ -159,9 +159,13 @@ width: 4vw;
     .anim h6{
         font-size: 2.8vw !important ;
     }
+    .highlights{
+        padding: 0 !important;
+        padding-top: 20px !important;
+    }
   .highlights h6{
-    font-size: 2.8vw;
-    max-width: 52vw;
+    font-size: 2.3vw;
+    max-width: 48vw;
   }
   .testimonial h6{
     font-size: 2.8vw;

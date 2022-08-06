@@ -25,8 +25,9 @@ export default function Drawer() {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
-      width: "400px",
-      height: "500px",
+      width: "300px",
+      borderRadius:"0px",
+      height: "400px",
       zIndex: "200",
     },
   };
@@ -39,7 +40,7 @@ export default function Drawer() {
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
       width: "628px",
-      height: "354px",
+      height: "364px",
       zIndex: "200",
       borderRadius: "20px",
     },
@@ -147,98 +148,100 @@ export default function Drawer() {
       {/* modal */}
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
         <form className="">
-          <div className="d-flex">
+          <div className="d-flex modal_head" >
             <h3 className="black-text"> GET IN TOUCH</h3>
             <i
               class="fa-solid fa-xmark"
-              style={{ marginLeft: "120px", fontSize: "30px" }}
+              style={{ fontSize: "20px" }}
               onClick={() => setModal(false)}
             ></i>
           </div>
-          <label for="basic-url">Mobile Number</label>
+          <label for="basic-url" style={{fontSize:"12px",marginBottom:"10px"}}>MOBILE NUMBER <span style={{color:"red"}}>*</span></label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
+              style={{borderColor:"black" }}
               aria-describedby="basic-addon3"
               required
             />
           </div>
 
-          <label for="basic-url">Email Address</label>
+          <label for="basic-url" style={{fontSize:"12px",marginBottom:"10px"}}>EMAIL ADDRESS <span style={{color:"red"}}>*</span></label>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              style={{borderColor:"black" }}
+              aria-describedby="basic-addon3"
+              required
+            />
+          </div>
+          <label for="basic-url" style={{fontSize:"12px",marginBottom:"10px"}}>REQUIREMENT <span style={{color:"red"}}>*</span></label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-              required
-            />
-          </div>
-          <label for="basic-url">Your Requirement</label>
-          <div class="input-group mb-3">
-            <textarea
-              type="text"
-              class="form-control"
-              id="basic-url"
-              aria-describedby="basic-addon3"
-              style={{ height: "160px" }}
+              style={{ height: "80px",borderColor:"black" }}
               required
             />
           </div>
           <button
-            className="btn btn-primary text-center"
-            style={{ marginLeft: "0%" }}
+            className="btn btn-primary text-center align-items-center justify-content-center"
+            style={{ marginLeft: "30%",borderRadius:"0px",fontSize:"12px",marginTop:"10px",paddingLeft:"30px",paddingRight:"30px" }}
           >
-            Submit
+            SUBMIT
           </button>
         </form>
       </Modal>
+      
       <Modal1
         isOpen={modal1}
         style={customStyles1}
+        id="modal1"
         contentLabel="Example Modal"
       >
         <form className="">
-          <div className="d-flex">
-            <h3 className="black-text" style={{ marginBottom: "10px" }}>
-              {" "}
-              Schedule meeting with the Sales Team
-            </h3>
+            <div className="d-flex modal_head" >
+            <h3 className="black-text" style={{marginBottom:"15px"}}>SCHEDULE MEETING WITH THE SALES TEAM</h3>
             <i
               class="fa-solid fa-xmark"
-              style={{ marginLeft: "338px", fontSize: "30px" }}
+              style={{ fontSize: "20px" }}
               onClick={() => setModal1(false)}
             ></i>
           </div>
-          <label for="basic-url">Full Name</label>
+          <label for="basic-url" style={{fontSize:"15px",marginBottom:"5px"}}>Full Name</label>
           <br />
-          <div style={{ width: "300px" }} class="input-group mb-3">
+          <div style={{ width: "300px" }} class="input-group mb-3 input_responsive">
             <input
               type="text"
-              class="form-control"
+              class="form-control "
               id="basic-url"
+              style={{borderColor:"gray" ,borderRadius:"0px",height:"29px"}}
+              aria-describedby="basic-addon3"
+              required
+            />
+          </div>
+          <br/>
+          <label for="basic-url" style={{fontSize:"15px",marginBottom:"5px"}}>Email Address</label>
+
+          <div style={{ width: "300px" }} class="input-group mb-3" id="input_responsive">
+            <input
+              type="text"
+              class="form-control "
+              id="basic-url"
+              style={{borderColor:"gray",borderRadius:"0px",height:"29px" }}
               aria-describedby="basic-addon3"
               required
             />
           </div>
           <br />
 
-          <label for="basic-url">Email Address</label>
-
-          <div style={{ width: "300px" }} class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              id="basic-url"
-              aria-describedby="basic-addon3"
-              required
-            />
-          </div>
-          <br />
-
-          <label for="basic-url">Select Date and Time</label>
+          <label for="basic-url" style={{fontSize:"15px",marginBottom:"5px"}}>Select Date and Time</label>
           <div>
             <DateTimePicker onChange={onChange} value={value} />
           </div>
@@ -246,12 +249,12 @@ export default function Drawer() {
 
           <button
             className="btn btn-primary text-center"
-            style={{ marginLeft: "0%" }}
+            style={{ fontSize:"15px",paddingLeft:"20px",marginLeft: "36%",paddingRight:"20px",borderRadius:"0px"}}
           >
             Submit
           </button>
         </form>
-        <img
+        <img className="img_hide"
           style={{
             marginTop: "-277px",
             marginLeft: "356px",

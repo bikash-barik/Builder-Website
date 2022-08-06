@@ -27,8 +27,12 @@ export default function SingleProperty({ OngoingData }) {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
-      width: "400px",
-      height: "500px",
+      width: "370px",
+      paddingTop:"10px",
+      paddingLeft:"25px",
+      paddingRight:"25px",
+      borderRadius:"0px",
+      height: "530px",
       zIndex: "200",
     },
   };
@@ -88,53 +92,55 @@ export default function SingleProperty({ OngoingData }) {
         
       )})}
 
-      <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
+<Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
         <form className="">
-          <div className="d-flex">
-            <h3 className="black-text"> GET IN TOUCH</h3>
+          <div className="d-flex modal_head" >
+            <h3 className="black-text" style={{fontSize:"25px",marginBottom:"30px",marginTop:"20px",fontWeight:"400"}}> REGISTER YOUR INTEREST</h3>
             <i
               class="fa-solid fa-xmark"
-              style={{ marginLeft: "120px", fontSize: "30px" }}
+              style={{ fontSize: "20px" }}
               onClick={() => setModal(false)}
             ></i>
           </div>
-          <label for="basic-url">Mobile Number</label>
+          <label for="basic-url" style={{fontSize:"17px",marginBottom:"10px"}}>FULL NAME *</label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
+              style={{height:"45px",marginBottom:"20px",backgroundColor:"lightgrey"}}
               required
             />
           </div>
 
-          <label for="basic-url">Email Address</label>
+          <label for="basic-url" style={{fontSize:"17px",marginBottom:"10px"}}>EMAIL ADDRESS *</label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
+              style={{height:"45px",marginBottom:"20px",backgroundColor:"lightgrey"}}
               required
             />
           </div>
-          <label for="basic-url">Your Requirement</label>
+          <label for="basic-url" style={{fontSize:"17px",marginBottom:"10px"}}>PHONE NUMBER *</label>
           <div class="input-group mb-3">
-            <textarea
+          <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-              style={{ height: "160px" }}
+              style={{height:"45px",marginBottom:"20px",backgroundColor:"lightgrey"}}
               required
             />
           </div>
           <button
-            className="btn btn-primary text-center"
-            style={{ marginLeft: "0%" }}
+            className="btn btn-primary text-center align-items-center justify-content-center"
+            style={{ marginLeft: "19%",borderRadius:"0px",fontSize:"18px",marginTop:"5px",paddingLeft:"70px",paddingRight:"70px",paddingTop:"10px",paddingBottom:"10px" }}
           >
-            Submit
+            SUBMIT
           </button>
         </form>
       </Modal>

@@ -47,8 +47,8 @@ const TeamData =[
     {
         id:7,
         name:"Ms. PRATYUSHA NANDA",
-        designation:"HR HEAD",
-        details:"Miss Pratyusha Nanda is operating as the Customer Relationship Manager in thr company. She plays the important role in keeping a good relationship with our customers, Managing leads ,bank Approvals & other activities.",
+        designation:"CUSTOMER RELATIONSHIP MANAGER",
+        details:"Miss Pratyusha Nanda is operating as the Customer Relationship Manager in the company. She plays the important role in keeping a good relationship with our customers, Managing leads ,bank Approvals & other activities.",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fpratyusha.jpg?alt=media&token=270b7a25-95ca-4ec4-b705-f23784f98ddb"
     },
 ];

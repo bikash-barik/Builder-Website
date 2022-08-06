@@ -23,7 +23,21 @@ html {
 .n-link {
   font-size: 14px;
 }
-
+.modal_head{
+  justify-content: space-between;
+}
+.modal_head h3{
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.react-datetime-picker__inputGroup{
+  font-size: 15px;
+}
+.input-group input{
+  height: 35px;
+  font-size: 15px;
+}
 .active {
   border-bottom: 0.1rem solid #09a3c8;
 
@@ -219,3 +233,20 @@ a {
   width: 300px;
 }
 
+@media all and (max-width: 668px){
+  #modal1{
+    width: 350px !important;
+  }
+  .form_flex{
+    display: flex;
+  }
+  .modal_head h3{
+    font-size: 13px;
+  }
+  .fa-xmark{
+    font-size: 13px !important;
+  }
+  .img_hide{
+    display: none;
+  }
+}

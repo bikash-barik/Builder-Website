@@ -69,6 +69,7 @@ export default function Main() {
             autoplayTimeout={5000}
             animateIn='fadeIn'
             autoplayHoverPause={false}
+            
           >
             {(CarouselData).map((data) => {
               return <>

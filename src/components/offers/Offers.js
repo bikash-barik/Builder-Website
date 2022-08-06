@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Footer from "./footer1/Footer1";
+
 // import offerImg from "./offer_picture.jpg";
 // import offerImg from "../offer_picture.jpg";
 import Box from "@mui/material/Box";

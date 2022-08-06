@@ -5,16 +5,14 @@ import gallery from "../../images/ongoing/gallery.png";
 import share from "../../images/ongoing/share2.png";
 import { Link } from "react-router-dom";
 import Modal from "react-modal";
-import FloorPlan from "./subcomponent/onGoingSiteFloorPlans/FloorPlan";
+import FloorPlan from "./subcomponent/FloorPlan";
 import HighLights from "./subcomponent/Highlights";
 import Description from "./subcomponent/Description";
 import Details from "./subcomponent/Details";
-import Ameneties from "./subcomponent/ConstructionUpdates/Ameneties";
-import {
-  ranasinghpur,
-  patrapada,
-  oldTown,
-} from "./subcomponent/onGoingSiteFloorPlans/imageConfig";
+import Ameneties from "./subcomponent/Ameneties";
+import Finance from "./subcomponent/Finance";
+import Surrounding from "./subcomponent/Surrounding";
+
 
 
 export default function SingleProperty({ OngoingData }) {
@@ -72,9 +70,12 @@ export default function SingleProperty({ OngoingData }) {
               </div>
             </div>
             <HighLights highlightImages={data.highlights} />
-            <Description title={data.title} description={data.description} />
+            <Description title={data.title} description={data.introduction} />
             <Details detail={data.details} />
             <Ameneties ameneties={data.ameneties} />
+            <FloorPlan floorPlanData={data.floorPlans}/>
+            <Finance financeData={data.finance}/>
+            <Surrounding surroundingData={data.surrounding}/>
           </div>
         
       )})}

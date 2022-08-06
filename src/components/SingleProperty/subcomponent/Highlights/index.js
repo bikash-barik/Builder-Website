@@ -1,7 +1,7 @@
 import "./index.css";
-import { images } from "./config";
+
 import { Grid } from "@mui/material";
-const HighLights = () => {
+const HighLights = ({highlightImages}) => {
   return (
     <div className="highlights">
       <div className="highlights-heading">
@@ -9,13 +9,12 @@ const HighLights = () => {
         <div className="highlights-line" />
       </div>
 
-      <Grid container spacing={10} justifyContent="center"
-      alignItems="center">
-        {images.map((img, i) => {
+      <Grid container spacing={8} className="highlights-image-container" >
+        {highlightImages?.map((img, i) => {
           return (
-            <Grid item xs={6} md={2.2}>
+            <Grid item xs={6} sm={4} md={2.3}>
               <img
-                src={img}
+                src={img.image}
                 className="highlights-image"
                 data-aos={i <= 4 ? "fade-right" : "fade-left"}
                 data-aos-easing="linear"

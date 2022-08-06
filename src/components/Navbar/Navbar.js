@@ -9,9 +9,14 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import Modal from "react-modal";
+import Modal1 from "react-modal";
+import DateTimePicker from "react-datetime-picker";
+import Image1 from "./logo-navbar.png";
 
 export default function Drawer() {
   const [modal, setModal] = useState(false);
+  const [modal1, setModal1] = useState(false);
+  const [value, onChange] = useState(new Date());
   const customStyles = {
     content: {
       top: "50%",
@@ -23,6 +28,20 @@ export default function Drawer() {
       width: "400px",
       height: "500px",
       zIndex: "200",
+    },
+  };
+  const customStyles1 = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: "628px",
+      height: "354px",
+      zIndex: "200",
+      borderRadius: "20px",
     },
   };
 
@@ -93,7 +112,17 @@ export default function Drawer() {
               <Nav.Link className=" right-link navbtn">
                 {/* <i class="fa fa-video mx-2  my-1"></i> */}
                 <i class="bi bi-camera-video iconbi"></i>
-                <p className="textp">Instant Video Call</p>
+                {/* <button
+                  className="btn btn-primary "
+                  onClick={() => {
+                    modal1 === true ? setModal1(false) : setModal1(true);
+                  }}
+                >
+                  INSTANT VIDEO CALL
+                </button> */}
+                <p className="textp"   onClick={() => {
+                    modal1 === true ? setModal1(false) : setModal1(true);
+                  }}>Instant Video Call</p>
               </Nav.Link>
               <Nav.Link className=" right-link navbtn">
                 {/* <i class="fa-brands fa-whatsapp mx-2  my-1"></i> */}
@@ -102,7 +131,7 @@ export default function Drawer() {
               </Nav.Link>
               <Nav.Link className=" right-link getbtn" style={{}}>
                 <button
-                  className="btn btn-primary "
+                  className="btn "
                   onClick={() => {
                     modal === true ? setModal(false) : setModal(true);
                   }}
@@ -166,6 +195,73 @@ export default function Drawer() {
           </button>
         </form>
       </Modal>
+      <Modal1
+        isOpen={modal1}
+        style={customStyles1}
+        contentLabel="Example Modal"
+      >
+        <form className="">
+          <div className="d-flex">
+            <h3 className="black-text" style={{ marginBottom: "10px" }}>
+              {" "}
+              Schedule meeting with the Sales Team
+            </h3>
+            <i
+              class="fa-solid fa-xmark"
+              style={{ marginLeft: "338px", fontSize: "30px" }}
+              onClick={() => setModal1(false)}
+            ></i>
+          </div>
+          <label for="basic-url">Full Name</label>
+          <br />
+          <div style={{ width: "300px" }} class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+              required
+            />
+          </div>
+          <br />
+
+          <label for="basic-url">Email Address</label>
+
+          <div style={{ width: "300px" }} class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+              required
+            />
+          </div>
+          <br />
+
+          <label for="basic-url">Select Date and Time</label>
+          <div>
+            <DateTimePicker onChange={onChange} value={value} />
+          </div>
+          <br />
+
+          <button
+            className="btn btn-primary text-center"
+            style={{ marginLeft: "0%" }}
+          >
+            Submit
+          </button>
+        </form>
+        <img
+          style={{
+            marginTop: "-277px",
+            marginLeft: "356px",
+            height: "169px",
+            width: "185px",
+          }}
+          src={Image1}
+          alt=""
+        ></img>
+      </Modal1>
     </div>
   );
 }

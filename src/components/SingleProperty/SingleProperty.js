@@ -1,19 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import "./SingleProperty.css";
 import gallery from "../../images/ongoing/gallery.png";
 import share from "../../images/ongoing/share2.png";
 import { Link } from "react-router-dom";
-import facilities from "../../images/ongoing/archid.png";
 import Modal from "react-modal";
-import { Button } from "react-bootstrap";
-import FloorPlan from "./subcomponent/onGoingSiteFloorPlans/FloorPlan";
+import FloorPlan from "./subcomponent/FloorPlan";
 import HighLights from "./subcomponent/Highlights";
-import {
-  ranasinghpur,
-  patrapada,
-  oldTown,
-} from "./subcomponent/onGoingSiteFloorPlans/imageConfig";
+import Description from "./subcomponent/Description";
+import Details from "./subcomponent/Details";
+import Ameneties from "./subcomponent/Ameneties";
+import Finance from "./subcomponent/Finance";
+import Surrounding from "./subcomponent/Surrounding";
+import { List } from "@material-ui/core";
+
 
 
 export default function SingleProperty({ OngoingData }) {
@@ -32,17 +32,24 @@ export default function SingleProperty({ OngoingData }) {
       zIndex: "200",
     },
   };
-  console.log(id);
+  
   const [paramId, setparamid] = useState(id);
 
   return (
     <div className="single_background">
-      {OngoingData.filter((list) => list.id === paramId).map((data, i) => (
-        
-          <div>
+      {OngoingData?.map((data, i) => {
+        console.log("data:",data.id)
+        console.log("param:",paramId)
+        console.log(data)
+        if(data.id!==paramId)
+        {
+          return null
+        }
+        return(
+        <div key={i} >
             <div
               className="landing-image"
-              style={{ backgroundImage: `url(${data?.bg})` }}
+              style={{ backgroundImage: `url(${data.bg})` }}
             >
               <div className="single-property-button-group">
                 <div
@@ -51,7 +58,7 @@ export default function SingleProperty({ OngoingData }) {
                     setModal(true);
                   }}
                 >
-                  REGISTER YOUR INTEREST{" "}
+                  REGISTER YOUR INTEREST
                 </div>
                 <Link to={`/slider`}>
                   <div className="single-property-button">
@@ -70,11 +77,16 @@ export default function SingleProperty({ OngoingData }) {
                 </div>
               </div>
             </div>
-            <HighLights/>
-  
+            <HighLights highlightImages={data.highlights} />
+            <Description title={data.title} description={data.introduction} />
+            <Details detail={data.details} />
+            <Ameneties ameneties={data.ameneties} />
+            <FloorPlan floorPlanData={data.floorPlans}/>
+            <Finance financeData={data.finance}/>
+            <Surrounding surroundingData={data.surrounding}/>
           </div>
         
-      ))}
+      )})}
 
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
         <form className="">

@@ -2,7 +2,7 @@ html{
     font-size:62.5%;
 }
 .navbar-nav a{
-    font-size:10px;
+    font-size:12px;
     margin:0;
     padding:0;
 font-family:lato;
@@ -82,7 +82,7 @@ a {
 }
 
 .navbtn .textp{
-    font-size:1.1rem;
+    font-size:1.2rem;
     margin-left: 1.2rem;
     padding: 0;
     color:#09a3c8;
@@ -116,33 +116,37 @@ color:white;
 @media all and (max-width:1024px){
  .logoimg img{
    /* height:4rem;d */
-   width:6rem;
+   /* width:6rem; */
  }
     .navtext{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 20px;
-        gap: 2rem;
+        /* margin: 0 20px; */
+        /* gap: 2rem; */
       }
     .navbar-nav a{
-        font-size:0.8rem;
+        font-size:1.1rem;
         margin:0;
         padding:0;
     }
     .navbtn{
-        margin-right:1rem;
+        /* margin-right:1rem; */
     }
     .navbtn.iconbi{
       font-size:0.3rem;
     }
 .navbar-nav .textp{
-    font-size:0.8rem;
+    font-size:11px;
 }
-.getbtn{
-    
-    margin-right:2.2rem;
+
+.getbtn .btn{
+    margin: 0;
+    height: 23px;
+    font-size: 10px;
+    width: 93px;
 }
+
 }
 @media all and (max-width:768px){
     .navtext{
@@ -161,10 +165,12 @@ color:white;
       display:flex;
       justify-content:center;
       align-items:center;
-      margin-left:10px;
+      margin-left:5px;
     }
-    .navbtn .iconbi{
-        
+    .getbtn .btn{
+        margin-left: 15px;
+        font-size: 11px;
+        padding: 2px
     }
     .navbtn .textp{
        font-size:12px;
@@ -197,6 +203,11 @@ color:white;
     }
     .navbtn .iconbi{
        
+    }
+    .getbtn .btn{
+        margin-left: 15px;
+        font-size: 11px;
+        padding: 2px
     }
 }
 /* @media all and (max-width:412px),(max-height:914px){

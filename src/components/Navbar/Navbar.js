@@ -36,7 +36,7 @@ export default function Drawer() {
           <NavLink
             className="logoimg"
             to="/"
-            style={{ paddingLeft: 27, paddingbottom: 0, borderWidth: 0 }}
+            style={{ paddingLeft: 17, paddingbottom: 0, borderWidth: 0 }}
           >
             <img src={Logo} style={{ height: 100 }} />
           </NavLink>

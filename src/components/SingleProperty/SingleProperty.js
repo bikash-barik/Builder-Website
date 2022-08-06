@@ -11,12 +11,28 @@ import Description from "./subcomponent/Description";
 import Details from "./subcomponent/Details";
 import Ameneties from "./subcomponent/Ameneties";
 import Finance from "./subcomponent/Finance";
-import Surrounding from "./subcomponent/Surrounding";
-import { List } from "@material-ui/core";
+import AboutLocation from "./subcomponent/AboutLocation"
+import ConstructionUpdates from "./subcomponent/ConstructionUpdates"
+import Dropdown from 'react-bootstrap/Dropdown';
+import facebook from "./images/facebook.png"
+import instagram from "./images/instagram.jpg"
+import whatsapp from "./images/whatsapp.jpg"
+import gmail from "./images/gmail.png"
+
+
+
 
 
 
 export default function SingleProperty({ OngoingData }) {
+  const [anchorEl, setAnchorEl] = useState(null)
+  const open = Boolean(anchorEl);
+  const handleClick = (e) => {
+    setAnchorEl(e.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   const { id } = useParams();
   const [modal, setModal] = useState(false);
   const customStyles = {
@@ -38,18 +54,18 @@ export default function SingleProperty({ OngoingData }) {
   return (
     <div className="single_background">
       {OngoingData?.map((data, i) => {
-        console.log("data:",data.id)
-        console.log("param:",paramId)
-        console.log(data)
+      
+      
         if(data.id!==paramId)
         {
           return null
         }
+        console.log(data.bg)
         return(
         <div key={i} >
             <div
               className="landing-image"
-              style={{ backgroundImage: `url(${data.bg})` }}
+              style={{ backgroundImage: `url(${data.bg})`, }}
             >
               <div className="single-property-button-group">
                 <div
@@ -66,24 +82,42 @@ export default function SingleProperty({ OngoingData }) {
                     <img src={gallery} alt="Loading..."/>
                   </div>
                 </Link>
-                <div className="single-property-button">
-                <div>
-                SHARE
-                </div>  
-                  <img
-                    src={share}
-                    alt="Loading..."
-                  />
-                </div>
+                <Dropdown>
+      <Dropdown.Toggle as="div" className=" drop-down-button single-property-button " align="end">
+      <div>
+      SHARE
+      </div>  
+        <img
+          src={share}
+          alt="Loading..."
+        />
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu className="single-property-dropdown-menu" >
+      <img className="single-property-dropdown-menu-image" src={facebook} alt="Loading..." />
+      <img className="single-property-dropdown-menu-image" src={instagram} alt="Loading..." />
+      <img className="single-property-dropdown-menu-image" src={whatsapp} alt="Loading..." />
+      <img className="single-property-dropdown-menu-image" src={gmail} alt="Loading..." />
+      </Dropdown.Menu>
+    </Dropdown>
+              
               </div>
             </div>
+            
+
+
             <HighLights highlightImages={data.highlights} />
             <Description title={data.title} description={data.introduction} />
             <Details detail={data.details} />
             <Ameneties ameneties={data.ameneties} />
             <FloorPlan floorPlanData={data.floorPlans}/>
             <Finance financeData={data.finance}/>
-            <Surrounding surroundingData={data.surrounding}/>
+            <AboutLocation headingName="major in and around" surroundingData={data.surrounding}/>
+            <AboutLocation headingName="location map" surroundingData={data.location[1].image}/>
+            {data?.construction?.length !== 0 &&<ConstructionUpdates constructionData={data?.construction}/>}
+            
+
+
           </div>
         
       )})}

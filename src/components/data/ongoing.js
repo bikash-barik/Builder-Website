@@ -206,6 +206,18 @@ const OngoingData = [
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMap%20Section%20Photos%2FLOACTION%20MAP%20SECTION.jpg?alt=media&token=2fa02ba9-f3fa-47a0-a0c9-cd836426468a",
       },
     ],
+    construction:[
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-09-10-07-25%201.jpg?alt=media&token=052ed6e8-8682-42a4-9033-6ed2f252f2df",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-27-19%201.jpg?alt=media&token=b19f6464-521a-485d-9a57-ece680eb8dea",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-27-39%201.jpg?alt=media&token=12cf5225-e987-4a6d-bb93-fd2aad4e6d69",
+      },
+  
+    ]
   },
 
   {
@@ -328,13 +340,14 @@ const OngoingData = [
     location: [
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP%202.jpg?alt=media&token=74813f1e-bf7a-4a77-b7de-fb0aa540aae6",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP.jpg?alt=media&token=303e9361-8689-4619-a771-d387ac3ad590",
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP.jpg?alt=media&token=221ac6ad-f817-4395-96c7-30a1d0632d98",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP2.jpg?alt=media&token=5d89ed53-d1ae-4950-99e3-9772c0ac5664",
       },
     ],
+    construction:[],
   },
 
   {
@@ -469,14 +482,27 @@ const OngoingData = [
     ],
     surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMajor%20In%20and%20around%2Fsurrounding2.jpg?alt=media&token=e9703981-40cd-4020-ab1f-5350213699d6",
 
+    
+    construction:[
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-16-59%203%201.jpg?alt=media&token=0c0689c1-989d-40c5-a8c7-1c306c8180af",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-09-11-45-00%201.jpg?alt=media&token=568f955a-a38f-4622-aaed-8320378bf682",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-16-59%202%201.jpg?alt=media&token=ce867e00-821f-4058-a777-2baed30d35ea",
+      },
+    ],
+    
     location: [
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP.jpg?alt=media&token=303e9361-8689-4619-a771-d387ac3ad590",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP.jpg?alt=media&token=221ac6ad-f817-4395-96c7-30a1d0632d98",
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP2.jpg?alt=media&token=5d89ed53-d1ae-4950-99e3-9772c0ac5664",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP%202.jpg?alt=media&token=74813f1e-bf7a-4a77-b7de-fb0aa540aae6",
       },
     ],
   },

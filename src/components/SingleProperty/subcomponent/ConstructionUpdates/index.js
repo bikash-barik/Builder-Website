@@ -1,6 +1,6 @@
 import "./index.css"
 
-const ConstructionUpdates = () => {
+const ConstructionUpdates = ({constructionData}) => {
     return ( 
         <div className="construction-update">
         <div >
@@ -8,9 +8,18 @@ const ConstructionUpdates = () => {
         <div className="construction-update-line"></div>
       </div>
       <div className="construction-update-images-container">
-      <div className="construction-update-image-background">d</div>
-      <div className="construction-update-image-background">d</div>
-      <div className="construction-update-image-background">d</div>
+      {
+        constructionData?.map((el,idx)=>{
+          console.log("construction-update-image-background"+idx)
+          return(
+
+            <div className={"construction-update-image-background construction-update-image-background-"+(idx+1)} key={idx}>
+            <img className="construction-update-image" src={el.image} alt="Loading..." />
+            </div>
+            )
+
+        })
+      }
       </div>
     </div> 
     );

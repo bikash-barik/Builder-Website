@@ -12,6 +12,7 @@ import Details from "./subcomponent/Details";
 import Ameneties from "./subcomponent/Ameneties";
 import Finance from "./subcomponent/Finance";
 import Surrounding from "./subcomponent/Surrounding";
+import { List } from "@material-ui/core";
 
 
 
@@ -36,7 +37,14 @@ export default function SingleProperty({ OngoingData }) {
 
   return (
     <div className="single_background">
-      {OngoingData.filter((list) => list.id === paramId).map((data, i) => {
+      {OngoingData?.map((data, i) => {
+        console.log("data:",data.id)
+        console.log("param:",paramId)
+        console.log(data)
+        if(data.id!==paramId)
+        {
+          return null
+        }
         return(
         <div key={i} >
             <div

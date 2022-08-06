@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html{
     font-size:62.5%;
 }
@@ -115,10 +115,7 @@ color:white;
 
 
 @media all and (max-width:1024px){
- .logoimg img{
-   /* height:4rem;d */
-   /* width:6rem; */
- }
+ 
     .navtext{
         display: flex;
         justify-content: space-between;
@@ -273,7 +270,7 @@ color:white;
         font-size: 18px;
     }
 } */
-=======
+
 html {
   font-size: 62.5%;
 }
@@ -530,4 +527,4 @@ a {
 .react-datetime-picker {
   width: 300px;
 }
->>>>>>> e0a605cfad9e7ad68f6706d0fd6a048b99c9edec
+

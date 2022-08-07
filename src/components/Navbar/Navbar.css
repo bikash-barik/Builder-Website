@@ -218,4 +218,18 @@ a {
 .react-datetime-picker {
   width: 300px;
 }
+@media all and(min-width:1280px){
+    .navbar-nav a {
+        font-size: 16px;
+        margin-bottom: 1rem;
+      }
+      .navbtn.iconbi {
+        font-size: 5px;
+      }
+      .navbar-nav .textp {
+        font-size: 16px;
+      }
+      
+
+}
 

@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const LatestLaunches = () => {
   const navigate = useNavigate()
   return (
-    <div className="latest-launches-container" style={{height:600}}>
+    <div className="latest-launches-container" >
       <div style={{paddingLeft:20}}>
         <div>
           <div className="latest-launches-heading">LATEST LAUNCHES</div>

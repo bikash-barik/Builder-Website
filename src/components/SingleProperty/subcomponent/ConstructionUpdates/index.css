@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 .construction-update {
-    min-height: 568px;
+    min-height: 500px;
     height: auto;
     background: #F7F6FF;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 25px 40px;
+    margin-bottom: 200px;
 }
 
 
@@ -37,11 +38,92 @@
     justify-content: space-between;
     margin-top: 28px;
     width: 100%;
-    flex-wrap: wrap;
+  
 }
 .construction-update-image-background {
-    width: 326px;
-    height: 406px;
+    width: 260px;
+    height: 320px;
     background: #2C2828;
     margin: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.construction-update-image-background-1{
+    justify-content: flex-start;
+    padding-left: 25px;
+
+}
+.construction-update-image-background-2{
+    justify-content: center;
+   
+
+}
+.construction-update-image-background-3{
+    justify-content: flex-end;
+    padding-right: 25px;
+
+}
+
+.construction-update-image{
+    max-width: 350px;
+    
+}
+
+@media screen and (max-width:1280px) {
+   
+    .construction-update-image{
+        max-width: 250px;
+    }
+
+    .construction-update-image-background {
+        width: 200px;
+        height: 240px;   
+    }
+}
+
+@media screen and (max-width:950px) {
+    .construction-update {
+        padding: 25px 73px;
+        margin-bottom: 100px;
+    }
+    .construction-update-images-container {
+        flex-wrap: wrap;
+        
+      
+    }
+   
+    .construction-update-image{
+        width: 100%;
+    }
+
+    .construction-update-image-background {
+        width: auto;
+        height: auto;  
+        padding-right: 0; 
+        padding-left: 0;
+        border: 4px solid black;
+    }
+}
+@media screen and (max-width:600px) {
+    .construction-update {
+        padding: 30px;
+        margin-bottom: 0px;
+    }
+   
+    .construction-update-heading {
+      
+        font-size: 13px;
+        line-height: 30px;
+      
+    }
+    
+    .construction-update-line {
+        width: 90px;
+      
+        margin-bottom: 4px;
+        
+    
+    }
 }

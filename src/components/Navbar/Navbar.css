@@ -3,7 +3,7 @@ html {
   font-size: 62.5%;
 }
 .navbar-nav a {
-  font-size: 10px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   font-family: lato;
@@ -93,14 +93,14 @@ a {
 }
 
 .navbtn .textp {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-left: 1.2rem;
   padding: 0;
   color: #09a3c8;
   font-family: lato;
 }
 .navbtn .iconbi {
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   color: #09a3c8;
 }
 
@@ -108,9 +108,9 @@ a {
   font-family: lato;
   margin-left: 2rem;
   margin-right: 1rem;
-  font-size: 11px;
-  width: 101px;
-  height: 31px;
+  font-size: 16px;
+  width: 150px;
+  height: 35px;
   background-color: rgb(45, 104, 136);
   border-radius: 0;
 

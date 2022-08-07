@@ -1,6 +1,9 @@
 import "./index.css"
 import Button from '@mui/material/Button';
 const Ameneties = ({ ameneties }) => {
+  const handleBrochure = ()=>{
+    window.open(ameneties.brochure, '_blank')
+  }
   return (
     <div className="ameneties-container">
       <div className="ameneties-content">
@@ -10,7 +13,7 @@ const Ameneties = ({ ameneties }) => {
         </div>
         <div className="ameneties-detail">{ameneties.text}</div>
         <div className="d-flex">
-        <Button variant="contained" className="brochure-button" >DOWNLOAD BROCHURE</Button>
+        <Button variant="contained" className="brochure-button" onClick={handleBrochure} >DOWNLOAD BROCHURE</Button>
         </div>
       </div>
       <img

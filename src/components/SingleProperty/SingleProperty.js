@@ -26,14 +26,8 @@ import gmail from "./images/gmail.png"
 
 
 export default function SingleProperty({ OngoingData }) {
-  const [anchorEl, setAnchorEl] = useState(null)
-  const open = Boolean(anchorEl);
-  const handleClick = (e) => {
-    setAnchorEl(e.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  
+  
   const { id } = useParams();
   const [modal, setModal] = useState(false);
   const customStyles = {

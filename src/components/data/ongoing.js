@@ -20,7 +20,8 @@ const OngoingData = [
       },
     ],
     tagLine: "LIVE A MODERN LIFESTYLE IN THE LAP OF NATURE",
-    description:
+    description:"2 & 3 BHK Luxurious Apartment",
+    introduction:
       "Archid Pramod Retreat is one of such project of us which will Stroll through the greenery and let the thr most enchanting views soothe your soul.Experience a truly global lifestyle that offers you the latest in modern living in the lap of nature,yet seamlessly connected to the busy world outside.A home built to the highest standards with exactly your needs in mind.The location, for one, couldn’t be better, as it is within immediate reach of the best of everything you need – schools, colleges, hospitals, Hotels, supermarkets, banks and more. The airport, and the rail station are easily accessible as well through arterial roads.",
     highlights: [
       {
@@ -92,33 +93,70 @@ const OngoingData = [
       brochure:
         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FArchid-Pramod-Retreat-Brochure-18-1-2022-2-1-1.pdf?alt=media&token=9160bca6-4f20-4acb-b65c-a6fd5326a2d7",
     },
+    floorPlans: [
+      {
+        text: "ALL",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fimage%20184.jpg?alt=media&token=d9076e97-f40e-47b5-9e0c-7fb3a11b314e",
+        text: "BLOCK-A",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fimage%20185.jpg?alt=media&token=93dc5e35-0637-4daf-812b-56ca1fb3f8ea",
+        text: "BLOCK-B",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FArchid%20Pramod%20floor%20plan%203.jpg?alt=media&token=afb0789e-d324-48ba-aec5-3285f2144597",
+        text: "BLOCK-C",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fimage%20187.jpg?alt=media&token=688c2bf4-2e2e-4154-8336-d106c8d3953f",
+        text: "BLOCK-D",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FArchid%20Pramod%20floor%20plan%205.jpg?alt=media&token=7a05b707-33ac-4d34-a698-6d1fa30c9ef6",
+        text: "SITE PLAN",
+      },
+    ],
 
     finance: [
       {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=9df0ea2e-8225-4a69-91c2-24f236f20b48",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FBANK%20OF%20BARODA.jpg?alt=media&token=94d98c8b-9a40-4342-9b56-85696a7212f6",
-      },
-      {
+        text: "hdfc home loans",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FHDFC.jpg?alt=media&token=88a4fb58-1122-4ba2-9401-b1a4938283a1",
       },
       {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=52576701-3711-4125-b24a-846d1a05be6a",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FINDIAN%20OVERSEAS%20BANK.jpg?alt=media&token=6a311dbc-4d1e-4140-aea4-cb836c5dfbf5",
-      },
-      {
+        text: "lic housing loans",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FLIC.jpg?alt=media&token=1247b2ec-e820-433a-9da7-e672a66ca430",
       },
       {
+        text: "bajaj finance",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=9df0ea2e-8225-4a69-91c2-24f236f20b48",
+      },
+      {
+        text: "icici bank",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=52576701-3711-4125-b24a-846d1a05be6a",
+      },
+      {
+        text: "indian overseas bank",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FINDIAN%20OVERSEAS%20BANK.jpg?alt=media&token=6a311dbc-4d1e-4140-aea4-cb836c5dfbf5",
+      },
+      {
+        text: "bank of baroda",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FBANK%20OF%20BARODA.jpg?alt=media&token=94d98c8b-9a40-4342-9b56-85696a7212f6",
+      },
+      {
+        text: "state bank of india",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FFinance%20Facility%2FSTATE%20BANK%20OF%20INDIA.jpg?alt=media&token=26daf6a4-d5e5-4d4b-a3f0-62a5abe9efe0",
       },
@@ -157,6 +195,7 @@ const OngoingData = [
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%208.jpg?alt=media&token=76d7d98e-6c00-45c3-84fc-4370b4226548",
       },
     ],
+    surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMajor%20In%20and%20around%2Fsurrounding1.jpg?alt=media&token=5f97de58-2b48-41f7-a1c7-9a9963cbbb97",
     location: [
       {
         image:
@@ -167,6 +206,18 @@ const OngoingData = [
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMap%20Section%20Photos%2FLOACTION%20MAP%20SECTION.jpg?alt=media&token=2fa02ba9-f3fa-47a0-a0c9-cd836426468a",
       },
     ],
+    construction:[
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-09-10-07-25%201.jpg?alt=media&token=052ed6e8-8682-42a4-9033-6ed2f252f2df",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-27-19%201.jpg?alt=media&token=b19f6464-521a-485d-9a57-ece680eb8dea",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-27-39%201.jpg?alt=media&token=12cf5225-e987-4a6d-bb93-fd2aad4e6d69",
+      },
+  
+    ]
   },
 
   {
@@ -176,7 +227,8 @@ const OngoingData = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
     tagLine: "FROM PREMIUM LIVING TO ABUNDANCE OF PEACE & GLORY",
-    description:
+    description:"3 Bhk Duplexes",
+    introduction:
       "This gated community is well placed at the heart of a pristine location in Ranasinghpur, Bhubaneswar. Driven by design, the meticulous planning infuses spice into space. Whether yours is a nuclear or joint family, the smartly calibrated villas fit seamlessly into your individualised lifestyle. The upscale class reflects in quality of materials utilised to create the ambience you always wanted from your dream home.",
     highlights: [
       {
@@ -237,6 +289,21 @@ const OngoingData = [
       brochure:
         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
     },
+    floorPlans: [
+      {
+        text: "ALL",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%201.jpg?alt=media&token=e8366975-f0aa-47a8-a23a-9d34ae9ea2e5",
+        text: "FIRST FLOOR SIZE",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=5819bd4c-3727-4f14-8a93-8ca8c7c4076c",
+        text: "GROUND FLOOR SIZE",
+      },
+    ],
     images: [
       {
         image: "https://source.unsplash.com/1600x900/?house",
@@ -253,33 +320,34 @@ const OngoingData = [
     ],
     finance: [
       {
+        text: "hdfc home loans",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=46f7045f-f653-4fba-a483-832b2c7b5fec",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FHDFC%20HOME%20LOANS.jpg?alt=media&token=64084d77-5533-4b5d-affa-40558985671c",
       },
       {
+        text: "axis bank",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=253ade9c-0559-4e88-8b50-54d1a299ee7d",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FAXIS%20BANK.jpg?alt=media&token=f4bcee07-758d-460d-9034-363ef8c2b4d1",
       },
       {
+        text: "state bank of india",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FLIC.jpg?alt=media&token=25687c0f-2ef1-495a-981d-827a33cb2cf5",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FSBI.jpg?alt=media&token=c28cde0a-4a66-4b4e-a1d8-20ba1d365146",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FSTATE%20BANK%20OF%20INDIA.jpg?alt=media&token=2abb3a2a-5fd8-464a-b927-fd2ee83472d7",
       },
     ],
+    surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMajor%20in%20and%20around%2Fsurrounding.jpg?alt=media&token=58031671-1c3b-4dfa-a8b3-2f060d4362b5",
 
     location: [
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP%202.jpg?alt=media&token=74813f1e-bf7a-4a77-b7de-fb0aa540aae6",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP.jpg?alt=media&token=303e9361-8689-4619-a771-d387ac3ad590",
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP.jpg?alt=media&token=221ac6ad-f817-4395-96c7-30a1d0632d98",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP2.jpg?alt=media&token=5d89ed53-d1ae-4950-99e3-9772c0ac5664",
       },
     ],
+    construction:[],
   },
 
   {
@@ -290,7 +358,8 @@ const OngoingData = [
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%203.jpg?alt=media&token=0b36f879-7279-4238-a13a-680989144fb8",
     tagLine:
       "CONTEMPORARY DESIGN IN NATURAL GREENLAND WITH ALL THOUGHTFUL AMENITIES",
-    description:
+      description:"2 & 3 Bhk Flats",
+    introduction:
       "Beautiful project, Archid Sailabala is themed around wellness and focused on residents’ well-being. It is set to become the center of luxury in Bhubaneswar by bringing together a rare combination of contemporary design, natural greenery and thoughtful amenities. ",
     highlights: [
       {
@@ -355,6 +424,26 @@ const OngoingData = [
       brochure:
         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
     },
+    floorPlans: [
+      {
+        text: "ALL",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN.jpg?alt=media&token=628aebc2-11d2-4381-9fe9-da70b437d82d",
+        text: "2 BHK",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=2ced94b8-b084-458e-b5aa-0cb778aa8192",
+        text: "3 BHK",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%203.jpg?alt=media&token=6570033b-dda4-4437-b208-4d922f0a1d2a",
+        text: "MASTER PLAN",
+      },
+    ],
     images: [
       {
         image: "https://source.unsplash.com/1600x900/?house",
@@ -371,31 +460,49 @@ const OngoingData = [
     ],
     finance: [
       {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=46f7045f-f653-4fba-a483-832b2c7b5fec",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=253ade9c-0559-4e88-8b50-54d1a299ee7d",
-      },
-      {
+        text: "lic housing loans",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FLIC.jpg?alt=media&token=25687c0f-2ef1-495a-981d-827a33cb2cf5",
       },
       {
+        text: "bajaj finance",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=46f7045f-f653-4fba-a483-832b2c7b5fec",
+      },
+      {
+        text: "icici bank",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=253ade9c-0559-4e88-8b50-54d1a299ee7d",
+      },
+      {
+        text: "state bank of india",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FSBI.jpg?alt=media&token=c28cde0a-4a66-4b4e-a1d8-20ba1d365146",
       },
     ],
+    surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMajor%20In%20and%20around%2Fsurrounding2.jpg?alt=media&token=e9703981-40cd-4020-ab1f-5350213699d6",
 
+    
+    construction:[
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-16-59%203%201.jpg?alt=media&token=0c0689c1-989d-40c5-a8c7-1c306c8180af",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-09-11-45-00%201.jpg?alt=media&token=568f955a-a38f-4622-aaed-8320378bf682",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-16-59%202%201.jpg?alt=media&token=ce867e00-821f-4058-a777-2baed30d35ea",
+      },
+    ],
+    
     location: [
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP.jpg?alt=media&token=303e9361-8689-4619-a771-d387ac3ad590",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP.jpg?alt=media&token=221ac6ad-f817-4395-96c7-30a1d0632d98",
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP2.jpg?alt=media&token=5d89ed53-d1ae-4950-99e3-9772c0ac5664",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP%202.jpg?alt=media&token=74813f1e-bf7a-4a77-b7de-fb0aa540aae6",
       },
     ],
   },

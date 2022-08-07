@@ -5,19 +5,38 @@ import gallery from "../../images/ongoing/gallery.png";
 import share from "../../images/ongoing/share2.png";
 import { Link } from "react-router-dom";
 import Modal from "react-modal";
-import FloorPlan from "./subcomponent/onGoingSiteFloorPlans/FloorPlan";
+import FloorPlan from "./subcomponent/FloorPlan";
 import HighLights from "./subcomponent/Highlights";
 import Description from "./subcomponent/Description";
 import Details from "./subcomponent/Details";
-import Ameneties from "./subcomponent/ConstructionUpdates/Ameneties";
+import Ameneties from "./subcomponent/Ameneties";
+import Finance from "./subcomponent/Finance";
+import Surrounding from "./subcomponent/Surrounding";
+import Location from "./subcomponent/Location"
+import ConstructionUpdates from "./subcomponent/ConstructionUpdates"
+import Dropdown from 'react-bootstrap/Dropdown';
+import facebook from "./images/facebook.png"
+import instagram from "./images/instagram.jpg"
+import whatsapp from "./images/whatsapp.jpg"
+import gmail from "./images/gmail.png"
 import {
-  ranasinghpur,
-  patrapada,
-  oldTown,
-} from "./subcomponent/onGoingSiteFloorPlans/imageConfig";
+  EmailShareButton,
+  FacebookShareButton,
+  TwitterIcon,
+  EmailIcon,
+  FacebookIcon,
+  WhatsappIcon,
+  TwitterShareButton,
+  WhatsappShareButton,
+} from "react-share";
+
+
+
 
 
 export default function SingleProperty({ OngoingData }) {
+
+
   const { id } = useParams();
   const [modal, setModal] = useState(false);
   const customStyles = {
@@ -28,22 +47,32 @@ export default function SingleProperty({ OngoingData }) {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
-      width: "400px",
-      height: "500px",
+      width: "370px",
+      paddingTop: "10px",
+      paddingLeft: "25px",
+      paddingRight: "25px",
+      borderRadius: "0px",
+      height: "530px",
       zIndex: "200",
     },
   };
-  
+
   const [paramId, setparamid] = useState(id);
 
   return (
     <div className="single_background">
-      {OngoingData.filter((list) => list.id === paramId).map((data, i) => {
-        return(
-        <div key={i} >
+      {OngoingData?.map((data, i) => {
+
+
+        if (data.id !== paramId) {
+          return null
+        }
+        console.log(data.bg)
+        return (
+          <div key={i} >
             <div
               className="landing-image"
-              style={{ backgroundImage: `url(${data.bg})` }}
+              style={{ backgroundImage: `url(${data.bg})`, }}
             >
               <div className="single-property-button-group">
                 <div
@@ -57,75 +86,112 @@ export default function SingleProperty({ OngoingData }) {
                 <Link to={`/slider`}>
                   <div className="single-property-button">
                     <div>GALLERY</div>
-                    <img src={gallery} alt="Loading..."/>
+                    <img src={gallery} alt="Loading..." />
                   </div>
                 </Link>
-                <div className="single-property-button">
-                <div>
-                SHARE
-                </div>  
-                  <img
-                    src={share}
-                    alt="Loading..."
-                  />
-                </div>
+                <Dropdown>
+                  <Dropdown.Toggle as="div" className=" drop-down-button single-property-button " align="end">
+                    <div>
+                      SHARE
+                    </div>
+                    <img
+                      src={share}
+                      alt="Loading..."
+                    />
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu className="single-property-dropdown-menu" >
+                    <FacebookShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                      <FacebookIcon size={32} round={true} />
+                    </FacebookShareButton>
+                    <TwitterShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                      <TwitterIcon size={32} round={true} />
+                    </TwitterShareButton>
+                    <WhatsappShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                      <WhatsappIcon size={32} round={true} />
+                    </WhatsappShareButton>
+                    <EmailShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                      <EmailIcon size={32} round={true} />
+                    </EmailShareButton>
+                    {/* <img className="single-property-dropdown-menu-image" src={facebook} alt="Loading..." />
+      <img className="single-property-dropdown-menu-image" src={instagram} alt="Loading..." />
+      <img className="single-property-dropdown-menu-image" src={whatsapp} alt="Loading..." />
+      <img className="single-property-dropdown-menu-image" src={gmail} alt="Loading..." /> */}
+                  </Dropdown.Menu>
+                </Dropdown>
+
               </div>
             </div>
+
+
+
             <HighLights highlightImages={data.highlights} />
-            <Description title={data.title} description={data.description} />
+            <Description title={data.title} description={data.introduction} />
             <Details detail={data.details} />
             <Ameneties ameneties={data.ameneties} />
+            <FloorPlan floorPlanData={data.floorPlans} />
+            <Finance financeData={data.finance} />
+            <Surrounding surroundingData={data.surrounding} />
+            <Location locationData={data.location} />
+
+            {data?.construction?.length !== 0 && <ConstructionUpdates constructionData={data?.construction} />}
+
+
+
           </div>
-        
-      )})}
+
+        )
+      })}
 
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
         <form className="">
-          <div className="d-flex">
-            <h3 className="black-text"> GET IN TOUCH</h3>
+          <div className="d-flex modal_head" >
+            <h3 className="black-text" style={{ fontSize: "20px", marginBottom: "30px", marginTop: "20px", fontWeight: "400", color: "black" }}> REGISTER YOUR INTEREST</h3>
             <i
               class="fa-solid fa-xmark"
-              style={{ marginLeft: "120px", fontSize: "30px" }}
+              style={{ fontSize: "20px" }}
               onClick={() => setModal(false)}
             ></i>
           </div>
-          <label for="basic-url">Mobile Number</label>
+          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>FULL NAME *</label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
+              style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
               required
             />
           </div>
 
-          <label for="basic-url">Email Address</label>
+          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>EMAIL ADDRESS *</label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
+              style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
               required
             />
           </div>
-          <label for="basic-url">Your Requirement</label>
+          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>PHONE NUMBER *</label>
           <div class="input-group mb-3">
-            <textarea
+            <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-              style={{ height: "160px" }}
+              style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
               required
             />
           </div>
           <button
-            className="btn btn-primary text-center"
-            style={{ marginLeft: "0%" }}
+            className="btn btn-primary text-center align-items-center justify-content-center"
+            style={{ marginLeft: "19%", borderRadius: "0px", fontSize: "18px", marginTop: "5px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
           >
-            Submit
+            SUBMIT
           </button>
         </form>
       </Modal>

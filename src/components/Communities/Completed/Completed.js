@@ -58,14 +58,7 @@ const [modal, setModal] = useState(false)
 
               <h3 className="my-3" style={{fontSize:"20px", fontWeight:"400"}}>YEAR OF COMPLETION : {project.date}</h3>
             </div>
-            <div>
-                <img src={project.image} className={modal===true?"img-responsive show-image":"d-none"}
-                 onClick={()=>{
-              setModal(false)
-                }}
-                  data-aos="fade-left" data-aos-duration="2000"
-                  />
-            </div>
+            
           </div>
         
         </>)

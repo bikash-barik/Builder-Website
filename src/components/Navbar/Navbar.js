@@ -11,7 +11,7 @@ import "./Navbar.css";
 import Modal from "react-modal";
 import Modal1 from "react-modal";
 import DateTimePicker from "react-datetime-picker";
-import Image1 from "./logo-navbar.png";
+import Image1 from "../../images/Company_Logo/png ar.png";
 
 export default function Drawer() {
   const [modal, setModal] = useState(false);
@@ -26,7 +26,7 @@ export default function Drawer() {
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
       width: "300px",
-      borderRadius:"0px",
+      borderRadius: "0px",
       height: "400px",
       zIndex: "200",
     },
@@ -121,11 +121,11 @@ export default function Drawer() {
                 >
                   INSTANT VIDEO CALL
                 </button> */}
-                <p className="textp"   onClick={() => {
-                    modal1 === true ? setModal1(false) : setModal1(true);
-                  }}>Instant Video Call</p>
+                <p className="textp" onClick={() => {
+                  modal1 === true ? setModal1(false) : setModal1(true);
+                }}>Instant Video Call</p>
               </Nav.Link>
-              <Nav.Link className=" right-link navbtn">
+              <Nav.Link href="https://wa.me/917064605160" target="_blank" className=" right-link navbtn">
                 {/* <i class="fa-brands fa-whatsapp mx-2  my-1"></i> */}
                 <i class="bi bi-whatsapp iconbi"></i>
                 <p className="textp">Whatsapp</p>
@@ -156,49 +156,49 @@ export default function Drawer() {
               onClick={() => setModal(false)}
             ></i>
           </div>
-          <label for="basic-url" style={{fontSize:"12px",marginBottom:"10px"}}>MOBILE NUMBER <span style={{color:"red"}}>*</span></label>
+          <label for="basic-url" style={{ fontSize: "12px", marginBottom: "10px" }}>MOBILE NUMBER <span style={{ color: "red" }}>*</span></label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
-              style={{borderColor:"black" }}
+              style={{ borderColor: "black" }}
               aria-describedby="basic-addon3"
               required
             />
           </div>
 
-          <label for="basic-url" style={{fontSize:"12px",marginBottom:"10px"}}>EMAIL ADDRESS <span style={{color:"red"}}>*</span></label>
+          <label for="basic-url" style={{ fontSize: "12px", marginBottom: "10px" }}>EMAIL ADDRESS <span style={{ color: "red" }}>*</span></label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
-              style={{borderColor:"black" }}
+              style={{ borderColor: "black" }}
               aria-describedby="basic-addon3"
               required
             />
           </div>
-          <label for="basic-url" style={{fontSize:"12px",marginBottom:"10px"}}>REQUIREMENT <span style={{color:"red"}}>*</span></label>
+          <label for="basic-url" style={{ fontSize: "12px", marginBottom: "10px" }}>REQUIREMENT <span style={{ color: "red" }}>*</span></label>
           <div class="input-group mb-3">
             <input
               type="text"
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-              style={{ height: "80px",borderColor:"black" }}
+              style={{ height: "80px", borderColor: "black" }}
               required
             />
           </div>
           <button
             className="btn btn-primary text-center align-items-center justify-content-center"
-            style={{ marginLeft: "30%",borderRadius:"0px",fontSize:"12px",marginTop:"10px",paddingLeft:"30px",paddingRight:"30px" }}
+            style={{ marginLeft: "30%", borderRadius: "0px", fontSize: "12px", marginTop: "10px", paddingLeft: "30px", paddingRight: "30px" }}
           >
             SUBMIT
           </button>
         </form>
       </Modal>
-      
+
       <Modal1
         isOpen={modal1}
         style={customStyles1}
@@ -206,42 +206,42 @@ export default function Drawer() {
         contentLabel="Example Modal"
       >
         <form className="">
-            <div className="d-flex modal_head" >
-            <h3 className="black-text" style={{marginBottom:"15px"}}>SCHEDULE MEETING WITH THE SALES TEAM</h3>
+          <div className="d-flex modal_head" >
+            <h3 className="black-text" style={{ marginBottom: "15px" }}>SCHEDULE MEETING WITH THE SALES TEAM</h3>
             <i
               class="fa-solid fa-xmark"
               style={{ fontSize: "20px" }}
               onClick={() => setModal1(false)}
             ></i>
           </div>
-          <label for="basic-url" style={{fontSize:"15px",marginBottom:"5px"}}>Full Name</label>
+          <label for="basic-url" style={{ fontSize: "15px", marginBottom: "5px" }}>Full Name</label>
           <br />
           <div style={{ width: "300px" }} class="input-group mb-3 input_responsive">
             <input
               type="text"
               class="form-control "
               id="basic-url"
-              style={{borderColor:"gray" ,borderRadius:"0px",height:"29px"}}
+              style={{ borderColor: "gray", borderRadius: "0px", height: "29px" }}
               aria-describedby="basic-addon3"
               required
             />
           </div>
-          <br/>
-          <label for="basic-url" style={{fontSize:"15px",marginBottom:"5px"}}>Email Address</label>
+          <br />
+          <label for="basic-url" style={{ fontSize: "15px", marginBottom: "5px" }}>Email Address</label>
 
           <div style={{ width: "300px" }} class="input-group mb-3" id="input_responsive">
             <input
               type="text"
               class="form-control "
               id="basic-url"
-              style={{borderColor:"gray",borderRadius:"0px",height:"29px" }}
+              style={{ borderColor: "gray", borderRadius: "0px", height: "29px" }}
               aria-describedby="basic-addon3"
               required
             />
           </div>
           <br />
 
-          <label for="basic-url" style={{fontSize:"15px",marginBottom:"5px"}}>Select Date and Time</label>
+          <label for="basic-url" style={{ fontSize: "15px", marginBottom: "5px" }}>Select Date and Time</label>
           <div>
             <DateTimePicker onChange={onChange} value={value} />
           </div>
@@ -249,7 +249,7 @@ export default function Drawer() {
 
           <button
             className="btn btn-primary text-center"
-            style={{ fontSize:"15px",paddingLeft:"20px",marginLeft: "36%",paddingRight:"20px",borderRadius:"0px"}}
+            style={{ fontSize: "15px", paddingLeft: "20px", marginLeft: "36%", paddingRight: "20px", borderRadius: "0px" }}
           >
             Submit
           </button>

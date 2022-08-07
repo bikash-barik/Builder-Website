@@ -23,6 +23,6 @@ h4 {
   color: #fff !important;
 }
 .bgimage{
-  background-image:linear-gradient(rgba(76, 75, 75, 0.28)30%,rgba(76, 75, 75, 0.28)30%),url('../../images/events/bgphoto.png');
+  /* background-image:linear-gradient(rgba(76, 75, 75, 0.28)30%,rgba(76, 75, 75, 0.28)30%),url('../../images/events/bgphoto.png'); */
 
 }

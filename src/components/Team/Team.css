@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 .Team_background {
+  background-image:linear-gradient(rgba(76, 75, 75, 0.28)30%,rgba(76, 75, 75, 0.28)30%),url('../../images/team/bgphoto.png');
+
   /* background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif'); */
   background-position: center;
 }

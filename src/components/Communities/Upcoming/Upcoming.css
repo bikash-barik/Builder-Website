@@ -1,13 +1,9 @@
 .Communities{
-    background-image:linear-gradient(rgba(76, 75, 75, 0.28)30%,rgba(129, 124, 124, 0.5)30%),url('../../../images/upcoming/bgphoto.png');
-    
-}
-
-.Communities:before{
     color: #fff;
-    
-    /* background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif'); */
-    background-position: center;
+    background-image: linear-gradient(rgba(129, 124, 124, 0)70%, rgba(129, 124, 124, 0)70%), url('../../../images/upcoming/bgphoto.png');
+
+    /* background-image:linear-gradient(rgba(76, 75, 75, 0.28)30%,rgba(76, 75, 75, 0.28)30%),url('../../../images/upcoming/bgphoto.png'); */
+ background-position: center;
     
 }
 

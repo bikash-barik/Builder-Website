@@ -5,7 +5,7 @@ import "./Event.css";
 
 export default function UpcomingEvents() {
   return (
-    <div>
+    <div className="bgimage">
       <div className="hero-img" styles={{ margin: "0px", padding: "0px" }}>
         <img src={heroImg} alt="" style={{ maxWidth: "100%" }} />
       </div>

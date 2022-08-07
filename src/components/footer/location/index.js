@@ -1,9 +1,27 @@
+import { useState } from "react";
+import Modal from "react-modal";
 import gps from "../images/gps.svg";
 import mail from "../images/mail.svg";
 import phone from "../images/phone.svg";
 import locationIcon from "../images/locationIcon.svg";
 import "./index.css";
+
 const Location = () => {
+
+  const [modal, setModal] = useState(false);
+  const customStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: "400px",
+      height: "500px",
+      zIndex: "200",
+    },
+  };
   return (
     <div className="location">
       <div className="address">
@@ -14,9 +32,15 @@ const Location = () => {
           District Center, Chandrashekherpur Bhubaneswar-751016 Odisha
         </div>
       </div>
-      <div className="map-button">
+      <div className="map-button"  onClick={() => {
+        modal === true ? setModal(false) : setModal(true);
+      }}>
         <img src={locationIcon} alt="Loading..." />
-        <div>Map</div>
+        <div
+         
+        >
+          Map
+        </div>
       </div>
       <div className="contact-mail">
         <img src={mail} alt="Loading..." />
@@ -32,7 +56,37 @@ const Location = () => {
           <div>+91 7381 040 001</div>
         </div>
       </div>
+
+      <Modal
+       
+        isOpen={modal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <form className="">
+          <div className="d-flex justify-content-between">
+            <h3 className="black-text">Location</h3>
+            <i
+              class="fa-solid fa-xmark"
+              style={{ marginLeft: "14rem", fontSize: "30px" }}
+              onClick={() => setModal(false)}
+            ></i>
+          </div>
+          <iframe
+              width="100%"
+              height="400"
+              target="_blank"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=Archid%20Builders%20Pvt.%20Ltd.%20Plot%20No:315,%20%E2%80%9CArchid%20Central%E2%80%9D%20Fourth%20Floor,%20Behind%20BPCL%20Petrol%20Pump%20District%20Center,%20Chandrashekherpur%20Bhubaneswar-751016%20Odisha&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+        </form>
+      </Modal>
     </div>
+
   );
 };
 

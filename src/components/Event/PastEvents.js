@@ -12,7 +12,7 @@ import image5 from "./PastEventsImages/image5.png";
 export default function PastEvents() {
   return (
     <div>
-      <div className="d-flex my-5">
+      <div className="d-flex my-5 bgimage">
         <h3
           style={{
             fontSize: "33px",

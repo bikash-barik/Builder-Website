@@ -90,6 +90,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 0.1rem;
+  border:none;
 }
 
 .navbtn .textp {
@@ -255,6 +256,20 @@ animation-delay: 10ms;
 
 .react-datetime-picker {
   width: 300px;
+}
+@media all and(min-width:1280px){
+    .navbar-nav a {
+        font-size: 16px;
+        margin-bottom: 1rem;
+      }
+      .navbtn.iconbi {
+        font-size: 5px;
+      }
+      .navbar-nav .textp {
+        font-size: 16px;
+      }
+      
+
 }
 
 @media all and (max-width: 668px){

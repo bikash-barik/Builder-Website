@@ -7,7 +7,7 @@ import Team from "./components/Team/Team";
 import Ongoing from "./components/Communities/Ongoing/Ongoing";
 import AOS from "aos";
 import SingleProperty from "./components/SingleProperty/SingleProperty";
-import Slider2 from "./components/SingleProperty/Slider2";
+import Gallery from "./components/SingleProperty/Slider2";
 import OngoingData from "./components/data/ongoing";
 import Drawer from "./components/Navbar/Navbar";
 import Offer from "./components/offers/Offers";
@@ -77,10 +77,10 @@ function App() {
         />
         <Route
           exact
-          path="/slider"
+          path="/slider/:id"
           element={
             <div>
-              <Slider2 />
+              <Gallery OngoingData={OngoingData} />
             </div>
           }
         />

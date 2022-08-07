@@ -10,7 +10,7 @@ const UpcomingData =[
         id: 1,
         title :"A FLAGSHIP MEGA APARTMENT PROJECT",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2Fupcoming%20project%201.jpg?alt=media&token=a4991cc2-e2da-417b-b3e6-4c3ba0fcfae6",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2FAsset%203.png?alt=media&token=c645b437-4dbd-42ff-ab17-787680eb3ba9",
         tagLine :"@PATIA",
         description :"3&4 Bhk Lush Apartments",
         category:"RESIDENTIAL PROJECT",
@@ -19,7 +19,7 @@ const UpcomingData =[
     {
         id: 2,
         title :"A DUPLEX APARTMENT PROJECT",
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2Fupcoming%20proj%20photo%202.jpg?alt=media&token=c969e994-0632-4ed8-af35-8f7b08af34b6",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2FAsset%202.png?alt=media&token=ba45692a-0762-4399-96aa-f41319314d1c",
         tagLine :"@ATALA",
         description :"A Gated 3Bhk Duplex Community",
         category:"RESIDENTIAL PROJECT",
@@ -27,7 +27,7 @@ const UpcomingData =[
     {
         id: 3,
         title :"AN EXCLUSIVE SHOPPING MALL/HOTEL",
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Commercial%2Fupcoming%20project%20photo%203.jpg?alt=media&token=fd8f9f73-c4d4-4f48-92f7-f8087b973112",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Commercial%2FAsset%201.png?alt=media&token=3e80ed04-3acf-4358-b041-3a8a78868752",
         tagLine :"@PAHALA",
         // description :"Dolor amet ipsum sanctus diam vero lorem amet.",
         category:"COMMERCIAL PROJECT",

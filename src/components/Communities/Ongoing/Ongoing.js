@@ -24,7 +24,7 @@ export default function Ongoing(props) {
                 return (<>
                   <div className="col-lg-4">
                     <div className="ongoing-box text-center align-items-center justify-content-center"
-                      data-aos={i % 2 === 0 ? "fade-left" : "fade-up"} data-aos-duration="2000">
+                      data-aos={i===0?("fade-right"):(i % 2 === 0 ? "fade-left" : "fade-up")} data-aos-duration="2000">
                       <Link to={`/Communities/${project.id}`}>
                       <div className={i==2 ? "pt-4":""}>
                       <img  src={project.image} className="img-responsive" style={{height:"400px"}}></img>

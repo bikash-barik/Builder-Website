@@ -45,11 +45,11 @@
     height: 20px;
     width: 20px;
 }
-.drop-down-button{  
+.single-property-button-group .drop-down-button{  
     margin-top: 0 !important;
 }
 
-.drop-down-button::after {
+.single-property-button-group .drop-down-button::after {
     content: none;
 }
 

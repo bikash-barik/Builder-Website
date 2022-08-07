@@ -217,12 +217,40 @@ const OngoingData = [
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-27-39%201.jpg?alt=media&token=12cf5225-e987-4a6d-bb93-fd2aad4e6d69",
       },
   
+    ],
+    gallery:[
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%201.jpg?alt=media&token=a4f214ac-76ab-4880-ba06-87ae9077348c",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%202.jpg?alt=media&token=81c49078-75e3-4334-8b09-5131a04a7984",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%203.jpg?alt=media&token=32f51c96-a7d5-40d1-bb91-8a5c8a6a64d9",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%204.jpg?alt=media&token=596458f7-806e-4faf-9d27-f0c3ad653450",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%206.jpg?alt=media&token=8ee27db5-0a0c-4001-88c1-10ace8ba4d15",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%205.jpg?alt=media&token=015a8116-4876-477d-bebb-a4b292058732",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%201%207.jpg?alt=media&token=938e09e9-9821-4e92-962a-e9a62585f866",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%208.jpg?alt=media&token=76d7d98e-6c00-45c3-84fc-4370b4226548",
+      }
+
     ]
+
   },
 
   {
     id: "2",
-    bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FArchid%20Shreekunj%2C%20Ranasinghpur%20(MAIN).jpg?alt=media&token=46996180-5c71-4e5b-905f-bcee780639ab",
+    bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2Franasinghpur_main.svg?alt=media&token=9a6be91d-e38f-401e-8c04-b269c092bd20",
     title: "ARCHID SHREEKUNJ, RANASINGHPUR",
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
@@ -348,6 +376,54 @@ const OngoingData = [
       },
     ],
     construction:[],
+    gallery:[
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%201.jpg?alt=media&token=84478633-6bf9-43a0-8478-e3489931a93b",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%202.jpg?alt=media&token=788982cb-9b46-4dbb-b8bb-2b016aa0c9aa",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%203.jpg?alt=media&token=f2aca256-d4fe-47fa-8dc1-d9db7fc11459",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%204.jpg?alt=media&token=fc73fbe8-7b38-4438-b682-f21b83e9db8d",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%205.jpg?alt=media&token=c1b37d67-8436-42c8-88ca-1d9195811ba3",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%206.jpg?alt=media&token=d25ad429-379a-4eaa-8db0-6d7901703dc0",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%207.jpg?alt=media&token=8f54268d-e132-4e8b-9d89-ae27a051bdfb",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%20%208.jpg?alt=media&token=95349da6-a9af-4be8-bf96-43522401b52c",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%209.jpg?alt=media&token=d9d8fd6b-dc1d-4fe2-8f19-949a2b8ae81e",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2010.jpg?alt=media&token=70c1f6bc-1ec3-4074-ac3e-9f724341ff4a",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2011.jpg?alt=media&token=44b59bb5-e26b-4dd3-b0a4-fb3704a0c658",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2014.jpg?alt=media&token=3f025595-32f6-4dbf-8a86-c53da6a3d282",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2015.jpg?alt=media&token=3358a650-9867-4d4a-aab0-a19883049150",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2016.jpg?alt=media&token=b48f8023-277a-431e-a355-9ba379da938b",
+      },
+   
+    ],
   },
 
   {
@@ -503,6 +579,23 @@ const OngoingData = [
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP%202.jpg?alt=media&token=74813f1e-bf7a-4a77-b7de-fb0aa540aae6",
+      },
+    ],
+    gallery:[
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%203.jpg?alt=media&token=386f427b-8fb2-4f08-babe-91deb373c22b",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%204.jpg?alt=media&token=2383e2b5-7305-4e0c-aeac-d35eebdbc48b",
+      },
+      {
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%205.jpg?alt=media&token=19117135-ae5d-41bb-a958-5f96a6a5b298",
       },
     ],
   },

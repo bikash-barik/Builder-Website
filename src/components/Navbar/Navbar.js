@@ -204,8 +204,11 @@ export default function Drawer() {
         style={customStyles1}
         id="modal1"
         contentLabel="Example Modal"
+       
       >
-        <form className="">
+      <div >
+     
+        <form  >
             <div className="d-flex modal_head" >
             <h3 className="black-text" style={{marginBottom:"15px"}}>SCHEDULE MEETING WITH THE SALES TEAM</h3>
             <i
@@ -264,6 +267,7 @@ export default function Drawer() {
           src={Image1}
           alt=""
         ></img>
+        </div>
       </Modal1>
     </div>
   );

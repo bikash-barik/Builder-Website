@@ -11,7 +11,8 @@ import Description from "./subcomponent/Description";
 import Details from "./subcomponent/Details";
 import Ameneties from "./subcomponent/Ameneties";
 import Finance from "./subcomponent/Finance";
-import AboutLocation from "./subcomponent/AboutLocation"
+import Surrounding from "./subcomponent/Surrounding";
+import Location from "./subcomponent/Location"
 import ConstructionUpdates from "./subcomponent/ConstructionUpdates"
 import Dropdown from 'react-bootstrap/Dropdown';
 import facebook from "./images/facebook.png"
@@ -116,8 +117,9 @@ export default function SingleProperty({ OngoingData }) {
             <Ameneties ameneties={data.ameneties} />
             <FloorPlan floorPlanData={data.floorPlans}/>
             <Finance financeData={data.finance}/>
-            <AboutLocation headingName="major in and around" surroundingData={data.surrounding}/>
-            <AboutLocation headingName="location map" surroundingData={data.location[1].image}/>
+            <Surrounding  surroundingData={data.surrounding}/>
+            <Location locationData={data.location}/>
+            
             {data?.construction?.length !== 0 &&<ConstructionUpdates constructionData={data?.construction}/>}
             
 

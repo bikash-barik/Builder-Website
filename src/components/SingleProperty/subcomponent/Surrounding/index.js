@@ -1,9 +1,9 @@
 import "./index.css"
-const AboutLocation = ({headingName,surroundingData}) => {
+const Surrounding = ({surroundingData}) => {
     return ( <div className="single-property-surrounding">
         <div className="single-property-surrounding-heading">
         <div>
-        {headingName}
+        major in and around
         </div>
         <div className="surrounding-line" />
         </div>
@@ -11,4 +11,4 @@ const AboutLocation = ({headingName,surroundingData}) => {
     </div>  );
 }
  
-export default AboutLocation;
+export default Surrounding;

@@ -119,6 +119,28 @@ a {
 .getbtn button:hover {
   background-color: rgb(45, 104, 136);
 }
+
+
+
+.ReactModal__Overlay {
+  animation: moveToLeft 500ms ease-in-out;
+animation-delay: 10ms;
+}
+
+
+
+@keyframes moveToLeft {
+0% {
+    transform: translateX(1000px);
+}
+90% {
+    transform: translateX(-100px);
+}
+100% {
+    transform: translateX(0px);
+}
+}
+
 @media all and (max-width:1280px){
     .navbar-nav a {
         font-size: 14px;

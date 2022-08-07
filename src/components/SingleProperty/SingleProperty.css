@@ -54,13 +54,13 @@
 }
 
 .single-property-dropdown-menu{
-    width: 300px;
+    width: 220px;
     margin-top: 10px;
 }
 
 .single-property-dropdown-menu-image{
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     margin-left: 10px;
     cursor: pointer;
 }
@@ -125,12 +125,12 @@
         
     }
     .single-property-dropdown-menu{
-        width: 200px;
+        width: 170px;
         
     }
     .single-property-dropdown-menu-image{
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
        
     }
     

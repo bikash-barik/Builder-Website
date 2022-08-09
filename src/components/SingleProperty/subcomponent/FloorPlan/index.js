@@ -1,11 +1,29 @@
 import "./index.css";
-
 import { ToggleButton } from "react-bootstrap";
 import { useState } from "react";
 import Grid from '@mui/material/Grid';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Modal from '@mui/material/Modal';
+
+
+
 
 const FloorPlan = ({floorPlanData}) => {
+  const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)', 
+  };
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = (source) => {
+    setOpen(true)
+    setsrcData(source)
+  };
+  const handleClose = () => setOpen(false);
     const [filterData,setFilterData] = useState(floorPlanData)
+    const [srcData,setsrcData] = useState(null)
     const handleChange = (e)=>{
         if(e.target.value === "ALL" )
         {
@@ -49,12 +67,25 @@ const FloorPlan = ({floorPlanData}) => {
           if (el.text !== "ALL") {
             return (
               <Grid item  md={6} lg={4} >
-              <img className="floor-plan-image" src={el?.image} alt="Loading" />;
+              <img className="floor-plan-image" src={el?.image} alt="Loading" onClick={()=>{handleOpen(el?.fullImage)}} />;
               </Grid>
               )
           }
         })}
       </Grid>
+      <div>
+      
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={style}>
+         <img src={srcData} alt="Loading..." />
+        </Box>
+      </Modal>
+    </div>
     </div>
   );
 };

@@ -66,6 +66,7 @@ border-radius: 0;
 
 .floor-plan-image{
     max-width: 380px;
+    cursor: pointer;
     
     
 }

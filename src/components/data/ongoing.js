@@ -101,26 +101,31 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fimage%20184.jpg?alt=media&token=d9076e97-f40e-47b5-9e0c-7fb3a11b314e",
         text: "BLOCK-A",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FFloor%20Plans%2FFrame%206514.jpg?alt=media&token=7c66fc22-34a8-4c8d-ae14-c836ce220a99",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fimage%20185.jpg?alt=media&token=93dc5e35-0637-4daf-812b-56ca1fb3f8ea",
         text: "BLOCK-B",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FFloor%20Plans%2FFrame%206515.jpg?alt=media&token=c2353ece-cd98-4514-8623-08542dd904dc",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FArchid%20Pramod%20floor%20plan%203.jpg?alt=media&token=afb0789e-d324-48ba-aec5-3285f2144597",
         text: "BLOCK-C",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FFloor%20Plans%2FFrame%206516.jpg?alt=media&token=a209c9a7-b067-45d7-aa60-104487b56f72",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fimage%20187.jpg?alt=media&token=688c2bf4-2e2e-4154-8336-d106c8d3953f",
         text: "BLOCK-D",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FFloor%20Plans%2FFrame%206517.jpg?alt=media&token=18c67671-bb49-49b8-ab92-37d8fd35e050",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FArchid%20Pramod%20floor%20plan%205.jpg?alt=media&token=7a05b707-33ac-4d34-a698-6d1fa30c9ef6",
         text: "SITE PLAN",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FFloor%20Plans%2FFrame%206518.jpg?alt=media&token=3807fae3-4e21-4300-b05c-2c645c1c239d",
       },
     ],
 
@@ -325,11 +330,13 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%201.jpg?alt=media&token=e8366975-f0aa-47a8-a23a-9d34ae9ea2e5",
         text: "FIRST FLOOR SIZE",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206519.jpg?alt=media&token=aeec86b6-67ac-4ca8-b2dc-55c2d576d385",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=5819bd4c-3727-4f14-8a93-8ca8c7c4076c",
         text: "GROUND FLOOR SIZE",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206520.jpg?alt=media&token=cf03dd36-d390-431d-b0bd-8a370ed0bc59",
       },
     ],
     images: [
@@ -508,16 +515,19 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN.jpg?alt=media&token=628aebc2-11d2-4381-9fe9-da70b437d82d",
         text: "2 BHK",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2FFrame%206521.jpg?alt=media&token=306b460f-925d-4bf3-834f-ed5634487e9f",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=2ced94b8-b084-458e-b5aa-0cb778aa8192",
         text: "3 BHK",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2FFrame%206522.jpg?alt=media&token=c0d6da87-e5c6-44b8-8266-5c83afa60283",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%203.jpg?alt=media&token=6570033b-dda4-4437-b208-4d922f0a1d2a",
         text: "MASTER PLAN",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2FFrame%206523.jpg?alt=media&token=edb3b83f-4cce-4026-adf1-51e38811fa9b",
       },
     ],
     images: [

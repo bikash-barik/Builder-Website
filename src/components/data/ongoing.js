@@ -2,7 +2,7 @@ const OngoingData = [
   {
     id: "1",
     bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%201.jpg?alt=media&token=a4f214ac-76ab-4880-ba06-87ae9077348c",
-    title: "ARCHID PRAMOD PETREAT, PATRAPADA",
+    title: "ARCHID PRAMOD RETREAT, PATRAPADA",
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO.jpg?alt=media&token=d0a65701-4672-49f5-9609-b771d4c8e890",
     images: [
@@ -20,7 +20,7 @@ const OngoingData = [
       },
     ],
     tagLine: "LIVE A MODERN LIFESTYLE IN THE LAP OF NATURE",
-    description:"2 & 3 BHK Luxurious Apartment",
+    description:"2 & 3 BHK LUXURIOUS APARTMENT",
     introduction:
       "Archid Pramod Retreat is one of such project of us which will Stroll through the greenery and let the thr most enchanting views soothe your soul.Experience a truly global lifestyle that offers you the latest in modern living in the lap of nature,yet seamlessly connected to the busy world outside.A home built to the highest standards with exactly your needs in mind.The location, for one, couldn’t be better, as it is within immediate reach of the best of everything you need – schools, colleges, hospitals, Hotels, supermarkets, banks and more. The airport, and the rail station are easily accessible as well through arterial roads.",
     highlights: [
@@ -255,7 +255,7 @@ const OngoingData = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
     tagLine: "FROM PREMIUM LIVING TO ABUNDANCE OF PEACE & GLORY",
-    description:"3 Bhk Duplexes",
+    description:"3 BHK DUPLEXES",
     introduction:
       "This gated community is well placed at the heart of a pristine location in Ranasinghpur, Bhubaneswar. Driven by design, the meticulous planning infuses spice into space. Whether yours is a nuclear or joint family, the smartly calibrated villas fit seamlessly into your individualised lifestyle. The upscale class reflects in quality of materials utilised to create the ambience you always wanted from your dream home.",
     highlights: [
@@ -315,7 +315,7 @@ const OngoingData = [
     ameneties: {
       text: "Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community  centre, and an impressive array of parks and walkways, the    community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
       brochure:
-        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
+      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
     },
     floorPlans: [
       {
@@ -434,7 +434,7 @@ const OngoingData = [
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%203.jpg?alt=media&token=0b36f879-7279-4238-a13a-680989144fb8",
     tagLine:
       "CONTEMPORARY DESIGN IN NATURAL GREENLAND WITH ALL THOUGHTFUL AMENITIES",
-      description:"2 & 3 Bhk Flats",
+      description:"2 & 3 BHK FLATS",
     introduction:
       "Beautiful project, Archid Sailabala is themed around wellness and focused on residents’ well-being. It is set to become the center of luxury in Bhubaneswar by bringing together a rare combination of contemporary design, natural greenery and thoughtful amenities. ",
     highlights: [
@@ -498,7 +498,7 @@ const OngoingData = [
       text: "Whether you want to give your parents a peaceful stay ,you know you have it all. you’ll have every world-class amenity you could ever need on your doorstep.",
 
       brochure:
-        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
+      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
     },
     floorPlans: [
       {

@@ -12,7 +12,7 @@ const UpcomingData =[
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2FAsset%203.png?alt=media&token=c645b437-4dbd-42ff-ab17-787680eb3ba9",
         tagLine :"@PATIA",
-        description :"3&4 Bhk Lush Apartments",
+        description :"3&4 BHK LUSH APARTMENTS",
         category:"RESIDENTIAL PROJECT",
 
     },
@@ -21,7 +21,7 @@ const UpcomingData =[
         title :"A DUPLEX APARTMENT PROJECT",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/upcoming%2FUpcoming%20Residential%2FAsset%202.png?alt=media&token=ba45692a-0762-4399-96aa-f41319314d1c",
         tagLine :"@ATALA",
-        description :"A Gated 3Bhk Duplex Community",
+        description :"A GATED 3BHK DUPLEX COMMUNITY",
         category:"RESIDENTIAL PROJECT",
     },
     {

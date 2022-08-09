@@ -7,7 +7,7 @@ const Surrounding = ({surroundingData}) => {
         </div>
         <div className="surrounding-line" />
         </div>
-        <img className="surrounding-image" src={surroundingData} alt="Loading..." />
+        <img className="surrounding-image" style={{height:"380px",width:"700px"}} src={surroundingData} alt="Loading..." />
     </div>  );
 }
  

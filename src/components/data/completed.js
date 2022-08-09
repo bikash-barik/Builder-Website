@@ -149,7 +149,7 @@ const CompletedData =[
     },
     {
         id: 17,
-        title :"ARCHID SANTOSH PLAZA",
+        title :"ARCHID SANTOSH PLAZA (COMMERCIAL)",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fcommercial%2FARCHID%20SANTOSH%20PLAZA%20(COMMERCIAL).jpg?alt=media&token=222a0d2f-5951-4087-a625-3499c65dd31e",
         category:"COMMERCIAL PROJECT",
@@ -158,7 +158,7 @@ const CompletedData =[
     },
     {
         id: 18,
-        title :"ARCHID CENTRAL, DIST CENTER",
+        title :"ARCHID CENTRAL, DIST CENTER (COMMERCIAL)",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
         image:" https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fcommercial%2FARCHID%20CENTRAL%2C%20DIST%20CENTER%20(COMMERCIAL).jpg?alt=media&token=0fd19074-0e9b-4eda-97ac-a40d100c3387",
         category:"COMMERCIAL PROJECT",

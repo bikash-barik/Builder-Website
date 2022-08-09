@@ -131,7 +131,7 @@ export default function Drawer() {
                 </p>
               </Nav.Link>
               <Nav.Link
-                href="https://wa.me/917064605160"
+                href="https://wa.me/917537000001"
                 target="_blank"
                 className=" right-link navbtn"
               >

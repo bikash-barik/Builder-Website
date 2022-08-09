@@ -35,7 +35,6 @@ import {
 
 
 export default function SingleProperty({ OngoingData }) {
-
   const { id } = useParams();
   const [modal, setModal] = useState(false);
   const customStyles = {
@@ -75,6 +74,14 @@ export default function SingleProperty({ OngoingData }) {
               style={{ backgroundImage: `url(${data.bg})`}}
             >
               <div className="single-property-button-group">
+              <div
+                  className=" single-property-button single-property-request-button"
+                  onClick={()=>{
+                    window.open(data.ameneties.brochure, '_blank')}
+                  }
+                >
+                  DOWNLOAD BROCHURE
+                </div>
                 <div
                   className=" single-property-button single-property-request-button"
                   onClick={() => {
@@ -84,15 +91,15 @@ export default function SingleProperty({ OngoingData }) {
                   REGISTER YOUR INTEREST
                 </div>
                 <Link to={`/slider/${id}`}>
-                  <div className="single-property-button">
+                  <div className="single-property-button singlee">
                     <div>GALLERY</div>
                     <img src={gallery} alt="Loading..." />
                   </div>
                 </Link>
-                <Dropdown>
+                <Dropdown className="singlee">
 
                   <Dropdown.Toggle as="div" className=" drop-down-button single-property-button " align="end">
-                    <div>
+                    <div >
                       SHARE
                     </div>
                     <img
@@ -102,16 +109,16 @@ export default function SingleProperty({ OngoingData }) {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu className="single-property-dropdown-menu" >
-                    <FacebookShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                    <FacebookShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
                       <FacebookIcon size={32} round={true} />
                     </FacebookShareButton>
-                    <TwitterShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                    <TwitterShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
                       <TwitterIcon size={32} round={true} />
                     </TwitterShareButton>
-                    <WhatsappShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                    <WhatsappShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
                       <WhatsappIcon size={32} round={true} />
                     </WhatsappShareButton>
-                    <EmailShareButton url={'https://archid-builders.web.app/Communities/1'} className="single-property-dropdown-menu-image" alt="Loading...">
+                    <EmailShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
                       <EmailIcon size={32} round={true} />
                     </EmailShareButton>
              

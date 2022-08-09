@@ -137,6 +137,15 @@
     
 }
 
-
-
+@media screen and (max-width:470px){
+    .singlee{
+        margin-top: 45px;
+    }
+    .single-property-request-button{
+        width: max-content;
+        height: 30px;
+        margin-left: 200px;
+        transform: translate(188px, 0px);
+    }
+}
 

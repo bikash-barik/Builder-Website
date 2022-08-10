@@ -15,7 +15,9 @@ const FloorPlan = ({floorPlanData}) => {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)', 
+    
   };
+  
   const [open, setOpen] = React.useState(false);
   const handleOpen = (source) => {
     setOpen(true)
@@ -82,7 +84,7 @@ const FloorPlan = ({floorPlanData}) => {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-         <img src={srcData} alt="Loading..." />
+         <img  src={srcData} alt="Loading..." />
         </Box>
       </Modal>
     </div>

@@ -23,6 +23,12 @@
     border-top: 1px solid #FFFFFF;
 }
 
+.surrounding-image{
+    max-width: 720px;
+    height: 400px;
+
+}
+
 @media screen and (max-width : 800px) {
 
     .single-property-surrounding-heading {
@@ -36,6 +42,11 @@
     .surrounding-line {
         width: 150px;
 
+    }
+    .surrounding-image{
+        max-width: 720px;
+       height: auto;
+    
     }
 }
 @media screen and (max-width : 550px) {

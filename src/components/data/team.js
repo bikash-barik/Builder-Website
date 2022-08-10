@@ -32,7 +32,7 @@ const TeamData =[
         id:5,
         name:"Ms. ANKITA MOHANTY",
         designation:"MARKETING HEAD",
-        details:"Miss Ankita Mohanty is the Marketing Head of Archid Builders & has earned her Bachelors in Civil Engineering & Masters in Journalism & Mass Communication.She is spearheading new initiatives in Archid Builders, she has enhanced the framework for strategic planning and project development. In addition, she plays a crucial role in the corporate branding & project marketing of the Group.",
+        details:"Miss Ankita Mohanty is the Marketing Head of Archid Builders & had completed her Bachelors in Civil Engineering & Masters in Journalism & Mass Communication.She is spearheading new initiatives in Archid Builders, she has enhanced the framework for strategic planning and project development. In addition, she plays a crucial role in the corporate branding & project marketing of the Group.",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/team%2Fankita.jpg?alt=media&token=90c54df6-c5db-4191-9f7e-1d76e306fade"
     },
       

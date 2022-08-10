@@ -38,11 +38,9 @@ html {
   height: 35px;
   font-size: 15px;
 }
-.active {
+.nav-link .active {
   border-bottom: 0.1rem solid #09a3c8;
-
   padding-bottom: 1rem;
-  /* text-decoration: underline !important;  */
 }
 
 a {

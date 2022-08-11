@@ -10,7 +10,7 @@ const CarouselData =[
         id: 2,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FWhatsApp%20Image%202022-07-20%20at%203.14.07%20PM.jpeg?alt=media&token=87f8e29b-a87d-4d8a-aee3-0bddaf127058",
         description :'"A big thanks to the Archid Team, specially Mr Anshuman, Miss Ankita and Miss Pratyusha for the excellent service. Must say each and every process was very smooth and more so every visit to your office was like visiting my own home. Now having booked my duplex through you, I am now self assured that my dream home is in the right hands.',
-        name:"CLIENT ARCHID SHREEKUNJ",
+        name:"Client Archid Shreekunj",
     },
     {
         id: 3,

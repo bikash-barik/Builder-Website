@@ -18,7 +18,7 @@ export default function Upcoming() {
             <div className="col-md-6 col-sm-6 col-lg-6">
               <div className="d-flex" style={{marginTop:"10px"}}>
 
-                <h4 className="white-text" style={{fontSize:"17px"}}>Upcoming Projects </h4>
+                <h4 className="white-text" style={{fontSize:"17px"}}>UPCOMING PROJECTS </h4>
                 <hr className="line" style={{ width: "150px", backgroundColor: "white", fontWeight: "", height: "1.3px", marginLeft: "5px", opacity: "0.8" }} />
               </div>
             </div>

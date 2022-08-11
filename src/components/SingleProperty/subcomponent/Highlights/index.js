@@ -20,6 +20,15 @@ const HighLights = ({highlightImages}) => {
                 data-aos-easing="linear"
                 data-aos-duration="1000"
                 alt="Loading..."
+                onClick={()=>{
+                  window.open(img.link, '_blank')}
+                }
+                // {img.link && onClick={()=>{
+                //   window.open(img.link, '_blank')}
+                // }}
+                // {img.link?.onClick={()=>{
+                //   window.open(img.link, '_blank')}
+                // }}
               />
             </Grid>
           );

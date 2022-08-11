@@ -1,29 +1,35 @@
-.desc{
+.desc {
     font-size: 1vw;
     line-height: 1.2;
     margin-bottom: 0;
     height: 10vw;
     margin-top: 3vw;
 }
-.card_lower{
-    margin-top:1.8vw;
+
+.card_lower {
+    margin-top: 1.8vw;
 }
-.title{
+
+.title {
     font-size: 0.8vw;
     text-align: center;
     font-weight: 600;
     margin-bottom: 0px;
     margin-top: 0.5vw;
     line-height: 1;
-    color: rgb(66, 103, 178);
+    color:
+        #3171B1;
 }
-.name{
+
+.name {
     font-size: 1.2vw;
     font-weight: 600;
     text-align: center;
     margin-bottom: 0px;
-    color: rgb(66, 103, 178);
+    color: #3B89D7;
+    ;
 }
+
 .card_main {
     background-color: rgb(73, 70, 70);
     width: 20vw;
@@ -48,6 +54,7 @@
     margin: auto;
     z-index: 1;
 }
+
 .card_container {
     width: 100%;
     display: flex;
@@ -56,97 +63,119 @@
     justify-content: flex-start;
 }
 
-.owl-carousel .active > .card_main {
+.owl-carousel .active>.card_main {
     margin-inline: auto;
 }
-.owl-carousel .active .owl-theme{
+
+.owl-carousel .active .owl-theme {
     text-decoration: none !important;
     outline: none !important;
 }
+
 .owl-theme .owl-dots .owl-dot {
     width: max-content;
 }
+
 .owl-theme .owl-dots .owl-dot span {
     margin: 0 !important;
     margin-inline: 15px !important;
     width: 10px !important;
     height: 10px !important;
 }
-@media screen and (max-width: 992px){
+
+@media screen and (max-width: 992px) {
     .owl-theme .owl-dots .owl-dot span {
         width: 5px !important;
         height: 5px !important;
     }
-    .card_lower{
-        margin-top:9vw;
+
+    .card_lower {
+        margin-top: 9vw;
     }
-    .card_main{
+
+    .card_main {
         width: 30vw;
         height: 34vw;
     }
+
     .card_img {
         width: 10vw !important;
         height: 10vw;
         top: calc(10vw - 43%);
     }
-    .title{
+
+    .title {
         font-size: 1.4vw;
     }
-    .desc{
+
+    .desc {
         font-size: 1.5vw;
         height: 10vw;
         margin-top: 6vw;
     }
-    .name{
+
+    .name {
         font-size: 1.7vw;
     }
 }
-@media screen and (max-width: 768px){
-    .card_main{
+
+@media screen and (max-width: 768px) {
+    .card_main {
         width: 37vw;
         height: 37vw;
     }
-    .card_lower{
-        margin-top:5vw;
+
+    .card_lower {
+        margin-top: 5vw;
     }
+
     .card_img {
         width: 15vw !important;
         height: 15vw;
         top: calc(10vw - 47%);
     }
-    .desc{
+
+    .desc {
         font-size: 1.7vw;
         margin-top: 6vw;
         height: 15vw;
     }
-    .name{
+
+    .name {
         font-size: 2.3vw;
     }
 }
-@media screen and (max-width: 540px){
-    .card_main{
+
+@media screen and (max-width: 540px) {
+    .card_main {
         width: 47vw;
         height: 47vw;
     }
-    .card_lower{
-        margin-top:13vw;
+
+    .card_lower {
+        margin-top: 13vw;
     }
+
     .card_img {
         width: 18vw !important;
         height: 18vw;
         top: calc(10vw - 40%);
     }
-    .desc{
+
+    .desc {
         font-size: 2.2vw;
         margin-top: 7vw;
         height: 12vw;
     }
-    .name{
+
+    .name {
         font-size: 2.3vw;
     }
-    .title{
+
+    .title {
         font-size: 2vw;
     }
+
     .owl-theme .owl-dots .owl-dot span {
         margin-inline: 8px !important;
     }

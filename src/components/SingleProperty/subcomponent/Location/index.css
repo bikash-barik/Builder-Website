@@ -27,6 +27,7 @@
 .location-image-container{
     display: flex;
     max-width: 1400px;
+    max-height: 450px;
 }
 
 .location-image{

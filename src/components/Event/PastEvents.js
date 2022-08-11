@@ -4,7 +4,7 @@ import noUpcomingImg from "../../images/events/noUp.png";
 import "./Event.css";
 import EventData from "../data/event";
 import image1 from "./PastEventsImages/image1.png";
-import image2 from "./PastEventsImages/image2.png";
+import image2 from "./PastEventsImages/image6.png";
 import image3 from "./PastEventsImages/image3.png";
 import image4 from "./PastEventsImages/image4.png";
 import image5 from "./PastEventsImages/image5.png";

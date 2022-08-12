@@ -16,6 +16,7 @@
     background-color: #F3F3FB;
     width: 100%;
     padding: 30px 52px;
+   
 }
 
 .single-property-details-heading {
@@ -45,6 +46,7 @@
     font-size: 20px;
     line-height: 48px;
     color: #2C2828;
+    text-align: justify;
 }
 
 
@@ -81,10 +83,17 @@
 }
 
 @media screen and (max-width:850px) {
+    .single-property-details-container {
+        margin: 30px 0;
+       
+    }
 
     .single-property-details {
         flex-direction: column;
         background-color: #F3F3FB;
+       
+            margin: 20px 0;
+      
     }
 
     .single-property-details-column-reverse {

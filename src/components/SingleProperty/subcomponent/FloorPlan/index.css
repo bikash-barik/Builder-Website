@@ -80,6 +80,7 @@ border-radius: 0;
 }
 
  @media screen and (max-width:710px) {
+    
     .floor-plan-heading{
         
     font-size: 18px;
@@ -110,10 +111,13 @@ border-radius: 0;
         padding: 30px;
         
     }
+    
+  
     .floor-plan-heading{
         
     font-size: 15px;
     line-height: 30px;
+    margin-top: 10px;
    
     }
     

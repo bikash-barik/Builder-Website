@@ -14,7 +14,9 @@ const Description = (props) => {
         data-aos-duration="1000"
       >
         <span className="single-property-special-class">{description[0]}</span>
+        <span >
         {description.slice(1)}
+        </span> 
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const AboutLocation = ({ locationData }) => {
           return (
               
               <img
-              className="location-image"
+              className={idx===0?"location-image":"location-image location-image-none"}
               src={el.image}
               alt="Loading..."
               />

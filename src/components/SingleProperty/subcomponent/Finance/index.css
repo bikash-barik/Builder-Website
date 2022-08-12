@@ -32,17 +32,16 @@ margin-top: 14px;
 }
 
 .finance-images-container{
-    display: flex;
-    justify-content: space-around;
+
     margin-top: 66px;
 }
 
 .finance-name-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
     height: 110px;
-    justify-content: space-between;
+    
   
 }
 
@@ -75,11 +74,7 @@ color: #000000;
         width: 117px;
        }
    
-    .finance-images-container{
-        flex-wrap: wrap;
-    justify-content: flex-start;
-
-    }
+  
     .finance-name-container{
         margin: 20px 0;
         width: 180px;
@@ -126,6 +121,15 @@ color: #000000;
         width: 90px;
  
     }
+    .finance-image{
+        width: 70px;
+       }
+        .finance-name{
+      
+        font-size: 8px;
+        line-height: 20px;
+     
+        }
   
     
 }

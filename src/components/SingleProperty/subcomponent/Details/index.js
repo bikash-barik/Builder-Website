@@ -3,7 +3,7 @@ const Details = ({ detail }) => {
   return (
     <div className="single-property-details-container">
       {detail?.map((el, idx) => {
-        if (idx % 2 == 0) {
+        if (idx % 2 === 0) {
           return (
             <div className="single-property-details">
               <div className="single-property-details-content">

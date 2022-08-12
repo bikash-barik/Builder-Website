@@ -52,6 +52,19 @@
     }
 }
 @media screen and (max-width : 550px) {
+    .location-image-none{
+        display: none;
+    }
+    .location-image-container{
+        display: block;
+       
+       
+    }
+    .location-image{
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+    }
     .single-property-location {
         padding: 30px;
   

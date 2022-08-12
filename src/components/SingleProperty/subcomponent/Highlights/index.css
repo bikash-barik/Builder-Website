@@ -49,6 +49,9 @@
 }
 
 @media screen and (max-width:720px) {
+    .single-property-highlights {
+        padding:  30px;
+    }
     .single-property-highlights-image {
         width: 90px;
         

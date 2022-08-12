@@ -256,7 +256,7 @@ const OngoingData = [
 
   {
     id: "2",
-    bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2Franasinghpur_main.svg?alt=media&token=9a6be91d-e38f-401e-8c04-b269c092bd20",
+    bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FShreekunj%20IMAGE.jpg?alt=media&token=14486744-9d62-468e-bdfe-95e02d7ad68c",
     title: "ARCHID SHREEKUNJ, RANASINGHPUR",
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
@@ -522,19 +522,19 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN.jpg?alt=media&token=628aebc2-11d2-4381-9fe9-da70b437d82d",
         text: "2 BHK",
-        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2FFrame%206521.jpg?alt=media&token=306b460f-925d-4bf3-834f-ed5634487e9f",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN.jpg?alt=media&token=628aebc2-11d2-4381-9fe9-da70b437d82d",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=2ced94b8-b084-458e-b5aa-0cb778aa8192",
         text: "3 BHK",
-        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2FFrame%206522.jpg?alt=media&token=c0d6da87-e5c6-44b8-8266-5c83afa60283",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=2ced94b8-b084-458e-b5aa-0cb778aa8192",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%203.jpg?alt=media&token=6570033b-dda4-4437-b208-4d922f0a1d2a",
         text: "MASTER PLAN",
-        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2FFrame%206523.jpg?alt=media&token=edb3b83f-4cce-4026-adf1-51e38811fa9b",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%203.jpg?alt=media&token=6570033b-dda4-4437-b208-4d922f0a1d2a",
       },
     ],
     images: [

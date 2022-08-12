@@ -8,7 +8,7 @@
 }
 .team-details p {
   color: #000;
-  /* margin: 20px; */
+  
   height: 95%;
   font-size: 20px;
   font-weight: 500;
@@ -20,6 +20,7 @@
 .team-img {
   font-family: "Lato", sans-serif;
 }
+
 .team-img img {
   height: 260px;
 }
@@ -63,6 +64,8 @@
 }
 @media (max-width: 950px) {
   .team-details {
+    margin-top: -38px;
+    
     height: 100%;
   }
   .hero-img img {
@@ -74,5 +77,14 @@
   .hero-img img {
     width: 100vw;
     height: 35vh;
+  }
+}
+@media (max-width: 430px) {
+  .hero-img img {
+    width: 100vw;
+    height: 28vh;
+  }
+  .team-details p {
+    text-align:justify;
   }
 }

@@ -2,7 +2,9 @@
 html {
   font-size: 62.5%;
 }
+
 .navbar-nav a {
+  /* border:none; */
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -249,6 +251,10 @@ animation-delay: 10ms;
     font-size: 11px;
     padding: 2px
 }
+.navbar-toggler{
+  margin-right: 17px;
+  font-size: 21px;
+  }
 }
 
 
@@ -287,3 +293,10 @@ animation-delay: 10ms;
     display: none;
   }
 }
+@media all and (max-width: 430px) {
+ .togglenav{
+  margin-right:5px;
+ }
+
+}
+

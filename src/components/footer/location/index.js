@@ -1,13 +1,15 @@
 import { useState } from "react";
-import Modal from "react-modal";
 import gps from "../images/gps.svg";
 import mail from "../images/mail.svg";
 import phone from "../images/phone.svg";
 import locationIcon from "../images/locationIcon.svg";
+import Modal from "react-modal";
+import instagram from "../images/instagram.svg"
+import facebook from "../images/facebook.svg"
+import twitter from "../images/twitter.svg"
 import "./index.css";
 
 const Location = () => {
-
   const [modal, setModal] = useState(false);
   const customStyles = {
     content: {
@@ -31,14 +33,20 @@ const Location = () => {
           Plot No:315, “Archid Central” Fourth Floor, Behind BPCL Petrol Pump
           District Center, Chandrashekherpur Bhubaneswar-751016 Odisha
         </div>
+
+      </div>
+      <div className="footericontwo">
+      <div className="footer-icons ">
+        <a href="https://www.instagram.com/archidbuilders_homesforlife/?igshid=8vhwlhruxu5e" target="_blank" ><img className="footer-icon-image" src={instagram} alt="Loading..." /></a>
+        <a href="https://twitter.com/ArchidLtd" target="_blank" ><img className="footer-icon-image" src={twitter} alt="Loading..." /></a>
+        <a href="https://www.facebook.com/archidbuildershomesforlife/" target="_blank" ><img className="footer-icon-image" src={facebook} alt="Loading..." /></a>
+        </div>
       </div>
       <div className="map-button"  onClick={() => {
         modal === true ? setModal(false) : setModal(true);
       }}>
         <img src={locationIcon} alt="Loading..." />
-        <div
-         
-        >
+        <div>
           Map
         </div>
       </div>
@@ -47,7 +55,7 @@ const Location = () => {
         <div className="contact-mail-id">archidhomes@gmail.com</div>
       </div>
       <div className="contact-number">
-        <div className="phone" >
+        <div className="phone">
           <img src={phone} alt="Loading..." />
           <div>+91 7537 000 001</div>
         </div>
@@ -56,9 +64,9 @@ const Location = () => {
           <div>+91 7381 040 001</div>
         </div>
       </div>
-
       <Modal
        
+
         isOpen={modal}
         style={customStyles}
         contentLabel="Example Modal"

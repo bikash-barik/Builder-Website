@@ -23,7 +23,6 @@ const Offers = () => {
       clearInterval(timer);
     };
   }, []);
-
   return (
     <>
       <div className="offers-background-img ">

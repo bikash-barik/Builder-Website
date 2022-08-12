@@ -53,4 +53,4 @@ const TeamData =[
     },
 ];
 
-export default TeamData
+export default TeamData;

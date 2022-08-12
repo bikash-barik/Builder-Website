@@ -45,7 +45,9 @@ export default function Drawer() {
       borderRadius: "20px",
     },
   };
-
+const hidenavbar=()=>{
+  document.getElementByClassName("hidenav").style.display="none";
+}
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className="navbar-bg">
@@ -61,14 +63,14 @@ export default function Drawer() {
             <img src={Logo} style={{ height: 100 }} />
           </NavLink>
           {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav " id="hidenav" />
+          <Navbar.Collapse id="responsive-navbar-nav ">
             <Nav className="me-auto navtext">
               <Nav.Link
                 className="n-link"
                 style={{ color: "#3171B1", fontWeight: 600 }}
               >
-                <NavLink to="/communities" style={{ padding: 10 }}>
+                <NavLink to="/communities" onClick={hidenavbar} style={{ padding: 10 }}>
                   COMMUNITIES
                 </NavLink>
               </Nav.Link>

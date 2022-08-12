@@ -102,7 +102,7 @@ html {
   }
   .grid-two-column {
     gap: 0rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -154,24 +154,18 @@ html {
     margin-left: 25rem;
     margin-top: -35px;
   }
+  .css-eglki6-MuiLinearProgress-root{
+    height: 20px !important;
+    top: 2rem !important
+  }
 }
-/* @media only screen and (max-width: 750px){
-  .coming-heading {
-    font-size: 2.2rem;
-    letter-spacing: 0.4rem;
-    margin-left: 1px;
-    margin-top: 55px;
-  }
-  .soon-heading {
-    font-size: 2.2rem;
-    letter-spacing: 0.4rem;
-    margin-left: 20rem;
-    margin-top: -35px;
-  }
-} */
 @media only screen and (max-width: 360px){
   .offers-background-img {
     height: 35vh;
+  }
+  .grid-two-column {
+    display: grid;
+    margin-left: 4rem;
   }
   .coming-heading {
     font-size: 2.2rem;
@@ -280,11 +274,3 @@ html {
     margin-top: -76px;
   }
 }
-/* @media (min-width: 375px) and (max-width: 390px) {
-  .coming-heading {
-    margin-left: 10px;
-  }
-  .soon-heading {
-    margin-left: 20px;
-  }
-} */

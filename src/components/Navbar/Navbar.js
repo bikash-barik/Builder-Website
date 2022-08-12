@@ -45,9 +45,7 @@ export default function Drawer() {
       borderRadius: "20px",
     },
   };
-const hidenavbar=()=>{
-  document.getElementByClassName("hidenav").style.display="none";
-}
+
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" className="navbar-bg">
@@ -70,7 +68,7 @@ const hidenavbar=()=>{
                 className="n-link"
                 style={{ color: "#3171B1", fontWeight: 600 }}
               >
-                <NavLink to="/communities" onClick={hidenavbar} style={{ padding: 10 }}>
+                <NavLink to="/communities"  style={{ padding: 10 }}>
                   COMMUNITIES
                 </NavLink>
               </Nav.Link>

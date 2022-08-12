@@ -24,10 +24,13 @@
 }
 
 .surrounding-image{
-    max-width: 720px;
-    height: 400px;
+    max-width: 900px;
+    width: auto;
+    max-height: 350px;
+    height: auto;
 
 }
+
 
 @media screen and (max-width : 800px) {
 
@@ -43,11 +46,7 @@
         width: 150px;
 
     }
-    .surrounding-image{
-        max-width: 720px;
-       height: auto;
-    
-    }
+  
 }
 @media screen and (max-width : 550px) {
     .single-property-surrounding {

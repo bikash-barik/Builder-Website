@@ -93,6 +93,7 @@ const OngoingData = [
       text: " With an 3000 square feet exclusive community building You’ll explore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go for chilling with your friends any time you wish. And when you’re done practising your swing, you can hitthe gym, relax by the community pool, or take your little ones for a mini-adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
       brochure:
         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FArchid-Pramod-Retreat-Brochure-18-1-2022-2-1-1.pdf?alt=media&token=9160bca6-4f20-4acb-b65c-a6fd5326a2d7",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAmeneties%2FPramod%20ameneties.jpg?alt=media&token=0891edbb-fae2-475c-a058-bed0e7ee9d67",
     },
     floorPlans: [
       {
@@ -327,6 +328,7 @@ const OngoingData = [
       text: "Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community  centre, and an impressive array of parks and walkways, the    community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
       brochure:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAmeneties%2FShreekunj%20Ameneties.jpg?alt=media&token=10b7df85-8558-437a-80cd-d2164ed80ad7",
     },
     floorPlans: [
       {
@@ -513,6 +515,7 @@ const OngoingData = [
 
       brochure:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FAmeneties%2Fsailabala%2C%20(ameneties)%20(1).jpg?alt=media&token=10b5e0f3-87a2-4da3-9ac2-846df0d69a8b",
     },
     floorPlans: [
       {

@@ -49,7 +49,6 @@ html {
   font-size: 42px;
   font-weight: 500;
 }
-
 .grid-two-column {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -87,7 +86,7 @@ html {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .offers-background-img {
-    height: 70vh;
+    height: 50vh;
   }
   .offer-heading {
     margin-left: 1rem;
@@ -103,7 +102,7 @@ html {
   }
   .grid-two-column {
     gap: 0rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -121,7 +120,69 @@ html {
     margin-top: -35px;
   }
 }
-
+@media only screen and (max-width: 566px){
+  .offers-background-img {
+    height: 40vh;
+  }
+  .coming-heading {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+    margin-left: 4px;
+    margin-top: 55px;
+  }
+  .soon-heading {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+    margin-left: 32rem;
+    margin-top: -35px;
+  }
+  .css-eglki6-MuiLinearProgress-root{
+    height: 20px !important;
+    top: 4rem !important
+  }
+}
+@media only screen and (max-width: 510px){
+  .coming-heading {
+    font-size: 2.3rem;
+    letter-spacing: 0.4rem;
+    margin-left: 1px;
+    margin-top: 55px;
+  }
+  .soon-heading {
+    font-size: 2.3rem;
+    letter-spacing: 0.4rem;
+    margin-left: 25rem;
+    margin-top: -35px;
+  }
+  .css-eglki6-MuiLinearProgress-root{
+    height: 20px !important;
+    top: 2rem !important
+  }
+}
+@media only screen and (max-width: 360px){
+  .offers-background-img {
+    height: 40vh;
+  }
+  .grid-two-column {
+    display: grid;
+    margin-left: 4rem;
+  }
+  .coming-heading {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+    margin-left: 0.8px;
+    margin-top: 55px;
+  }
+  .soon-heading {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+    margin-left: 18rem;
+    margin-top: -35px;
+  }
+  .css-eglki6-MuiLinearProgress-root{
+    height: 15px !important;
+  }
+}
 @media (min-width: 601px) and (max-width: 900px) {
   .offers-background-img {
     height: 50vh;

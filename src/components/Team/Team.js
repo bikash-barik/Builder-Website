@@ -22,7 +22,7 @@ export default function Team() {
                          </div>   
                     </div>
                     <div className='col-lg-9 col-md-12 col-sm-12' style={{padding:"20px"}}>
-                        <div className='team-details p-auto' style={i===1 || i===5 || i===6 ? {padding:"8% 6%"}:{}}>
+                        <div className='team-details p-auto ' style={i===1 || i===5 || i===6 ? {padding:"8% 6%"}:{}}>
                             <p className=' p-auto' style={{fontSize:"",letterSpacing:"0.1vw", fontWeight:"400"}}> 
                            {data.details}
                              </p>   

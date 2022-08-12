@@ -16,6 +16,7 @@ const FloorPlan = ({floorPlanData}) => {
     left: '50%',
     transform: 'translate(-50%, -50%)', 
     
+    
   };
   
   const [open, setOpen] = React.useState(false);

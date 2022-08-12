@@ -17,7 +17,7 @@ const Ameneties = ({ ameneties }) => {
         </div>
       </div>
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2Ffacilities1.png?alt=media&token=839e6b50-6c2d-4950-a6ce-77646e10041c"
+        src={ameneties?.image}
         alt="Loading..."
         className="ameneties-image"
       />

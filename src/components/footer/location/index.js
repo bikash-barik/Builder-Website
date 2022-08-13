@@ -4,9 +4,7 @@ import mail from "../images/mail.svg";
 import phone from "../images/phone.svg";
 import locationIcon from "../images/locationIcon.svg";
 import Modal from "react-modal";
-import instagram from "../images/instagram.svg"
-import facebook from "../images/facebook.svg"
-import twitter from "../images/twitter.svg"
+
 import "./index.css";
 
 const Location = () => {
@@ -35,13 +33,7 @@ const Location = () => {
         </div>
 
       </div>
-      <div className="footericontwo">
-      <div className="footer-icons ">
-        <a href="https://www.instagram.com/archidbuilders_homesforlife/?igshid=8vhwlhruxu5e" target="_blank" ><img className="footer-icon-image" src={instagram} alt="Loading..." /></a>
-        <a href="https://twitter.com/ArchidLtd" target="_blank" ><img className="footer-icon-image" src={twitter} alt="Loading..." /></a>
-        <a href="https://www.facebook.com/archidbuildershomesforlife/" target="_blank" ><img className="footer-icon-image" src={facebook} alt="Loading..." /></a>
-        </div>
-      </div>
+      
       <div className="map-button"  onClick={() => {
         modal === true ? setModal(false) : setModal(true);
       }}>

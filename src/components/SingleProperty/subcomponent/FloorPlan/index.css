@@ -151,3 +151,17 @@ border-radius: 0;
         }
     
 }
+@media screen and (max-width:410px) {
+
+
+    .filter-option{
+ 
+        
+        font-size: 8px;
+        line-height: 10px;   
+          
+        
+        }
+
+    
+}

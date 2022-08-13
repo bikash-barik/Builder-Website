@@ -2,7 +2,7 @@ import formImage from "../images/formImage.svg"
 import "./index.css"
 const ContactUsForm = () => {
     return ( 
-        <div className="contact-us-form-container footerform">
+        <div className="contact-us-form-container ">
           <form className="contact-us-form">
           <div className="form-heading ">
           <div >GET IN TOUCH</div>

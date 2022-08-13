@@ -1,4 +1,4 @@
-.Communities{
+.Communities {
     color: #fff;
 }
 
@@ -7,24 +7,34 @@
     height: 500px;
 }
 
-.ongoing-box h2,h1, h3, h4,h5,h6,p{
+.ongoing-box h2,
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
     color: #fff;
-    
+
 }
-.ongoing-box hr {
-    color: #fff;
-    opacity: 1;
-    margin: 10px 90px;
+
+
+@media screen and (max-width: 655px) {
+
+    .line {
+        width: 80px !important;
+        margin-bottom: 16px !important;
+
+    }
+
+    .completed-image{
+        height: 300px !important;
+    }
+    .ongoing-box 
+
+h3
+ {
+    font-size: 15px !important;
 }
-.show-image {
-    width: 100vw !important;
-    height: 100vh !important;
-    object-fit: contain;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding: 25px;
-    background-color: #4b4949;
-  }
-  
-  
+
+}

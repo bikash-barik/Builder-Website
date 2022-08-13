@@ -4,14 +4,14 @@ const CarouselData =[
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FWhatsApp%20Image%202022-07-20%20at%203.13.35%20PM.jpeg?alt=media&token=f6ea98b9-bf94-48c7-ba79-e2382163ea21",
         description :'"Being completely new to home buying and having heard of many horror stories from others, our experience with AB has been pretty pleasant so far. AB has been very professional and helpful at every step. We would highly recommend AB. Our journey so far has been a pleasant one.',
         name:"Dr. CK Deepa, Dr. Nihar Ranjan ",
-        title :"CLIENT ARCHID SHREEKUNJ",
+        title :"CLIENT, ARCHID SHREEKUNJ",
     },
     {
         id: 2,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FWhatsApp%20Image%202022-07-20%20at%203.14.07%20PM.jpeg?alt=media&token=87f8e29b-a87d-4d8a-aee3-0bddaf127058",
         description :'"A big thanks to the Archid Team, specially Mr Anshuman, Miss Ankita and Miss Pratyusha for the excellent service. Must say each and every process was very smooth and more so every visit to your office was like visiting my own home. Now having booked my duplex through you, I am now self assured that my dream home is in the right hands.',
         name:"Mr. Tapan Nayak",
-        title:"Client Archid Shreekunj",
+        title:"CLIENT, ARCHID SHREEKUNJ",
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const CarouselData =[
         id: 4,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FWhatsApp%20Image%202022-07-21%20at%2012.37.35%20PM.jpeg?alt=media&token=e1b61d83-30b4-4561-ba58-48ab5ab9646a",
        
-        description :"The project is extremely successful and we booked a 3 bhk with good cost at a prime location int the heart of the temple city.They are doing the good construction as per exact time schedule, which is the most important objective for us now a days before buying a property.",
+        description :'"The project is extremely successful and we booked a 3 bhk with good cost at a prime location int the heart of the temple city.They are doing the good construction as per exact time schedule, which is the most important objective for us now a days before buying a property."',
         name:"Dr. Purabi Panda",
         title :"CLIENT, ARCHID SAILABALA",
     },
@@ -46,7 +46,7 @@ const CarouselData =[
     },
     {
         id: 7,
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010.jpg?alt=media&token=129b4d5a-2610-40b8-a292-763fa64f19dd",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010%20(1).jpg?alt=media&token=60ae1e66-d1f9-4d16-ae5a-7e248910db84",
        
         description :'"ARCHID BUILDERS have taken better care of us...The entire team lives and breathes excellence in everything they do. Integrity, initiative and intelligence are built into this project. What an awesome job! Thank you!"',
         name:"Mr. Banaja Kumar Das",
@@ -54,22 +54,22 @@ const CarouselData =[
     },
     {
         id: 8,
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010%20(1).jpg?alt=media&token=60ae1e66-d1f9-4d16-ae5a-7e248910db84",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010.jpg?alt=media&token=129b4d5a-2610-40b8-a292-763fa64f19dd",
         description :'"We are totally pleased with your company, your people and your subcontractors on the craftsmanship of your product. We continue to be totally satisfied with the Apartment that you built for us two years ago"',
-        name:"Mr. Nisarg Rachna",
+        name:"Ms. Nisarg Rachna",
         title :"ARCHITECT",
         
     },
     {
         id: 9,
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010.jpg?alt=media&token=129b4d5a-2610-40b8-a292-763fa64f19dd",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010%20(1).jpg?alt=media&token=60ae1e66-d1f9-4d16-ae5a-7e248910db84",
         description :'"We are totally pleased with your company, your people and your subcontractors on the craftsmanship of your product. We continue to be totally satisfied with the Apartment that you built for us two years ago"',
         name:"Mr. Rajendra Goel",
         title :"CLIENT, ARCHID PRESTIGE",
     },
     {
         id: 10,
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010%20(1).jpg?alt=media&token=60ae1e66-d1f9-4d16-ae5a-7e248910db84",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010.jpg?alt=media&token=129b4d5a-2610-40b8-a292-763fa64f19dd",
         description :`"ARCHID BUILDERS have taken better care of us...The entire team lives and breathes excellence in everything they do. Integrity, initiative and intelligence are built into this project. What an awesome job! Thank you!"`,
         name:"Ms. Kirtiprasad Pati",
         title :"CLIENT, ARCHID PRIDE",

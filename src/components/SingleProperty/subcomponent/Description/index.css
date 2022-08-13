@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.single-property-description-container {
+    padding: 43px 40px;
+    background-color: #F3F4FB;
+    color: #2C2828;
+}
+
+.single-property-description-heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+
+}
+
+.single-property-description-line {
+    width: 200px;
+    border-top: 1px solid #2C2828;
+    margin-left: 10px;
+
+}
+
+.single-property-description {
+    max-width: 1590px;
+    width: 100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+
+}
+
+.single-property-special-class {
+    font-size: 33px;
+    line-height: 38px;
+}
+
+@media screen and (max-width:800px) {
+    .single-property-description-heading {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .single-property-description-line {
+        width: 100px;
+    }
+
+    .single-property-description {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .single-property-special-class {
+        font-size: 28px;
+        line-height: 30px;
+
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .single-property-description-heading {
+        font-size: 9px;
+    }
+
+    .single-property-description-line {
+        width: 60px;
+    }
+
+    .single-property-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .single-property-special-class {
+        font-size: 27px;
+        line-height: 20px;
+
+    }
+
+}

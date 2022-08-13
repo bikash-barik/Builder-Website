@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 652.44px;
+    height: 590.44px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
 .coming-soon {
     max-width: 658px;
     width: 100%;
-    margin-top: -300px;
+    margin-top: -200px;
 }
 
 .coming-soon-text {
@@ -70,11 +70,13 @@
     color: #FFFFFF;
     background-color: black;
     border: 1px solid white;
-    margin-top: -300px;
+    margin-top: -200px;
 
 
 
 }
+
+
 
 @media screen and (max-width: 760px) {
 
@@ -139,25 +141,25 @@
         height: 260px;
     }
     .coming-soon {
-        max-width: 340px;
+        max-width: 250px;
     }
     .coming-soon-text {
-        height: 50px;
+        height: 40px;
         font-size: 20px;
         line-height: 30px;
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .coming-place-name {
-        
         height: 20px;
-        font-size: 13px;
+        font-size: 10px;
         line-height: 15px;
+        margin: 5px;
     }
 
     .place-name {
-        height: 50px;
-        font-size: 18px;
+        height: 40px;
+        font-size: 12px;
         line-height: 22px;
         position: relative;
         top: 80px;

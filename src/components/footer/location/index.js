@@ -5,10 +5,8 @@ import phone from "../images/phone.svg";
 import locationIcon from "../images/locationIcon.svg";
 import Modal from "react-modal";
 import "./index.css";
+
 const Location = () => {
-  // const newMap = () => {
-  //     <iframe width="921" height="760" target="_blank" id="gmap_canvas" src="https://maps.google.com/maps?q=Archid%20Builders%20Pvt.%20Ltd.%20Plot%20No:315,%20%E2%80%9CArchid%20Central%E2%80%9D%20Fourth%20Floor,%20Behind%20BPCL%20Petrol%20Pump%20District%20Center,%20Chandrashekherpur%20Bhubaneswar-751016%20Odisha&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-  // }
   const [modal, setModal] = useState(false);
   const customStyles = {
     content: {
@@ -33,13 +31,11 @@ const Location = () => {
           District Center, Chandrashekherpur Bhubaneswar-751016 Odisha
         </div>
       </div>
-      <div className="map-button">
+      <div className="map-button"  onClick={() => {
+        modal === true ? setModal(false) : setModal(true);
+      }}>
         <img src={locationIcon} alt="Loading..." />
-        <div
-          onClick={() => {
-            modal === true ? setModal(false) : setModal(true);
-          }}
-        >
+        <div>
           Map
         </div>
       </div>
@@ -58,13 +54,14 @@ const Location = () => {
         </div>
       </div>
       <Modal
-        data-aos="fade-left"
+       
+
         isOpen={modal}
         style={customStyles}
         contentLabel="Example Modal"
       >
         <form className="">
-          <div className="d-flex">
+          <div className="d-flex justify-content-between">
             <h3 className="black-text">Location</h3>
             <i
               class="fa-solid fa-xmark"
@@ -86,6 +83,7 @@ const Location = () => {
         </form>
       </Modal>
     </div>
+
   );
 };
 

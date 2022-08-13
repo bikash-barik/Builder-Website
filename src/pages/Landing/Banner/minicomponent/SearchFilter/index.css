@@ -8,39 +8,41 @@
    
     background-color: white;
     padding: 10px 30px;
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
-    height: 100px;
     position: absolute;
     left: 0;
     right: 0;
     top: 500px;
     margin: 0 auto;
     z-index: 1;
+
+   
 }
 
 .banner-search {
     max-width: 293px;
-    height: 80px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .banner-search-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 25px;
-    max-width: 213px;
+    padding: 5px 25px;
+    max-width: 190px;
     width: 100%;
-    height: 38px;
+    
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 25px;
     cursor: pointer;
     letter-spacing: 0.06em;
     color: #FFFFFF;
@@ -68,7 +70,6 @@
     
     padding: 5px 15px;
     max-width: 170px;
-    height: 30px;
     font-size: 8px;
     line-height: 10px;
   
@@ -84,42 +85,69 @@
 }
 
 .banner-search-button {
-    font-size: 12px;
-    line-height: 13px;
-  
+    font-size: 10px;
+    
 }
   }
 
 
   @media screen and (max-width: 440px) {
     .menu-1 {
-        height: 50px;
+        height: 30px;
         max-width: 223px;
     }
     .banner-search-filter {
         padding: 5px 20px;
         top: 275px;
         width: 335px;
-        height: 70px;
+        height: 40px;
     }
-    
+    .banner-search {
+        height: 30px;
+        width: 85px;
+        position: relative;
+        right: 10px;
+    }
     .banner-search-button {
-        font-size: 8px;
-        line-height: 13px;
+        font-size: 5px;
+        line-height: 10px;
+    }
+    .dropdown-toggle::after {
+        margin-left: 5.255em;
     }
     .col-6 {
         flex: 0 0 auto;
         width: 25%;
     }
     .menu-title {
-        font-size: 8px;
+        font-size: 6px;
     }
     .drop-down-button {
-        margin-top: 20px;
-        max-width: 50px;
+        margin-top: 0px;
+        max-width: 30px;
         padding: 0px 0px;
-        font-size: 8px;
+        font-size: 6px;
         line-height: 20px;
+        height: 25px;
+    }
+    .form {
+        margin-top: 0px;
+        margin-left: -12px;
+        min-width: 65px;
+    }
+    .form-radio {
+        font-size: 0.7rem;
+    }
+    .menu-1 input[type="radio"] {
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+    }
+    .banner-option {
+        margin-left: 10px;
+        font-size: 4px;
+        margin-top: 3px;
+        font-weight: 700;
     }
       }
 

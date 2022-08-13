@@ -5,7 +5,7 @@
 .menu-1{
   border-right: 1px solid #CAC1C1;
   margin-right: 20px;
-  height: 70px;
+ 
   max-width: 293px;
   width: 100%;
 }
@@ -18,7 +18,7 @@ line-height: 14px;
 letter-spacing: 0.06em;
 color: #473E3E;
 background-color: white;
-margin-top: 10px;
+margin-top: 0px;
 }
 .drop-down-button {
   margin-top: 20px;

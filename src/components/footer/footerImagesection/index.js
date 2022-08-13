@@ -6,11 +6,11 @@ import "./index.css"
 const FooterImageSection = () => {
     return ( 
         <div className="footer-image-section">
-        <img src={logo} alt="Loading..." />
+        <img className="footer-logo-image" src={logo} alt="Loading..." />
         <div className="footer-icons">
-        <img src={instagram} alt="Loading..." />
-        <img src={twitter} alt="Loading..." />
-        <img src={facebook} alt="Loading..." />
+        <a href="https://www.instagram.com/archidbuilders_homesforlife/?igshid=8vhwlhruxu5e" target="_blank" ><img className="footer-icon-image" src={instagram} alt="Loading..." /></a>
+        <a href="https://twitter.com/ArchidLtd" target="_blank" ><img className="footer-icon-image" src={twitter} alt="Loading..." /></a>
+        <a href="https://www.facebook.com/archidbuildershomesforlife/" target="_blank" ><img className="footer-icon-image" src={facebook} alt="Loading..." /></a>
         </div>
         </div>
      );

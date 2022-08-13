@@ -1,29 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 .about-us-container {
-    height: 550.44px;
+    height: auto;
 
 }
 
 .about-us {
-    max-width: 1407px;
-    width: 100%;
-    max-height: 600.44px;
-    height: 100%;
-    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/XTpm.gif');
+    width: 85%;
+    height: 550px;
+    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%, rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/XTpm.gif');
     background-position: center;
     background-size: cover;
-    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+}
+
+.about-us-text-container {
+    margin-left: 55px;
 }
 
 
 
 .about-us-heading {
-
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -50,6 +49,10 @@
     line-height: 43px;
     color: #FFFFFF;
     margin-top: 34px;
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about-us-text {
@@ -58,196 +61,124 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 45px;
-    margin-top: 20px;
+    margin-top: 20  px;
     color: #FFFFFF;
+    max-width: 580px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about-us-image {
-   width: 40%;
-    height: auto;
-    margin-right: -150px;
+    max-width: 629px;
+    height: 50;
+    width: 45%;
+    margin-right: -100px;
 
 }
 
-@media screen and (max-width: 1460px) {
-    .about-us-image {
-        width: 500px;
+@media screen and (max-width: 1280px) {
+
+
+    .about-us {
+
         height: auto;
-        margin-right: -110px;
-    }
-    .about-us {
-        max-width: 1407px;
-        width: 80%;
-        max-height: 652.44px;
-        height: 100%;
-        background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/XTpm.gif');
-        background-position: center;
-        background-size: cover;
-        
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        
-    }
-}
-
-@media screen and (max-width: 1210px) {
-    .about-us-container {
-        height: 500px;
-
-    }
-
-    .about-us {
-        padding: 10px 15px;
+        padding-top: 7%;
+        padding-bottom: 7%;
 
     }
 
     .about-us-heading {
-        font-size: 15px;
-        line-height: 12px;
-        letter-spacing: 0.01em;
+
+        font-size: 13px;
+        line-height: 14px;
+
+    }
+
+    .about-us-line {
+        width: 100px;
+        margin-bottom: 4px;
+
+    }
+
+    .about-us-intro {
+
+        font-size: 13px;
+        line-height: 33px;
+
+    }
+
+    .about-us-text {
+        font-size: 11px;
+        line-height: 35px;
+
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .about-us {
+
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        padding-right: 55px;
+
+    }
+
+    .about-us-image {
+        margin-top: 15px;
+        margin-right: 0px;
+        margin-left: auto;
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .about-us {
+
+
+        padding-right: 30px;
+
+    }
+
+    .about-us-text-container {
+        margin-left: 30px;
+    }
+
+
+    .about-us-heading {
+
+        font-size: 10px;
+
+
     }
 
     .about-us-line {
         width: 80px;
-        border-top: 1px solid #FFFFFF;
-        margin-bottom: 5px;
-        margin-left: 4px;
-    }
-
-    .about-us-intro {
-
-        font-size: 15px;
-        line-height: 22px;
-
-        margin-top: 28px;
-    }
-
-    .about-us-text {
-
-        font-size: 10px;
-        line-height: 22px;
-        margin-top: 50px;
-
-
-    }
-
-    .about-us-image {
-        width: 400px;
-        height: auto;
-
-    }
-
-}
-
-
-@media screen and (max-width: 890px) {
-    .about-us-container {
-        height: 400px;
-
-    }
-
-    .about-us-heading {
-        font-size: 10px;
-        line-height: 8px;
-        letter-spacing: 0.01em;
-    }
-
-    .about-us-line {
-        width: 50px;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
 
     }
 
     .about-us-intro {
 
         font-size: 10px;
-        line-height: 18px;
-
-        margin-top: 20px;
-    }
-
-    .about-us-text {
-
-        font-size: 8px;
-        line-height: 11px;
+        line-height: 30px;
         margin-top: 25px;
 
 
     }
 
-    .about-us-image {
-        width: 300px;
-        height: auto;
-
-    }
-
-}
-
-@media screen and (max-width: 610px) {
-    .about-us-container {
-        height: auto;
-        
-
-    }
-
-    .about-us {
-        height: auto;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding: 20px;
-
-    }
-
-    .about-us-heading {
-        font-size: 15px;
-        line-height: 14px;
-        letter-spacing: 0.01em;
-    }
-
-    .about-us-line {
-        width: 80px;
-        border-top: 1px solid #FFFFFF;
-        margin-bottom: 5px;
-        margin-left: 4px;
-    }
-
-    .about-us-intro {
-        font-size: 15px;
-        line-height: 22px;
-        margin-top: 28px;
-    }
-
     .about-us-text {
-        font-size: 12px;
-        line-height: 22px;
-        margin-top: 30px;
-    }
-    /* .about-us-image {
-        width: 200px;
-        height: auto;
-        margin-left: auto;
+        font-size: 8px;
+        line-height: 30px;
+        margin-top: 10px;
 
-    } */
-    .about-us-image {
-        width: 300px;
-        height: auto;
-        margin: 0;
     }
-    .about-us {
-        max-width: 1407px;
-        width: 100%;
-        max-height: 652.44px;
-        height: 100%;
-        background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/XTpm.gif');
-        background-position: center;
-        background-size: cover;
-        
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        
-    }
-
 }

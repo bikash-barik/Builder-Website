@@ -5,32 +5,25 @@ const AboutUs = () => {
   return (
     <div className="about-us-container">
       <div className="about-us">
-        <div>
+        <div className="about-us-text-container" >
           <div>
             <div className="about-us-heading">ABOUT US</div>
             <div className="about-us-line"></div>
           </div>
-          <div className="about-us-intro"  data-aos="fade-up"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="400">
-            UNPARALLELED SERVICE AND EXPERT ADVICE AT EVERY
-            <br /> STEP OF THE REAL ESTATE TRANSACTION.
+          <div className="about-us-intro">
+            UNPARALLELED SERVICE AND EXPERT ADVICE AT EVERY STEP OF THE REAL ESTATE TRANSACTION.
           </div>
-          <div className="about-us-text"  data-aos="fade-up"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="400">
+          <div className="about-us-text">
             With over 13 years of experience developing “HOMES FOR LIFE” and
-            Focusing <br/> on real estate markets, ARCHID BUILDERS rank in the top 5
-            Companies in all <br/> over Odisha. Our team has an exceptional knowledge
-            about our community and <br/> neighborhoods.
+            Focusing on real estate markets, ARCHID BUILDERS rank in the top 5
+            Companies in all over Odisha. Our team has an exceptional knowledge
+            about our community and neighborhoods.
           </div>
         </div>
-        <img className="about-us-image"    data-aos="fade-down-left"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000"
-                      data-aos-offset="100" src={house} alt="...Loading" />
+        <img className="about-us-image" src={house}   alt="...Loading" data-aos="fade-down-left"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        data-aos-offset="200"   />
       </div>
     </div>
   );

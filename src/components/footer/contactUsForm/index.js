@@ -24,7 +24,7 @@ const ContactUsForm = () => {
           <button type="submit" className="form-button">Submit</button>
           
           </form>
-          <img className="image-remove" src={formImage} alt="Loading..." />
+          <img className="footer-form-image" src={formImage} alt="Loading..." />
 
         </div>
        

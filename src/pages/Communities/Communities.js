@@ -8,8 +8,8 @@ import Ongoing from "../../components/Communities/Ongoing/Ongoing";
 import Upcoming  from "../../components/Communities/Upcoming/Upcoming";
 export default function Communities() {
   return (
-    <div className="Communities-page">
-      <Ongoing/>
+    <div className="Communities-page" >
+      <Ongoing head="ONGOING PROJECTS"/>
 
       <Upcoming/>
  

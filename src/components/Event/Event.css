@@ -34,12 +34,31 @@ h4 {
     height: 50vh !important;
   }
 }
+@media only screen and (max-width: 800px){
+  .text-center{
+    font-size: 40px !important ;
+    margin-left: 5px !important;
+  }
+}
 @media only screen and (max-width: 700px){
   .hero-img img{
     height: 40vh !important;
   }
 }
+@media only screen and (max-width: 575px){
+  .img-fluid{
+    width: 60%;
+    margin-left: 20%;
+  }
+  .text-center{
+    margin-top: 25px !important;
+  }
+}
 @media only screen and (max-width: 500px){
+  .text-center{
+    font-size: 30px !important ;
+    margin-top: 25px !important;
+  }
   .upcoming_heading h3{
     font-size: 20px !important;
   }

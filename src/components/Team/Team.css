@@ -82,9 +82,14 @@
 @media (max-width: 430px) {
   .hero-img img {
     width: 100vw;
-    height: 28vh;
+    height: 22vh;
   }
   .team-details p {
     text-align:justify;
   }
 }
+/* @media (max-width: 400px){
+  .hero-img img {
+    height: 22vh;
+  }
+} */

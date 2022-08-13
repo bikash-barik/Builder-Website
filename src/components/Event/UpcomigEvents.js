@@ -9,7 +9,7 @@ export default function UpcomingEvents() {
       <div className="hero-img" styles={{ margin: "0px", padding: "0px" }}>
         <img src={heroImg} alt="" style={{ maxWidth: "100%" }} />
       </div>
-      <div className="d-flex my-5">
+      <div className="d-flex my-5 upcoming_heading">
         <h3
           style={{
             fontSize: "33px",
@@ -21,7 +21,7 @@ export default function UpcomingEvents() {
         >
           UPCOMING EVENTS
         </h3>
-        <hr
+        <hr className="upcoming_hr"
           style={{
             width: "150px",
             backgroundColor: "white",

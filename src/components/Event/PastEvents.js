@@ -88,7 +88,7 @@ export default function PastEvents() {
             width: "100%",
             height: "auto",
 
-            marginBottom: "190px",
+            marginBottom: "45px",
           }}
         ></img>
       </div>

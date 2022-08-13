@@ -38,3 +38,12 @@
     }
     
 }
+@media screen and (max-width : 430px){
+   
+    .footerlogo{
+        display:none;
+    }
+    .footericon{
+        display:none;
+    }
+}

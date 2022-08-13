@@ -50,20 +50,8 @@ export default function PastEvents() {
 
             top: "1521px",
           }}
-          src={image1}
-          alt=" "
-        ></img>
-        <br />
-        <br />
-        <br />
-        <br />
-        <img
           src={image2}
           alt=" "
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
         ></img>
         <br />
         <br />
@@ -83,6 +71,18 @@ export default function PastEvents() {
         <br />
         <img
           src={image4}
+          alt=" "
+          style={{
+            width: "100%",
+            height: "auto",
+          }}
+        ></img>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          src={image1}
           alt=" "
           style={{
             width: "100%",

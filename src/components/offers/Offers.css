@@ -1,6 +1,143 @@
 .offers-background-img {
   width: 100vw;
   height: 100vh;
-  background-image: url("offers-bk-img.png");
+  background-image: url("offer_picture.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+html{
+  overflow-x: hidden;
+}
+
+.css-8atqhb{
+  width: 40% !important; 
+  margin: auto !important;
+}
+
+.css-eglki6-MuiLinearProgress-root{
+  position: relative !important;
+  overflow: hidden !important;
+  display: block !important;
+  height: 30px !important;
+  border-radius: 50px !important;
+  z-index: 0 !important;
+  background-color: rgb(77, 73, 73) !important;
+  top: 5rem;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1{
+  width: 100% !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  transition: transform .4s linear !important;
+  transform-origin: left !important;
+  background: linear-gradient(89.81deg, #196ED2 26.04%, #311A73 85.89%) !important;
+  border-radius: 50px !important;
+}
+
+.offer-heading{
+  margin-left: 6rem;
+  padding-top: 3rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+
+.grid-two-column{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ gap: 8rem;
+ margin-left: 15rem;
+ margin-top: 7rem;
+}
+
+.coming-heading{
+  font-size: 2.8rem;
+  letter-spacing: 1rem;
+  font-weight: 500;
+}
+
+.soon-heading{
+  font-size: 2.8rem;
+  letter-spacing: 1rem;
+  font-weight: 500;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .offers-background-img {
+    height: 70vh;
+  }
+  .offer-heading{
+    margin-left: 1rem;
+    font-size: 2rem;
+  }
+  .grid-two-column{
+    gap: 0rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .coming-heading{
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+  }
+  .soon-heading{
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    margin-left: 2.5rem;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .offers-background-img {
+    height: 50vh;
+  }
+  .grid-two-column{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16.5rem;
+    margin-left: 0.8rem;
+    margin-top: 7rem;
+  }
+  .coming-heading{
+    font-size: 2.3rem;
+    letter-spacing: 1rem;
+    font-weight: 500;
+  }
+  .soon-heading{
+    font-size: 2.3rem;
+    letter-spacing: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+  .offers-background-img {
+    height: 50vh;
+  }
+  .grid-two-column{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16.5rem;
+    margin-left: 5.7rem;
+    margin-top: 7rem;
+  }
+  .coming-heading{
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+    font-weight: 500;
+  }
+  .soon-heading{
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+    font-weight: 500;
+  }
 }

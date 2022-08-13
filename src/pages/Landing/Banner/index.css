@@ -109,9 +109,6 @@
 }
 
 @media screen and (max-width: 576px) {
-
-   
-
     .coming-soon {
         max-width: 400px;
 
@@ -138,11 +135,17 @@
 
 }
 @media screen and (max-width: 440px) {
-
+    .banner-background {
+        height: 260px;
+    }
+    .coming-soon {
+        max-width: 340px;
+    }
     .coming-soon-text {
         height: 50px;
         font-size: 20px;
         line-height: 30px;
+        margin-top: 200px;
     }
 
     .coming-place-name {
@@ -153,9 +156,11 @@
     }
 
     .place-name {
-        height: 45px;
+        height: 50px;
         font-size: 18px;
         line-height: 22px;
+        position: relative;
+        top: 80px;
     }
 
 }

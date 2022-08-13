@@ -1,18 +1,52 @@
 .Team_background{
-    background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif');
+    /* background-image: linear-gradient(rgba(129, 124, 124, 0.5)30%,rgba(129, 124, 124, 0.5)30%), url('https://i.gifer.com/LSsT.gif'); */
     background-position: center;
 }
 .team-details p{
     color: #000;
     margin: 20px;
-    height: 95%;
-    font-size: 25px;
+    height: 120px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .team-img img{
     height: 260px;
 }
+
+.team-img h3{
+font-size: 22px;
+font-weight: 500;
+}
+
+.team-img h4{
+font-size: 18px;
+font-weight: 300;
+}
 .team-details{
     background-color: #fff;
-    height: 100%;
-    padding: 20px;
+    height: auto;
+    padding: 50px 20px;
+    /* padding-bottom: 100px; */
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .team-details{
+        padding: 20px 20px;
+    }
+    .team-details p{
+        margin: 0px;
+        height: auto;
+        font-size: 15px;
+    }
+    .team-img h3{
+        font-size: 20px;
+    }
+    .team-img h4{
+        font-size: 16px;
+    }
+}
+
+
+

@@ -77,7 +77,6 @@
    
   }
 @media screen and (max-width: 576px) {
-    
 .banner-search-filter {
   
     padding: 5px 20px;
@@ -89,9 +88,40 @@
     line-height: 13px;
   
 }
-    
-   
   }
+
+
+  @media screen and (max-width: 440px) {
+    .menu-1 {
+        height: 50px;
+        max-width: 223px;
+    }
+    .banner-search-filter {
+        padding: 5px 20px;
+        top: 275px;
+        width: 335px;
+        height: 70px;
+    }
+    
+    .banner-search-button {
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .col-6 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .menu-title {
+        font-size: 8px;
+    }
+    .drop-down-button {
+        margin-top: 20px;
+        max-width: 50px;
+        padding: 0px 0px;
+        font-size: 8px;
+        line-height: 20px;
+    }
+      }
 
   
 

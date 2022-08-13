@@ -130,10 +130,7 @@
 }
 
 @media screen and (max-width : 440px) {
-    .footer-form-image {
-        display: none;
-
-    }
+   
 
     .contact-us-form-container {
         max-width: 160px;
@@ -141,11 +138,8 @@
 
 
 }
-@media screen and (max-width : 430px){
-    .footerform{
-        display:none;
-    }
-    .footerlogo{
-        display:none;
+@media screen and (max-width : 600px){
+    .contact-us-form-container{
+        display: none;
     }
 }

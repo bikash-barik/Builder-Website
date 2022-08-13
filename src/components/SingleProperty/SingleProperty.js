@@ -15,10 +15,7 @@ import Surrounding from "./subcomponent/Surrounding";
 import Location from "./subcomponent/Location"
 import ConstructionUpdates from "./subcomponent/ConstructionUpdates"
 import Dropdown from 'react-bootstrap/Dropdown';
-import facebook from "./images/facebook.png"
-import instagram from "./images/instagram.jpg"
-import whatsapp from "./images/whatsapp.jpg"
-import gmail from "./images/gmail.png"
+
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -96,7 +93,7 @@ export default function SingleProperty({ OngoingData }) {
                     <img src={gallery} alt="Loading..." />
                   </div>
                 </Link>
-                <Dropdown className="singlee">
+                <Dropdown >
 
                   <Dropdown.Toggle as="div" className=" drop-down-button single-property-button " align="end">
                     <div >

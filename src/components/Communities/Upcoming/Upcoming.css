@@ -4,6 +4,16 @@
     
 }
 
+.upcoming-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upcoming-heading-container
+{
+    display: flex;
+    justify-content: space-between;
+}
 .ongoing-box img {
     width: 100%;
     height: 500px;
@@ -13,11 +23,7 @@
     color: #fff;
     
 }
-.ongoing-box hr {
-    color: #fff;
-    opacity: 1;
-    margin: 10px 90px;
-}
+
 .dropdown-toggle , .dropdown-menu{
     padding-top:12px;
     padding-bottom:12px;
@@ -33,7 +39,20 @@
     padding-right: 6px !important;
     padding-left: 6px !important;
 }
+@media screen and (max-width: 720px){
+   
+    
+    .white-text{
+        font-size: 12px!important;
+    }
+    .line{
+        width: 100px !important;
+        margin-bottom: 5px!important;
+        
+    }
+}
 @media screen and (max-width: 655px){
+   
     .dropdown-toggle{
         font-size: 10px;
         padding:5px !important;
@@ -42,12 +61,40 @@
         font-size: 10px;
         padding: 0px !important;
     }
-    .line{
-        width: 100px !important;
+  
+    .white-text{
+        font-size: 10px!important;
     }
-}
-@media screen and (max-width: 300px){
     .line{
-        width: 70px !important;
+        width: 80px !important;
+        
     }
+    .ongoing-box h4{
+        font-size: 15px !important;
+        
+    }
+    
 }
+@media screen and (max-width: 655px){
+   
+    .dropdown-toggle{
+        font-size: 8px;
+      
+    }
+    .dropdown-menu{
+        font-size: 8px;
+       
+    }
+    .line{
+        width: 60px !important;
+        
+    }
+  
+    .white-text{
+        font-size: 8px!important;
+    }
+   
+    
+    
+}
+

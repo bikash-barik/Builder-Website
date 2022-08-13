@@ -135,23 +135,13 @@ margin-left: 16px;
         
     }
   
-    .footericontwo{
-        display:none;
-    }
+   
 
 }
 
 @media screen and (max-width : 430px) {
     
-    .footericontwo {
-        
-        display: flex;
-     
-        justify-content: space-around;
-        align-items: center;
-        
-        
-    }
+    
   
     
 

@@ -12,7 +12,7 @@ import image5 from "./PastEventsImages/image5.png";
 export default function PastEvents() {
   return (
     <div>
-      <div className="d-flex my-5 bgimage">
+      <div className="d-flex my-5 bgimage past_heading">
         <h3
           style={{
             fontSize: "33px",
@@ -24,7 +24,7 @@ export default function PastEvents() {
         >
           PAST EVENTS
         </h3>
-        <hr
+        <hr className="past_hr"
           style={{
             width: "150px",
             backgroundColor: "white",
@@ -53,10 +53,7 @@ export default function PastEvents() {
           src={image2}
           alt=" "
         ></img>
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className="images_gap"></div>
         <img
           src={image3}
           alt=" "
@@ -65,10 +62,7 @@ export default function PastEvents() {
             height: "auto",
           }}
         ></img>
-        <br />
-        <br />
-        <br />
-        <br />
+       <div className="images_gap"></div>
         <img
           src={image4}
           alt=" "
@@ -77,10 +71,7 @@ export default function PastEvents() {
             height: "auto",
           }}
         ></img>
-        <br />
-        <br />
-        <br />
-        <br />
+       <div className="images_gap"></div>
         <img
           src={image1}
           alt=" "
@@ -89,10 +80,7 @@ export default function PastEvents() {
             height: "auto",
           }}
         ></img>
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className="images_gap"></div>
         <img
           src={image5}
           alt=" "
@@ -100,7 +88,7 @@ export default function PastEvents() {
             width: "100%",
             height: "auto",
 
-            marginBottom: "190px",
+            marginBottom: "45px",
           }}
         ></img>
       </div>

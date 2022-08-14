@@ -55,6 +55,7 @@ text-transform: uppercase;
 color: #000000;
 }
 
+
 @media screen and (max-width:1280px) {
    .finance-image{
     width: 100px;

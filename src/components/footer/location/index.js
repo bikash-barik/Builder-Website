@@ -46,16 +46,13 @@ const Location = () => {
         <img src={mail} alt="Loading..." />
         <div className="contact-mail-id">archidhomes@gmail.com</div>
       </div>
-      <div className="contact-number">
+      
         <div className="phone">
           <img src={phone} alt="Loading..." />
-          <div>+91 7537 000 001</div>
+          <div>+91 7537 000 001 , +91 7381 040 001</div>
         </div>
-        <div className="phone">
-          <img src={phone} alt="Loading..." />
-          <div>+91 7381 040 001</div>
-        </div>
-      </div>
+        
+      
       <Modal
        
 

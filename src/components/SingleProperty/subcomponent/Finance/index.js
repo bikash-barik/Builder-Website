@@ -18,7 +18,7 @@ const Finance = ({financeData}) => {
             financeData?.map((el,idx)=>{
                 return(
 
-                    <Grid item xs={4} sm={4} md={4} lg={2} className="finance-name-container" key={idx}>
+                    <Grid item xs={4} sm={4} md={4} lg={1.7} className="finance-name-container" key={idx}>
                     <img  className="finance-image" src={el.image} alt="Loading..." />
                     <div className="finance-name">{el.text}</div>
                     </Grid>

@@ -38,12 +38,9 @@
     }
     
 }
-@media screen and (max-width : 430px){
-   
-    .footerlogo{
-        display:none;
-    }
-    .footericon{
-        display:none;
-    }
+@media screen and (max-width : 600px){
+   .footer-image-section{
+    display: none;
+   }
+    
 }

@@ -75,7 +75,7 @@
     }
     
 }
-@media screen and (max-width: 655px){
+@media screen and (max-width: 450px){
    
     .dropdown-toggle{
         font-size: 8px;

@@ -36,6 +36,7 @@
     justify-content: center !important;
     cursor: pointer ;
     margin-left: 26px ;
+    
 }
 
 
@@ -47,6 +48,8 @@
 }
 .single-property-button-group .drop-down-button{  
     margin-top: 0 !important;
+    height: auto !important;
+    min-width: 30px !important;
 }
 
 .single-property-button-group .drop-down-button::after {

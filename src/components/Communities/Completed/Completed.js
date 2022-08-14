@@ -15,15 +15,15 @@ const [modal, setModal] = useState(false)
       <div className="container-fluid" >
         <section className="completed my-5">
 
-        <div className="row" style={{marginBottom:"15px"}}>
-            <div className="col-md-6 col-sm-6 col-lg-6">
-                <div className="d-flex" style={{marginTop:"10px"}}>
+        <div className="upcoming-heading-container" style={{marginBottom:"15px"}}>
+            <div >
+                <div className="upcoming-heading" style={{marginTop:"10px"}}>
 
         <h4 className="white-text" style={{fontSize:"17px"}}>COMPLETED PROJECTS </h4>
-        <hr className="line" style={{width:"150px", backgroundColor:"white", fontWeight:"", height:"1.3px",marginLeft:"5px" , opacity:"0.8"}}/>
+        <hr className="line" style={{width:"150px",  borderTop:"2px solid white",marginLeft:"5px" , opacity:"0.8"}}/>
       </div>
                 </div>
-      <div className="col-md-6 col-sm-6 col-lg-6">
+      <div >
 
         <div style={{float:"right"}}>
         <DropdownButton id="dropdown-basic-button" style={{marginRight:"4vw"}}  title={category}>
@@ -49,7 +49,7 @@ const [modal, setModal] = useState(false)
     return(<>
          <div className="col-lg-6">
             <div className="ongoing-box text-center align-items-center justify-content-center my-2">
-              <img src={project.image} style={{height:"400px"}}  className=""  data-aos={i%2===0?"fade-right":"fade-left"} data-aos-duration="2000" onClick={()=>{
+              <img className="completed-image" src={project.image} style={{height:"400px"}}    data-aos={i%2===0?"fade-right":"fade-left"} data-aos-duration="2000" onClick={()=>{
                 modal===false?
                 setModal(true):setModal(false)}}></img>
               {/* <img src={image}></img> */}

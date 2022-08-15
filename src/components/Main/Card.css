@@ -148,8 +148,8 @@
 
 @media screen and (max-width: 540px) {
     .card_main {
-        width: 47vw;
-        height: 47vw;
+        width: 50vw;
+        height: 50vw;
     }
 
     .card_lower {

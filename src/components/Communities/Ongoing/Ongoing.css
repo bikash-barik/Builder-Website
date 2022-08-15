@@ -54,6 +54,19 @@
         font-size: 13px;
     }
   }
+  @media screen and (max-width: 991px){
+    .com_discription{
+        margin-bottom: 100px !important;
+    }
+  }
+  @media screen and (max-width: 800px){
+    .line_img{
+        margin-top: -60px;
+    }
+    .com_heading{
+        margin-top: -30px !important;
+    }
+  }
   @media screen and (max-width: 630px){
     .ongoing-box p{
         font-size: 13px !important;

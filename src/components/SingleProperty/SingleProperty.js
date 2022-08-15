@@ -95,7 +95,7 @@ export default function SingleProperty({ OngoingData }) {
                 </Link>
                 <Dropdown >
 
-                  <Dropdown.Toggle as="div" className=" drop-down-button single-property-button " align="end">
+                  <Dropdown.Toggle as="div" className=" drop-down-button single-property-button  share" align="end">
                     <div >
                       SHARE
                     </div>

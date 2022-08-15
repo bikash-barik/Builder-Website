@@ -39,6 +39,11 @@
     padding-right: 6px !important;
     padding-left: 6px !important;
 }
+@media screen and (max-width: 991px){
+    .drop_buttons{
+        margin-right: 0px !important;
+    }
+}
 @media screen and (max-width: 720px){
    
     
@@ -47,8 +52,9 @@
     }
     .line{
         width: 100px !important;
-        margin-bottom: 5px!important;
-        
+    }
+    .linee{
+        margin-bottom: 5px!important; 
     }
 }
 @media screen and (max-width: 655px){
@@ -63,7 +69,7 @@
     }
   
     .white-text{
-        font-size: 10px!important;
+        font-size: 15px!important;
     }
     .line{
         width: 80px !important;
@@ -91,7 +97,7 @@
     }
   
     .white-text{
-        font-size: 8px!important;
+        font-size: 15px!important;
     }
    
     

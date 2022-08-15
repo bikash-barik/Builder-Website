@@ -215,7 +215,7 @@ export default function Drawer() {
             />
           </div>
           <button
-            className="btn btn-primary text-center align-items-center justify-content-center"
+            className="btn btn-primary align-items-center justify-content-center"
             style={{
               marginLeft: "30%",
               borderRadius: "0px",
@@ -313,7 +313,7 @@ export default function Drawer() {
             <br />
 
             <button
-              className="btn btn-primary text-center"
+              className="btn btn-primary"
               style={{
                 fontSize: "15px",
                 paddingLeft: "20px",

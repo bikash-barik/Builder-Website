@@ -17,7 +17,7 @@ export default function Ongoing(props) {
 
             <hr style={{ width: "150px", backgroundColor: "white", fontWeight: "", height: "1.3px", marginLeft: "5px", opacity: "0.8" }} />
           </div>
-          <div className="row text-center align-items-center justify-content-center">
+          <div className="row align-items-center justify-content-center">
 
             {
               OngoingData.map((project, i) => {

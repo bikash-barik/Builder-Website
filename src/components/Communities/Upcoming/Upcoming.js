@@ -39,7 +39,7 @@ export default function Upcoming() {
               </div>
             </div>
           </div>
-          <div className="row text-center align-items-center justify-content-center">
+          <div className="row  align-items-center justify-content-center">
 
             {
               UpcomingData.filter(p => p.category === category).map((project) => {

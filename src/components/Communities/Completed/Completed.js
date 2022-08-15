@@ -42,7 +42,7 @@ const [modal, setModal] = useState(false)
       </div>
      
    </div>
-        <div className="row text-center align-items-center justify-content-center">
+        <div className="row align-items-center justify-content-center">
 
 {
   CompletedData.filter(p=>p.category===category).map((project,i)=>{

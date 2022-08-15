@@ -203,7 +203,7 @@ export default function SingleProperty({ OngoingData }) {
             />
           </div>
           <button
-            className="btn btn-primary align-items-center justify-content-center"
+            className="btn btn-primary align-items-center justify-content-center register_button"
 
             style={{ marginLeft: "19%", borderRadius: "0px", fontSize: "18px", marginTop: "5px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
 

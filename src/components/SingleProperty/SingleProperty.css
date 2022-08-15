@@ -168,6 +168,10 @@
         height: 5px;
         width: 5px;
     }    
+    .register_button{
+        margin-left: 34% !important;
+        padding: 8px 20px !important;
+    }
 }
 @media screen and (max-width: 482px){
     .drop-down-button {
@@ -184,4 +188,5 @@
         font-size: 6px !important;
     }
 }
+
 

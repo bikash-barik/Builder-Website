@@ -85,7 +85,7 @@ const FloorPlan = ({floorPlanData}) => {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-         <img  src={srcData} alt="Loading..." />
+         <img className="floor-plan-full-image" src={srcData} alt="Loading..." />
         </Box>
       </Modal>
     </div>

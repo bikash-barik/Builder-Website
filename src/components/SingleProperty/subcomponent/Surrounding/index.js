@@ -1,5 +1,5 @@
 import "./index.css"
-const Surrounding = ({surroundingData}) => {
+const Surrounding = ({surroundingData,id}) => {
     return ( <div className="single-property-surrounding">
         <div className="single-property-surrounding-heading">
         <div>
@@ -7,7 +7,7 @@ const Surrounding = ({surroundingData}) => {
         </div>
         <div className="surrounding-line" />
         </div>
-        <img className="surrounding-image" src={surroundingData} alt="Loading..." />
+        <img className={id==="3"?"surrounding-image":""} src={surroundingData} alt="Loading..." />
     </div>  );
 }
  

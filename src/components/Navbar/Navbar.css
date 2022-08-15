@@ -238,7 +238,9 @@ animation-delay: 10ms;
   .rightnav {
     display: inline-block;
   }
-
+  .bi-whatsapp{
+    margin-left: -37px;
+  }
   .navbtn {
     /* display:flex; */
     display: flex;

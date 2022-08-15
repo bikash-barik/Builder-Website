@@ -26,7 +26,7 @@ const [modal, setModal] = useState(false)
       <div >
 
         <div style={{float:"right"}}>
-        <DropdownButton id="dropdown-basic-button" style={{marginRight:"4vw"}}  title={category}>
+        <DropdownButton id="dropdown-basic-button" className="drop_buttons"  style={{marginRight:"4vw"}}  title={category}>
             {
                 category==="COMMERCIAL PROJECT" ? <Dropdown.Item
                 onClick={()=>{
@@ -54,9 +54,9 @@ const [modal, setModal] = useState(false)
                 setModal(true):setModal(false)}}></img>
               {/* <img src={image}></img> */}
               <h4 className="my-3" style={{fontSize:"20px", fontWeight:"400"}}>{project.title}</h4>
-              <img  src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FLine%2084.png?alt=media&token=d799dd00-e8fe-426c-9e4e-2c59c4f1723c" style={{height:"4px",width:"180px"}}></img>
+              <img  src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FLine%2084.png?alt=media&token=d799dd00-e8fe-426c-9e4e-2c59c4f1723c" className="line_img" style={{height:"4px",width:"180px"}}></img>
 
-              <h3 className="my-3" style={{fontSize:"20px", fontWeight:"400"}}>YEAR OF COMPLETION : {project.date}</h3>
+              <h3 className="my-3 com_heading com_discription" style={{fontSize:"20px", fontWeight:"400"}}>YEAR OF COMPLETION : {project.date}</h3>
             </div>
             
           </div>

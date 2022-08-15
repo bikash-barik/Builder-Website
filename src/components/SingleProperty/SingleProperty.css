@@ -149,33 +149,39 @@
     
     
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     .landing-image {
         height: 300px;
       
     }
     .single-property-button-group {
-        
         top:350px;
     }
-    
-    
     .single-property-button {
         margin-left: 5px !important;
-        padding: 2px 5px !important;
-        font-size: 4px !important;
+        padding: 8px 10px !important;
+        font-size: 10px !important;
         line-height: 10px !important;
     }
     
     .single-property-button img {
         height: 5px;
         width: 5px;
-    }
-    
-    
-    
-    
+    }    
 }
-
-
+@media screen and (max-width: 482px){
+    .drop-down-button {
+        max-width: fit-content !important;
+    }
+    .single-property-button {
+        padding: 6px 8px !important;
+        font-size: 8px !important;
+    }
+}
+@media screen and (max-width: 414px){
+    .single-property-button {
+        padding: 5px 8px !important;
+        font-size: 6px !important;
+    }
+}
 

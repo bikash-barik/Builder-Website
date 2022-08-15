@@ -15,14 +15,14 @@ export default function Team() {
               className="col-lg-3 col-md-3 col-sm-6"
               style={{ padding: "30px" }}
             >
-              <div className="team-img text-center">
+              <div className="team-img text-center team_image">
                 <img src={data.image} className="img-fluid" />
                 <h3
-                  className="white-text mt-4"
+                  className="white-text mt-4 clr"
                 >
                   {data.name}
                 </h3>
-                <h4>
+                <h4 className="clr desig">
                   [{data.designation}]
                 </h4>
               </div>

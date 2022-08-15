@@ -83,6 +83,30 @@
     margin-right: auto !important;
   }
 }
+@media (max-width: 575px) {
+  .team-details {
+    margin-top: -80px;
+  }
+  .clr{
+    color: black !important;
+    font-size: 20px !important; 
+  }
+  .team-img {
+    background-color: white;
+  }
+  .desig{
+    padding-bottom: 45px !important;
+    font-size: 15px !important;
+  }
+  .img-fluid{
+    margin-top: 30px;
+  }
+  .team-details{
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+  
+}
 @media (max-width: 430px) {
   .hero-img img {
     width: 100vw;
@@ -90,6 +114,9 @@
   }
   .team-details p {
     text-align:justify;
+  }
+  .clr{
+    font-size: 15px !important; 
   }
 }
 /* @media (max-width: 400px){

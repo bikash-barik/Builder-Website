@@ -24,13 +24,23 @@
 }
 
 .surrounding-image{
-    max-width: 900px;
+    max-width: 850px;
     width: auto;
-    max-height: 350px;
-    height: auto;
+    height: 350px;
 
 }
 
+
+@media screen and (max-width : 1020px) {
+
+    .surrounding-image{
+       
+        max-height: 350px;
+        height: auto;
+    
+    }
+  
+}
 
 @media screen and (max-width : 800px) {
 

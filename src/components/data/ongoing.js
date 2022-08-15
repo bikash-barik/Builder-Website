@@ -92,7 +92,7 @@ const OngoingData = [
     ameneties: {
       text: " With an 3000 square feet exclusive community building You’ll explore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go for chilling with your friends any time you wish. And when you’re done practising your swing, you can hitthe gym, relax by the community pool, or take your little ones for a mini-adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
       brochure:
-        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FArchid-Pramod-Retreat-Brochure-18-1-2022-2-1-1.pdf?alt=media&token=9160bca6-4f20-4acb-b65c-a6fd5326a2d7",
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FArchid%20Pramod%20Retreat%20Brochure%209_8_22%20(1).pdf?alt=media&token=37f52d93-6d06-42f0-818a-d22270ec8837",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAmeneties%2FPramod%20ameneties.jpg?alt=media&token=0891edbb-fae2-475c-a058-bed0e7ee9d67",
     },
     floorPlans: [
@@ -107,9 +107,9 @@ const OngoingData = [
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fimage%20185.jpg?alt=media&token=93dc5e35-0637-4daf-812b-56ca1fb3f8ea",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2Fblockb.jpg?alt=media&token=d3d68678-5741-46db-9c64-932e9ea29296",
         text: "BLOCK-B",
-        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FFloor%20Plans%2FFrame%206515.jpg?alt=media&token=c2353ece-cd98-4514-8623-08542dd904dc",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FArchid%20Pramod%20floor%20plan%2FFloor%20Plans%2Fblockb.jpg?alt=media&token=f7217638-34b8-46ea-b805-e570b740ba09",
       },
       {
         image:
@@ -537,7 +537,7 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%203.jpg?alt=media&token=6570033b-dda4-4437-b208-4d922f0a1d2a",
         text: "MASTER PLAN",
-        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%203.jpg?alt=media&token=6570033b-dda4-4437-b208-4d922f0a1d2a",
+        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2Fmasterplan.jpg?alt=media&token=7b6f4ea2-8431-4ee2-88d7-525e806de1fc",
       },
     ],
     images: [

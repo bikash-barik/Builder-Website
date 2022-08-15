@@ -132,7 +132,7 @@ export default function SingleProperty({ OngoingData }) {
             <Ameneties ameneties={data.ameneties} />
             <FloorPlan floorPlanData={data.floorPlans} />
             <Finance financeData={data.finance} />
-            <Surrounding surroundingData={data.surrounding} />
+            <Surrounding surroundingData={data.surrounding} id={data.id} />
             <Location locationData={data.location} />
 
 

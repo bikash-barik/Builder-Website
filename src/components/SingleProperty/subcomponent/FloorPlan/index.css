@@ -149,6 +149,11 @@ border-radius: 0;
             margin-bottom: 50px !important;
           
         }
+        .floor-plan-full-image{
+           
+            width: 380px;
+            height: 600px;
+        }
     
 }
 @media screen and (max-width:410px) {
@@ -161,6 +166,12 @@ border-radius: 0;
         line-height: 10px;   
           
         
+        }
+
+        .floor-plan-full-image{
+           
+            width: 300px;
+            height: 400px;
         }
 
     

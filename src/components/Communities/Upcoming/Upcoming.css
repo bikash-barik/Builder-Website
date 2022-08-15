@@ -81,6 +81,11 @@
     }
     
 }
+@media screen and (max-width: 500px){
+    .drop_buttons{
+        margin-top: 10px !important;
+    }
+}
 @media screen and (max-width: 450px){
    
     .dropdown-toggle{

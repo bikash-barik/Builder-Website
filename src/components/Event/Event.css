@@ -60,13 +60,13 @@ h4 {
     margin-top: 25px !important;
   }
   .upcoming_heading h3{
-    font-size: 20px !important;
+    font-size: 14px !important;
   }
   .past_heading h3{
-    font-size: 20px !important;
+    font-size: 14px !important;
   }
   .past_hr{
-    margin-top: 12px !important;
+    margin-top: 8px !important;
   }
   .images_gap{
     height: 30px;
@@ -100,4 +100,9 @@ h4 {
     height: 22vh !important;
   }
 
+}
+@media only screen and (max-width: 357px){
+  .past_hr{
+    margin-top: 10px !important;
+  }
 }

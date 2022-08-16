@@ -180,3 +180,17 @@
         margin-inline: 8px !important;
     }
 }
+@media screen and (max-width: 365px) {
+    .desc {
+        font-size: 2.5vw;
+        margin-top: 0vw;
+        margin-bottom: 5vw;
+    }
+    .card_main {
+        width: 60vw;
+        height: 60vw;
+    }
+    .card_img {
+        top: calc(10vw - 30%);
+    }
+}

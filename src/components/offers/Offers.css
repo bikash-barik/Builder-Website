@@ -6,21 +6,6 @@
   background-size: cover;
   background-position: center;
 }
-.css-7p5u54{
-  width: 100% !important;
-  position: absolute !important;
-  left: 0 !important;
-  bottom: 0 !important;
-  top: 0 !important;
-  transition: transform 0.4s linear !important;
-  transform-origin: left !important;
-  background: linear-gradient(
-    89.81deg,
-    #196ed2 26.04%,
-    #311a73 85.89%
-  ) !important;
-  border-radius: 50px !important;
-}
 html {
   overflow-x: hidden;
 }

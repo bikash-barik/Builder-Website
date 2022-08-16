@@ -26,8 +26,12 @@ const Offers = () => {
   return (
     <>
       <div className="offers-background-img ">
+        {/* <h2 className="offer-heading">OFFERS</h2>
+        <hr className="offer-line" /> */}
+        <div style={{display:"flex"}}>
         <h2 className="offer-heading">OFFERS</h2>
         <hr className="offer-line" />
+          </div>
         <div className="grid-two-column">
           <h2 className="coming-heading">COMING</h2>
           <h2 className="soon-heading">SOON</h2>

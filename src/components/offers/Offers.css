@@ -86,11 +86,12 @@ html {
   margin-top: 40px;
 }
 .offer-line {
-  position: absolute;
+  /* position: absolute; */
   width: 190px;
   height: 0px;
-  left: 219px;
-  top: 144px;
+  /* left: 219px; */
+  margin-left: 1%;
+  margin-top: 56px;
   size: 20px;
   color: black;
   border: 2px solid #2c2828;
@@ -111,8 +112,9 @@ html {
   }
   .offer-line {
     width: 75px;
-    margin-left: -93px;
-    margin-top: 6px;
+    margin-top: 47px;
+    /* margin-left: -93px;
+    margin-top: 6px; */
   }
   .grid-two-column {
     gap: 0rem;
@@ -162,8 +164,9 @@ html {
   }
   .offer-line {
     width: 75px;
-    margin-left: -108px;
-    top: 140px;
+    margin-top: 44px;
+    /* margin-left: -108px;
+    top: 140px; */
   }
 }
 
@@ -219,7 +222,8 @@ html {
 
   .offer-line {
     width: 134px;
-    margin-left: -21px;
+    margin-top: 50px;
+    /* margin-left: -21px; */
   }
   .grid-two-column {
     display: grid;

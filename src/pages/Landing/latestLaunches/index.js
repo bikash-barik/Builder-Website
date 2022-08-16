@@ -1,6 +1,4 @@
 import "./index.css";
-import image1 from "../images/latestLaunches/latestLaunches1.svg"
-import image2 from "../images/latestLaunches/latestLaunches2.svg"
 import { useNavigate } from "react-router-dom";
 
 
@@ -27,11 +25,11 @@ const LatestLaunches = () => {
         }} >VIEW ALL PROPERTIES</div>
       </div>
       <div className=" latest-launches-image-container1 image-container">
-      <img  className="latest-launches-image"  src={image1} alt="Loading..." />
+      <img  className="latest-launches-image"  src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FLatest%20Launches%2FlatestLaunches1.svg?alt=media&token=19740e92-4fce-4802-86aa-b3a9635ddbcc" alt="Loading..." />
       </div>
       <div className=" latest-launches-image-container2 image-container">
 
-      <img className="latest-launches-image"  src={image2} alt="Loading..." />
+      <img className="latest-launches-image"  src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FLatest%20Launches%2FlatestLaunches2.svg?alt=media&token=12fef73a-0356-4ace-8c02-3939afded538" alt="Loading..." />
       </div>
     </div>
   );

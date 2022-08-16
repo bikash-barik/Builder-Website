@@ -1,26 +1,23 @@
 import "./index.css";
 import SearchFilter from "./minicomponent/SearchFilter";
-import banner1 from "../images/banner/1.svg";
-import banner2 from "../images/banner/2.svg";
-import banner3 from "../images/banner/3.svg";
-import banner4 from "../images/banner/4.svg";
+
 import { Carousel } from "react-bootstrap";
 
 const BannerMapper = [
   {
-    image: banner1,
+    image: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2F1.svg?alt=media&token=1769db77-4073-4add-a3b8-443aec6c34d3",
     text: "coming soon",
   },
   {
-    image: banner2,
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2F2.svg?alt=media&token=33659b08-7517-42a2-abe8-9ca49127fb7f",
     text: "Archid Shreekunj, Ranasinghpur",
   },
   {
-    image: banner3,
+    image: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2F3.svg?alt=media&token=3180915f-facc-43ba-932f-7bd9f1df231c",
     text: "Archid Pramod Retreat, Patrapada",
   },
   {
-    image: banner4,
+    image: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2F4.svg?alt=media&token=a4c2d259-51a9-4f2d-95eb-7d3381ad6aff",
     text: "Archid Sailabala, Old Town",
   },
 ];

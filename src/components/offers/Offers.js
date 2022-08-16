@@ -9,7 +9,7 @@ import "./Offers.css";
 const Offers = () => {
   const [progress, setProgress] = useState(0);
   const style = 
-    {height:"30px",backgroundColor: "#433F3F",borderRadius: "24px",maxWidth:"600px",marginTop:"76px",marginLeft:"auto",marginRight:"auto"}
+    {height:"24px",backgroundColor: "#433F3F",borderRadius: "26px",maxWidth:"550px",marginTop:"76px",marginLeft:"auto",marginRight:"auto"}
   
 
   useEffect(() => {
@@ -28,12 +28,14 @@ const Offers = () => {
     };
   }, []);
   return (
+
    
      
       <div className="offer-background-container">
       <div className="offer-heading">
       <div>
       OFFERS
+
       </div>
       <div className="offer-line"/>
       </div>

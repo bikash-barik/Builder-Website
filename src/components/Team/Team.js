@@ -12,7 +12,7 @@ export default function Team() {
         {TeamData.map((data) => (
           <>
             <div
-              className="col-lg-3 col-md-3 col-sm-6"
+              className="col-lg-3 col-md-3 col-sm-6 box2"
               style={{ padding: "30px" }}
             >
               <div className="team-img text-center team_image">
@@ -28,7 +28,7 @@ export default function Team() {
               </div>
             </div>
             <div
-              className="col-lg-9 col-md-9 col-sm-6"
+              className="col-lg-9 col-md-9 col-sm-6 boxx"
               style={{ padding: "20px",marginTop:"10px" }}
             >
               <div className="team-details"> {/* p-auto */}

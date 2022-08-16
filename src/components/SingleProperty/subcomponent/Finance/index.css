@@ -41,7 +41,7 @@ margin-top: 14px;
     flex-direction: column !important;
     align-items: center;
     height: 110px;
-    
+   
   
 }
 
@@ -50,9 +50,15 @@ margin-top: 14px;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
-line-height: 48px;
+
 text-transform: uppercase;
 color: #000000;
+
+}
+.finance-image{
+ 
+    height: 40px;
+
 }
 
 

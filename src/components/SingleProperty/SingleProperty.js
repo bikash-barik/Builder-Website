@@ -132,7 +132,7 @@ export default function SingleProperty({ OngoingData }) {
             <Ameneties ameneties={data.ameneties} />
             <FloorPlan floorPlanData={data.floorPlans} />
             <Finance financeData={data.finance} />
-            <Surrounding surroundingData={data.surrounding} />
+            <Surrounding surroundingData={data.surrounding} id={data.id} />
             <Location locationData={data.location} />
 
 
@@ -203,7 +203,7 @@ export default function SingleProperty({ OngoingData }) {
             />
           </div>
           <button
-            className="btn btn-primary text-center align-items-center justify-content-center"
+            className="btn btn-primary align-items-center justify-content-center register_button"
 
             style={{ marginLeft: "19%", borderRadius: "0px", fontSize: "18px", marginTop: "5px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
 

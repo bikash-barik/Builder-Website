@@ -60,13 +60,13 @@ h4 {
     margin-top: 25px !important;
   }
   .upcoming_heading h3{
-    font-size: 20px !important;
+    font-size: 14px !important;
   }
   .past_heading h3{
-    font-size: 20px !important;
+    font-size: 14px !important;
   }
   .past_hr{
-    margin-top: 12px !important;
+    margin-top: 8px !important;
   }
   .images_gap{
     height: 30px;
@@ -79,6 +79,12 @@ h4 {
   .hero-img img{
     height: 25vh !important;
   }
+  .upcoming_hr{
+    width: 80px !important;
+  }
+  .past_hr{
+    width: 80px !important;
+  }
 }
 @media only screen and (max-width: 380px){
   .upcoming_heading h3{
@@ -86,18 +92,23 @@ h4 {
     margin-left: 15px !important;
   }
   .upcoming_hr{
-    width: 100px !important;
+    width: 80px !important;
   }
   .past_heading h3{
     font-size: 17px !important;
     margin-left: 15px !important;
   }
   .past_hr{
-    width: 100px !important;
+    width: 80px !important;
     margin-top: 8px !important;
   }
   .hero-img img{
     height: 22vh !important;
   }
 
+}
+@media only screen and (max-width: 357px){
+  .past_hr{
+    margin-top: 10px !important;
+  }
 }

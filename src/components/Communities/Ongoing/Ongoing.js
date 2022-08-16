@@ -15,9 +15,9 @@ export default function Ongoing(props) {
             <h4 className="white-text" style={{fontSize:"15px"}}>{props.head} </h4>
 
 
-            <hr style={{ width: "150px", backgroundColor: "white", fontWeight: "", height: "1.3px", marginLeft: "5px", opacity: "0.8" }} />
+            <hr className="upcominghr" style={{ width: "150px", backgroundColor: "white", fontWeight: "", height: "1.3px", marginLeft: "5px", opacity: "0.8" }} />
           </div>
-          <div className="row text-center align-items-center justify-content-center">
+          <div className="row align-items-center justify-content-center">
 
             {
               OngoingData.map((project, i) => {
@@ -26,7 +26,7 @@ export default function Ongoing(props) {
                     <div className="ongoing-box text-center align-items-center justify-content-center"
                       data-aos={i===0?("fade-right"):(i % 2 === 0 ? "fade-left" : "fade-up")} data-aos-duration="2000">
                       <Link to={`/Communities/${project.id}`}>
-                      <div className={i==2 ? "pt-4":""}>
+                      <div className={i==2 ? "img2":""}>
                       <img  src={project.image} className="img-responsive" style={{height:"400px"}}></img>
                       </div>
                       </Link>

@@ -339,19 +339,16 @@
        
     }
     
-    /* .latest-launches-image {
+    .latest-launches-image {
         width: 100%;
        
         height: auto;
        
         border: 4px solid black;
         border-radius: 4px;
-    } */
+    }
     
-     .latest-launches-image {
-        width: 100%;
-        height: 60vh;
-    } 
+     
     .latest-launches-image-container1 {
         margin-top: 30px;
         margin-left: 0px;

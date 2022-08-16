@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import Container from "react-bootstrap/Container";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+
 import Logo from "../../images/Company_Logo/png ar.png";
-import Image from "react-bootstrap/Image";
-import { Link } from "react-router-dom";
+
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import Modal from "react-modal";
-import Modal1 from "react-modal";
+
 import DateTimePicker from "react-datetime-picker";
 import Image1 from "../../images/Company_Logo/png ar.png";
 
@@ -48,110 +47,101 @@ export default function Drawer() {
 
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="navbar-bg">
-        <Container
-          fluid
-          style={{ zIndex: "10", backgroundColor: "white", padding: 0 }}
-        >
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar.Brand>
           <NavLink
             className="logoimg"
             to="/"
             style={{ paddingLeft: 27, paddingbottom: 0, borderWidth: 0 }}
           >
-            <img src={Logo} style={{ height: 100 }} />
+            <img src={Logo} style={{ height: 100 }} alt="Loading..." />
           </NavLink>
-          {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
-          <Navbar.Toggle aria-controls="responsive-navbar-nav " id="hidenav" />
-          <Navbar.Collapse id="responsive-navbar-nav ">
-            <Nav className="me-auto navtext">
-              <Nav.Link
-                className="n-link"
-                style={{ color: "#3171B1", fontWeight: 600 }}
-              >
-                <NavLink to="/communities"  style={{ padding: 10 }}>
-                  COMMUNITIES
-                </NavLink>
-              </Nav.Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto navtext">
+            <Nav.Link
+              href="#home"
+              className="n-link"
+              style={{ color: "#3171B1", fontWeight: 600 }}
+            >
+              <NavLink to="/communities" style={{ padding: 10 }}>
+                COMMUNITIES
+              </NavLink>
+            </Nav.Link>
 
-              <Nav.Link
-                className="n-link"
-                style={{ color: "#3171B1", fontWeight: 600 }}
-              >
-                <NavLink to="/offers" style={{ padding: 10 }}>
-                  OFFERS
-                </NavLink>
-              </Nav.Link>
+            <Nav.Link
+              href="#home"
+              className="n-link"
+              style={{ color: "#3171B1", fontWeight: 600 }}
+            >
+              <NavLink to="/offers" style={{ padding: 10 }}>
+                OFFERS
+              </NavLink>
+            </Nav.Link>
 
-              <Nav.Link
-                className="n-link"
-                style={{ color: "#3171B1", fontWeight: 600 }}
-              >
-                <NavLink to="/event" style={{ padding: 10 }}>
-                  EVENTS
-                </NavLink>
-              </Nav.Link>
+            <Nav.Link
+              href="#home"
+              className="n-link"
+              style={{ color: "#3171B1", fontWeight: 600 }}
+            >
+              <NavLink to="/event" style={{ padding: 10 }}>
+                EVENTS
+              </NavLink>
+            </Nav.Link>
+            <Nav.Link
+              href="#home"
+              className="n-link"
+              style={{ color: "#3171B1", fontWeight: 600 }}
+            >
+              <NavLink to="/latest-launch" style={{ padding: 10 }}>
+                LATEST LAUNCHES
+              </NavLink>
+            </Nav.Link>
 
-              <Nav.Link
-                className="n-link"
-                style={{ color: "#3171B1", fontWeight: 600 }}
-              >
-                <NavLink to="/latest-launch" style={{ padding: 10 }}>
-                  LATEST LAUNCHES
-                </NavLink>
-              </Nav.Link>
+            <Nav.Link
+              href="#home"
+              className="n-link"
+              style={{ color: "#3171B1", fontWeight: 600 }}
+            >
+              <NavLink to="/team" style={{ padding: 10 }}>
+                OUR TEAM
+              </NavLink>
+            </Nav.Link>
+          </Nav>
+          <Nav className="rightnav">
+            <Nav.Link className=" right-link navbtn" href="#home">
+              <i class="bi bi-camera-video iconbi"></i>
 
-              <Nav.Link
-                className="n-link"
-                style={{ color: "#3171B1", fontWeight: 600 }}
+              <p
+                className="textp"
+                onClick={() => {
+                  modal1 === true ? setModal1(false) : setModal1(true);
+                }}
               >
-                <NavLink to="/team" style={{ padding: 10 }}>
-                  OUR TEAM
-                </NavLink>
-              </Nav.Link>
-            </Nav>
-            <Nav className="rightnav">
-              <Nav.Link className=" right-link navbtn">
-                {/* <i class="fa fa-video mx-2  my-1"></i> */}
-                <i class="bi bi-camera-video iconbi"></i>
-                {/* <button
-                  className="btn btn-primary "
-                  onClick={() => {
-                    modal1 === true ? setModal1(false) : setModal1(true);
-                  }}
-                >
-                  INSTANT VIDEO CALL
-                </button> */}
-                <p
-                  className="textp"
-                  onClick={() => {
-                    modal1 === true ? setModal1(false) : setModal1(true);
-                  }}
-                >
-                  Instant Video Call
-                </p>
-              </Nav.Link>
-              <Nav.Link
-                href="https://wa.me/917537000001"
-                target="_blank"
-                className=" right-link navbtn"
+                Instant Video Call
+              </p>
+            </Nav.Link>
+            <Nav.Link
+              href="https://wa.me/917537000001"
+              target="_blank"
+              className=" right-link navbtn"
+            >
+              <i class="bi bi-whatsapp iconbi"></i>
+              <p className="textp">Whatsapp</p>
+            </Nav.Link>
+            <Nav.Link className=" right-link getbtn" href="#home" style={{}}>
+              <button
+                className="btn "
+                onClick={() => {
+                  modal === true ? setModal(false) : setModal(true);
+                }}
               >
-                {/* <i class="fa-brands fa-whatsapp mx-2  my-1"></i> */}
-                <i class="bi bi-whatsapp iconbi"></i>
-                <p className="textp">Whatsapp</p>
-              </Nav.Link>
-              <Nav.Link className=" right-link getbtn" style={{}}>
-                <button
-                  className="btn "
-                  onClick={() => {
-                    modal === true ? setModal(false) : setModal(true);
-                  }}
-                >
-                  GET IN TOUCH
-                </button>
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
+                GET IN TOUCH
+              </button>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
 
       {/* modal */}
@@ -334,10 +324,117 @@ export default function Drawer() {
               width: "185px",
             }}
             src={Image1}
-            alt=""
+            alt="Loading..."
           ></img>
         </div>
       </Modal>
     </div>
   );
 }
+
+// <Navbar collapseOnSelect expand="lg" className="navbar-bg">
+//   <Container
+//     fluid
+//     style={{ zIndex: "10", backgroundColor: "white", padding: 0 }}
+//   >
+
+//     <NavLink
+//       className="logoimg"
+//       to="/"
+//       style={{ paddingLeft: 27, paddingbottom: 0, borderWidth: 0 }}
+//     >
+//       <img src={Logo} style={{ height: 100 }} />
+//     </NavLink>
+//     {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
+//     <Navbar.Toggle aria-controls="responsive-navbar-nav " id="hidenav" />
+//     <Navbar.Collapse id="responsive-navbar-nav ">
+//       <Nav className="me-auto navtext">
+//         <Nav.Link
+//           className="n-link"
+//           style={{ color: "#3171B1", fontWeight: 600 }}
+//         >
+//           <NavLink to="/communities"  style={{ padding: 10 }}>
+//             COMMUNITIES
+//           </NavLink>
+//         </Nav.Link>
+
+//         <Nav.Link
+//           className="n-link"
+//           style={{ color: "#3171B1", fontWeight: 600 }}
+//         >
+//           <NavLink to="/offers" style={{ padding: 10 }}>
+//             OFFERS
+//           </NavLink>
+//         </Nav.Link>
+
+//         <Nav.Link
+//           className="n-link"
+//           style={{ color: "#3171B1", fontWeight: 600 }}
+//         >
+//           <NavLink to="/event" style={{ padding: 10 }}>
+//             EVENTS
+//           </NavLink>
+//         </Nav.Link>
+
+//         <Nav.Link
+//           className="n-link"
+//           style={{ color: "#3171B1", fontWeight: 600 }}
+//         >
+//           <NavLink to="/latest-launch" style={{ padding: 10 }}>
+//             LATEST LAUNCHES
+//           </NavLink>
+//         </Nav.Link>
+
+//         <Nav.Link
+//           className="n-link"
+//           style={{ color: "#3171B1", fontWeight: 600 }}
+//         >
+//           <NavLink to="/team" style={{ padding: 10 }}>
+//             OUR TEAM
+//           </NavLink>
+//         </Nav.Link>
+//       </Nav>
+//       <Nav className="rightnav">
+//         <Nav.Link className=" right-link navbtn">
+//           {/* <i class="fa fa-video mx-2  my-1"></i> */}
+//           <i class="bi bi-camera-video iconbi"></i>
+//           {/* <button
+//             className="btn btn-primary "
+//             onClick={() => {
+//               modal1 === true ? setModal1(false) : setModal1(true);
+//             }}
+//           >
+//             INSTANT VIDEO CALL
+//           </button> */}
+//           <p
+//             className="textp"
+//             onClick={() => {
+//               modal1 === true ? setModal1(false) : setModal1(true);
+//             }}
+//           >
+//             Instant Video Call
+//           </p>
+//         </Nav.Link>
+//         <Nav.Link
+//           href="https://wa.me/917537000001"
+//           target="_blank"
+//           className=" right-link navbtn"
+//         >
+//           {/* <i class="fa-brands fa-whatsapp mx-2  my-1"></i> */}
+//           <i class="bi bi-whatsapp iconbi"></i>
+//           <p className="textp">Whatsapp</p>
+//         </Nav.Link>
+//         <Nav.Link className=" right-link getbtn" style={{}}>
+//           <button
+//             className="btn "
+//             onClick={() => {
+//               modal === true ? setModal(false) : setModal(true);
+//             }}
+//           >
+//             GET IN TOUCH
+//           </button>
+//         </Nav.Link>
+//       </Nav>
+//     </Navbar.Collapse>
+//   </Container>
+// </Navbar>

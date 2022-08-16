@@ -1,4 +1,3 @@
-
 html {
   font-size: 62.5%;
 }
@@ -10,11 +9,13 @@ html {
   padding: 0;
   font-family: lato;
 }
+
 .navbar-bg {
   background-color: #ffffff;
   /* background-color: #e8fdf6; */
   height: 100px;
 }
+
 .navtext {
   display: flex;
   justify-content: space-between;
@@ -22,24 +23,30 @@ html {
   margin: 0 9px;
   gap: 1rem;
 }
+
 .n-link {
   font-size: 14px;
 }
-.modal_head{
+
+.modal_head {
   justify-content: space-between;
 }
-.modal_head h3{
+
+.modal_head h3 {
   margin-bottom: 25px;
   font-weight: 500;
   font-size: 20px;
 }
-.react-datetime-picker__inputGroup{
+
+.react-datetime-picker__inputGroup {
   font-size: 15px;
 }
-.input-group input{
+
+.input-group input {
   height: 35px;
   font-size: 15px;
 }
+
 .nav-link .active {
   border-bottom: 0.1rem solid #09a3c8;
   padding-bottom: 1rem;
@@ -78,19 +85,22 @@ a {
   background-color: rgba(66, 66, 66, 0.61) !important;
   z-index: 10;
 }
+
 .rightnav {
   margin-right: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 6px;
+  margin-left: auto;
 }
+
 .navbtn {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.1rem;
-  border:none;
+  border: none;
 }
 
 .navbtn .textp {
@@ -100,6 +110,7 @@ a {
   color: #09a3c8;
   font-family: lato;
 }
+
 .navbtn .iconbi {
   font-size: 2.0rem;
   color: #09a3c8;
@@ -117,6 +128,7 @@ a {
 
   color: white;
 }
+
 .getbtn button:hover {
   background-color: rgb(45, 104, 136);
 }
@@ -125,82 +137,95 @@ a {
 
 .ReactModal__Overlay {
   animation: moveToLeft 500ms ease-in-out;
-animation-delay: 10ms;
+  animation-delay: 10ms;
 }
 
 
 
 @keyframes moveToLeft {
-0% {
+  0% {
     transform: translateX(1000px);
-  
-}
-90% {
+
+  }
+
+  90% {
     transform: translateX(-100px);
-}
-100% {
+  }
+
+  100% {
     transform: translateX(0px);
-    
-}
+
+  }
 }
 
-@media all and (max-width:1280px){
-    .navbar-nav a {
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-      }
-      .navbtn.iconbi {
-        font-size: 0.3rem;
-      }
-      .navbar-nav .textp {
-        font-size: 14px;
-      }
-      .getbtn .btn{
-        margin: 0;
-        height: 32px;
-        font-size: 11px;
-        width: 96px;
-    }
+@media all and (max-width:1280px) {
+  .navbar-nav a {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbtn.iconbi {
+    font-size: 0.3rem;
+  }
+
+  .navbar-nav .textp {
+    font-size: 14px;
+  }
+
+  .getbtn .btn {
+    margin: 0;
+    height: 32px;
+    font-size: 11px;
+    width: 96px;
+  }
 }
 
 @media all and (max-width: 1024px) {
- 
+
   .navtext {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
   }
+
   .navbar-nav a {
     font-size: 1.1rem;
     margin: 0;
     padding: 0;
   }
+
   .navbtn {
     /* margin-right: 1rem; */
   }
+
   .navbtn.iconbi {
     font-size: 0.3rem;
   }
+
   .navbar-nav .textp {
     font-size: 11px;
   }
-  .getbtn .btn{
+
+  .getbtn .btn {
     margin: 0;
     height: 23px;
     font-size: 10px;
     width: 93px;
+  }
 }
-}
+
 @media all and (max-width: 768px) {
   .navtext {
     display: block;
   }
+
   .navbar-nav a {
     margin-bottom: 1rem;
     font-size: 12px;
   }
+
   .rightnav {
     display: inline-block;
   }
@@ -212,11 +237,13 @@ animation-delay: 10ms;
     align-items: center;
     margin-left: 5px;
   }
-  .getbtn .btn{
+
+  .getbtn .btn {
     margin-left: 15px;
     font-size: 11px;
     padding: 2px
-}
+  }
+
   .navbtn .textp {
     font-size: 12px;
     margin-right: -60px;
@@ -227,20 +254,25 @@ animation-delay: 10ms;
   .navtext {
     display: block;
   }
+
   .navbar-nav a {
     font-size: 14px;
     margin-bottom: 1rem;
   }
+
   .navbtn .textp {
     font-size: 12px;
     margin-right: -60px;
   }
+
   .rightnav {
     display: inline-block;
   }
-  .bi-whatsapp{
+
+  .bi-whatsapp {
     margin-left: -37px;
   }
+
   .navbtn {
     /* display:flex; */
     display: flex;
@@ -248,14 +280,16 @@ animation-delay: 10ms;
     align-items: center;
     margin-left: 10px;
   }
-  .getbtn .btn{
+
+  .getbtn .btn {
     margin-left: 15px;
     font-size: 11px;
     padding: 2px
-}
-.navbar-toggler{
-  margin-right: 17px;
-  font-size: 21px;
+  }
+
+  .navbar-toggler {
+    margin-right: 17px;
+    font-size: 21px;
   }
 }
 
@@ -263,42 +297,49 @@ animation-delay: 10ms;
 .react-datetime-picker {
   width: 300px;
 }
-@media all and(min-width:1280px){
-    .navbar-nav a {
-        font-size: 16px;
-        margin-bottom: 1rem;
-      }
-      .navbtn.iconbi {
-        font-size: 5px;
-      }
-      .navbar-nav .textp {
-        font-size: 16px;
-      }
-      
+
+@media all and(min-width:1280px) {
+  .navbar-nav a {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+
+  .navbtn.iconbi {
+    font-size: 5px;
+  }
+
+  .navbar-nav .textp {
+    font-size: 16px;
+  }
+
 
 }
 
-@media all and (max-width: 668px){
-  #modal1{
+@media all and (max-width: 668px) {
+  #modal1 {
     width: 350px !important;
   }
-  .form_flex{
+
+  .form_flex {
     display: flex;
   }
-  .modal_head h3{
+
+  .modal_head h3 {
     font-size: 13px;
   }
-  .fa-xmark{
+
+  .fa-xmark {
     font-size: 13px !important;
   }
-  .img_hide{
+
+  .img_hide {
     display: none;
   }
 }
+
 @media all and (max-width: 430px) {
- .togglenav{
-  margin-right:5px;
- }
+  .togglenav {
+    margin-right: 5px;
+  }
 
 }
-

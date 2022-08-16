@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from "react";
-
-// import offerImg from "./offer_picture.jpg";
-// import offerImg from "../offer_picture.jpg";
 import Box from "@mui/material/Box";
 import LinearProgress from "@mui/material/LinearProgress";
 import "./Offers.css";
+
+
+
+
 const Offers = () => {
   const [progress, setProgress] = useState(0);
+  const style = 
+    {height:"30px",backgroundColor: "#433F3F",borderRadius: "24px",maxWidth:"600px",marginTop:"76px",marginLeft:"auto",marginRight:"auto"}
+  
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -24,26 +28,35 @@ const Offers = () => {
     };
   }, []);
   return (
-    <>
-      <div className="offers-background-img ">
-        <h2 className="offer-heading">OFFERS</h2>
-        <hr className="offer-line" />
-        <div className="grid-two-column">
-          <h2 className="coming-heading">COMING</h2>
-          <h2 className="soon-heading">SOON</h2>
-        </div>
-        {/* <img src={offerImg} style={{width:"100vw", height:"90vh"}} className="img-fluid" ></img> */}
-        <br />
-        <br />
-        <Box sx={{ width: "100%" }}>
-          <LinearProgress
-            className="offer-loader"
-            variant="determinate"
-            value={progress}
-          />
-        </Box>
+   
+     
+      <div className="offer-background-container">
+      <div className="offer-heading">
+      <div>
+      OFFERS
       </div>
-    </>
+      <div className="offer-line"/>
+      </div>
+      <div className="offer-text">
+      <div>COMING</div>
+      <div>SOON</div>
+      </div>
+      <Box sx={{ width: "100%" }}>
+  
+ 
+      <LinearProgress
+      sx={style}
+      classes={{
+        barColorPrimary: "linear-bar-color-pr"
+      }}
+      variant="determinate"
+      value={progress}
+      />
+
+      </Box>
+      </div>
+   
+   
   );
 };
 

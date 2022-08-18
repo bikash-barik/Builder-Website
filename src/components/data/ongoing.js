@@ -45,7 +45,7 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F5.svg?alt=media&token=08a18040-2deb-4f7d-9abf-e71e70eab601",
       },
-      { link:"",
+      { link:"not found",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F6.svg?alt=media&token=3b846919-421b-4a01-860d-64576df48436",
       },
@@ -296,7 +296,7 @@ const OngoingData = [
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F7.svg?alt=media&token=770e56f8-c569-46ba-8357-05ba1b020126",
         link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FPayment%2FARCHID%20SHREEKUNJ%20PAYMENT%20SCHEDULE.pdf?alt=media&token=221c68fc-7b5e-40ea-bfe0-ff3f007bc942",  
       },
-      { link:"",
+      { link:"not found",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F7.svg?alt=media&token=65e79009-5fed-4a45-9cdc-589ea89cfdbc",
       },
@@ -474,7 +474,7 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F5.svg?alt=media&token=45e7f134-3684-48de-8ace-39865bc18cde",
       },
-      {link:"",
+      {link:"not found",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F6.svg?alt=media&token=dd08bf4f-afee-4c21-99fa-e35230807be7",
       },

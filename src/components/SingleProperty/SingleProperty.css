@@ -5,11 +5,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .single-property-button-group {
     position: absolute;
-    top: 630px;
+    top: 550px;
     right: 93px;
     display: flex;
     margin-left: 10px;
@@ -71,7 +72,7 @@
 @media screen and (max-width:1280px) {
     .single-property-button-group {
         right: 70px;
-        top:680px;
+        top:600px;
     }
     
     .single-property-button {
@@ -95,7 +96,7 @@
     }
     .single-property-button-group {
         right: 20px;
-        top:490px;
+        top:450px;
     }
     
     .single-property-button {
@@ -155,7 +156,7 @@
       
     }
     .single-property-button-group {
-        top:350px;
+        top:240px;
     }
     .single-property-button {
         margin-left: 5px !important;

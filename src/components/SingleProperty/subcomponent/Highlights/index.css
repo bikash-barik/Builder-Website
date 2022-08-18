@@ -28,6 +28,10 @@
     height: auto;
 }
 
+.image-clickable{
+    cursor: pointer;
+}
+
 @media screen and (max-width:1280px) {
     .single-property-highlights {
         padding: 50px 30px;

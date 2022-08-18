@@ -40,8 +40,8 @@ const CarouselData =[
         id: 6,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010%20(1).jpg?alt=media&token=60ae1e66-d1f9-4d16-ae5a-7e248910db84",
         description :'"I cannot say enough about ARCHID BUILDERS.They were absolutely great! They met their project dates and were so organised throughout the project..I would recommend them to anyone. "',
-        name:"Dr. Alok Mishra",
-        title :"CLIENT, ARCHID SAILABALA",
+        name:"Mrs. Aloka Mishra",
+        title :"CLIENT, GIRIBALA",
        
     },
     {
@@ -56,7 +56,7 @@ const CarouselData =[
         id: 8,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010.jpg?alt=media&token=129b4d5a-2610-40b8-a292-763fa64f19dd",
         description :'"We are totally pleased with your company, your people and your subcontractors on the craftsmanship of your product. We continue to be totally satisfied with the Apartment that you built for us two years ago"',
-        name:"Ms. Nisarg Rachna",
+        name:"Nisarg Rachna",
         title :"ARCHITECT",
         
     },
@@ -71,7 +71,7 @@ const CarouselData =[
         id: 10,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FEllipse%2010.jpg?alt=media&token=129b4d5a-2610-40b8-a292-763fa64f19dd",
         description :`"ARCHID BUILDERS have taken better care of us...The entire team lives and breathes excellence in everything they do. Integrity, initiative and intelligence are built into this project. What an awesome job! Thank you!"`,
-        name:"Ms. Kirtiprasad Pati",
+        name:"Ms. Shila Rani Mishra",
         title :"CLIENT, ARCHID PRIDE",
     },
 ]

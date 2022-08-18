@@ -24,19 +24,20 @@ const OngoingData = [
     introduction:
       "Archid Pramod Retreat is one of such project of us which will Stroll through the greenery and let the thr most enchanting views soothe your soul.Experience a truly global lifestyle that offers you the latest in modern living in the lap of nature,yet seamlessly connected to the busy world outside.A home built to the highest standards with exactly your needs in mind.The location, for one, couldn’t be better, as it is within immediate reach of the best of everything you need – schools, colleges, hospitals, Hotels, supermarkets, banks and more. The airport, and the rail station are easily accessible as well through arterial roads.",
     highlights: [
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F1.svg?alt=media&token=86eb958b-0a00-4e9f-a682-1f8b1f481e52",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F2.svg?alt=media&token=c1357fcf-6860-411b-a55c-03babb1505c0",
       },
       {
+      
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F3.svg?alt=media&token=a2a541ab-172c-4d62-bd10-aad44f61fe5c",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F4.svg?alt=media&token=68596e23-d17c-41f3-bea6-b47612700441",
       },
@@ -44,7 +45,7 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F5.svg?alt=media&token=08a18040-2deb-4f7d-9abf-e71e70eab601",
       },
-      {
+      { link:"",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F6.svg?alt=media&token=3b846919-421b-4a01-860d-64576df48436",
       },
@@ -52,16 +53,16 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F7.svg?alt=media&token=14cf8d4a-37fc-4c26-856b-5c97d6953f81",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F8.svg?alt=media&token=02051e15-522c-4631-bf0d-ed2f10715f51",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F9.svg?alt=media&token=5c06b3af-fe3f-4213-8c67-6fa3c6e5d145",
         link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FPayment%20Schedule%20Button%2FARCHID%20PRAMOD%20RETREAT%20PAYMENT%20SCHEDULE.pdf?alt=media&token=46177e8e-7cdc-46d0-9424-82238b03278d",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F10.svg?alt=media&token=0fd63639-e623-443b-a006-b530fbc09659",
       },
@@ -266,11 +267,11 @@ const OngoingData = [
     introduction:
       "This gated community is well placed at the heart of a pristine location in Ranasinghpur, Bhubaneswar. Driven by design, the meticulous planning infuses spice into space. Whether yours is a nuclear or joint family, the smartly calibrated villas fit seamlessly into your individualised lifestyle. The upscale class reflects in quality of materials utilised to create the ambience you always wanted from your dream home.",
     highlights: [
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F1.svg?alt=media&token=d2c9cb0f-fcc9-4881-9ab6-e1e582293377",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F2.svg?alt=media&token=652f89ef-f55b-422f-9742-1cb70ad6394c",
       },
@@ -278,7 +279,7 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F3.svg?alt=media&token=ad009ca3-ca78-4c10-9ca1-5cce25e9a0e4",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F4.svg?alt=media&token=7817a60f-3ff1-4e56-ae51-bc1543fa70b4",
       },
@@ -290,12 +291,12 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F6.svg?alt=media&token=082f1712-8731-4342-a729-281e65150c1d",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F7.svg?alt=media&token=770e56f8-c569-46ba-8357-05ba1b020126",
         link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FPayment%2FARCHID%20SHREEKUNJ%20PAYMENT%20SCHEDULE.pdf?alt=media&token=221c68fc-7b5e-40ea-bfe0-ff3f007bc942",  
       },
-      {
+      { link:"",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F7.svg?alt=media&token=65e79009-5fed-4a45-9cdc-589ea89cfdbc",
       },
@@ -461,7 +462,7 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F2.svg?alt=media&token=b5d8db4e-f862-4698-a183-36d1974aa259",
       },
-      {
+      { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F3.svg?alt=media&token=b49871a6-73ba-4c21-b353-a6d170141d89",
       },
@@ -473,7 +474,7 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F5.svg?alt=media&token=45e7f134-3684-48de-8ace-39865bc18cde",
       },
-      {
+      {link:"",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F6.svg?alt=media&token=dd08bf4f-afee-4c21-99fa-e35230807be7",
       },

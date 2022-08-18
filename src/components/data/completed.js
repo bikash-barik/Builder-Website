@@ -153,7 +153,7 @@ const CompletedData =[
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fcommercial%2FARCHID%20SANTOSH%20PLAZA%20(COMMERCIAL).jpg?alt=media&token=222a0d2f-5951-4087-a625-3499c65dd31e",
         category:"COMMERCIAL PROJECT",
-        date :"2011"
+        date :"2014"
        
     },
     {

@@ -13,8 +13,8 @@ const Description = (props) => {
         data-aos-easing="linear"
         data-aos-duration="1000"
       >
-        <span className="single-property-special-class">{description[0]}</span>
-        <span >
+        <span className="single-property-special-class ">{description[0]}</span>
+        <span className="capitalize">
         {description.slice(1)}
         </span> 
       </div>

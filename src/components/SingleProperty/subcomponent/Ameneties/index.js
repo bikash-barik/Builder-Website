@@ -11,7 +11,7 @@ const Ameneties = ({ ameneties }) => {
           <div>AMENETIES</div>
           <div className="ameneties-line"/>
         </div>
-        <div className="ameneties-detail">{ameneties.text}</div>
+        <div className="ameneties-detail capitalize">{ameneties.text}</div>
         <div className="d-flex">
         <Button variant="contained" className="brochure-button" onClick={handleBrochure} >DOWNLOAD BROCHURE</Button>
         </div>

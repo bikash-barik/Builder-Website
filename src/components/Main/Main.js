@@ -17,12 +17,12 @@ export default function Main() {
         <div className="anim1 anim">
           <h6 style={{ color: "rgb(209, 205, 205)", letterSpacing:"0.1vw", fontSize: "1.8vw", marginTop: "5vw", height: "3.5vw" }}>  <img src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FIcons%2FArchid%20Pramod%20Icons%2Fexclusivity-icon.png?alt=media&token=0c6ddbb3-9de9-439a-8e9d-3b6b6176714b" />EXCLUSIVITY </h6>
 
-          <p style={{ color: "rgb(209, 205, 205)", letterSpacing:"0.1vw", fontSize: "1.2vw", marginTop: "3vw" }}>Our consultants shared a vision to create an exceptional neighbourhood with an unwavering set of standards.From perfecting the finest details to tackling colossal challenges,they showcased values of superior craftsmanship and an enduring commitment to the project</p>
+          <p style={{ color: "rgb(209, 205, 205)", letterSpacing:"0.1vw", fontSize: "1.2vw", marginTop: "3vw" }}>Our consultants shared a vision to create an exceptional neighbourhood with an unwavering set of standards.From perfecting the finest details to tackling colossal challenges,they showcased values of superior craftsmanship and an enduring commitment towards the project</p>
         </div>
 
         <div className="anim2 anim">
           <h6 style={{ color: "rgb(209, 205, 205)", letterSpacing:"0.1vw", fontSize: "1.8vw", marginTop: "5vw", height: "3.5vw" }}>   <img src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FIcons%2FArchid%20Pramod%20Icons%2Ftrust-icon.png?alt=media&token=f723a6ce-d64d-4ae7-a170-8131a29ec3a5" /> TRUST</h6>
-          <p style={{ color: "rgb(209, 205, 205)", letterSpacing:"0.1vw", fontSize: "1.2vw", marginTop: "3vw" }}>When it comes to Archid no one would get a second thought about it. Our clients has put years of faith to stay with us and made us a brand itself.</p>
+          <p style={{ color: "rgb(209, 205, 205)", letterSpacing:"0.1vw", fontSize: "1.2vw", marginTop: "3vw" }}>When it comes to Archid no one would get a second thought about it. Our clients have invested their faith on us for years and have helped us in creating a brand of ourselves.</p>
         </div>
         <div className="anim3 anim">
 

@@ -12,11 +12,11 @@ const LatestLaunches = () => {
           <div className="latest-launches-line"></div>
         </div>
 
-        <div className="latest-launches-text"   >
-          ARCHID BUILDERS stands for excellence and luxury in residential and
-          commercial properties. It was incorporated in 2008 with it's focus on
-          quality Construction and developing a better Future.<br/><br/> Our properties
-          each have their own unique design aesthetic, providing an aspirational
+        <div className="latest-launches-text capitalize"   >
+          ARCHID BUILDERS stands for Excellence and Luxury in Residential and
+          Commercial properties. It was incorporated in 2008 with it's focus on
+          quality Construction and developing a better Future.<br/><br/> 
+          Each of our properties have their own unique design aesthetic, providing an aspirational
           lifestyle within a thriving community, supported by Archid Builders 
           community management team.
         </div>

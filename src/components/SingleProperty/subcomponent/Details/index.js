@@ -12,7 +12,7 @@ const Details = ({ detail }) => {
                   <div className="single-property-details-line" />
                 </div>
                 <div
-                  className="single-property-details-description"
+                  className="single-property-details-description capitalize"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="1000"
@@ -47,7 +47,7 @@ const Details = ({ detail }) => {
                   <div className="single-property-details-line" />
                 </div>
                 <div
-                  className="single-property-details-description"
+                  className="single-property-details-description capitalize"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="1000"

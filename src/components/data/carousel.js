@@ -3,7 +3,7 @@ const CarouselData =[
         id: 1,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FWhatsApp%20Image%202022-07-20%20at%203.13.35%20PM.jpeg?alt=media&token=f6ea98b9-bf94-48c7-ba79-e2382163ea21",
         description :'"Being completely new to home buying and having heard of many horror stories from others, our experience with AB has been pretty pleasant so far. AB has been very professional and helpful at every step. We would highly recommend AB. Our journey so far has been a pleasant one.',
-        name:"Dr. CK Deepa, Dr. Nihar Ranjan ",
+        name:"Dr. CK Deepa, Dr. Nihar Ranjan Dash ",
         title :"CLIENT, ARCHID SHREEKUNJ",
     },
     {
@@ -24,7 +24,7 @@ const CarouselData =[
         id: 4,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FWhatsApp%20Image%202022-07-21%20at%2012.37.35%20PM.jpeg?alt=media&token=e1b61d83-30b4-4561-ba58-48ab5ab9646a",
        
-        description :'"The project is extremely successful and we booked a 3 bhk with good cost at a prime location int the heart of the temple city.They are doing the good construction as per exact time schedule, which is the most important objective for us now a days before buying a property."',
+        description :'"The project is extremely successful and we booked a 3 bhk with good cost at a prime location in the heart of the temple city.They are doing the good construction as per exact time schedule, which is the most important objective for us now a days before buying a property."',
         name:"Dr. Purabi Panda",
         title :"CLIENT, ARCHID SAILABALA",
     },
@@ -32,7 +32,7 @@ const CarouselData =[
         id: 5,
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Ftestimonials%2FWhatsApp%20Image%202022-07-21%20at%207.33.21%20PM.jpeg?alt=media&token=07cf4104-6046-422c-a34c-2b91d9013f4e",
      
-        description :'"Archid Builder is very Trusted and one of Genuine Builders.They are very professional as well as Friendly to the customer.The most important part is the construction.All equipments they use are of higher quality and material used are equally grea.Each and every work on the site immediately gets informed to the buyers."',
+        description :'"Archid Builder is very Trusted and one of Genuine Builders.They are very professional as well as Friendly to the customer.The most important part is the construction.All equipments they use are of higher quality and material used are equally great.Each and every work on the site immediately gets informed to the buyers."',
         name:"Mr. Deepak Kumar Patro",
         title :"CLIENT, ARCHID SAILABALA",
     },

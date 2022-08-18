@@ -22,18 +22,18 @@
 }
 
 .name {
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 600;
     text-align: center;
     margin-bottom: 0px;
     color: #3B89D7;
-    ;
+    margin-top: 5px;
 }
 
 .card_main {
     background-color: rgb(73, 70, 70);
     width: 20vw;
-    height: 20vw;
+    height: 21vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,7 +95,7 @@
 
     .card_main {
         width: 30vw;
-        height: 34vw;
+        height: 35vw;
     }
 
     .card_img {
@@ -122,7 +122,7 @@
 @media screen and (max-width: 768px) {
     .card_main {
         width: 37vw;
-        height: 37vw;
+        height: 38vw;
     }
 
     .card_lower {
@@ -149,7 +149,7 @@
 @media screen and (max-width: 540px) {
     .card_main {
         width: 50vw;
-        height: 50vw;
+        height: 51vw;
     }
 
     .card_lower {

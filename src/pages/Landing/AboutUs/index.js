@@ -17,7 +17,7 @@ const AboutUs = () => {
             With over 13 years of experience developing “HOMES FOR LIFE” and
             Focusing on real estate markets, ARCHID BUILDERS rank in the top 5
             Companies in all over Odisha. Our team has an exceptional knowledge
-            about our community and neighborhoods.
+            about our community and neighbourhoods.
           </div>
         </div>
         <img className="about-us-image" src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FAbout%20us%2Fimage3.svg?alt=media&token=940d14b9-4ca6-4ca6-a707-d98e65ee0577"   alt="...Loading" data-aos="fade-down-left"

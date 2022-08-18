@@ -90,7 +90,7 @@ const OngoingData = [
       },
     ],
     ameneties: {
-      text: " With an 3000 square feet exclusive community building You’ll explore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go for chilling with your friends any time you wish. And when you’re done practising your swing, you can hitthe gym, relax by the community pool, or take your little ones for a mini-adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
+      text: " With an 3000 square feet exclusive community building You’ll explore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go and enjoy with your friends and family or take your little ones for a mini adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
       brochure:
         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FArchid%20Pramod%20Retreat%20Brochure%209_8_22%20(1).pdf?alt=media&token=37f52d93-6d06-42f0-818a-d22270ec8837",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAmeneties%2FPramod%20ameneties.jpg?alt=media&token=0891edbb-fae2-475c-a058-bed0e7ee9d67",
@@ -302,7 +302,7 @@ const OngoingData = [
     ],
     details: [
       {
-        heading: "LUXRIOUS FEATURES",
+        heading: "LUXURIOUS FEATURES",
         description:
           "From glorious living to luxurious features, the project has everything you need to make a lifestyle statement. The address accentuates warmth of a suburb with easy connectivity to every part of the city. ",
 
@@ -451,7 +451,7 @@ const OngoingData = [
       "CONTEMPORARY DESIGN IN NATURAL GREENLAND WITH ALL THOUGHTFUL AMENITIES",
       description:"2 & 3 BHK FLATS",
     introduction:
-      "Beautiful project, Archid Sailabala is themed around wellness and focused on residents’ well-being. It is set to become the center of luxury in Bhubaneswar by bringing together a rare combination of contemporary design, natural greenery and thoughtful amenities. ",
+      "Beautiful project, Archid Sailabala is themed around wellness and focused on resident's well-being. It is set to become the center of luxury in Bhubaneswar by bringing together a rare combination of contemporary design, natural greenery and thoughtful amenities. ",
     highlights: [
       {
         image:

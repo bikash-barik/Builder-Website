@@ -23,6 +23,10 @@
     border-top: 1px solid #FFFFFF;
 }
 
+.single-property-highlights-image-container{
+    overflow-x: hidden;
+}
+
 .single-property-highlights-image {
     width: 229px;
     height: auto;
@@ -89,4 +93,16 @@
     
 
    
+}
+
+@media screen and (max-width:340px) {
+    .single-property-highlights {
+        padding:  15px;
+    }
+    .single-property-highlights-image {
+        width: 30px;
+        
+    }
+
+    
 }

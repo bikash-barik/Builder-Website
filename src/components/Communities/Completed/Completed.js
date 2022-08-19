@@ -47,7 +47,7 @@ const [modal, setModal] = useState(false)
 {
   CompletedData.filter(p=>p.category===category).map((project,i)=>{
     return(<>
-         <div className="col-lg-6">
+         <div className="col-lg-6 ongoing-box-container">
             <div className="ongoing-box text-center align-items-center justify-content-center my-2">
               <img className="completed-image" src={project.image} style={{height:"400px"}}    data-aos={i%2===0?"fade-right":"fade-left"} data-aos-duration="2000" onClick={()=>{
                 modal===false?

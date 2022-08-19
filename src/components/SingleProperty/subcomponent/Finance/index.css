@@ -140,3 +140,24 @@ color: #000000;
   
     
 }
+@media screen and (max-width:340px) {
+    .single-property-finance{
+        padding: 15px;
+      
+    }
+    .single-property-finance-line{
+        width: 60px;
+ 
+    }
+    .finance-image{
+        width: 50px;
+       }
+        .finance-name{
+      
+        font-size: 7px;
+        line-height: 10px;
+     
+        }
+  
+    
+}

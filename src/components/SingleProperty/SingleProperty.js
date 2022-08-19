@@ -128,7 +128,8 @@ export default function SingleProperty({ OngoingData }) {
 
             <HighLights highlightImages={data.highlights} />
             <Description title={data.title} description={data.introduction} />
-            <Details detail={data.details} />
+<Details detail={data.details} />
+
             <Ameneties ameneties={data.ameneties} />
             <FloorPlan floorPlanData={data.floorPlans} />
             <Finance financeData={data.finance} />

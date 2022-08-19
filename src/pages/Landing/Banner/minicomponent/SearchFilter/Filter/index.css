@@ -156,4 +156,20 @@ margin-top: 0px;
   }
 
   }
+@media screen and (max-width: 300px) {
+    
+  .menu-title{
+    
+    font-size: 2px;
+    line-height: 5px;
+    
+    }
+    .drop-down-button {
+     
+      padding: 5px ;
+      font-size: 7px;
+      line-height: 10px;
+    }
+
+  }
     

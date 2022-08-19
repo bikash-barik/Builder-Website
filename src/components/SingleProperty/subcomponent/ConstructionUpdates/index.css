@@ -132,3 +132,21 @@
     
     }
 }
+@media screen and (max-width:340px) {
+   
+   
+    .construction-update-heading {
+      
+        font-size: 10px;
+        line-height: 30px;
+      
+    }
+    
+    .construction-update-line {
+        width: 50px;
+      
+        margin-bottom: 4px;
+        
+    
+    }
+}

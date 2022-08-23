@@ -78,6 +78,14 @@
     }
     
 }
+
+@media screen and (max-width:600px) {
+    .single-property-highlights-image {
+        width: 70px;
+        
+    }
+    
+}
 @media screen and (max-width:500px) {
     .single-property-highlights-image {
         width: 50px;
@@ -95,7 +103,7 @@
    
 }
 
-@media screen and (max-width:340px) {
+@media screen and (max-width:380px) {
     .single-property-highlights {
         padding:  15px;
     }

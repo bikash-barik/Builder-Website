@@ -108,6 +108,16 @@
         padding:  10px;
     }
     .single-property-highlights-image {
+        width: 35px;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:300px) {
+    
+    .single-property-highlights-image {
         width: 30px;
         
     }

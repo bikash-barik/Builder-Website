@@ -11,11 +11,14 @@ import Modal from "react-modal";
 
 import DateTimePicker from "react-datetime-picker";
 import Image1 from "../../images/Company_Logo/png ar.png";
+import PhoneInput from 'react-phone-number-input'
+import 'react-phone-number-input/style.css'
 
 export default function Drawer() {
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
   const [value, onChange] = useState(new Date());
+  const [num,setNum] = useState()
   const customStyles = {
     content: {
       top: "50%",
@@ -46,8 +49,8 @@ export default function Drawer() {
   };
 
   return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <div className="archid-navbar" >
+      <Navbar  collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand>
           <NavLink
             className="logoimg"
@@ -162,14 +165,13 @@ export default function Drawer() {
             MOBILE NUMBER <span style={{ color: "red" }}>*</span>
           </label>
           <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              id="basic-url"
-              style={{ borderColor: "black" }}
-              aria-describedby="basic-addon3"
-              required
-            />
+          <PhoneInput
+          defaultCountry="IN"
+      placeholder="Enter phone number"
+      value={num}
+      required
+      onChange={setNum}/>
+           
           </div>
 
           <label
@@ -180,7 +182,7 @@ export default function Drawer() {
           </label>
           <div class="input-group mb-3">
             <input
-              type="text"
+              type="email"
               class="form-control"
               id="basic-url"
               style={{ borderColor: "black" }}
@@ -277,7 +279,7 @@ export default function Drawer() {
               id="input_responsive"
             >
               <input
-                type="text"
+                type="email"
                 class="form-control "
                 id="basic-url"
                 style={{

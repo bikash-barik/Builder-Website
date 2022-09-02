@@ -22,7 +22,7 @@ const OngoingData = [
     tagLine: "LIVE A MODERN LIFESTYLE IN THE LAP OF NATURE",
     description:"2 & 3 BHK LUXURIOUS APARTMENT",
     introduction:
-      "Archid Pramod Retreat is one of such project of us which will Stroll through the greenery and let the thr most enchanting views soothe your soul.Experience a truly global lifestyle that offers you the latest in modern living in the lap of nature,yet seamlessly connected to the busy world outside.A home built to the highest standards with exactly your needs in mind.The location, for one, couldn’t be better, as it is within immediate reach of the best of everything you need – schools, colleges, hospitals, Hotels, supermarkets, banks and more. The airport, and the rail station are easily accessible as well through arterial roads.",
+      "Archid Pramod Retreat is one of such project of us which will Stroll through the greenery and let the thr most enchanting views soothe your soul. Experience a truly global lifestyle that offers you the latest in modern living in the lap of nature, yet seamlessly connected to the busy world outside.A home built to the highest standards with exactly your needs in mind. The location, for one, couldn’t be better, as it is within immediate reach of the best of everything you need – schools, colleges, hospitals, Hotels, supermarkets, banks and more. The airport, and the rail station are easily accessible as well through arterial roads.",
     highlights: [
       { 
         image:
@@ -71,7 +71,7 @@ const OngoingData = [
       {
         heading: "WELL CONSTRUCTED LUXURIOUS FLATS",
         description:
-          "For another, your home at Archid Pramod Retreat is designed to be compliant with the stipulations of Vaastu. In 3 side open flats you will enjoy an abundance of natural light and ventilation, which is aided by the strategic juxtaposition of the apartment blocks to facilitate the free flow of air and light from all directions.These Well constructed luxurious flats will be more specious with puja and designated store room for your needs.",
+          "For another, your home at Archid Pramod Retreat is designed to be compliant with the stipulations of Vaastu. In 3 side open flats you will enjoy an abundance of natural light and ventilation, which is aided by the strategic juxtaposition of the apartment blocks to facilitate the free flow of air and light from all directions. These Well constructed luxurious flats will be more specious with puja and designated store room for your needs.",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAbout%20Section%2FArchid%20Pramod%20Retreat%2C%20Patrapada%202.jpg?alt=media&token=51079b07-c68c-4fe7-a455-2025cd6ccfd1",
       },
@@ -91,7 +91,7 @@ const OngoingData = [
       },
     ],
     ameneties: {
-      text: " With an 3000 square feet exclusive community building You’ll explore luxury at it’s best .With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go and enjoy with your friends and family or take your little ones for a mini adventure too. There’s never a dull moment at Archid Pramod  Retreat.",
+      text: " With an 3000 square feet exclusive community building You’ll explore luxury at it’s best. With exclusive BIGGER community hall, a beautiful Swimming pool &  an advanced Multi gym makes your stay more adventurous. You can go and enjoy with your friends and family or take your little ones for a mini adventure too. There’s never a dull moment at Archid Pramod Retreat.",
       brochure:
         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FArchid%20Pramod%20Retreat%20Brochure%209_8_22%20(1).pdf?alt=media&token=37f52d93-6d06-42f0-818a-d22270ec8837",
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FAmeneties%2FPramod%20ameneties.jpg?alt=media&token=0891edbb-fae2-475c-a058-bed0e7ee9d67",
@@ -320,13 +320,13 @@ const OngoingData = [
       {
         heading: "THE STANDARD OF PREMIUM LIVING",
         description:
-          "The community play areas delight children of all ages, while the parks are perfect for family picnics. And if it gets too warm or you’ve had a long day at work, a few laps in the swimming pool and cozy moment in 6300 sqft exclusive club house will make you refreshed in no time. You’ll find 40% open space in the society which gives the residents a comfortable living .",
+          "The community play areas delight children of all ages, while the parks are perfect for family picnics. And if it gets too warm or you’ve had a long day at work, a few laps in the swimming pool and cozy moment in 6300 sqft exclusive club house will make you refreshed in no time. You’ll find 40% open space in the society which gives the residents a comfortable living.",
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
       },
     ],
     ameneties: {
-      text: "Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community  centre, and an impressive array of parks and walkways, the    community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
+      text: "Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community centre, and an impressive array of parks and walkways, the community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
       brochure:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAmeneties%2FShreekunj%20Ameneties.jpg?alt=media&token=10b7df85-8558-437a-80cd-d2164ed80ad7",
@@ -501,7 +501,7 @@ const OngoingData = [
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
         heading: "LUSH GREENERY AND ASTOUNDING VIEWS",
         description:
-          "The apartment is situated amongst abundant sunlight, lush greenery and astounding views. Intertwined with modern amenities and location advantage,highly coveted, pristine neighbourhood.",
+          "The apartment is situated amongst abundant sunlight, lush greenery and astounding views. Intertwined with modern amenities and location advantage, highly coveted, pristine neighbourhood.",
       },
       {
         image:
@@ -512,7 +512,7 @@ const OngoingData = [
       },
     ],
     ameneties: {
-      text: "Whether you want to give your parents a peaceful stay ,you know you have it all. you’ll have every world-class amenity you could ever need on your doorstep.",
+      text: "Whether you want to give your parents a peaceful stay, you know you have it all. you’ll have every world-class amenity you could ever need on your doorstep.",
 
       brochure:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",

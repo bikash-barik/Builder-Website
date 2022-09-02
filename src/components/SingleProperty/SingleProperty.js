@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import { useParams } from "react-router-dom";
 import "./SingleProperty.css";
 import gallery from "../../images/ongoing/gallery.png";
@@ -15,6 +15,9 @@ import Surrounding from "./subcomponent/Surrounding";
 import Location from "./subcomponent/Location"
 import ConstructionUpdates from "./subcomponent/ConstructionUpdates"
 import Dropdown from 'react-bootstrap/Dropdown';
+import Confirmation from "../confirmationSnackbar"
+
+
 
 import {
   EmailShareButton,
@@ -53,8 +56,29 @@ export default function SingleProperty({ OngoingData }) {
   };
 
 
-
-  console.log("OngoingData is",OngoingData.length);  
+    const name = useRef(null)
+    const number = useRef(null)
+    const email = useRef(null)
+    const [open,setOpen] = useState(false)
+    
+    const handleClick = () => {
+      setOpen(true);
+    };
+   
+    const handleContact = (e)=>{
+      e.preventDefault()
+    
+      const submit = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: name.current.value , number:number.current.value, email:email.current.value, requirement:"" })
+    };
+    fetch('https://archid.herokuapp.com/add_inquiry', submit)
+        .then(() => handleClick() )
+     
+    }
+    
+    
   return (
     <div className="single_background">
       {OngoingData?.map((data, i) => {
@@ -149,7 +173,7 @@ export default function SingleProperty({ OngoingData }) {
       })}
 
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="">
+        <form className="" onSubmit={handleContact} >
           <div className="d-flex modal_head" >
             <h3 className="black-text" style={{ fontSize: "20px", marginBottom: "30px", marginTop: "20px", fontWeight: "400", color: "black" }}> REGISTER YOUR INTEREST</h3>
 
@@ -168,7 +192,7 @@ export default function SingleProperty({ OngoingData }) {
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-
+              ref={name}
               style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
 
               required
@@ -184,7 +208,7 @@ export default function SingleProperty({ OngoingData }) {
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-
+              ref={email}
               style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
               required
             />
@@ -197,7 +221,7 @@ export default function SingleProperty({ OngoingData }) {
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-
+              ref={number}
               style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
 
               required
@@ -205,6 +229,7 @@ export default function SingleProperty({ OngoingData }) {
           </div>
           <button
             className="btn btn-primary align-items-center justify-content-center register_button"
+            type="submit"
 
             style={{ marginLeft: "19%", borderRadius: "0px", fontSize: "18px", marginTop: "5px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
 
@@ -213,6 +238,7 @@ export default function SingleProperty({ OngoingData }) {
           </button>
         </form>
       </Modal>
+      <Confirmation open={open} setOpen={setOpen} />
     </div>
   );
 }

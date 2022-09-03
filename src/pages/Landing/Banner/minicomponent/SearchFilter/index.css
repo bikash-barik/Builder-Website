@@ -154,6 +154,30 @@
     }
       }
 
+  @media screen and (max-width: 340px) {
+    
+    .banner-search-filter {
+        padding: 5px 10px;
+     
+       
+        width: 240px;
+     
+    }
+    .banner-search {
+        height: 30px;
+        width: 40px;
+       
+    }
+    .banner-search-button {
+        font-size: 3px;
+        line-height: 5px;
+        padding: 0px;
+    }
+  
+   
+ 
+      }
+
   
 
 

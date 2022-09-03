@@ -189,5 +189,12 @@
         font-size: 6px !important;
     }
 }
+@media screen and (max-width: 340px){
+    .single-property-button {
+        padding: 4px !important;
+        font-size: 5px !important;
+        line-height: 2px !important;
+    }
+}
 
 

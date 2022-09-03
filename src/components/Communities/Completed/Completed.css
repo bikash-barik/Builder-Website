@@ -1,6 +1,10 @@
 .Communities {
     color: #fff;
 }
+.ongoing-box-container{
+    overflow-x: hidden ;
+  
+  }
 
 .ongoing-box img {
     width: 100%;

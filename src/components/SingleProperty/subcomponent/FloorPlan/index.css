@@ -176,3 +176,23 @@ border-radius: 0;
 
     
 }
+@media screen and (max-width:340px) {
+
+    .floor-plan-image{
+        max-width: 230px;
+        
+        
+        
+    }
+
+    .filter-option{
+ 
+        
+        font-size: 6px;
+        line-height: 8px;   
+          
+        
+        }
+
+    
+}

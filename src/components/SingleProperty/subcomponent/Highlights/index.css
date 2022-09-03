@@ -23,6 +23,10 @@
     border-top: 1px solid #FFFFFF;
 }
 
+.single-property-highlights-image-container{
+    overflow-x: hidden;
+}
+
 .single-property-highlights-image {
     width: 229px;
     height: auto;
@@ -74,6 +78,14 @@
     }
     
 }
+
+@media screen and (max-width:600px) {
+    .single-property-highlights-image {
+        width: 70px;
+        
+    }
+    
+}
 @media screen and (max-width:500px) {
     .single-property-highlights-image {
         width: 50px;
@@ -89,4 +101,26 @@
     
 
    
+}
+
+@media screen and (max-width:380px) {
+    .single-property-highlights {
+        padding:  10px;
+    }
+    .single-property-highlights-image {
+        width: 35px;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:300px) {
+    
+    .single-property-highlights-image {
+        width: 30px;
+        
+    }
+
+    
 }

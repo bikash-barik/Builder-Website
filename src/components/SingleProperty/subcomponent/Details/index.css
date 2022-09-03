@@ -9,6 +9,7 @@
     display: flex;
     width: 95%;
     margin: 50px 0;
+    overflow-x: hidden;
 }
 
 

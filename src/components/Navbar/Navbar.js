@@ -71,9 +71,7 @@ export default function Drawer() {
   }
   const handleMeeting = (e)=>{
     e.preventDefault()
-    console.log(value)
-    console.log(name)
-    console.log(email)
+   
   
     const submit = {
       method: 'POST',

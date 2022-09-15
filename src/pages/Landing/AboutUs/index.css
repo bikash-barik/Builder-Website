@@ -2,6 +2,8 @@
 
 .about-us-container {
     height: auto;
+    overflow-x: hidden;
+
 
 }
 
@@ -14,7 +16,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow-x: hidden;
 
 }
 
@@ -73,9 +74,10 @@
 
 .about-us-image {
     max-width: 629px;
-    height: 50;
+    
     width: 45%;
     margin-right: -100px;
+    z-index: 10;
     
 
 }

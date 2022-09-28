@@ -258,7 +258,7 @@ const OngoingData = [
 
   {
     id: "2",
-    bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FShreekunj%20IMAGE.jpg?alt=media&token=14486744-9d62-468e-bdfe-95e02d7ad68c",
+    bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FShreekunj.jpg?alt=media&token=8d925b1d-71f5-4e95-8d72-603752a89aef",
     title: "ARCHID SHREEKUNJ, RANASINGHPUR",
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
@@ -338,13 +338,13 @@ const OngoingData = [
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%201.jpg?alt=media&token=e8366975-f0aa-47a8-a23a-9d34ae9ea2e5",
-        text: "FIRST FLOOR SIZE",
+        text: "FIRST FLOOR",
         fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206519.jpg?alt=media&token=aeec86b6-67ac-4ca8-b2dc-55c2d576d385",
       },
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=5819bd4c-3727-4f14-8a93-8ca8c7c4076c",
-        text: "GROUND FLOOR SIZE",
+        text: "GROUND FLOOR",
         fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206520.jpg?alt=media&token=cf03dd36-d390-431d-b0bd-8a370ed0bc59",
       },
     ],

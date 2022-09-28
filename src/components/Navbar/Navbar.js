@@ -1,4 +1,4 @@
-import React, { useState,useRef } from "react";
+import React, { useState, useRef } from "react";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -19,7 +19,7 @@ export default function Drawer() {
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
   const [value, onChange] = useState(new Date());
-  const [num,setNum] = useState()
+  const [num, setNum] = useState()
   const customStyles = {
     content: {
       top: "50%",
@@ -52,43 +52,43 @@ export default function Drawer() {
   const requirement = useRef(null)
   const number = useRef(null)
   const email = useRef(null)
-  const [open,setOpen] = useState(false)
-  
+  const [open, setOpen] = useState(false)
+
   const handleClick = () => {
     setOpen(true);
   };
- 
-  const handleContact = (e)=>{
+
+  const handleContact = (e) => {
     e.preventDefault()
     const submit = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: "" , number:num, email:email.current.value, requirement:requirement.current.value })
-  };
-  fetch('https://archid.herokuapp.com/add_inquiry', submit)
-      .then(() => handleClick() )
-   
+      body: JSON.stringify({ name: "", number: num, email: email.current.value, requirement: requirement.current.value })
+    };
+    fetch('https://archid.herokuapp.com/add_inquiry', submit)
+      .then(() => handleClick())
+
   }
-  const handleMeeting = (e)=>{
+  const handleMeeting = (e) => {
     e.preventDefault()
     console.log(value)
     console.log(name)
     console.log(email)
-  
+
     const submit = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: name.current.value , email:email.current.value, Date_Time :value })
-  };
-  fetch('https://archid.herokuapp.com/add_meeting', submit)
-      .then(() => handleClick() )
-   
+      body: JSON.stringify({ name: name.current.value, email: email.current.value, Date_Time: value })
+    };
+    fetch('https://archid.herokuapp.com/add_meeting', submit)
+      .then(() => handleClick())
+
   }
- 
+
 
   return (
     <div className="archid-navbar" >
-      <Navbar  collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand>
           <NavLink
             className="logoimg"
@@ -203,13 +203,13 @@ export default function Drawer() {
             MOBILE NUMBER <span style={{ color: "red" }}>*</span>
           </label>
           <div class="input-group mb-3">
-          <PhoneInput
-          defaultCountry="IN"
-      placeholder="Enter phone number"
-      value={num}
-      required
-      onChange={setNum}/>
-           
+            <PhoneInput
+              defaultCountry="IN"
+              placeholder="Enter phone number"
+              value={num}
+              required
+              onChange={setNum} />
+
           </div>
 
           <label

@@ -27,9 +27,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Landing />} />
         <Route
-          exact
-          path="/communities"
-          element={
+          exact path="/communities" element={
             <div>
               <Communities />
             </div>

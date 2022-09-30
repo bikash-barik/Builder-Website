@@ -65,7 +65,7 @@ export default function Drawer() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name: "" , number:num, email:email.current.value, requirement:requirement.current.value })
   };
-  fetch('https://archid.herokuapp.com/add_inquiry', submit)
+  fetch('https://archids.herokuapp.com/add_inquiry', submit)
       .then(() => handleClick() )
    
   }
@@ -78,7 +78,7 @@ export default function Drawer() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name: name.current.value , email:email.current.value, Date_Time :value })
   };
-  fetch('https://archid.herokuapp.com/add_meeting', submit)
+  fetch('https://archids.herokuapp.com/add_meeting', submit)
       .then(() => handleClick() )
    
   }

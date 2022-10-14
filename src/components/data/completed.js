@@ -165,5 +165,29 @@ const CompletedData =[
         date :"2014"
 
     },
+    {
+        id: 19,
+        title :"ARCHID GIRIBALA TRIPLEX, BJB NAGAR, BBSR ",
+        // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fresidential%2Fb014.jpg?alt=media&token=8c678435-a779-4e2f-9f1c-a6692d305ac2",
+        category:"RESIDENTIAL PROJECT",
+        date :"2022"
+    },
+    {
+        id: 20,
+        title :"ARCHID MANORANJAN ENCLAVE UNIT-9, BBSR  ",
+        // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fresidential%2Fe_final_004.jpg?alt=media&token=c36a502d-f221-4cf4-8790-3764d27ce09a",
+        category:"RESIDENTIAL PROJECT",
+        date :"2019"
+    },
+    {
+        id: 21,
+        title :"ARCHID PRESTIGE BOMIKHAL, BBSR  ",
+        // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fresidential%2Fe_final_001%20(1).jpg?alt=media&token=c717b0dd-4c68-4b67-b32a-afe32d179ba7",
+        category:"RESIDENTIAL PROJECT",
+        date :"2019"
+    },
 ]
 export default CompletedData;

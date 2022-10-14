@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -13,12 +13,13 @@ import DateTimePicker from "react-datetime-picker";
 import Image1 from "../../images/Company_Logo/png ar.png";
 import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
+import { Container } from "react-bootstrap";
 
 export default function Drawer() {
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
   const [value, onChange] = useState(new Date());
-  const [num,setNum] = useState()
+  const [num, setNum] = useState()
   const customStyles = {
     content: {
       top: "50%",
@@ -47,10 +48,47 @@ export default function Drawer() {
       borderRadius: "20px",
     },
   };
+  const name = useRef(null)
+  const requirement = useRef(null)
+  const number = useRef(null)
+  const email = useRef(null)
+  const [open, setOpen] = useState(false)
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleContact = (e) => {
+    e.preventDefault()
+    const submit = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: "" , number:num, email:email.current.value, requirement:requirement.current.value })
+  };
+  fetch('https://archids.herokuapp.com/add_inquiry', submit)
+      .then(() => handleClick() )
+   
+  }
+  const handleMeeting = (e) => {
+    e.preventDefault()
+    console.log(value)
+    console.log(name)
+    console.log(email)
+
+    const submit = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: name.current.value , email:email.current.value, Date_Time :value })
+  };
+  fetch('https://archids.herokuapp.com/add_meeting', submit)
+      .then(() => handleClick() )
+   
+  }
+
 
   return (
     <div className="archid-navbar" >
-      <Navbar  collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand>
           <NavLink
             className="logoimg"
@@ -149,7 +187,7 @@ export default function Drawer() {
 
       {/* modal */}
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="">
+        <form className="" onSubmit={handleContact} >
           <div className="d-flex modal_head">
             <h3 className="black-text"> GET IN TOUCH</h3>
             <i
@@ -165,13 +203,13 @@ export default function Drawer() {
             MOBILE NUMBER <span style={{ color: "red" }}>*</span>
           </label>
           <div class="input-group mb-3">
-          <PhoneInput
-          defaultCountry="IN"
-      placeholder="Enter phone number"
-      value={num}
-      required
-      onChange={setNum}/>
-           
+            <PhoneInput
+              defaultCountry="IN"
+              placeholder="Enter phone number"
+              value={num}
+              required
+              onChange={setNum} />
+
           </div>
 
           <label
@@ -188,6 +226,7 @@ export default function Drawer() {
               style={{ borderColor: "black" }}
               aria-describedby="basic-addon3"
               required
+              ref={email}
             />
           </div>
           <label
@@ -204,6 +243,7 @@ export default function Drawer() {
               aria-describedby="basic-addon3"
               style={{ height: "80px", borderColor: "black" }}
               required
+              ref={requirement}
             />
           </div>
           <button
@@ -229,7 +269,7 @@ export default function Drawer() {
         contentLabel="Example Modal"
       >
         <div>
-          <form>
+          <form onSubmit={handleMeeting} >
             <div className="d-flex modal_head">
               <h3 className="black-text" style={{ marginBottom: "15px" }}>
                 SCHEDULE MEETING WITH THE SALES TEAM
@@ -263,6 +303,7 @@ export default function Drawer() {
                 }}
                 aria-describedby="basic-addon3"
                 required
+                ref={name}
               />
             </div>
             <br />
@@ -289,6 +330,7 @@ export default function Drawer() {
                 }}
                 aria-describedby="basic-addon3"
                 required
+                ref={email}
               />
             </div>
             <br />
@@ -313,6 +355,7 @@ export default function Drawer() {
                 paddingRight: "20px",
                 borderRadius: "0px",
               }}
+              type="submit"
             >
               Submit
             </button>
@@ -330,113 +373,8 @@ export default function Drawer() {
           ></img>
         </div>
       </Modal>
+      <Container open={open} setOpen={setOpen} />
     </div>
   );
 }
 
-// <Navbar collapseOnSelect expand="lg" className="navbar-bg">
-//   <Container
-//     fluid
-//     style={{ zIndex: "10", backgroundColor: "white", padding: 0 }}
-//   >
-
-//     <NavLink
-//       className="logoimg"
-//       to="/"
-//       style={{ paddingLeft: 27, paddingbottom: 0, borderWidth: 0 }}
-//     >
-//       <img src={Logo} style={{ height: 100 }} />
-//     </NavLink>
-//     {/* <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand> */}
-//     <Navbar.Toggle aria-controls="responsive-navbar-nav " id="hidenav" />
-//     <Navbar.Collapse id="responsive-navbar-nav ">
-//       <Nav className="me-auto navtext">
-//         <Nav.Link
-//           className="n-link"
-//           style={{ color: "#3171B1", fontWeight: 600 }}
-//         >
-//           <NavLink to="/communities"  style={{ padding: 10 }}>
-//             COMMUNITIES
-//           </NavLink>
-//         </Nav.Link>
-
-//         <Nav.Link
-//           className="n-link"
-//           style={{ color: "#3171B1", fontWeight: 600 }}
-//         >
-//           <NavLink to="/offers" style={{ padding: 10 }}>
-//             OFFERS
-//           </NavLink>
-//         </Nav.Link>
-
-//         <Nav.Link
-//           className="n-link"
-//           style={{ color: "#3171B1", fontWeight: 600 }}
-//         >
-//           <NavLink to="/event" style={{ padding: 10 }}>
-//             EVENTS
-//           </NavLink>
-//         </Nav.Link>
-
-//         <Nav.Link
-//           className="n-link"
-//           style={{ color: "#3171B1", fontWeight: 600 }}
-//         >
-//           <NavLink to="/latest-launch" style={{ padding: 10 }}>
-//             LATEST LAUNCHES
-//           </NavLink>
-//         </Nav.Link>
-
-//         <Nav.Link
-//           className="n-link"
-//           style={{ color: "#3171B1", fontWeight: 600 }}
-//         >
-//           <NavLink to="/team" style={{ padding: 10 }}>
-//             OUR TEAM
-//           </NavLink>
-//         </Nav.Link>
-//       </Nav>
-//       <Nav className="rightnav">
-//         <Nav.Link className=" right-link navbtn">
-//           {/* <i class="fa fa-video mx-2  my-1"></i> */}
-//           <i class="bi bi-camera-video iconbi"></i>
-//           {/* <button
-//             className="btn btn-primary "
-//             onClick={() => {
-//               modal1 === true ? setModal1(false) : setModal1(true);
-//             }}
-//           >
-//             INSTANT VIDEO CALL
-//           </button> */}
-//           <p
-//             className="textp"
-//             onClick={() => {
-//               modal1 === true ? setModal1(false) : setModal1(true);
-//             }}
-//           >
-//             Instant Video Call
-//           </p>
-//         </Nav.Link>
-//         <Nav.Link
-//           href="https://wa.me/917537000001"
-//           target="_blank"
-//           className=" right-link navbtn"
-//         >
-//           {/* <i class="fa-brands fa-whatsapp mx-2  my-1"></i> */}
-//           <i class="bi bi-whatsapp iconbi"></i>
-//           <p className="textp">Whatsapp</p>
-//         </Nav.Link>
-//         <Nav.Link className=" right-link getbtn" style={{}}>
-//           <button
-//             className="btn "
-//             onClick={() => {
-//               modal === true ? setModal(false) : setModal(true);
-//             }}
-//           >
-//             GET IN TOUCH
-//           </button>
-//         </Nav.Link>
-//       </Nav>
-//     </Navbar.Collapse>
-//   </Container>
-// </Navbar>

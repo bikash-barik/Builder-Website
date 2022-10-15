@@ -177,7 +177,7 @@ const CompletedData =[
         id: 20,
         title :"ARCHID MANORANJAN ENCLAVE UNIT-9, BBSR  ",
         // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fresidential%2Fe_final_004.jpg?alt=media&token=c36a502d-f221-4cf4-8790-3764d27ce09a",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fresidential%2Fe_final_001_a-min.jpg?alt=media&token=9a2d0b38-07bb-4f80-a587-173d8cb62a5c",
         category:"RESIDENTIAL PROJECT",
         date :"2019"
     },

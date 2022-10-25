@@ -64,7 +64,7 @@ const OngoingData = [
       },
       { 
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F10.svg?alt=media&token=0fd63639-e623-443b-a006-b530fbc09659",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F10.png?alt=media&token=90ccd237-d30b-4435-bf78-b1830abd91d5",
       },
     ],
     details: [
@@ -472,7 +472,7 @@ const OngoingData = [
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F5.svg?alt=media&token=45e7f134-3684-48de-8ace-39865bc18cde",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F5.png?alt=media&token=eda7ba36-95c7-4572-a4fd-0765397ce605",
       },
       {link:"not found",
         image:
@@ -485,7 +485,7 @@ const OngoingData = [
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F8.svg?alt=media&token=ef02d2cb-1fb2-4a68-81b4-95f490f22106",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F8.png?alt=media&token=79e51e95-548d-4164-aa53-b42f4bb696b4",
       },
     ],
     details: [

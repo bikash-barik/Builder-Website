@@ -216,13 +216,13 @@ const OngoingData = [
     ],
     construction:[
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-09-10-07-25%201.jpg?alt=media&token=052ed6e8-8682-42a4-9033-6ed2f252f2df",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FConstruction%20Photos%2F1.jpeg?alt=media&token=8db1757c-8fed-4e20-afe0-1b116c0838f7",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-27-19%201.jpg?alt=media&token=b19f6464-521a-485d-9a57-ece680eb8dea",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FConstruction%20Photos%2F2.jpeg?alt=media&token=05f76c06-9172-4aa9-b9b9-568635e7b77a",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-27-39%201.jpg?alt=media&token=12cf5225-e987-4a6d-bb93-fd2aad4e6d69",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FConstruction%20Photos%2F3.jpeg?alt=media&token=c640c363-ad5e-418e-93f2-e1e779f6e03c",
       },
   
     ],
@@ -582,13 +582,13 @@ const OngoingData = [
     
     construction:[
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-16-59%203%201.jpg?alt=media&token=0c0689c1-989d-40c5-a8c7-1c306c8180af",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.54.jpeg?alt=media&token=a98fe4b0-e3b9-46e7-ad5c-7d870bd1495f",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-09-11-45-00%201.jpg?alt=media&token=568f955a-a38f-4622-aaed-8320378bf682",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.53.jpeg?alt=media&token=a422ab7a-62d0-4d0e-821d-64acc1eac90f",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FPHOTO-2022-07-04-13-16-59%202%201.jpg?alt=media&token=ce867e00-821f-4058-a777-2baed30d35ea",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.55.jpeg?alt=media&token=024f88bd-24ed-4e39-9c5f-e333db17305e",
       },
     ],
     

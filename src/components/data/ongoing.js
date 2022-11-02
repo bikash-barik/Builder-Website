@@ -588,7 +588,7 @@ const OngoingData = [
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.53.jpeg?alt=media&token=a422ab7a-62d0-4d0e-821d-64acc1eac90f",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.55.jpeg?alt=media&token=024f88bd-24ed-4e39-9c5f-e333db17305e",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-02%20at%209.36.39%20PM%20(2)%20(2).jpeg?alt=media&token=c7c2b510-78c9-4544-b881-270779ae1478",
       },
     ],
     

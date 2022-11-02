@@ -35,7 +35,7 @@ export default function Main() {
         <h6><span>ARCHID BUILDERS HIGHLIGHTS</span></h6>
         <div className="archimg">
           <div className="small"><div className="archid_no">22+</div> <div>PROJECTS</div></div>
-          <div className="small"><div className="archid_no">500+</div> <div>PROJECTS SOLD</div></div>
+          <div className="small"><div className="archid_no">500+</div> <div>RESIDENCE SOLD</div></div>
           <div className="small"><div className="archid_no">800+</div> <div>CLIENTS</div></div>
         </div>
       </div>

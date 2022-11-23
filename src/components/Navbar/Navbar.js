@@ -15,11 +15,15 @@ import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 import { Container } from "react-bootstrap";
 
+import { Tick } from 'react-crude-animated-tick';
+
 export default function Drawer() {
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
   const [value, onChange] = useState(new Date());
   const [num, setNum] = useState()
+
+  const [modal3, setModal3] = useState(false);
   const customStyles = {
     content: {
       top: "50%",
@@ -48,41 +52,69 @@ export default function Drawer() {
       borderRadius: "20px",
     },
   };
+  const customStyles2 = {
+    content: {
+      top: "45%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: "600px",
+      borderRadius: "15px",
+      height: "300px",
+      zIndex: "200",
+    },
+  };
   const name = useRef(null)
   const requirement = useRef(null)
   const number = useRef(null)
   const email = useRef(null)
   const [open, setOpen] = useState(false)
 
+
   const handleClick = () => {
     setOpen(true);
+    
   };
+
+  /*const handleClose = () => setOpen(false);*/
 
   const handleContact = (e) => {
     e.preventDefault()
-    const submit = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: "" , number:num, email:email.current.value, requirement:requirement.current.value })
-  };
-  fetch('https://archids.herokuapp.com/add_inquiry', submit)
-      .then(() => handleClick() )
-   
+    if (num.length > 0 && email.current.value.length > 0 )
+    {
+      const submit = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: "", number: num, email: email.current.value, requirement: requirement.current.value })
+      };
+      fetch('https://archids.herokuapp.com/add_inquiry', submit)
+        .then(() => handleClick())
+    }
+    e.number.reset();
+
+
+
   }
   const handleMeeting = (e) => {
+    
     e.preventDefault()
-    console.log(value)
-    console.log(name)
-    console.log(email)
+    // console.log(value)
+    // console.log(name.current.value)
+    // console.log(email.current.value)
+    if(name.current.value.length > 0 && email.current.value.length >0){
+      const submit = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: name.current.value, email: email.current.value, Date_Time: value })
+      };
+      fetch('https://archids.herokuapp.com/add_meeting', submit)
+        .then(() => handleClick())
+    }
+    
 
-    const submit = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: name.current.value , email:email.current.value, Date_Time :value })
-  };
-  fetch('https://archids.herokuapp.com/add_meeting', submit)
-      .then(() => handleClick() )
-   
+
   }
 
 
@@ -256,6 +288,26 @@ export default function Drawer() {
               paddingLeft: "30px",
               paddingRight: "30px",
             }}
+            type="submit"
+            onClick={() => {
+
+              
+              
+              
+                if (num.length > 0 && email.current.value.length > 0 )
+                {
+                  
+                  
+                  setModal(false);
+                 
+                modal3 === true ? setModal3(false) : setModal3(true);}
+                }
+                
+            
+              
+            }
+          
+
           >
             SUBMIT
           </button>
@@ -356,6 +408,14 @@ export default function Drawer() {
                 borderRadius: "0px",
               }}
               type="submit"
+
+              onClick={() => {
+               
+                if(name.current.value.length >0 && email.current.value.length >0){
+                  
+                 setModal1(false);
+                 modal3 === true ? setModal3(false) : setModal3(true);}
+              }}
             >
               Submit
             </button>
@@ -373,6 +433,33 @@ export default function Drawer() {
           ></img>
         </div>
       </Modal>
+
+      <Modal isOpen={modal3} style={customStyles2} contentLabel="My dialog">
+
+
+        <i
+          class="fa-solid fa-xmark"
+          style={{ fontSize: "20px", paddingLeft: " 53rem", paddingTop: "1rem" }}
+          onClick={() => setModal3(false)}
+        ></i>
+
+        <div>
+          <Tick size={130} />
+        </div>
+
+
+      
+        <h3 className="black-text"style={{ textAlign:"center"}}>
+          Submitted Sucessfully
+        </h3>
+        <h3 className="black-text" style={{ textAlign:"center"  }}>
+          We will Contact you soon..
+        </h3>
+        
+
+      </Modal>
+
+
       <Container open={open} setOpen={setOpen} />
     </div>
   );

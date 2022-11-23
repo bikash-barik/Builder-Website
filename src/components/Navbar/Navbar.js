@@ -92,7 +92,7 @@ export default function Drawer() {
       fetch('https://archids.herokuapp.com/add_inquiry', submit)
         .then(() => handleClick())
     }
-    e.number.reset();
+    //e.number.reset();
 
 
 
@@ -111,7 +111,7 @@ export default function Drawer() {
       };
       fetch('https://archids.herokuapp.com/add_meeting', submit)
         .then(() => handleClick())
-    }
+    } 
     
 
 
@@ -291,9 +291,6 @@ export default function Drawer() {
             type="submit"
             onClick={() => {
 
-              
-              
-              
                 if (num.length > 0 && email.current.value.length > 0 )
                 {
                   
@@ -303,8 +300,7 @@ export default function Drawer() {
                 modal3 === true ? setModal3(false) : setModal3(true);}
                 }
                 
-            
-              
+               
             }
           
 

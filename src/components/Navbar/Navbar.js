@@ -75,15 +75,14 @@ export default function Drawer() {
 
   const handleClick = () => {
     setOpen(true);
-    
+
   };
 
   /*const handleClose = () => setOpen(false);*/
 
   const handleContact = (e) => {
     e.preventDefault()
-    if (num.length > 0 && email.current.value.length > 0 )
-    {
+    if (num.length > 0 && email.current.value.length > 0) {
       const submit = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -98,12 +97,12 @@ export default function Drawer() {
 
   }
   const handleMeeting = (e) => {
-    
+
     e.preventDefault()
     // console.log(value)
     // console.log(name.current.value)
     // console.log(email.current.value)
-    if(name.current.value.length > 0 && email.current.value.length >0){
+    if (name.current.value.length > 0 && email.current.value.length > 0) {
       const submit = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -111,8 +110,8 @@ export default function Drawer() {
       };
       fetch('https://archids.herokuapp.com/add_meeting', submit)
         .then(() => handleClick())
-    } 
-    
+    }
+
 
 
   }
@@ -291,19 +290,17 @@ export default function Drawer() {
             type="submit"
             onClick={() => {
 
-                if (num.length > 0 && email.current.value.length > 0 )
-                {
-                  
-                  
-                  setModal(false);
-                 
-                modal3 === true ? setModal3(false) : setModal3(true);}
-                }
-                
-               
-            }
-          
+              if (num.length > 0 && email.current.value.length > 0) {
 
+
+                setModal(false);
+
+                modal3 === true ? setModal3(false) : setModal3(true);
+              }
+            }
+
+
+            }
           >
             SUBMIT
           </button>
@@ -406,11 +403,12 @@ export default function Drawer() {
               type="submit"
 
               onClick={() => {
-               
-                if(name.current.value.length >0 && email.current.value.length >0){
-                  
-                 setModal1(false);
-                 modal3 === true ? setModal3(false) : setModal3(true);}
+
+                if (name.current.value.length > 0 && email.current.value.length > 0) {
+
+                  setModal1(false);
+                  modal3 === true ? setModal3(false) : setModal3(true);
+                }
               }}
             >
               Submit
@@ -444,14 +442,14 @@ export default function Drawer() {
         </div>
 
 
-      
-        <h3 className="black-text"style={{ textAlign:"center"}}>
+
+        <h3 className="black-text" style={{ textAlign: "center" }}>
           Submitted Sucessfully
         </h3>
-        <h3 className="black-text" style={{ textAlign:"center"  }}>
+        <h3 className="black-text" style={{ textAlign: "center" }}>
           We will Contact you soon..
         </h3>
-        
+
 
       </Modal>
 

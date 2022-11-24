@@ -3,20 +3,28 @@
 * {
     box-sizing: border-box;
 }
+.drop-down-button {
+    margin-top: 0 !important;
+}
+.menu-title {
+    margin-top: 15px;
+}
+
 
 .banner-search-filter {
    
-    background-color: white;
-    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+    /* padding: 10px 30px; */
     max-width: 900px;
     width: 100%;
     position: relative;
     left: 0;
     right: 0;
-    top: -200px;
+     top: -200px; 
     margin: 0 auto;
     z-index: 1;
     margin-bottom: -70px;
+     margin-top: 73px; 
 
    
 }
@@ -124,6 +132,7 @@
     }
     .menu-title {
         font-size: 6px;
+        margin-top: 12px !important;
     }
     .drop-down-button {
         margin-top: 0px;

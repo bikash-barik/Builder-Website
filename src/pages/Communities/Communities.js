@@ -10,9 +10,9 @@ export default function Communities() {
   return (
     <div className="Communities-page">
     
-    <Ongoing head="ONGOING PROJECTS" />
+    <Ongoing head="ONGOING PROJECTS"/>
     {/* <Upcoming /> */}
-    <Completed />
+    <Completed/>
     </div>
     );
   }

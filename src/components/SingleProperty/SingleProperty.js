@@ -29,7 +29,8 @@ import {
   WhatsappIcon,
   TwitterShareButton,
   WhatsappShareButton,
-} from "react-share";
+}
+  from "react-share";
 
 
 
@@ -38,6 +39,10 @@ import {
 export default function SingleProperty({ OngoingData }) {
   const { id } = useParams();
   const [modal, setModal] = useState(false);
+  const [number, setNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [requirement, setRequirement] = useState("");
+  const [message, setMessage] = useState("");
 
   const [modal3, setModal3] = useState(false);
   const customStyles = {
@@ -75,8 +80,7 @@ export default function SingleProperty({ OngoingData }) {
 
 
   const name = useRef(null)
-  const number = useRef(null)
-  const email = useRef(null)
+
   const [open, setOpen] = useState(false)
 
   const handleClick = () => {
@@ -84,26 +88,33 @@ export default function SingleProperty({ OngoingData }) {
   };
 
 
-
-  const handleContact = (e) => {
-    e.preventDefault()
-
-    
-
-    if (name.current.value.length >0 && email.current.value.length>0 && number.current.value.length > 0)
-    {
-
-
-      const submit = {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.current.value, number: number.current.value, email: email.current.value, requirement: "" })
-      };
-      fetch('https://archid.herokuapp.com/add_inquiry', submit)
-        .then(() => handleClick())
+  let handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("https://archids.herokuapp.com/add_inquiry", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
+        body: JSON.stringify({
+          number: number,
+          email: email,
+          requirement: requirement,
+        }),
+      });
+      let resJson = await res.json();
+      if (resJson.status) {
+        setNumber("");
+        setEmail("");
+        setRequirement("");
+      } else {
+        setMessage("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
     }
-    
-  }
+  };
 
 
 
@@ -147,7 +158,7 @@ export default function SingleProperty({ OngoingData }) {
                     <img src={gallery} alt="Loading..." />
                   </div>
                 </Link>
-                <Dropdown >
+                <Dropdown>
 
                   <Dropdown.Toggle as="div" className=" drop-down-button single-property-button  share" align="end">
                     <div >
@@ -203,7 +214,7 @@ export default function SingleProperty({ OngoingData }) {
       })}
 
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="" onSubmit={handleContact} >
+        <form className="" onSubmit={handleSubmit} >
           <div className="d-flex modal_head" >
             <h3 className="black-text" style={{ fontSize: "20px", marginBottom: "30px", marginTop: "20px", fontWeight: "400", color: "black" }}> REGISTER YOUR INTEREST</h3>
 
@@ -214,18 +225,15 @@ export default function SingleProperty({ OngoingData }) {
             ></i>
           </div>
 
-          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>FULL NAME *</label>
+          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>Contact Number *</label>
 
           <div class="input-group mb-3">
             <input
               type="text"
-              class="form-control"
-              id="basic-url"
-              aria-describedby="basic-addon3"
-              ref={name}
-              style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
-
-              required
+              value={number}
+              // placeholder="number"
+              style={{ width: 400 }}
+              onChange={(e) => setNumber(e.target.value)}
             />
           </div>
 
@@ -234,16 +242,18 @@ export default function SingleProperty({ OngoingData }) {
 
           <div class="input-group mb-3">
             <input
-              type="text"
+              type="email"
               class="form-control"
               id="basic-url"
+              style={{ borderColor: "black" }}
               aria-describedby="basic-addon3"
-              ref={email}
-              style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
               required
+              value={email}
+
+              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>PHONE NUMBER *</label>
+          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>Requirement *</label>
 
           <div class="input-group mb-3">
             <input
@@ -251,10 +261,11 @@ export default function SingleProperty({ OngoingData }) {
               class="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
-              ref={number}
-              style={{ height: "45px", marginBottom: "20px", backgroundColor: "lightgrey" }}
-
+              style={{ height: "80px", borderColor: "black" }}
               required
+              value={requirement}
+              // placeholder="Requirement"
+              onChange={(e) => setRequirement(e.target.value)}
             />
           </div>
           <button
@@ -264,20 +275,10 @@ export default function SingleProperty({ OngoingData }) {
             style={{ marginLeft: "19%", borderRadius: "0px", fontSize: "18px", marginTop: "5px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
 
             onClick={() => {
-
-              
-
-              if (name.current.value.length >0 && email.current.value.length>0 && number.current.value.length > 0)
-              {
-                setModal(false);
-
-                modal3 === true ? setModal3(false) : setModal3(true);
-
-              }
-              
+              // setModal(false);
+              setModal3(true)
+              // modal3 === true ? setModal3(false) : setModal3(true);
             }
-
-
             }
           >
             SUBMIT

@@ -7,16 +7,16 @@ import ContactUsForm from "./contactUsForm";
 const Footer = () => {
   return (
     <div>
-    <div className="footer-container">
-      <FooterImageSection/>
-      <Location/>
-      <ContactUsForm/>
+      <div className="footer-container">
+        <FooterImageSection />
+        <Location />
+        <ContactUsForm />
+      </div>
+      <div className="copyright">
+        Copyright © 2021 by Archid Homes. All Rights Reserved.
+      </div>
     </div>
-    <div className="copyright">
-    Copyright © 2021 by Archid Homes. All Rights Reserved.
-    </div>
-    </div>
-  
+
   );
 };
 

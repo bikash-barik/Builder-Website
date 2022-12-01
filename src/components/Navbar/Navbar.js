@@ -20,12 +20,14 @@ import { Tick } from 'react-crude-animated-tick';
 export default function Drawer() {
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
-  const [value, onChange] = useState(new Date());
+  const [Date_Time, onChange] = useState(new Date());
   // const [num, setNum] = useState()
 
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
   const [requirement, setRequirement] = useState("");
+  const [name, setName] = useState("");
+  // const [Date_Time, setDateTime] = useState("");
   const [message, setMessage] = useState("");
 
   const [modal3, setModal3] = useState(false);
@@ -71,7 +73,7 @@ export default function Drawer() {
       zIndex: "200",
     },
   };
-  const name = useRef(null)
+  // const name = useRef(null)
   const [open, setOpen] = useState(false)
 
 
@@ -82,11 +84,44 @@ export default function Drawer() {
 
   /*const handleClose = () => setOpen(false);*/
 
+  let handleMeeting = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("https://archids.herokuapp.com/add_meeting", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          Date_Time: Date_Time,
+        }),
+      });
+      let resJson = await res.json();
+      if (resJson.status) {
+        setName("");
+        setEmail("");
+        // setDateTime("User created successfully");
+      } else {
+        setMessage("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://dd4e2865a060.in.ngrok.io/add_inquiry", {
+      let res = await fetch("https://archids.herokuapp.com/add_inquiry", {
         method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
         body: JSON.stringify({
           number: number,
           email: email,
@@ -94,10 +129,10 @@ export default function Drawer() {
         }),
       });
       let resJson = await res.json();
-      if (res.status === 200) {
+      if (resJson.status) {
         setNumber("");
         setEmail("");
-        setRequirement("User created successfully");
+        setRequirement("");
       } else {
         setMessage("Some error occured");
       }
@@ -114,36 +149,38 @@ export default function Drawer() {
   //     const submit = {
   //       method: 'POST',
   //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify({ number: num, email: email.current.value, requirement: requirement.current.value })
+  //       body: JSON.stringify({
+  //         name: name,
+  //         email: email,
+  //         Date_Time: Date_Time,
+  //       }),
   //     };
   //     fetch('https://dd4e2865a060.in.ngrok.io/add_inquiry', submit)
-  //       // fetch('https://archids.herokuapp.com/add_inquiry', submit)
+
   //       .then(() => handleClick())
   //   }
-  //e.number.reset();
+  //   e.number.reset();
   // }
 
 
 
-  const handleMeeting = (e) => {
+  // const handleMeeting = (e) => {
 
-    e.preventDefault()
-    // console.log(value)
-    // console.log(name.current.value)
-    // console.log(email.current.value)
-    if (name.current.value.length > 0 && email.current.value.length > 0) {
-      const submit = {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.current.value, email: email.current.value, Date_Time: value })
-      };
-      fetch('https://archids.herokuapp.com/add_meeting', submit)
-        .then(() => handleClick())
-    }
-
-
-
-  }
+  //   e.preventDefault()
+  //   if (name.current.value.length > 0 && email.current.value.length > 0) {
+  //     const submit = {
+  //       method: 'POST',
+  //       headers: { 'Content-Type': 'application/json' },
+  //       body: JSON.stringify({
+  //         name: name,
+  //         email: email,
+  //         Date_Time: Date_Time,
+  //       }),
+  //     };
+  //     fetch('https://4cfc0d114e77.au.ngrok.io/add_meeting', submit)
+  //       .then(() => handleClick())
+  //   }
+  // }
 
 
   return (
@@ -268,6 +305,7 @@ export default function Drawer() {
               type="text"
               value={number}
               placeholder="number"
+              style={{width:400}}
               onChange={(e) => setNumber(e.target.value)}
             />
 
@@ -311,9 +349,9 @@ export default function Drawer() {
               onChange={(e) => setRequirement(e.target.value)}
             />
           </div>
-          <button type="submit">Create</button>
-        </form>
-        {/* <button
+          {/* <button type="submit">Create</button> */}
+
+          <button
             className="btn btn-primary align-items-center justify-content-center"
             style={{
               marginLeft: "30%",
@@ -325,13 +363,16 @@ export default function Drawer() {
             }}
             type="submit"
             onClick={() => {
-              setModal(false);
-              modal3 === true ? setModal3(false) : setModal3(true);
+              // setModal(false);
+              setModal3(true)
+              // modal3 === true ? setModal3(false) : setModal3(true);
             }
             }
+          // onClick={() => setModal3(false)}
           >
             SUBMIT
-          </button> */}
+          </button>
+        </form>
 
       </Modal>
 
@@ -376,7 +417,8 @@ export default function Drawer() {
                 }}
                 aria-describedby="basic-addon3"
                 required
-                ref={name}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
             </div>
             <br />
@@ -403,9 +445,11 @@ export default function Drawer() {
                 }}
                 aria-describedby="basic-addon3"
                 required
-                ref={email}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
-            </div>
+            </div><br />
+
             <br />
 
             <label
@@ -415,7 +459,12 @@ export default function Drawer() {
               Select Date and Time
             </label>
             <div>
-              <DateTimePicker onChange={onChange} value={value} />
+              <DateTimePicker
+                // onChange={(e) => setDateTime(e.target.value)}
+                onChange={onChange}
+                value={Date_Time}
+
+              />
             </div>
             <br />
 
@@ -431,12 +480,9 @@ export default function Drawer() {
               type="submit"
 
               onClick={() => {
+                setModal3(true)
+                // setModal1(false);
 
-                if (name.current.value.length > 0 && email.current.value.length > 0) {
-
-                  setModal1(false);
-                  modal3 === true ? setModal3(false) : setModal3(true);
-                }
               }}
             >
               Submit

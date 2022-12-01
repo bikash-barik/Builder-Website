@@ -21,7 +21,12 @@ export default function Drawer() {
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
   const [value, onChange] = useState(new Date());
-  const [num, setNum] = useState()
+  // const [num, setNum] = useState()
+
+  const [number, setNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [requirement, setRequirement] = useState("");
+  const [message, setMessage] = useState("");
 
   const [modal3, setModal3] = useState(false);
   const customStyles = {
@@ -67,9 +72,6 @@ export default function Drawer() {
     },
   };
   const name = useRef(null)
-  const requirement = useRef(null)
-  const number = useRef(null)
-  const email = useRef(null)
   const [open, setOpen] = useState(false)
 
 
@@ -80,22 +82,49 @@ export default function Drawer() {
 
   /*const handleClose = () => setOpen(false);*/
 
-  const handleContact = (e) => {
-    e.preventDefault()
-    if (num.length > 0 && email.current.value.length > 0) {
-      const submit = {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: "", number: num, email: email.current.value, requirement: requirement.current.value })
-      };
-      fetch('https://archids.herokuapp.com/add_inquiry', submit)
-        .then(() => handleClick())
+  let handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("https://dd4e2865a060.in.ngrok.io/add_inquiry", {
+        method: "POST",
+        body: JSON.stringify({
+          number: number,
+          email: email,
+          requirement: requirement,
+        }),
+      });
+      let resJson = await res.json();
+      if (res.status === 200) {
+        setNumber("");
+        setEmail("");
+        setRequirement("User created successfully");
+      } else {
+        setMessage("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
     }
-    //e.number.reset();
+  };
 
 
 
-  }
+  // const handleContact = (e) => {
+  //   e.preventDefault()
+  //   if (num.length > 0 && email.current.value.length > 0) {
+  //     const submit = {
+  //       method: 'POST',
+  //       headers: { 'Content-Type': 'application/json' },
+  //       body: JSON.stringify({ number: num, email: email.current.value, requirement: requirement.current.value })
+  //     };
+  //     fetch('https://dd4e2865a060.in.ngrok.io/add_inquiry', submit)
+  //       // fetch('https://archids.herokuapp.com/add_inquiry', submit)
+  //       .then(() => handleClick())
+  //   }
+  //e.number.reset();
+  // }
+
+
+
   const handleMeeting = (e) => {
 
     e.preventDefault()
@@ -218,7 +247,7 @@ export default function Drawer() {
 
       {/* modal */}
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="" onSubmit={handleContact} >
+        <form className="" onSubmit={handleSubmit} >
           <div className="d-flex modal_head">
             <h3 className="black-text"> GET IN TOUCH</h3>
             <i
@@ -234,12 +263,13 @@ export default function Drawer() {
             MOBILE NUMBER <span style={{ color: "red" }}>*</span>
           </label>
           <div class="input-group mb-3">
-            <PhoneInput
-              defaultCountry="IN"
-              placeholder="Enter phone number"
-              value={num}
-              required
-              onChange={setNum} />
+
+            <input
+              type="text"
+              value={number}
+              placeholder="number"
+              onChange={(e) => setNumber(e.target.value)}
+            />
 
           </div>
 
@@ -257,7 +287,9 @@ export default function Drawer() {
               style={{ borderColor: "black" }}
               aria-describedby="basic-addon3"
               required
-              ref={email}
+              value={email}
+
+              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <label
@@ -274,10 +306,14 @@ export default function Drawer() {
               aria-describedby="basic-addon3"
               style={{ height: "80px", borderColor: "black" }}
               required
-              ref={requirement}
+              value={requirement}
+              placeholder="Requirement"
+              onChange={(e) => setRequirement(e.target.value)}
             />
           </div>
-          <button
+          <button type="submit">Create</button>
+        </form>
+        {/* <button
             className="btn btn-primary align-items-center justify-content-center"
             style={{
               marginLeft: "30%",
@@ -289,22 +325,14 @@ export default function Drawer() {
             }}
             type="submit"
             onClick={() => {
-
-              if (num.length > 0 && email.current.value.length > 0) {
-
-
-                setModal(false);
-
-                modal3 === true ? setModal3(false) : setModal3(true);
-              }
+              setModal(false);
+              modal3 === true ? setModal3(false) : setModal3(true);
             }
-
-
             }
           >
             SUBMIT
-          </button>
-        </form>
+          </button> */}
+
       </Modal>
 
       <Modal

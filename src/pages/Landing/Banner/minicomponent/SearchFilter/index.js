@@ -58,7 +58,7 @@ const SearchFilter = () => {
         <Col xs={6} sm={3}>
           <Filter
             title="PROPERTY TYPE"
-            options={["Residential", "Comercial"]}
+            options={["Apartment", "Duplex"]}
             state={property}
             setState={setProperty}
           />
@@ -76,6 +76,7 @@ const SearchFilter = () => {
             title="PRICE RANGE"
             options={["60 - 80 Lakhs", "75 Lakhs - 2 Crore", "2 Crore & Above"]}
             state={priceRange}
+            
             setState={setPriceRange}
           />
         </Col>

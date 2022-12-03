@@ -75,6 +75,7 @@
 
 
 }
+
 @media screen and (max-width: 1280px) {
     .banner-background {
         background-position: center;
@@ -86,12 +87,37 @@
         align-items: center;
     }
 }
+
 @media screen and (max-width: 1024px) {
     .banner-background {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 415.44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .banner-background {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 363.44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .banner-background {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 325.44px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -130,7 +156,11 @@
     }
 
 }
-
+@media screen and (max-width: 540px) {
+    .banner-background {
+        height: 216px;
+    }
+}
 @media screen and (max-width: 576px) {
     .coming-soon {
         max-width: 400px;
@@ -157,6 +187,7 @@
     }
 
 }
+
 @media screen and (max-width: 440px) {
     .banner-background {
 
@@ -167,11 +198,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
     }
+
     .coming-soon {
         max-width: 250px;
     }
+
     .coming-soon-text {
         height: 40px;
         font-size: 20px;
@@ -207,5 +240,5 @@
         justify-content: center;
         align-items: center;
     }
-   
+
 }

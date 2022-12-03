@@ -11,22 +11,19 @@
 }
 
 
-.banner-search-filter {
-   
-    background-color: rgb(255, 255, 255);
-    /* padding: 10px 30px; */
+.banner-search-filter { 
+    background-color: white;
     max-width: 900px;
     width: 100%;
     position: relative;
     left: 0;
     right: 0;
-     top: -200px; 
+     top: -100px; 
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 auto;
     z-index: 1;
     margin-bottom: -70px;
-     margin-top: 73px; 
-
-   
+     margin-top: 73px;    
 }
 
 .banner-search {
@@ -110,8 +107,8 @@
         top: -80px;
        
         width: 335px;
-        height: 40px;
-        margin-bottom: -35px;
+        height: 50px;
+        margin-bottom: -60px;
     }
     .banner-search {
         height: 30px;
@@ -122,6 +119,7 @@
     .banner-search-button {
         font-size: 5px;
         line-height: 10px;
+        margin-top: 18px;
     }
     .dropdown-toggle::after {
         margin-left: 5.255em;
@@ -166,7 +164,7 @@
   @media screen and (max-width: 340px) {
     
     .banner-search-filter {
-        padding: 5px 10px;
+        padding: 2px 10px;
      
        
         width: 240px;

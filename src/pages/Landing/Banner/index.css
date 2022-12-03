@@ -75,7 +75,28 @@
 
 
 }
-
+@media screen and (max-width: 1280px) {
+    .banner-background {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 505.44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .banner-background {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 415.44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 @media screen and (max-width: 760px) {
@@ -138,7 +159,15 @@
 }
 @media screen and (max-width: 440px) {
     .banner-background {
-        height: 260px;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
     }
     .coming-soon {
         max-width: 250px;
@@ -165,4 +194,18 @@
         top: 80px;
     }
 
+}
+
+
+@media screen and (max-width: 280px) {
+    .banner-background {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 111px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
 }

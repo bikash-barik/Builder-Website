@@ -41,20 +41,6 @@ const BannerMapper = [
     // text: "coming soon", 8
   },
 
-  {
-    // image: " https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2Ffinal_N_011.jpg?alt=media&token=532cdf24-ad15-4536-8740-fd0397edc08f",
-    // text: "coming soon", 9
-  },
-
-  {
-    // image: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2Ffinal_SS_009.jpg?alt=media&token=1e8b0bce-10ed-4284-9cd7-59d80a39402f ",
-    // text: "coming soon", 10
-  },
-
-  {
-    // image: " https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2Ffinal_Top_View_010.jpg?alt=media&token=57f1cf56-613e-4b54-b34b-def8a83e1cb3",
-    // text: "coming soon", 11
-  },
 
   
 
@@ -100,7 +86,7 @@ const Banner = () => {
           }
         })}
       </Carousel>
-      <SearchFilter />
+      {/* <SearchFilter /> */}
     </div>
   );
 };

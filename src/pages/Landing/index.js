@@ -3,6 +3,7 @@ import AboutUs from "./AboutUs";
 import LatestLaunches from "./latestLaunches";
 import "./index.css"
 import Main from '../../components/Main/Main';
+import SearchFilter from "./Banner/minicomponent/SearchFilter/index";
 
 
 
@@ -11,6 +12,7 @@ const LandingScreen = () => {
         <div className="landing-screen" >
         
         <Banner/>
+        <SearchFilter/>
         <AboutUs/>
         <LatestLaunches/>
         <Main/>

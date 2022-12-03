@@ -50,11 +50,11 @@ const BannerMapper = [
 const Banner = () => {
   return (
     <div>
-      <Carousel pause={false}>
+      <Carousel pause={true} indicators={true}>
         {BannerMapper?.map((el, idx) => {
           if (el.text === "coming soon") {
             return (
-              <Carousel.Item key={idx} interval={3000} >
+              <Carousel.Item key={idx} interval={3000}  >
                 <div
                   className="banner-background"
                   style={{

@@ -2,6 +2,8 @@ import "./index.css";
 import SearchFilter from "./minicomponent/SearchFilter";
 
 import { Carousel } from "react-bootstrap";
+// import Carousel from 'react-bootstrap/Carousel';
+
 
 const BannerMapper = [
   {
@@ -48,11 +50,11 @@ const BannerMapper = [
 const Banner = () => {
   return (
     <div>
-      <Carousel  indicators={false} fade controls={false}>
+      <Carousel pause={false}>
         {BannerMapper?.map((el, idx) => {
           if (el.text === "coming soon") {
             return (
-              <Carousel.Item key={idx} interval={3000}>
+              <Carousel.Item key={idx} interval={3000} >
                 <div
                   className="banner-background"
                   style={{
@@ -72,7 +74,7 @@ const Banner = () => {
             );
           } else {
             return (
-              <Carousel.Item key={idx} interval={3000}>
+              <Carousel.Item key={idx} interval={3000} >
                 <div
                   className="banner-background"
                   style={{

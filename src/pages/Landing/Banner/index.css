@@ -128,7 +128,14 @@
 @media screen and (max-width: 760px) {
 
     .banner-background {
-        height: 500px;
+        /* height: 500px; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .coming-soon {
@@ -158,7 +165,14 @@
 }
 @media screen and (max-width: 540px) {
     .banner-background {
-        height: 216px;
+        /* height: 216px; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 223px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (max-width: 576px) {

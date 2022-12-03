@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 .about-us-container {
+    margin-top: 2%;
     height: auto;
     overflow-x: hidden;
 

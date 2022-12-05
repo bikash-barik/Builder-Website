@@ -7,6 +7,10 @@ import { Carousel } from "react-bootstrap";
 
 const BannerMapper = [
   {
+    image: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2Fweb%20banner%209.jpg?alt=media&token=10941fa1-2a27-43cc-b5ad-3c06645007bc",
+    // text: "Gate",  1
+  },
+  {
     image: " https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2Fslider%2Fweb%20banner%201.jpg?alt=media&token=46fb827c-bda7-404d-931a-8b02634a76e3",
     // text: "coming soon",  1
   },

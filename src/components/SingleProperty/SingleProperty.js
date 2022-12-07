@@ -91,7 +91,7 @@ export default function SingleProperty({ OngoingData }) {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://archids.herokuapp.com/add_inquiry", {
+      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_inquiry", {
         method: "POST",
         headers: {
           Accept: "application/json",

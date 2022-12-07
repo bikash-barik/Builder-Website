@@ -87,7 +87,7 @@ export default function Drawer() {
   let handleMeeting = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://archids.herokuapp.com/add_meeting", {
+      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_meeting", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -116,7 +116,7 @@ export default function Drawer() {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://archids.herokuapp.com/add_inquiry", {
+      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_inquiry", {
         method: "POST",
         headers: {
           Accept: "application/json",

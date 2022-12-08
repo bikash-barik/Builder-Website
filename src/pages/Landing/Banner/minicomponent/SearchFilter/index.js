@@ -38,7 +38,7 @@ const SearchFilter = () => {
       }
       else{
 
-        if(priceRange==="75 Lakhs - 2 Crore")
+        if(priceRange==="90 Lakhs - 2 Crore")
         {
           navigate("/communities/1")
           
@@ -74,7 +74,7 @@ const SearchFilter = () => {
         <Col xs={6} sm={3}>
           <Filter
             title="PRICE RANGE"
-            options={["60 - 80 Lakhs", "75 Lakhs - 2 Crore", "2 Crore & Above"]}
+            options={["70 - 90 Lakhs", "90 Lakhs - 2 Crore", "2 Crore & Above"]}
             state={priceRange}
             
             setState={setPriceRange}

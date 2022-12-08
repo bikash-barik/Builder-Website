@@ -31,6 +31,7 @@ export default function Drawer() {
   const [message, setMessage] = useState("");
 
   const [modal3, setModal3] = useState(false);
+  const [modal6, setModal6] = useState(false);
   const customStyles = {
     content: {
       top: "50%",
@@ -268,6 +269,19 @@ export default function Drawer() {
               <i class="bi bi-whatsapp iconbi"></i>
               <p className="textp">Whatsapp</p>
             </Nav.Link>
+            <Nav.Link className=" right-link navbtn" href="#home">
+              {/* <i class="bi bi-camera-video iconbi"></i> */}
+              <i class="bi bi-building"></i>
+
+              <p
+                className="textp"
+                onClick={() => {
+                  modal1 === true ? setModal6(false) : setModal6(true);
+                }}
+              >
+                Visit Site
+              </p>
+            </Nav.Link>
             <Nav.Link className=" right-link getbtn" href="#home" style={{}}>
               <button
                 className="btn "
@@ -374,6 +388,149 @@ export default function Drawer() {
           </button>
         </form>
 
+      </Modal>
+      <Modal
+        isOpen={modal6}
+        style={customStyles1}
+        id="modal1"
+        contentLabel="Example Modal"
+      >
+        <div>
+          <form onSubmit={handleMeeting} >
+            <div className="d-flex modal_head">
+              <h3 className="black-text" style={{ marginBottom: "15px" }}>
+                Site Visit Details
+              </h3>
+
+              <i
+                class="fa-solid fa-xmark"
+                style={{ fontSize: "20px" }}
+                onClick={() => setModal6(false)}
+              ></i>
+            </div>
+            <label
+              for="basic-url"
+              style={{ fontSize: "15px", marginBottom: "5px" }}
+            >
+              Full Name
+            </label>
+            <br />
+            <div
+              style={{ width: "300px" }}
+              class="input-group mb-3 input_responsive"
+            >
+              <input
+                type="text"
+                class="form-control "
+                id="basic-url"
+                style={{
+                  borderColor: "gray",
+                  borderRadius: "0px",
+                  height: "29px",
+                }}
+                aria-describedby="basic-addon3"
+                required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </div>
+            <br />
+            <label
+              for="basic-url"
+              style={{ fontSize: "15px", marginBottom: "5px" }}
+            >
+              Email Address
+            </label>
+
+            <div
+              style={{ width: "300px" }}
+              class="input-group mb-3"
+              id="input_responsive"
+            >
+              <input
+                type="email"
+                class="form-control "
+                id="basic-url"
+                style={{
+                  borderColor: "gray",
+                  borderRadius: "0px",
+                  height: "29px",
+                }}
+                aria-describedby="basic-addon3"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </div><br />
+            <label
+            for="basic-url"
+            style={{ fontSize: "12px", marginBottom: "10px" }}
+          >
+            MOBILE NUMBER 
+            {/* <span style={{ color: "red" }}>*</span> */}
+          </label>
+          <div class="input-group mb-3">
+
+            <input
+              type="text"
+              value={number}
+              // placeholder="number"
+              style={{width:"300px"}}
+              onChange={(e) => setNumber(e.target.value)}
+            />
+
+          </div>
+
+            <br />
+
+            <label
+              for="basic-url"
+              style={{ fontSize: "15px", marginBottom: "5px" }}
+            >
+              Select Date and Time
+            </label>
+            <div>
+              <DateTimePicker
+                // onChange={(e) => setDateTime(e.target.value)}
+                onChange={onChange}
+                value={Date_Time}
+
+              />
+            </div>
+            <br />
+
+            <button
+              className="btn btn-primary"
+              style={{
+                fontSize: "15px",
+                paddingLeft: "20px",
+                marginLeft: "36%",
+                paddingRight: "20px",
+                borderRadius: "0px",
+              }}
+              type="submit"
+
+              onClick={() => {
+                // setModal6(true)
+                // setModal1(false);
+
+              }}
+            >
+              Submit
+            </button>
+          </form>
+          <img
+            className="img_hide"
+            style={{
+              marginTop: "-277px",
+              marginLeft: "356px",
+              height: "169px",
+              width: "185px",
+            }}
+            src={Image1}
+            alt="Loading..."
+          ></img>
+        </div>
       </Modal>
 
       <Modal

@@ -39,6 +39,7 @@ import {
 export default function SingleProperty({ OngoingData }) {
   const { id } = useParams();
   const [modal, setModal] = useState(false);
+  const [modal2, setModal2] = useState(false);
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
   const [requirement, setRequirement] = useState("");
@@ -59,6 +60,23 @@ export default function SingleProperty({ OngoingData }) {
       paddingRight: "25px",
       borderRadius: "0px",
       height: "530px",
+      zIndex: "200",
+    },
+  };
+  const customStyles3 = {
+    content: {
+      top: "60%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: "370px",
+      paddingTop: "40px",
+      paddingLeft: "25px",
+      paddingRight: "25px",
+      borderRadius: "0px",
+      height: "400px",
       zIndex: "200",
     },
   };
@@ -138,7 +156,8 @@ export default function SingleProperty({ OngoingData }) {
                 <div
                   className=" single-property-button single-property-request-button"
                   onClick={() => {
-                    window.open(data.ameneties.brochure, '_blank')
+                    setModal2(true);
+                    // window.open(data.ameneties.brochure, '_blank')
                   }
                   }
                 >
@@ -284,6 +303,88 @@ export default function SingleProperty({ OngoingData }) {
             SUBMIT
           </button>
         </form>
+      </Modal>
+      <Modal isOpen={modal2} style={customStyles3} contentLabel="Example Modal">
+          {OngoingData?.map((data, i) => {
+
+if (data.id !== id) {
+  return null;
+}
+
+return (
+        <form className="" onSubmit={handleSubmit} >
+          <div className="d-flex modal_head" >
+            <h3 className="black-text" style={{ fontSize: "20px", marginBottom: "30px", marginTop: "20px", fontWeight: "400", color: "black" }}> Fill up The From</h3>
+
+            <i
+              class="fa-solid fa-xmark"
+              style={{ fontSize: "20px" }}
+              onClick={() => setModal2(false)}
+            ></i>
+          </div>
+
+          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>Contact Number *</label>
+
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              value={number}
+              // placeholder="number"
+              style={{ width: 400 }}
+              onChange={(e) => setNumber(e.target.value)}
+            />
+          </div>
+
+
+          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>EMAIL ADDRESS *</label>
+
+          <div class="input-group mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="basic-url"
+              style={{ borderColor: "black" }}
+              aria-describedby="basic-addon3"
+              required
+              value={email}
+
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </div>
+          {/* <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>Requirement *</label>
+
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+              style={{ height: "80px", borderColor: "black" }}
+              required
+              value={requirement}
+              // placeholder="Requirement"
+              onChange={(e) => setRequirement(e.target.value)}
+            />
+          </div> */}
+          <button
+            className="btn btn-primary align-items-center justify-content-center register_button"
+            type="submit"
+
+            style={{ marginLeft: "17%", borderRadius: "0px", fontSize: "18px", marginTop: "16px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
+
+            onClick={() => {
+              setModal2(false);
+              // setModal3(true)
+              // modal3 === true ? setModal3(false) : setModal3(true);
+              window.open(data.ameneties.brochure, '_blank')
+            }
+            }
+          >
+            SUBMIT
+          </button>
+        </form>
+      )
+    })}
       </Modal>
 
       <Modal isOpen={modal3} style={customStyles2} contentLabel="My dialog">

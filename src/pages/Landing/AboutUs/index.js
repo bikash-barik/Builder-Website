@@ -22,6 +22,7 @@ const AboutUs = () => {
         </div>
         <img className="about-us-image" src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FAbout%20us%2Fimage3.svg?alt=media&token=940d14b9-4ca6-4ca6-a707-d98e65ee0577"   alt="...Loading" data-aos="fade-left"
         data-aos-easing="linear"
+        
         data-aos-duration="1000"
         data-aos-offset="200"   />
       </div>

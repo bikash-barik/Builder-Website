@@ -13,7 +13,7 @@ const Ameneties = ({ ameneties }) => {
         </div>
         <div className="ameneties-detail capitalize">{ameneties.text}</div>
         <div className="d-flex">
-        <Button variant="contained" className="brochure-button" onClick={handleBrochure} >DOWNLOAD BROCHURE</Button>
+        <Button variant="contained" className="brochure-button" onClick={handleBrochure} > DOWNLOAD BROCHURE</Button>
         </div>
       </div>
       <img

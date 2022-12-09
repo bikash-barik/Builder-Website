@@ -27,6 +27,7 @@ export default function Drawer() {
   const [email, setEmail] = useState("");
   const [requirement, setRequirement] = useState("");
   const [name, setName] = useState("");
+  const [type, setProperty] = useState("");
   // const [Date_Time, setDateTime] = useState("");
   const [message, setMessage] = useState("");
 
@@ -124,9 +125,40 @@ export default function Drawer() {
           "Content-type": "Application/json",
         },
         body: JSON.stringify({
+
           number: number,
           email: email,
           requirement: requirement,
+        }),
+      });
+      let resJson = await res.json();
+      if (resJson.status) {
+        setNumber("");
+        setEmail("");
+        setRequirement("");
+      } else {
+        setMessage("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+  let visitsubmit = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_visit", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
+        body: JSON.stringify({
+          name:name,
+          email: email,
+          number: number,
+          // requirement: requirement,
+          Date_Time: Date_Time,
+          type:type
         }),
       });
       let resJson = await res.json();
@@ -269,8 +301,8 @@ export default function Drawer() {
               <i class="bi bi-whatsapp iconbi"></i>
               <p className="textp">Whatsapp</p>
             </Nav.Link>
-            <Nav.Link className=" right-link navbtn" href="#home">
-              {/* <i class="bi bi-camera-video iconbi"></i> */}
+            {/* <Nav.Link className=" right-link navbtn" href="#home">
+              {/* <i class="bi bi-camera-video iconbi"></i> 
               <i class="bi bi-building"></i>
 
               <p
@@ -279,17 +311,18 @@ export default function Drawer() {
                   modal1 === true ? setModal6(false) : setModal6(true);
                 }}
               >
-                Visit Site
+                Book Your Site Visit
               </p>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className=" right-link getbtn" href="#home" style={{}}>
               <button
                 className="btn "
                 onClick={() => {
-                  modal === true ? setModal(false) : setModal(true);
+                  // modal === true ? setModal(false) : setModal(true);
+                  modal6 === true ? setModal6(false) : setModal6(true);
                 }}
               >
-                GET IN TOUCH
+               Book Your Site Visit
               </button>
             </Nav.Link>
           </Nav>
@@ -364,6 +397,21 @@ export default function Drawer() {
             />
           </div>
           {/* <button type="submit">Create</button> */}
+          <label
+              for="basic-url"
+              style={{ fontSize: "15px", marginBottom: "5px" }}
+            >
+              Select Date and Time
+            </label>
+            <div>
+              <DateTimePicker
+                // onChange={(e) => setDateTime(e.target.value)}
+                onChange={onChange}
+                value={Date_Time}
+
+              />
+            </div>
+            <br />
 
           <button
             className="btn btn-primary align-items-center justify-content-center"
@@ -396,7 +444,7 @@ export default function Drawer() {
         contentLabel="Example Modal"
       >
         <div>
-          <form onSubmit={handleMeeting} >
+          <form onSubmit={visitsubmit} >
             <div className="d-flex modal_head">
               <h3 className="black-text" style={{ marginBottom: "15px" }}>
                 Site Visit Details
@@ -412,7 +460,7 @@ export default function Drawer() {
               for="basic-url"
               style={{ fontSize: "15px", marginBottom: "5px" }}
             >
-              Full Name
+              Full Name <span style={{ color: "red" }}>*</span>
             </label>
             <br />
             <div
@@ -439,7 +487,7 @@ export default function Drawer() {
               for="basic-url"
               style={{ fontSize: "15px", marginBottom: "5px" }}
             >
-              Email Address
+              Email Address <span style={{ color: "red" }}>*</span>
             </label>
 
             <div
@@ -466,7 +514,7 @@ export default function Drawer() {
             for="basic-url"
             style={{ fontSize: "12px", marginBottom: "10px" }}
           >
-            MOBILE NUMBER 
+            MOBILE NUMBER  <span style={{ color: "red" }}>*</span>
             {/* <span style={{ color: "red" }}>*</span> */}
           </label>
           <div class="input-group mb-3">
@@ -498,6 +546,35 @@ export default function Drawer() {
               />
             </div>
             <br />
+            <label
+              for="basic-url"
+              style={{ fontSize: "15px", marginBottom: "5px" }}
+            >
+                PROPERTY TYPE <span style={{ color: "red" }}>*</span>
+            </label>
+            <br />
+            <div
+              style={{ width: "300px" }}
+              class="input-group mb-3 input_responsive"
+            >
+              <input
+                type="text"
+                class="form-control "
+                id="basic-url"
+                style={{
+                  borderColor: "gray",
+                  borderRadius: "0px",
+                  height: "29px",
+                }}
+                aria-describedby="basic-addon3"
+                required
+                placeholder=" Duplex / 
+                Apartment"
+                value={type}
+                onChange={(e) => setProperty(e.target.value)}
+              />
+            </div>
+            
 
             <button
               className="btn btn-primary"

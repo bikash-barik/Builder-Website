@@ -115,7 +115,7 @@ const ContactUsForm = () => {
           />
         </div>
         <div >
-          <div className="contact-us-form-label" >Email ID</div>
+          <div className="contact-us-form-label" >Requirement</div>
           {/* <input ref={email} required type="email" id="lname" name="email" /> */}
           <input
             type="text"

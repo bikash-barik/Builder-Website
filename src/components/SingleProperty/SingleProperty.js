@@ -134,6 +134,34 @@ export default function SingleProperty({ OngoingData }) {
     }
   };
 
+  let handeldownload = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_brochure", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
+        body: JSON.stringify({
+          number: number,
+          email: email,
+          // requirement: requirement,
+        }),
+      });
+      let resJson = await res.json();
+      if (resJson.status) {
+        setNumber("");
+        setEmail("");
+        // setRequirement("");
+      } else {
+        setMessage("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
 
 
 
@@ -305,14 +333,8 @@ export default function SingleProperty({ OngoingData }) {
         </form>
       </Modal>
       <Modal isOpen={modal2} style={customStyles3} contentLabel="Example Modal">
-          {OngoingData?.map((data, i) => {
-
-if (data.id !== id) {
-  return null;
-}
-
-return (
-        <form className="" onSubmit={handleSubmit} >
+       
+        <form className="" onSubmit={handeldownload} >
           <div className="d-flex modal_head" >
             <h3 className="black-text" style={{ fontSize: "20px", marginBottom: "30px", marginTop: "20px", fontWeight: "400", color: "black" }}> Fill up The From</h3>
 
@@ -328,9 +350,12 @@ return (
           <div class="input-group mb-3">
             <input
               type="text"
-              value={number}
+              required
+              class="form-control"
+              id="basic-url"
               // placeholder="number"
               style={{ width: 400 }}
+              value={number}
               onChange={(e) => setNumber(e.target.value)}
             />
           </div>
@@ -347,7 +372,6 @@ return (
               aria-describedby="basic-addon3"
               required
               value={email}
-
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -373,18 +397,17 @@ return (
             style={{ marginLeft: "17%", borderRadius: "0px", fontSize: "18px", marginTop: "16px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
 
             onClick={() => {
-              setModal2(false);
+              // setModal2(false);
               // setModal3(true)
-              // modal3 === true ? setModal3(false) : setModal3(true);
-              window.open(data.ameneties.brochure, '_blank')
+              modal2 === false ? setModal2(false) : setModal3(true);
+              // window.open(data.ameneties.brochure, '_blank')
             }
             }
           >
             SUBMIT
           </button>
         </form>
-      )
-    })}
+     
       </Modal>
 
       <Modal isOpen={modal3} style={customStyles2} contentLabel="My dialog">
@@ -405,10 +428,35 @@ return (
         <h3 className="black-text" style={{ textAlign: "center" }}>
           Submitted Sucessfully
         </h3>
-        <h3 className="black-text" style={{ textAlign: "center" }}>
-          We will Contact you soon..
-        </h3>
+        {/* <h3 className="black-text" style={{ textAlign: "center" }}>
 
+          We will Contact you soon..
+        </h3> */}
+           {OngoingData?.map((data, i) => {
+
+if (data.id !== id) {
+  return null;
+}
+
+return (
+      <button
+            className="btn btn-primary align-items-center justify-content-center register_button"
+            type="submit"
+
+            style={{ marginLeft: "20%", borderRadius: "0px", fontSize: "18px", marginTop: "16px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
+
+            onClick={() => {
+              // setModal2(false);
+              // setModal3(true)
+              // modal2 === false ? setModal2(false) : setModal3(true);
+              window.open(data.ameneties.brochure, '_blank')
+            }
+            }
+          >
+            DOWNLOAD BROCHURE
+          </button>
+          )
+    })}
 
       </Modal>
 

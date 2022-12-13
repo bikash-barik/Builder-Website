@@ -277,12 +277,16 @@ export default function SingleProperty({ OngoingData }) {
 
           <div class="input-group mb-3">
             <input
-              type="text"
+              type="number"
               value={number}
+              required
               // placeholder="number"
               style={{ width: 400 }}
               onChange={(e) => setNumber(e.target.value)}
+              maxLength="10"
+              minLength="10"
             />
+
           </div>
 
 
@@ -324,7 +328,9 @@ export default function SingleProperty({ OngoingData }) {
 
             onClick={() => {
               // setModal(false);
+              if(number!==""&&email!==""&&requirement!==""){
               setModal4(true)
+            }
               // modal3 === true ? setModal3(false) : setModal3(true);
             }
             }
@@ -350,7 +356,7 @@ export default function SingleProperty({ OngoingData }) {
 
           <div class="input-group mb-3">
             <input
-              type="text"
+              type="number"
               required
               class="form-control"
               id="basic-url"
@@ -358,6 +364,9 @@ export default function SingleProperty({ OngoingData }) {
               style={{ width: 400 }}
               value={number}
               onChange={(e) => setNumber(e.target.value)}
+              maxLength="10"
+              minLength="10"
+              pattern="[1-9]{1}[0-9]{9}"
             />
           </div>
 
@@ -396,14 +405,15 @@ export default function SingleProperty({ OngoingData }) {
             type="submit"
 
             style={{ marginLeft: "17%", borderRadius: "0px", fontSize: "18px", marginTop: "16px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
-
+            // disabled={{onclick}}
             onClick={() => {
               // setModal2(false);
               // setModal3(true)
+              if(number!==""&&email!==""){
               modal2 === false ? setModal2(false) : setModal3(true);
               // window.open(data.ameneties.brochure, '_blank')
             }
-            }
+            }}
           >
             SUBMIT
           </button>

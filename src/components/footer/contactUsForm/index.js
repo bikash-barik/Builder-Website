@@ -90,9 +90,12 @@ const ContactUsForm = () => {
           <div className="contact-us-form-label">Contact Number</div>
           {/* <input ref={name} required type="text" name="name" /> */}
           <input
-            type="text"
+            type="number"
             value={number}
             required
+            maxLength="10"
+            minLength="10"
+            pattern="[1-9]{1}[0-9]{9}"
             
             // placeholder="number"
             style={{ width: 165 }}
@@ -137,7 +140,9 @@ const ContactUsForm = () => {
 
           onClick={() => {
             // setModal(false);
+            if(number!==""&&email!=="",requirement!==""){
             setModal3(true)
+          }
             // modal3 === true ? setModal3(false) : setModal3(true);
           }}
 

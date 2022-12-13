@@ -16,6 +16,9 @@ import 'react-phone-number-input/style.css'
 import { Container } from "react-bootstrap";
 
 import { Tick } from 'react-crude-animated-tick';
+import { isValidPhoneNumber } from "react-phone-number-input";
+import { Input } from "@mui/material";
+import { getValue, isDisabled } from "@testing-library/user-event/dist/utils";
 
 export default function Drawer() {
   const [modal, setModal] = useState(false);
@@ -363,11 +366,15 @@ export default function Drawer() {
           <div class="input-group mb-3">
 
             <input
-              type="text"
+              type="tel"
               value={number}
               placeholder="number"
               style={{ width: 400 }}
               onChange={(e) => setNumber(e.target.value)}
+              // maxLength="10"
+              // minLength="10"
+              onKeyDown="if(this.value.length==2 && event.keyCode!=8) return false;"
+              // pattern="[1-9]{1}[0-9]{9}"
             />
 
           </div>
@@ -438,14 +445,37 @@ export default function Drawer() {
               paddingRight: "30px",
             }}
             type="submit"
+            // disabled={isValidPhoneNumber==true}
+
+
+            // disabled={}
+            
             onClick={() => {
               // setModal(false);
-              setModal3(true)
+              
+              // setModal3(true)
+              // if(number!==true ? email !==true:false ?requirement!==true:false ?Date_Time!==true:false){
+              //   setModal3(true)
+              // }
+
               // modal3 === true ? setModal3(false) : setModal3(true);
+              if(number!==""&&email!==""&&Date_Time!==""){
+                setModal3(true)
+              }
+              
             }
+
             }
-          // onClick={() => setModal3(false)}
+            // disabled={this.state.number === "" ? true : false}
+          //   style={this.state.number===""?{
+          //       backgroundColor: "#C4C4C4", alignItems: "center", justifyContent: "center", height: 50,
+          //       width: "85%", alignSelf: "center", borderRadius: 10
+          //   }:{backgroundColor: "#1DCDFE", alignItems: "center", justifyContent: "center", height: 50,
+          //   width: "85%", alignSelf: "center", borderRadius: 10}}>
+          //       {/* <Text style={{ color: "white", fontSize: 17, fontWeight: "500" }}>Verify & Proceed</Text> */}
+          // {/* // onClick={() => setModal3(false)} */}
           >
+          
             SUBMIT
           </button>
         </form>
@@ -534,11 +564,16 @@ export default function Drawer() {
             <div class="input-group mb-3">
 
               <input
-                type="text"
+                type="number"
                 value={number}
                 // placeholder="number"
                 style={{ width: "300px" }}
                 onChange={(e) => setNumber(e.target.value)}
+                // pattern="[1-9]{1}[0-9]{9}"
+                // onKeyDown="if(this.value.length==2 && event.keyCode!=8) return false;"
+                // // maxlength="10"
+                maxLength="10"
+                minLength="10"
               />
 
             </div>
@@ -588,7 +623,7 @@ export default function Drawer() {
                 onChange={(e) => setProperty(e.target.value)}
               /> */}
               <select
-                style={{ width: "305px", height: "30px" }}
+                style={{ width: "305px", height: "30px" ,fontSize:18}}
                 name=""
                 value={type}
                 select
@@ -599,7 +634,7 @@ export default function Drawer() {
                 <option value="">Select..</option>
 
 
-                <option value={"Archid Pramod retreat"}>Archid Pramod retreat </option>
+                <option  value={"Archid Pramod retreat"}>Archid Pramod retreat </option>
                 <option value={"Archid Sailabala"}>Archid Sailabala </option>
                 <option value={"Archid Harmony"}>Archid Harmony</option>
                 <option value={"Archid Shreekunj"}>Archid Shreekunj</option>
@@ -619,8 +654,12 @@ export default function Drawer() {
               }}
               type="submit"
 
+
               onClick={() => {
+                // setModal3(true)
+                 if(name!==""&&email!==""&&number!==""&&Date_Time!==""&&type!==""){
                 setModal3(true)
+              }
                 // setModal1(false);
 
               }}
@@ -735,6 +774,7 @@ export default function Drawer() {
             <br />
 
             <button
+            // disabled
               className="btn btn-primary"
               style={{
                 fontSize: "15px",
@@ -744,9 +784,13 @@ export default function Drawer() {
                 borderRadius: "0px",
               }}
               type="submit"
-
+              // disabled={}
               onClick={() => {
+                
+                // setModal3(true)
+                 if(name!==""&&email!==""&&Date_Time!==""){
                 setModal3(true)
+              }
                 // setModal1(false);
 
               }}

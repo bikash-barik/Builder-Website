@@ -39,6 +39,7 @@ import {
 export default function SingleProperty({ OngoingData }) {
   const { id } = useParams();
   const [modal, setModal] = useState(false);
+  const [modal4, setModal4] = useState(false);
   const [modal2, setModal2] = useState(false);
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -323,7 +324,7 @@ export default function SingleProperty({ OngoingData }) {
 
             onClick={() => {
               // setModal(false);
-              setModal3(true)
+              setModal4(true)
               // modal3 === true ? setModal3(false) : setModal3(true);
             }
             }
@@ -416,7 +417,10 @@ export default function SingleProperty({ OngoingData }) {
         <i
           class="fa-solid fa-xmark"
           style={{ fontSize: "20px", paddingLeft: " 53rem", paddingTop: "1rem" }}
-          onClick={() => setModal3(false)}
+          onClick={() =>{ 
+            setModal3(false)
+            setModal2(false)
+          }}
         ></i>
 
         <div>
@@ -457,6 +461,35 @@ return (
           </button>
           )
     })}
+
+      </Modal>
+
+      <Modal isOpen={modal4} style={customStyles2} contentLabel="My dialog">
+
+
+        <i
+          class="fa-solid fa-xmark"
+          style={{ fontSize: "20px", paddingLeft: " 53rem", paddingTop: "1rem" }}
+          onClick={() =>{ 
+            setModal(false)
+            setModal4(false)
+          }}
+        ></i>
+
+        <div>
+          <Tick size={130} />
+        </div>
+
+
+
+        <h3 className="black-text" style={{ textAlign: "center" }}>
+          Submitted Sucessfully
+        </h3>
+        {/* <h3 className="black-text" style={{ textAlign: "center" }}>
+
+          We will Contact you soon..
+        </h3> */}
+      
 
       </Modal>
 

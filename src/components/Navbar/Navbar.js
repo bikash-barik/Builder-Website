@@ -61,6 +61,20 @@ export default function Drawer() {
       borderRadius: "20px",
     },
   };
+  const customStyles3 = {
+    content: {
+      top: "55%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: "390px",
+      height: "520px",
+      zIndex: "200",
+      borderRadius: "20px",
+    },
+  };
   const customStyles2 = {
     content: {
       top: "45%",
@@ -153,12 +167,12 @@ export default function Drawer() {
           "Content-type": "Application/json",
         },
         body: JSON.stringify({
-          name:name,
+          name: name,
           email: email,
           number: number,
           // requirement: requirement,
           Date_Time: Date_Time,
-          type:type
+          type: type
         }),
       });
       let resJson = await res.json();
@@ -322,7 +336,7 @@ export default function Drawer() {
                   modal6 === true ? setModal6(false) : setModal6(true);
                 }}
               >
-               Book Your Site Visit
+                Book Your Site Visit
               </button>
             </Nav.Link>
           </Nav>
@@ -352,7 +366,7 @@ export default function Drawer() {
               type="text"
               value={number}
               placeholder="number"
-              style={{width:400}}
+              style={{ width: 400 }}
               onChange={(e) => setNumber(e.target.value)}
             />
 
@@ -398,20 +412,20 @@ export default function Drawer() {
           </div>
           {/* <button type="submit">Create</button> */}
           <label
-              for="basic-url"
-              style={{ fontSize: "15px", marginBottom: "5px" }}
-            >
-              Select Date and Time
-            </label>
-            <div>
-              <DateTimePicker
-                // onChange={(e) => setDateTime(e.target.value)}
-                onChange={onChange}
-                value={Date_Time}
+            for="basic-url"
+            style={{ fontSize: "15px", marginBottom: "5px" }}
+          >
+            Select Date and Time
+          </label>
+          <div>
+            <DateTimePicker
+              // onChange={(e) => setDateTime(e.target.value)}
+              onChange={onChange}
+              value={Date_Time}
 
-              />
-            </div>
-            <br />
+            />
+          </div>
+          <br />
 
           <button
             className="btn btn-primary align-items-center justify-content-center"
@@ -439,7 +453,7 @@ export default function Drawer() {
       </Modal>
       <Modal
         isOpen={modal6}
-        style={customStyles1}
+        style={customStyles3}
         id="modal1"
         contentLabel="Example Modal"
       >
@@ -511,23 +525,23 @@ export default function Drawer() {
               />
             </div><br />
             <label
-            for="basic-url"
-            style={{ fontSize: "12px", marginBottom: "10px" }}
-          >
-            MOBILE NUMBER  <span style={{ color: "red" }}>*</span>
-            {/* <span style={{ color: "red" }}>*</span> */}
-          </label>
-          <div class="input-group mb-3">
+              for="basic-url"
+              style={{ fontSize: "12px", marginBottom: "10px" }}
+            >
+              MOBILE NUMBER  <span style={{ color: "red" }}>*</span>
+              {/* <span style={{ color: "red" }}>*</span> */}
+            </label>
+            <div class="input-group mb-3">
 
-            <input
-              type="text"
-              value={number}
-              // placeholder="number"
-              style={{width:"300px"}}
-              onChange={(e) => setNumber(e.target.value)}
-            />
+              <input
+                type="text"
+                value={number}
+                // placeholder="number"
+                style={{ width: "300px" }}
+                onChange={(e) => setNumber(e.target.value)}
+              />
 
-          </div>
+            </div>
 
             <br />
 
@@ -550,14 +564,14 @@ export default function Drawer() {
               for="basic-url"
               style={{ fontSize: "15px", marginBottom: "5px" }}
             >
-                PROPERTY TYPE <span style={{ color: "red" }}>*</span>
+              OnGoing Project <span style={{ color: "red" }}>*</span>
             </label>
             <br />
             <div
               style={{ width: "300px" }}
               class="input-group mb-3 input_responsive"
             >
-              <input
+              {/* <input
                 type="text"
                 class="form-control "
                 id="basic-url"
@@ -572,9 +586,27 @@ export default function Drawer() {
                 Apartment"
                 value={type}
                 onChange={(e) => setProperty(e.target.value)}
-              />
+              /> */}
+              <select
+                style={{ width: "305px", height: "30px" }}
+                name=""
+                value={type}
+                select
+                onChange={(e) => { setProperty(e.target.value) }}
+                // onChange={(e) => { setProperty(e.target.value) }}
+              >
+
+                <option value="">Select..</option>
+
+
+                <option value={"Archid Pramod retreat"}>Archid Pramod retreat </option>
+                <option value={"Archid Sailabala"}>Archid Sailabala </option>
+                <option value={"Archid Harmony"}>Archid Harmony</option>
+                <option value={"Archid Shreekunj"}>Archid Shreekunj</option>
+
+              </select>
             </div>
-            
+
 
             <button
               className="btn btn-primary"
@@ -588,7 +620,7 @@ export default function Drawer() {
               type="submit"
 
               onClick={() => {
-                // setModal6(true)
+                setModal3(true)
                 // setModal1(false);
 
               }}
@@ -596,7 +628,7 @@ export default function Drawer() {
               Submit
             </button>
           </form>
-          <img
+          {/* <img
             className="img_hide"
             style={{
               marginTop: "-277px",
@@ -606,7 +638,7 @@ export default function Drawer() {
             }}
             src={Image1}
             alt="Loading..."
-          ></img>
+          ></img> */}
         </div>
       </Modal>
 
@@ -742,7 +774,12 @@ export default function Drawer() {
         <i
           class="fa-solid fa-xmark"
           style={{ fontSize: "20px", paddingLeft: " 53rem", paddingTop: "1rem" }}
-          onClick={() => setModal3(false)}
+          onClick={() => {
+            setModal3(false)
+            setModal1(false);
+            setModal6(false);
+
+          }}
         ></i>
 
         <div>

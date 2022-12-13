@@ -620,6 +620,213 @@ const OngoingData = [
       },
     ],
   },
+  // {
+  //   id: "4",
+  //   bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FArchid%20Shreekunj%2C%20Ranasinghpur%20(MAIN).jpg?alt=media&token=b0a7e751-dada-48e5-8fef-e5dc826adfb9",
+  //   title: "ARCHID HARMONY, BBSR",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FArchid%20Shreekunj%2C%20Ranasinghpur%20(MAIN).jpg?alt=media&token=b0a7e751-dada-48e5-8fef-e5dc826adfb9",
+  //   tagLine:
+  //     "CONTEMPORARY DESIGN IN NATURAL GREENLAND WITH ALL THOUGHTFUL AMENITIES",
+  //     description:"2 & 3 BHK FLATS",
+  //   introduction:
+  //     "This gated The residences in ARCHID HARMONY are beautifully tucked away from the madness of the city. Yet, they are close to every need you wish attended to. Strategically located on East side of Bhubaneswar at Atala ,4kms away from NH-5 ,these residences give you immediate access to the best that this city has to offer.Live in an environment where each element has been hand-picked, just for you.      ",
+  //     // "Evolve & Energise – The Next Level Of Life",
+  //     titles:  "Evolve & Energise – The Next Level Of Life",
+  //   highlights: [
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206402.png?alt=media&token=1bfd5eeb-e90a-47ae-b431-7279bc718b4b",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206416.png?alt=media&token=fdde80a2-f95c-432c-bcad-71421867f13e",
+  //     },
+  //     { 
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206400.png?alt=media&token=173862b4-c976-457a-9076-0874972956c3",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206416.png?alt=media&token=c4a8af1b-2666-44e8-a2e7-51e7a99f3021",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206407.png?alt=media&token=15b45eab-f0ff-48b6-8848-68c47b353743",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206415.png?alt=media&token=332e6633-c704-4178-a168-ede12648c781",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206415.png?alt=media&token=332e6633-c704-4178-a168-ede12648c781",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206407%20(1).png?alt=media&token=cb494acb-30b7-4f1f-bc99-315730f5f289",
+  //     },{
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206410.png?alt=media&token=c7a0042f-2cd6-4bc4-82f5-787922ddabf0",
+  //     },{
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206410.png?alt=media&token=c7a0042f-2cd6-4bc4-82f5-787922ddabf0",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206403.png?alt=media&token=54cd4d82-1065-4b7a-9bdb-dceb3def30bb",
+  //     },
+  //     // {link:"not found",
+  //     //   image:
+  //     //     "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F6.svg?alt=media&token=dd08bf4f-afee-4c21-99fa-e35230807be7",
+  //     // },
+  //     // {
+  //     //   image:
+  //     //     "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F7.svg?alt=media&token=770e56f8-c569-46ba-8357-05ba1b020126",
+  //     //   link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FPayment%20Schedule%20Button%2FSAILABALA%20PAYMENT%20SCHEDUELE.pdf?alt=media&token=b8ea9898-6f05-4462-be44-408b0656b979",  
+  //     // },
+  //     // {
+  //     //   image:
+  //     //     "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F8.png?alt=media&token=79e51e95-548d-4164-aa53-b42f4bb696b4",
+  //     // },
+  //   ],
+  //   details: [
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
+  //       heading: "LUXURIOUS PROPERTY",
+  //       description:
+  //         "It is set in surroundings that are private, yet well connected to daily urban life. This luxurious property is enviously located in Sunderpada, oldtown, Bhubaneswar.",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
+  //       heading: "LUSH GREENERY AND ASTOUNDING VIEWS",
+  //       description:
+  //         "The apartment is situated amongst abundant sunlight, lush greenery and astounding views. Intertwined with modern amenities and location advantage, highly coveted, pristine neighbourhood.",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FAbout%20Section%2FArchid%20Sailabala%2C%20Old%20Town%204.svg?alt=media&token=e0936d31-a308-4be6-912d-4aed598b132b",
+  //       heading: "IMMERSED IN NATURE",
+  //       description:
+  //         "Each elegant flat amplifies the beautiful views from the balcony gives a peaceful breathe. It seems to bring you even closer to nature.",
+  //     },
+  //   ],
+  //   ameneties: {
+  //     text: "Whether you want to give your parents a peaceful stay, you know you have it all. you’ll have every world-class amenity you could ever need on your doorstep.",
+
+  //     brochure:
+  //     "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FDownload%20Bronchure%20Button%2FArchid%20Sailabala%20brochure%20.pdf?alt=media&token=74780cd8-57a8-4e36-a885-2ae2fd3699fc",
+  //     image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FAmeneties%2Fsailabala%2C%20(ameneties)%20(1).jpg?alt=media&token=10b5e0f3-87a2-4da3-9ac2-846df0d69a8b",
+  //   },
+  //   floorPlans: [
+  //     {
+  //       text: "ALL",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN.jpg?alt=media&token=628aebc2-11d2-4381-9fe9-da70b437d82d",
+  //       text: "2 BHK",
+  //       fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN.jpg?alt=media&token=628aebc2-11d2-4381-9fe9-da70b437d82d",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=2ced94b8-b084-458e-b5aa-0cb778aa8192",
+  //       text: "3 BHK",
+  //       fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=2ced94b8-b084-458e-b5aa-0cb778aa8192",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFLOOR%20PLAN%203.jpg?alt=media&token=6570033b-dda4-4437-b208-4d922f0a1d2a",
+  //       text: "MASTER PLAN",
+  //       fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFloor%20Plans%2FFloor%20Plans(On%20Click)%2Fmasterplan.jpg?alt=media&token=7b6f4ea2-8431-4ee2-88d7-525e806de1fc",
+  //     },
+  //   ],
+  //   images: [
+  //     {
+  //       image: "https://source.unsplash.com/1600x900/?house",
+  //     },
+  //     {
+  //       image: "https://source.unsplash.com/1600x900/?house",
+  //     },
+  //     {
+  //       image: "https://source.unsplash.com/1600x900/?house",
+  //     },
+  //     {
+  //       image: "https://source.unsplash.com/1600x900/?house",
+  //     },
+  //   ],
+  //   finance: [
+  //     {
+  //       text: "lic housing loans",
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FLIC.jpg?alt=media&token=25687c0f-2ef1-495a-981d-827a33cb2cf5",
+  //     },
+  //     {
+  //       text: "bajaj finance",
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FBAJAJ%20FINANCE.jpg?alt=media&token=46f7045f-f653-4fba-a483-832b2c7b5fec",
+  //     },
+  //     {
+  //       text: "icici bank",
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FICICI%20BANK.jpg?alt=media&token=253ade9c-0559-4e88-8b50-54d1a299ee7d",
+  //     },
+  //     {
+  //       text: "state bank of india",
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FFinance%20Facility%2FSBI.jpg?alt=media&token=c28cde0a-4a66-4b4e-a1d8-20ba1d365146",
+  //     },
+  //   ],
+  //   surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMajor%20In%20and%20around%2Fsurrounding2.jpg?alt=media&token=e9703981-40cd-4020-ab1f-5350213699d6",
+
+    
+  //   construction:[
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.54.jpeg?alt=media&token=a98fe4b0-e3b9-46e7-ad5c-7d870bd1495f",
+  //     },
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.53.jpeg?alt=media&token=6f5f0872-1647-4c1d-9328-eff9a5db8650",
+  //     },
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-02%20at%209.36.39%20PM%20(2)%20(2).jpeg?alt=media&token=c7c2b510-78c9-4544-b881-270779ae1478",
+  //     },
+  //   ],
+    
+  //   location: [
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP.jpg?alt=media&token=221ac6ad-f817-4395-96c7-30a1d0632d98",
+  //     },
+  //     {
+  //       image:
+  //         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMap%20Section%20Photos%2FArchid%20Sailabala%2C%20Old%20Town%20MAP%202.jpg?alt=media&token=74813f1e-bf7a-4a77-b7de-fb0aa540aae6",
+  //     },
+  //   ],
+  //   gallery:[
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
+  //     },
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%202.jpg?alt=media&token=115f15e9-656d-4b1a-9ab7-2192fc8c78ba",
+  //     },
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%203.jpg?alt=media&token=386f427b-8fb2-4f08-babe-91deb373c22b",
+  //     },
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%204.jpg?alt=media&token=2383e2b5-7305-4e0c-aeac-d35eebdbc48b",
+  //     },
+  //     {
+  //       image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%205.jpg?alt=media&token=19117135-ae5d-41bb-a958-5f96a6a5b298",
+  //     },
+  //   ],
+  // },
+
+
+
+
+ 
 
   
 ];

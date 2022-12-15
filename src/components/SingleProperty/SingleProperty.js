@@ -12,13 +12,11 @@ import Details from "./subcomponent/Details";
 import Ameneties from "./subcomponent/Ameneties";
 import Finance from "./subcomponent/Finance";
 import Surrounding from "./subcomponent/Surrounding";
-import Location from "./subcomponent/Location"
-import ConstructionUpdates from "./subcomponent/ConstructionUpdates"
-import Dropdown from 'react-bootstrap/Dropdown';
-import Confirmation from "../confirmationSnackbar"
-import { Tick } from 'react-crude-animated-tick';
-
-
+import Location from "./subcomponent/Location";
+import ConstructionUpdates from "./subcomponent/ConstructionUpdates";
+import Dropdown from "react-bootstrap/Dropdown";
+import Confirmation from "../confirmationSnackbar";
+import { Tick } from "react-crude-animated-tick";
 
 import {
   EmailShareButton,
@@ -29,12 +27,7 @@ import {
   WhatsappIcon,
   TwitterShareButton,
   WhatsappShareButton,
-}
-  from "react-share";
-
-
-
-
+} from "react-share";
 
 export default function SingleProperty({ OngoingData }) {
   const { id } = useParams();
@@ -97,31 +90,32 @@ export default function SingleProperty({ OngoingData }) {
     },
   };
 
+  const name = useRef(null);
 
-  const name = useRef(null)
-
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   const handleClick = () => {
     setOpen(true);
   };
 
-
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_inquiry", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-type": "Application/json",
-        },
-        body: JSON.stringify({
-          number: number,
-          email: email,
-          requirement: requirement,
-        }),
-      });
+      let res = await fetch(
+        "https://dpsc-370710.el.r.appspot.com/add_inquiry",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-type": "Application/json",
+          },
+          body: JSON.stringify({
+            number: number,
+            email: email,
+            requirement: requirement,
+          }),
+        }
+      );
       let resJson = await res.json();
       if (resJson.status) {
         setNumber("");
@@ -138,18 +132,21 @@ export default function SingleProperty({ OngoingData }) {
   let handeldownload = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_brochure", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-type": "Application/json",
-        },
-        body: JSON.stringify({
-          number: number,
-          email: email,
-          // requirement: requirement,
-        }),
-      });
+      let res = await fetch(
+        "https://dpsc-370710.el.r.appspot.com/add_brochure",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-type": "Application/json",
+          },
+          body: JSON.stringify({
+            number: number,
+            email: email,
+            // requirement: requirement,
+          }),
+        }
+      );
       let resJson = await res.json();
       if (resJson.status) {
         setNumber("");
@@ -163,20 +160,15 @@ export default function SingleProperty({ OngoingData }) {
     }
   };
 
-
-
-
   return (
     <div className="single_background">
       {OngoingData?.map((data, i) => {
-
         if (data.id !== id) {
           return null;
         }
 
         return (
           <div key={i}>
-
             <div
               className="landing-image"
               style={{ backgroundImage: `url(${data.bg})` }}
@@ -187,8 +179,7 @@ export default function SingleProperty({ OngoingData }) {
                   onClick={() => {
                     setModal2(true);
                     // window.open(data.ameneties.brochure, '_blank')
-                  }
-                  }
+                  }}
                 >
                   DOWNLOAD BROCHURE
                 </div>
@@ -207,37 +198,48 @@ export default function SingleProperty({ OngoingData }) {
                   </div>
                 </Link>
                 <Dropdown>
-
-                  <Dropdown.Toggle as="div" className=" drop-down-button single-property-button  share" align="end">
-                    <div >
-                      SHARE
-                    </div>
-                    <img
-                      src={share}
-                      alt="Loading..."
-                    />
+                  <Dropdown.Toggle
+                    as="div"
+                    className=" drop-down-button single-property-button  share"
+                    align="end"
+                  >
+                    <div>SHARE</div>
+                    <img src={share} alt="Loading..." />
                   </Dropdown.Toggle>
 
-                  <Dropdown.Menu className="single-property-dropdown-menu" >
-                    <FacebookShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
+                  <Dropdown.Menu className="single-property-dropdown-menu">
+                    <FacebookShareButton
+                      url={data.ameneties.brochure}
+                      className="single-property-dropdown-menu-image"
+                      alt="Loading..."
+                    >
                       <FacebookIcon size={32} round={true} />
                     </FacebookShareButton>
-                    <TwitterShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
+                    <TwitterShareButton
+                      url={data.ameneties.brochure}
+                      className="single-property-dropdown-menu-image"
+                      alt="Loading..."
+                    >
                       <TwitterIcon size={32} round={true} />
                     </TwitterShareButton>
-                    <WhatsappShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
+                    <WhatsappShareButton
+                      url={data.ameneties.brochure}
+                      className="single-property-dropdown-menu-image"
+                      alt="Loading..."
+                    >
                       <WhatsappIcon size={32} round={true} />
                     </WhatsappShareButton>
-                    <EmailShareButton url={data.ameneties.brochure} className="single-property-dropdown-menu-image" alt="Loading...">
+                    <EmailShareButton
+                      url={data.ameneties.brochure}
+                      className="single-property-dropdown-menu-image"
+                      alt="Loading..."
+                    >
                       <EmailIcon size={32} round={true} />
                     </EmailShareButton>
-
                   </Dropdown.Menu>
                 </Dropdown>
-
               </div>
             </div>
-
 
             <HighLights highlightImages={data.highlights} />
             <Description title={data.title} description={data.introduction} />
@@ -249,22 +251,29 @@ export default function SingleProperty({ OngoingData }) {
             <Surrounding surroundingData={data.surrounding} id={data.id} />
             <Location locationData={data.location} />
 
-
-
-
             {data?.construction?.length !== 0 && (
               <ConstructionUpdates constructionData={data?.construction} />
             )}
           </div>
-
-
-        )
+        );
       })}
 
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="" onSubmit={handleSubmit} >
-          <div className="d-flex modal_head" >
-            <h3 className="black-text" style={{ fontSize: "20px", marginBottom: "30px", marginTop: "20px", fontWeight: "400", color: "black" }}> REGISTER YOUR INTEREST</h3>
+        <form className="" onSubmit={handleSubmit}>
+          <div className="d-flex modal_head">
+            <h3
+              className="black-text"
+              style={{
+                fontSize: "20px",
+                marginBottom: "30px",
+                marginTop: "20px",
+                fontWeight: "400",
+                color: "black",
+              }}
+            >
+              {" "}
+              REGISTER YOUR INTEREST
+            </h3>
 
             <i
               class="fa-solid fa-xmark"
@@ -273,7 +282,12 @@ export default function SingleProperty({ OngoingData }) {
             ></i>
           </div>
 
-          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>Contact Number *</label>
+          <label
+            for="basic-url"
+            style={{ fontSize: "16px", marginBottom: "10px" }}
+          >
+            Contact Number *
+          </label>
 
           <div class="input-group mb-3">
             <input
@@ -286,11 +300,14 @@ export default function SingleProperty({ OngoingData }) {
               maxLength="10"
               minLength="10"
             />
-
           </div>
 
-
-          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>EMAIL ADDRESS *</label>
+          <label
+            for="basic-url"
+            style={{ fontSize: "16px", marginBottom: "10px" }}
+          >
+            EMAIL ADDRESS *
+          </label>
 
           <div class="input-group mb-3">
             <input
@@ -301,11 +318,15 @@ export default function SingleProperty({ OngoingData }) {
               aria-describedby="basic-addon3"
               required
               value={email}
-
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>Requirement *</label>
+          <label
+            for="basic-url"
+            style={{ fontSize: "16px", marginBottom: "10px" }}
+          >
+            Requirement *
+          </label>
 
           <div class="input-group mb-3">
             <input
@@ -323,27 +344,53 @@ export default function SingleProperty({ OngoingData }) {
           <button
             className="btn btn-primary align-items-center justify-content-center register_button"
             type="submit"
-
-            style={{ marginLeft: "19%", borderRadius: "0px", fontSize: "18px", marginTop: "5px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
-
+            style={{
+              marginLeft: "19%",
+              borderRadius: "0px",
+              fontSize: "18px",
+              marginTop: "5px",
+              paddingLeft: "70px",
+              paddingRight: "70px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+            }}
             onClick={() => {
               // setModal(false);
-              if(number!==""&&email!==""&&requirement!==""){
-              setModal4(true)
-            }
+              if (
+                number !== "" &&
+                email !== "" &&
+                requirement !== "" &&
+                email.match(
+                  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                ) &&
+                number.match(/^\d{10}$/)
+              ) {
+                setModal4(true);
+                setModal(false);
+              }
               // modal3 === true ? setModal3(false) : setModal3(true);
-            }
-            }
+            }}
           >
             SUBMIT
           </button>
         </form>
       </Modal>
       <Modal isOpen={modal2} style={customStyles3} contentLabel="Example Modal">
-       
-        <form className="" onSubmit={handeldownload} >
-          <div className="d-flex modal_head" >
-            <h3 className="black-text" style={{ fontSize: "20px", marginBottom: "30px", marginTop: "20px", fontWeight: "400", color: "black" }}> Fill up The From</h3>
+        <form className="" onSubmit={handeldownload}>
+          <div className="d-flex modal_head">
+            <h3
+              className="black-text"
+              style={{
+                fontSize: "20px",
+                marginBottom: "30px",
+                marginTop: "20px",
+                fontWeight: "400",
+                color: "black",
+              }}
+            >
+              {" "}
+              Fill up The From
+            </h3>
 
             <i
               class="fa-solid fa-xmark"
@@ -352,7 +399,12 @@ export default function SingleProperty({ OngoingData }) {
             ></i>
           </div>
 
-          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>Contact Number *</label>
+          <label
+            for="basic-url"
+            style={{ fontSize: "16px", marginBottom: "10px" }}
+          >
+            Contact Number *
+          </label>
 
           <div class="input-group mb-3">
             <input
@@ -370,8 +422,12 @@ export default function SingleProperty({ OngoingData }) {
             />
           </div>
 
-
-          <label for="basic-url" style={{ fontSize: "16px", marginBottom: "10px" }}>EMAIL ADDRESS *</label>
+          <label
+            for="basic-url"
+            style={{ fontSize: "16px", marginBottom: "10px" }}
+          >
+            EMAIL ADDRESS *
+          </label>
 
           <div class="input-group mb-3">
             <input
@@ -403,41 +459,56 @@ export default function SingleProperty({ OngoingData }) {
           <button
             className="btn btn-primary align-items-center justify-content-center register_button"
             type="submit"
-
-            style={{ marginLeft: "17%", borderRadius: "0px", fontSize: "18px", marginTop: "16px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
+            style={{
+              marginLeft: "17%",
+              borderRadius: "0px",
+              fontSize: "18px",
+              marginTop: "16px",
+              paddingLeft: "70px",
+              paddingRight: "70px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+            }}
             // disabled={{onclick}}
             onClick={() => {
               // setModal2(false);
               // setModal3(true)
-              if(number!==""&&email!==""){
-              modal2 === false ? setModal2(false) : setModal3(true);
-              // window.open(data.ameneties.brochure, '_blank')
-            }
+              if (
+                number !== "" &&
+                email !== "" &&
+                email.match(
+                  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                ) &&
+                number.match(/^\d{10}$/)
+              ) {
+                 setModal3(true);
+                 setModal2(false);
+                // window.open(data.ameneties.brochure, '_blank')
+              }
             }}
           >
             SUBMIT
           </button>
         </form>
-     
       </Modal>
 
       <Modal isOpen={modal3} style={customStyles2} contentLabel="My dialog">
-
-
         <i
           class="fa-solid fa-xmark"
-          style={{ fontSize: "20px", paddingLeft: " 53rem", paddingTop: "1rem" }}
-          onClick={() =>{ 
-            setModal3(false)
-            setModal2(false)
+          style={{
+            fontSize: "20px",
+            paddingLeft: " 53rem",
+            paddingTop: "1rem",
+          }}
+          onClick={() => {
+            setModal3(false);
+            setModal2(false);
           }}
         ></i>
 
         <div>
           <Tick size={130} />
         </div>
-
-
 
         <h3 className="black-text" style={{ textAlign: "center" }}>
           Submitted Sucessfully
@@ -446,51 +517,55 @@ export default function SingleProperty({ OngoingData }) {
 
           We will Contact you soon..
         </h3> */}
-           {OngoingData?.map((data, i) => {
+        {OngoingData?.map((data, i) => {
+          if (data.id !== id) {
+            return null;
+          }
 
-if (data.id !== id) {
-  return null;
-}
-
-return (
-      <button
-            className="btn btn-primary align-items-center justify-content-center register_button"
-            type="submit"
-
-            style={{ marginLeft: "20%", borderRadius: "0px", fontSize: "18px", marginTop: "16px", paddingLeft: "70px", paddingRight: "70px", paddingTop: "10px", paddingBottom: "10px" }}
-
-            onClick={() => {
-              // setModal2(false);
-              // setModal3(true)
-              // modal2 === false ? setModal2(false) : setModal3(true);
-              window.open(data.ameneties.brochure, '_blank')
-            }
-            }
-          >
-            DOWNLOAD BROCHURE
-          </button>
-          )
-    })}
-
+          return (
+            <button
+              className="btn btn-primary align-items-center justify-content-center register_button"
+              type="submit"
+              style={{
+                marginLeft: "20%",
+                borderRadius: "0px",
+                fontSize: "18px",
+                marginTop: "16px",
+                paddingLeft: "70px",
+                paddingRight: "70px",
+                paddingTop: "10px",
+                paddingBottom: "10px",
+              }}
+              onClick={() => {
+                // setModal2(false);
+                // setModal3(true)
+                // modal2 === false ? setModal2(false) : setModal3(true);
+                window.open(data.ameneties.brochure, "_blank");
+              }}
+            >
+              DOWNLOAD BROCHURE
+            </button>
+          );
+        })}
       </Modal>
 
       <Modal isOpen={modal4} style={customStyles2} contentLabel="My dialog">
-
-
         <i
           class="fa-solid fa-xmark"
-          style={{ fontSize: "20px", paddingLeft: " 53rem", paddingTop: "1rem" }}
-          onClick={() =>{ 
-            setModal(false)
-            setModal4(false)
+          style={{
+            fontSize: "20px",
+            paddingLeft: " 53rem",
+            paddingTop: "1rem",
+          }}
+          onClick={() => {
+            setModal(false);
+            setModal4(false);
           }}
         ></i>
 
         <div>
           <Tick size={130} />
         </div>
-
-
 
         <h3 className="black-text" style={{ textAlign: "center" }}>
           Submitted Sucessfully
@@ -499,12 +574,9 @@ return (
 
           We will Contact you soon..
         </h3> */}
-      
-
       </Modal>
 
       <Confirmation open={open} setOpen={setOpen} />
     </div>
   );
 }
-

@@ -12,8 +12,11 @@ import OngoingData from "./components/data/ongoing";
 import Drawer from "./components/Navbar/Navbar";
 import Offer from "./components/offers/Offers";
 import Landing from "./pages/Landing";
+// import Footer from "./components/footer";
+import { Navbar } from "react-bootstrap";
+import Harmony from "./pages/Harmony";
 
-import Footer from "./components/footer";
+
 
 function App() {
   useEffect(() => {
@@ -23,6 +26,7 @@ function App() {
   return (
     <BrowserRouter>
       <Drawer />
+     
 
       <Routes>
         <Route exact path="/" element={<Landing />} />
@@ -33,6 +37,7 @@ function App() {
             </div>
           }
         />
+         <Route exact path="/Harmony" element={<Harmony />} />
         <Route
           path="/event"
           element={
@@ -83,7 +88,7 @@ function App() {
           }
         />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

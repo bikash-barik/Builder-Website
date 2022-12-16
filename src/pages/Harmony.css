@@ -1,0 +1,48 @@
+.background {
+    background-image: url(./image/archid.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50%;
+    padding-top: 80%;
+}
+
+.css-k9h04b-MuiButtonBase-root-MuiButton-root {
+
+    font-size: 90% ! important;
+}
+
+.bg {
+    background-color: white;
+    width: 100%;
+    height:50;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.high{
+    margin-top:-10%;
+    Left:39px;
+
+}
+
+.highhh{
+  
+    display: flex;
+    margin-top: 7%;
+  
+}
+.highhhh{
+  
+    display: flex;
+    margin-top: 7%;
+  
+}
+.high{
+    display: flex;
+    margin-top: 7%;
+  
+}
+

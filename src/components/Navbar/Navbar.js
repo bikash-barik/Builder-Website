@@ -11,11 +11,11 @@ import Modal from "react-modal";
 
 import DateTimePicker from "react-datetime-picker";
 import Image1 from "../../images/Company_Logo/png ar.png";
-import PhoneInput from 'react-phone-number-input'
-import 'react-phone-number-input/style.css'
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 import { Container } from "react-bootstrap";
 
-import { Tick } from 'react-crude-animated-tick';
+import { Tick } from "react-crude-animated-tick";
 import { isValidPhoneNumber } from "react-phone-number-input";
 import { Input } from "@mui/material";
 import { getValue, isDisabled } from "@testing-library/user-event/dist/utils";
@@ -93,12 +93,10 @@ export default function Drawer() {
     },
   };
   // const name = useRef(null)
-  const [open, setOpen] = useState(false)
-
+  const [open, setOpen] = useState(false);
 
   const handleClick = () => {
     setOpen(true);
-
   };
 
   /*const handleClose = () => setOpen(false);*/
@@ -106,18 +104,21 @@ export default function Drawer() {
   let handleMeeting = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_meeting", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-type": "Application/json",
-        },
-        body: JSON.stringify({
-          name: name,
-          email: email,
-          Date_Time: Date_Time,
-        }),
-      });
+      let res = await fetch(
+        "https://dpsc-370710.el.r.appspot.com/add_meeting",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-type": "Application/json",
+          },
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            Date_Time: Date_Time,
+          }),
+        }
+      );
       let resJson = await res.json();
       if (resJson.status) {
         setName("");
@@ -131,23 +132,24 @@ export default function Drawer() {
     }
   };
 
-
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_inquiry", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-type": "Application/json",
-        },
-        body: JSON.stringify({
-
-          number: number,
-          email: email,
-          requirement: requirement,
-        }),
-      });
+      let res = await fetch(
+        "https://dpsc-370710.el.r.appspot.com/add_inquiry",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-type": "Application/json",
+          },
+          body: JSON.stringify({
+            number: number,
+            email: email,
+            requirement: requirement,
+          }),
+        }
+      );
       let resJson = await res.json();
       if (resJson.status) {
         setNumber("");
@@ -175,7 +177,7 @@ export default function Drawer() {
           number: number,
           // requirement: requirement,
           Date_Time: Date_Time,
-          type: type
+          type: type,
         }),
       });
       let resJson = await res.json();
@@ -190,8 +192,6 @@ export default function Drawer() {
       console.log(err);
     }
   };
-
-
 
   // const handleContact = (e) => {
   //   e.preventDefault()
@@ -212,8 +212,6 @@ export default function Drawer() {
   //   e.number.reset();
   // }
 
-
-
   // const handleMeeting = (e) => {
 
   //   e.preventDefault()
@@ -232,9 +230,8 @@ export default function Drawer() {
   //   }
   // }
 
-
   return (
-    <div className="archid-navbar" >
+    <div className="archid-navbar">
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand>
           <NavLink
@@ -305,6 +302,7 @@ export default function Drawer() {
                 className="textp"
                 onClick={() => {
                   modal1 === true ? setModal1(false) : setModal1(true);
+                  // setModal1(true);
                 }}
               >
                 Instant Video Call
@@ -348,7 +346,7 @@ export default function Drawer() {
 
       {/* modal */}
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="" onSubmit={handleSubmit} >
+        <form className="" onSubmit={handleSubmit}>
           <div className="d-flex modal_head">
             <h3 className="black-text"> GET IN TOUCH</h3>
             <i
@@ -364,7 +362,6 @@ export default function Drawer() {
             MOBILE NUMBER <span style={{ color: "red" }}>*</span>
           </label>
           <div class="input-group mb-3">
-
             <input
               type="tel"
               value={number}
@@ -376,7 +373,6 @@ export default function Drawer() {
               onKeyDown="if(this.value.length==2 && event.keyCode!=8) return false;"
               // pattern="[1-9]{1}[0-9]{9}"
             />
-
           </div>
 
           <label
@@ -394,7 +390,6 @@ export default function Drawer() {
               aria-describedby="basic-addon3"
               required
               value={email}
-
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -429,7 +424,6 @@ export default function Drawer() {
               // onChange={(e) => setDateTime(e.target.value)}
               onChange={onChange}
               value={Date_Time}
-
             />
           </div>
           <br />
@@ -447,39 +441,43 @@ export default function Drawer() {
             type="submit"
             // disabled={isValidPhoneNumber==true}
 
-
             // disabled={}
-            
+
             onClick={() => {
               // setModal(false);
-              
+
               // setModal3(true)
               // if(number!==true ? email !==true:false ?requirement!==true:false ?Date_Time!==true:false){
               //   setModal3(true)
               // }
 
               // modal3 === true ? setModal3(false) : setModal3(true);
-              if(number!==""&&email!==""&&Date_Time!==""){
-                setModal3(true)
-              }
-              
-            }
 
-            }
+              if (
+                number !== "" &&
+                email !== "" &&
+                Date_Time !== "" &&
+                email.match(
+                  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                )
+              ) {
+                setModal3(true);
+                // setModal(false);
+                
+              }
+            }}
             // disabled={this.state.number === "" ? true : false}
-          //   style={this.state.number===""?{
-          //       backgroundColor: "#C4C4C4", alignItems: "center", justifyContent: "center", height: 50,
-          //       width: "85%", alignSelf: "center", borderRadius: 10
-          //   }:{backgroundColor: "#1DCDFE", alignItems: "center", justifyContent: "center", height: 50,
-          //   width: "85%", alignSelf: "center", borderRadius: 10}}>
-          //       {/* <Text style={{ color: "white", fontSize: 17, fontWeight: "500" }}>Verify & Proceed</Text> */}
-          // {/* // onClick={() => setModal3(false)} */}
+            //   style={this.state.number===""?{
+            //       backgroundColor: "#C4C4C4", alignItems: "center", justifyContent: "center", height: 50,
+            //       width: "85%", alignSelf: "center", borderRadius: 10
+            //   }:{backgroundColor: "#1DCDFE", alignItems: "center", justifyContent: "center", height: 50,
+            //   width: "85%", alignSelf: "center", borderRadius: 10}}>
+            //       {/* <Text style={{ color: "white", fontSize: 17, fontWeight: "500" }}>Verify & Proceed</Text> */}
+            // {/* // onClick={() => setModal3(false)} */}
           >
-          
             SUBMIT
           </button>
         </form>
-
       </Modal>
       <Modal
         isOpen={modal6}
@@ -488,7 +486,7 @@ export default function Drawer() {
         contentLabel="Example Modal"
       >
         <div>
-          <form onSubmit={visitsubmit} >
+          <form onSubmit={visitsubmit}>
             <div className="d-flex modal_head">
               <h3 className="black-text" style={{ marginBottom: "15px" }}>
                 Site Visit Details
@@ -553,16 +551,16 @@ export default function Drawer() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-            </div><br />
+            </div>
+            <br />
             <label
               for="basic-url"
               style={{ fontSize: "12px", marginBottom: "10px" }}
             >
-              MOBILE NUMBER  <span style={{ color: "red" }}>*</span>
+              MOBILE NUMBER <span style={{ color: "red" }}>*</span>
               {/* <span style={{ color: "red" }}>*</span> */}
             </label>
             <div class="input-group mb-3">
-
               <input
                 type="number"
                 value={number}
@@ -575,7 +573,6 @@ export default function Drawer() {
                 maxLength="10"
                 minLength="10"
               />
-
             </div>
 
             <br />
@@ -591,7 +588,6 @@ export default function Drawer() {
                 // onChange={(e) => setDateTime(e.target.value)}
                 onChange={onChange}
                 value={Date_Time}
-
               />
             </div>
             <br />
@@ -623,25 +619,25 @@ export default function Drawer() {
                 onChange={(e) => setProperty(e.target.value)}
               /> */}
               <select
-                style={{ width: "305px", height: "30px" ,fontSize:18}}
+                style={{ width: "305px", height: "30px", fontSize: 18 }}
                 name=""
                 value={type}
                 select
-                onChange={(e) => { setProperty(e.target.value) }}
+                onChange={(e) => {
+                  setProperty(e.target.value);
+                }}
                 // onChange={(e) => { setProperty(e.target.value) }}
               >
-
                 <option value="">Select..</option>
 
-
-                <option  value={"Archid Pramod retreat"}>Archid Pramod retreat </option>
+                <option value={"Archid Pramod retreat"}>
+                  Archid Pramod retreat{" "}
+                </option>
                 <option value={"Archid Sailabala"}>Archid Sailabala </option>
                 <option value={"Archid Harmony"}>Archid Harmony</option>
                 <option value={"Archid Shreekunj"}>Archid Shreekunj</option>
-
               </select>
             </div>
-
 
             <button
               className="btn btn-primary"
@@ -653,15 +649,24 @@ export default function Drawer() {
                 borderRadius: "0px",
               }}
               type="submit"
-
-
               onClick={() => {
                 // setModal3(true)
-                 if(name!==""&&email!==""&&number!==""&&Date_Time!==""&&type!==""){
-                setModal3(true)
-              }
+                if (
+                  name !== "" &&
+                  email !== "" &&
+                  number !== "" &&
+                  Date_Time !== "" &&
+                  type !== "" &&
+                  email.match(
+                    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                  ) &&
+                  name.match(/^[a-zA-Z ]{2,30}$/) &&
+                  number.match(/^\d{10}$/)
+                ) {
+                  setModal3(true);
+                  setModal6(false);
+                }
                 // setModal1(false);
-
               }}
             >
               Submit
@@ -688,7 +693,7 @@ export default function Drawer() {
         contentLabel="Example Modal"
       >
         <div>
-          <form onSubmit={handleMeeting} >
+          <form onSubmit={handleMeeting}>
             <div className="d-flex modal_head">
               <h3 className="black-text" style={{ marginBottom: "15px" }}>
                 SCHEDULE MEETING WITH THE SALES TEAM
@@ -753,7 +758,8 @@ export default function Drawer() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-            </div><br />
+            </div>
+            <br />
 
             <br />
 
@@ -768,13 +774,12 @@ export default function Drawer() {
                 // onChange={(e) => setDateTime(e.target.value)}
                 onChange={onChange}
                 value={Date_Time}
-
               />
             </div>
             <br />
 
             <button
-            // disabled
+              // disabled
               className="btn btn-primary"
               style={{
                 fontSize: "15px",
@@ -786,13 +791,20 @@ export default function Drawer() {
               type="submit"
               // disabled={}
               onClick={() => {
-                
                 // setModal3(true)
-                 if(name!==""&&email!==""&&Date_Time!==""){
-                setModal3(true)
-              }
+                if (
+                  name !== "" &&
+                  email !== "" &&
+                  Date_Time !== "" &&
+                  email.match(
+                    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                  ) &&
+                  name.match(/^[a-zA-Z ]{2,30}$/)
+                ) {
+                  setModal3(true);
+                  setModal1(false);
+                }
                 // setModal1(false);
-
               }}
             >
               Submit
@@ -813,16 +825,17 @@ export default function Drawer() {
       </Modal>
 
       <Modal isOpen={modal3} style={customStyles2} contentLabel="My dialog">
-
-
         <i
           class="fa-solid fa-xmark"
-          style={{ fontSize: "20px", paddingLeft: " 53rem", paddingTop: "1rem" }}
+          style={{
+            fontSize: "20px",
+            paddingLeft: " 53rem",
+            paddingTop: "1rem",
+          }}
           onClick={() => {
-            setModal3(false)
+            setModal3(false);
             setModal1(false);
             setModal6(false);
-
           }}
         ></i>
 
@@ -830,21 +843,15 @@ export default function Drawer() {
           <Tick size={130} />
         </div>
 
-
-
         <h3 className="black-text" style={{ textAlign: "center" }}>
           Submitted Sucessfully
         </h3>
         <h3 className="black-text" style={{ textAlign: "center" }}>
           We will Contact you soon..
         </h3>
-
-
       </Modal>
-
 
       <Container open={open} setOpen={setOpen} />
     </div>
   );
 }
-

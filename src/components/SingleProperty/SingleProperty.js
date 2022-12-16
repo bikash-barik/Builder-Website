@@ -329,7 +329,7 @@ export default function SingleProperty({ OngoingData }) {
           </label>
 
           <div class="input-group mb-3">
-            <input
+            <textarea
               type="text"
               class="form-control"
               id="basic-url"
@@ -366,7 +366,7 @@ export default function SingleProperty({ OngoingData }) {
                 number.match(/^\d{10}$/)
               ) {
                 setModal4(true);
-                setModal(false);
+                // setModal(false);
               }
               // modal3 === true ? setModal3(false) : setModal3(true);
             }}
@@ -482,7 +482,7 @@ export default function SingleProperty({ OngoingData }) {
                 number.match(/^\d{10}$/)
               ) {
                  setModal3(true);
-                 setModal2(false);
+                //  setModal2(false);
                 // window.open(data.ameneties.brochure, '_blank')
               }
             }}

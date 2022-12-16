@@ -98,7 +98,7 @@ const ContactUsForm = () => {
             pattern="[1-9]{1}[0-9]{9}"
             
             // placeholder="number"
-            style={{ width: 165 }}
+            // style={{ width: 160}}
             onChange={(e) => setNumber(e.target.value)}
           />
         </div>
@@ -120,12 +120,12 @@ const ContactUsForm = () => {
         <div >
           <div className="contact-us-form-label" >Requirement</div>
           {/* <input ref={email} required type="email" id="lname" name="email" /> */}
-          <input
+          <textarea
             type="text"
             class="form-control"
             id="basic-url"
             aria-describedby="basic-addon3"
-            style={{ height: "80px", borderColor: "black" }}
+            style={{ height: "50px", borderColor: "black" }}
             required
             value={requirement}
             // placeholder="Requirement"
@@ -140,7 +140,10 @@ const ContactUsForm = () => {
 
           onClick={() => {
             // setModal(false);
-            if(number!==""&&email!=="",requirement!==""){
+            if(number!==""&&email!=="",requirement!==""&&email.match(
+              /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+            )&&
+            number.match(/^\d{10}$/)){
             setModal3(true)
           }
             // modal3 === true ? setModal3(false) : setModal3(true);

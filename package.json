@@ -27,6 +27,7 @@
     "react-phone-number-input": "^3.2.11",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "react-share": "^4.4.0",
     "react-timer-hook": "^3.0.5",

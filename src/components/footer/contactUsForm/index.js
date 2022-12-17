@@ -99,7 +99,7 @@ const ContactUsForm = () => {
             required
             maxLength="10"
             minLength="10"
-            pattern="[1-9]{1}[0-9]{9}"
+            // pattern="[1-9]{1}[0-9]{9}"
             
             // placeholder="number"
             // style={{ width: 160}}
@@ -145,7 +145,11 @@ const ContactUsForm = () => {
 
           onClick={() => {
             // setModal(false);
-            if(number!==""&&email!=="",requirement!==""){
+            if(number!==""&&email!=="",requirement!==""&&
+            email.match(
+              /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+            ) &&
+            number.match(/^\d{10}$/)){
               handleSubmit(number,email,requirement)
               setModal3(true)
               setNumber("")

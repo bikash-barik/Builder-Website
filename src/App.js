@@ -12,7 +12,7 @@ import OngoingData from "./components/data/ongoing";
 import Drawer from "./components/Navbar/Navbar";
 import Offer from "./components/offers/Offers";
 import Landing from "./pages/Landing";
-// import Footer from "./components/footer";
+import Footer from "./components/footer";
 import { Navbar } from "react-bootstrap";
 import Harmony from "./pages/Harmony";
 
@@ -37,7 +37,7 @@ function App() {
             </div>
           }
         />
-         <Route exact path="/Harmony" element={<Harmony />} />
+         <Route exact path="Communities/4" element={<Harmony />} />
         <Route
           path="/event"
           element={
@@ -88,7 +88,7 @@ function App() {
           }
         />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }

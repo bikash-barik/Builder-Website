@@ -74,11 +74,23 @@ const Ameneties = ({ ameneties }) => {
     }
   };
   return (
+    <div>
+    {/* <div className="newharmony-image"> */}
+      {/* <img 
+        src={ameneties?.imagen}
+        // alt="Loading..."
+        className="amenetiesharmony-images"
+      /> */}
+      {/* </div> */}
     <div className="ameneties-container">
       <div className="ameneties-content">
         <div className="ameneties-heading">
-          <div>AMENETIES</div>
-          <div className="ameneties-line"/>
+          <div>{ameneties.head}</div>
+          <div className="">
+          {ameneties.line}
+          </div>
+          {/* /> */}
+
         </div>
         <div className="ameneties-detail capitalize">{ameneties.text}</div>
         <div className="d-flex">
@@ -92,7 +104,7 @@ const Ameneties = ({ ameneties }) => {
       </div>
       <img
         src={ameneties?.image}
-        alt="Loading..."
+        // alt="Loading..."
         className="ameneties-image"
       />
 
@@ -231,6 +243,7 @@ const Ameneties = ({ ameneties }) => {
 
       
 
+    </div>
     </div>
     
   );

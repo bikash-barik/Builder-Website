@@ -10,6 +10,7 @@ import HighLights from "./subcomponent/Highlights";
 import Description from "./subcomponent/Description";
 import Details from "./subcomponent/Details";
 import Ameneties from "./subcomponent/Ameneties";
+// import Amenetiesnew from "./subcomponent/Amenetiesnew";
 import Finance from "./subcomponent/Finance";
 import Surrounding from "./subcomponent/Surrounding";
 import Location from "./subcomponent/Location";
@@ -29,10 +30,77 @@ import {
   WhatsappShareButton,
 } from "react-share";
 
+
+async function handeldownload(number, email) {
+  // e.preventDefault();
+  try {
+    let res = await fetch(
+      "https://dpsc-370710.el.r.appspot.com/add_brochure",
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
+        body: JSON.stringify({
+          number: number,
+          email: email,
+          // requirement: requirement,
+        }),
+      }
+    );
+    let resJson = await res.json();
+    console.log(resJson)
+    if (resJson.status) {
+      // setNumber("");
+      // setEmail("");
+      // setRequirement("");
+    } else {
+      // setMessage("Some error occured");
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+
+async function handleSubmit(number, email, requirement) {
+  // e.preventDefault();
+  try {
+    let res = await fetch(
+      "https://dpsc-370710.el.r.appspot.com/add_inquiry",
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
+        body: JSON.stringify({
+          number: number,
+          email: email,
+          requirement: requirement,
+        }),
+      }
+    );
+    let resJson = await res.json();
+    console.log(resJson)
+    if (resJson.status) {
+      // setNumber("");
+      // setEmail("");
+      // setRequirement("");
+    } else {
+      // setMessage("Some error occured");
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
+
 export default function SingleProperty({ OngoingData }) {
   const { id } = useParams();
   const [modal, setModal] = useState(false);
   const [modal4, setModal4] = useState(false);
+  // const [modal1, setModal1] = useState(false);
   const [modal2, setModal2] = useState(false);
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -98,67 +166,8 @@ export default function SingleProperty({ OngoingData }) {
     setOpen(true);
   };
 
-  let handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      let res = await fetch(
-        "https://dpsc-370710.el.r.appspot.com/add_inquiry",
-        {
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-            "Content-type": "Application/json",
-          },
-          body: JSON.stringify({
-            number: number,
-            email: email,
-            requirement: requirement,
-          }),
-        }
-      );
-      let resJson = await res.json();
-      if (resJson.status) {
-        setNumber("");
-        setEmail("");
-        setRequirement("");
-      } else {
-        setMessage("Some error occured");
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  };
 
-  let handeldownload = async (e) => {
-    e.preventDefault();
-    try {
-      let res = await fetch(
-        "https://dpsc-370710.el.r.appspot.com/add_brochure",
-        {
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-            "Content-type": "Application/json",
-          },
-          body: JSON.stringify({
-            number: number,
-            email: email,
-            // requirement: requirement,
-          }),
-        }
-      );
-      let resJson = await res.json();
-      if (resJson.status) {
-        setNumber("");
-        setEmail("");
-        // setRequirement("");
-      } else {
-        setMessage("Some error occured");
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  };
+
 
   return (
     <div className="single_background">
@@ -178,6 +187,7 @@ export default function SingleProperty({ OngoingData }) {
                   className=" single-property-button single-property-request-button"
                   onClick={() => {
                     setModal2(true);
+                    // setModal1(false)
                     // window.open(data.ameneties.brochure, '_blank')
                   }}
                 >
@@ -243,8 +253,10 @@ export default function SingleProperty({ OngoingData }) {
 
             <HighLights highlightImages={data.highlights} />
             <Description title={data.title} description={data.introduction} />
+            {/* <Description title={data.titles} description={data.inter} /> */}
             <Details detail={data.details} />
 
+            {/* <Amenetiesnew ameneties={data.amenetiess} /> */}
             <Ameneties ameneties={data.ameneties} />
             <FloorPlan floorPlanData={data.floorPlans} />
             <Finance financeData={data.finance} />
@@ -259,7 +271,7 @@ export default function SingleProperty({ OngoingData }) {
       })}
 
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="" onSubmit={handleSubmit}>
+        <form className="">
           <div className="d-flex modal_head">
             <h3
               className="black-text"
@@ -329,7 +341,7 @@ export default function SingleProperty({ OngoingData }) {
           </label>
 
           <div class="input-group mb-3">
-            <input
+            <textarea
               type="text"
               class="form-control"
               id="basic-url"
@@ -343,7 +355,7 @@ export default function SingleProperty({ OngoingData }) {
           </div>
           <button
             className="btn btn-primary align-items-center justify-content-center register_button"
-            type="submit"
+            // type="submit"
             style={{
               marginLeft: "19%",
               borderRadius: "0px",
@@ -365,8 +377,12 @@ export default function SingleProperty({ OngoingData }) {
                 ) &&
                 number.match(/^\d{10}$/)
               ) {
+                handleSubmit(number,email,requirement)
                 setModal4(true);
                 setModal(false);
+                setNumber("");
+                setEmail("");
+                setRequirement("");
               }
               // modal3 === true ? setModal3(false) : setModal3(true);
             }}
@@ -376,7 +392,7 @@ export default function SingleProperty({ OngoingData }) {
         </form>
       </Modal>
       <Modal isOpen={modal2} style={customStyles3} contentLabel="Example Modal">
-        <form className="" onSubmit={handeldownload}>
+        <form className="" >
           <div className="d-flex modal_head">
             <h3
               className="black-text"
@@ -458,7 +474,7 @@ export default function SingleProperty({ OngoingData }) {
           </div> */}
           <button
             className="btn btn-primary align-items-center justify-content-center register_button"
-            type="submit"
+            // type="submit"
             style={{
               marginLeft: "17%",
               borderRadius: "0px",
@@ -481,8 +497,11 @@ export default function SingleProperty({ OngoingData }) {
                 ) &&
                 number.match(/^\d{10}$/)
               ) {
-                 setModal3(true);
-                 setModal2(false);
+                handeldownload(number, email)
+                setModal3(true);
+                setModal2(false);
+                setNumber("");
+                setEmail("");
                 // window.open(data.ameneties.brochure, '_blank')
               }
             }}

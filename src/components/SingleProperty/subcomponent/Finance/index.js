@@ -7,11 +7,13 @@ const Finance = ({financeData}) => {
         <div className="single-property-finance-heading">
         <div>
         FINANCE FACILITY
+        {/* {financeData.head} */}
         </div>
         <div className="single-property-finance-line" />
         </div>
         <div className="single-property-finance-text">
-        We are approved by all leading banks like
+        {/* We are approved by all leading banks like */}
+        {financeData.textdesc}
         </div>
      <Grid container spacing={2} sx={{marginTop:"10px"}} className="finance-images-container">
         {

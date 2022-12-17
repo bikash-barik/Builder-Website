@@ -20,6 +20,74 @@ import { isValidPhoneNumber } from "react-phone-number-input";
 import { Input } from "@mui/material";
 import { getValue, isDisabled } from "@testing-library/user-event/dist/utils";
 
+
+
+async function handleMeeting (name,email,Date_Time) {
+  // e.preventDefault();
+  try {
+    let res = await fetch(
+      "https://dpsc-370710.el.r.appspot.com/add_meeting",
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-type": "Application/json",
+        },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          Date_Time: Date_Time,
+        }),
+      }
+    );
+    let resJson = await res.json();
+    console.log(resJson);
+    if (resJson.status) {
+      // setName("");
+      // setEmail("");
+      // setDateTime("User created successfully");
+    } else {
+      // setMessage("Some error occured");
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+
+async function visitsubmit (name,email,number,Date_Time,type)  {
+  // e.preventDefault();
+  try {
+    let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_visit", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-type": "Application/json",
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        number: number,
+        // requirement: requirement,
+        Date_Time: Date_Time,
+        type: type,
+      }),
+    });
+    let resJson = await res.json();
+    console.log(resJson);
+    if (resJson.status) {
+      // setNumber("");
+      // setEmail("");
+      // setRequirement("");
+    } else {
+      // setMessage("Some error occured");
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+
 export default function Drawer() {
   const [modal, setModal] = useState(false);
   const [modal1, setModal1] = useState(false);
@@ -101,36 +169,7 @@ export default function Drawer() {
 
   /*const handleClose = () => setOpen(false);*/
 
-  let handleMeeting = async (e) => {
-    e.preventDefault();
-    try {
-      let res = await fetch(
-        "https://dpsc-370710.el.r.appspot.com/add_meeting",
-        {
-          method: "POST",
-          headers: {
-            Accept: "application/json",
-            "Content-type": "Application/json",
-          },
-          body: JSON.stringify({
-            name: name,
-            email: email,
-            Date_Time: Date_Time,
-          }),
-        }
-      );
-      let resJson = await res.json();
-      if (resJson.status) {
-        setName("");
-        setEmail("");
-        // setDateTime("User created successfully");
-      } else {
-        setMessage("Some error occured");
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  };
+  
 
   let handleSubmit = async (e) => {
     e.preventDefault();
@@ -162,37 +201,7 @@ export default function Drawer() {
       console.log(err);
     }
   };
-  let visitsubmit = async (e) => {
-    e.preventDefault();
-    try {
-      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_visit", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-type": "Application/json",
-        },
-        body: JSON.stringify({
-          name: name,
-          email: email,
-          number: number,
-          // requirement: requirement,
-          Date_Time: Date_Time,
-          type: type,
-        }),
-      });
-      let resJson = await res.json();
-      if (resJson.status) {
-        setNumber("");
-        setEmail("");
-        setRequirement("");
-      } else {
-        setMessage("Some error occured");
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  };
-
+  
   // const handleContact = (e) => {
   //   e.preventDefault()
   //   if (num.length > 0 && email.current.value.length > 0) {
@@ -301,8 +310,8 @@ export default function Drawer() {
               <p
                 className="textp"
                 onClick={() => {
-                  modal1 === true ? setModal1(false) : setModal1(true);
-                  // setModal1(true);
+                  modal1 === true ? setModal6(false) : setModal1(true);
+                  setModal6(false);
                 }}
               >
                 Instant Video Call
@@ -335,6 +344,7 @@ export default function Drawer() {
                 onClick={() => {
                   // modal === true ? setModal(false) : setModal(true);
                   modal6 === true ? setModal6(false) : setModal6(true);
+                  setModal1(false)
                 }}
               >
                 Book Your Site Visit
@@ -346,7 +356,7 @@ export default function Drawer() {
 
       {/* modal */}
       <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
-        <form className="" onSubmit={handleSubmit}>
+        <form className="" >
           <div className="d-flex modal_head">
             <h3 className="black-text"> GET IN TOUCH</h3>
             <i
@@ -461,8 +471,9 @@ export default function Drawer() {
                   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                 )
               ) {
+               
                 setModal3(true);
-                // setModal(false);
+                setModal(false);
                 
               }
             }}
@@ -486,7 +497,7 @@ export default function Drawer() {
         contentLabel="Example Modal"
       >
         <div>
-          <form onSubmit={visitsubmit}>
+          <form >
             <div className="d-flex modal_head">
               <h3 className="black-text" style={{ marginBottom: "15px" }}>
                 Site Visit Details
@@ -648,7 +659,7 @@ export default function Drawer() {
                 paddingRight: "20px",
                 borderRadius: "0px",
               }}
-              type="submit"
+              // type="submit"
               onClick={() => {
                 // setModal3(true)
                 if (
@@ -663,8 +674,14 @@ export default function Drawer() {
                   name.match(/^[a-zA-Z ]{2,30}$/) &&
                   number.match(/^\d{10}$/)
                 ) {
-                  setModal3(true);
+                  visitsubmit(name,email,number,Date_Time,type);
                   setModal6(false);
+                  setModal3(true);
+                  setName("");
+                  setEmail("");
+                  setNumber("");
+                  Date_Time("");
+                  type("");
                 }
                 // setModal1(false);
               }}
@@ -693,7 +710,7 @@ export default function Drawer() {
         contentLabel="Example Modal"
       >
         <div>
-          <form onSubmit={handleMeeting}>
+          <form >
             <div className="d-flex modal_head">
               <h3 className="black-text" style={{ marginBottom: "15px" }}>
                 SCHEDULE MEETING WITH THE SALES TEAM
@@ -801,8 +818,12 @@ export default function Drawer() {
                   ) &&
                   name.match(/^[a-zA-Z ]{2,30}$/)
                 ) {
-                  setModal3(true);
+                  handleMeeting(name,email,Date_Time);
                   setModal1(false);
+                  setModal3(true);
+                  setName("");
+        setEmail("");
+                  // setModal1();
                 }
                 // setModal1(false);
               }}

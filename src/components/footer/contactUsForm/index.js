@@ -7,6 +7,36 @@ import Modal from "react-modal";
 import { Tick } from 'react-crude-animated-tick';
 
 
+async function handleSubmit  (number,email,requirement) {
+  // e.preventDefault();
+  try {
+    let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_inquiry", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-type": "Application/json",
+      },
+      body: JSON.stringify({
+        number: number,
+        email: email,
+        requirement: requirement,
+      }),
+    });
+    let resJson = await res.json();
+    console.log(resJson)
+    if (resJson.status) {
+      // setNumber("");
+      // setEmail("");
+      // setRequirement("");
+    } else {
+      // setMessage("Some error occured");
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+
 const ContactUsForm = () => {
   const name = useRef(null)
   const [number, setNumber] = useState("");
@@ -35,33 +65,7 @@ const ContactUsForm = () => {
   const handleClick = () => {
     setOpen(true);
   };
-  let handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      let res = await fetch("https://dpsc-370710.el.r.appspot.com/add_inquiry", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-type": "Application/json",
-        },
-        body: JSON.stringify({
-          number: number,
-          email: email,
-          requirement: requirement,
-        }),
-      });
-      let resJson = await res.json();
-      if (resJson.status) {
-        setNumber("");
-        setEmail("");
-        setRequirement("");
-      } else {
-        setMessage("Some error occured");
-      }
-    } catch (err) {
-      console.log(err);
-    }
-  };
+  
   // const handleContact = (e) => {
   //   e.preventDefault()
 
@@ -80,7 +84,7 @@ const ContactUsForm = () => {
   return (
 
     <div className="contact-us-form-container ">
-      <form className="contact-us-form" onSubmit={handleSubmit} >
+      <form className="contact-us-form"  >
         <div className="form-heading ">
           <div >GET IN TOUCH</div>
           <div className="form-line">
@@ -120,12 +124,12 @@ const ContactUsForm = () => {
         <div >
           <div className="contact-us-form-label" >Requirement</div>
           {/* <input ref={email} required type="email" id="lname" name="email" /> */}
-          <input
-            type="text"
+          <textarea
+            type="textarea"
             class="form-control"
             id="basic-url"
             aria-describedby="basic-addon3"
-            style={{ height: "80px", borderColor: "black" }}
+            style={{ height: "80px", borderColor: "black",width:"100%",marginRight:35 }}
             required
             value={requirement}
             // placeholder="Requirement"
@@ -135,13 +139,18 @@ const ContactUsForm = () => {
         {/* <div className="message">{message ? <p>{message}</p> : null}</div> */}
         <button
 
-          type="submit" className="form-button"
+          // type="submit"
+           className="form-button"
 
 
           onClick={() => {
             // setModal(false);
             if(number!==""&&email!=="",requirement!==""){
-            setModal3(true)
+              handleSubmit(number,email,requirement)
+              setModal3(true)
+              setNumber("")
+              setEmail("")
+              setRequirement("")
           }
             // modal3 === true ? setModal3(false) : setModal3(true);
           }}

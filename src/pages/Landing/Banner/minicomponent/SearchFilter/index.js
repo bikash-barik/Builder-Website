@@ -39,8 +39,8 @@ const SearchFilter = () => {
         if(priceRange==="90 Lakhs - 2 Crore"){
           navigate('/communities/2')
         } else if(priceRange==="70 - 90 Lakhs"){
-          // navigate('/communities/4')
-          handleOpen()  
+          navigate('/communities/4')
+          // handleOpen()  
         }
         
       }

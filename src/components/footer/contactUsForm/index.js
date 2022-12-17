@@ -102,7 +102,7 @@ const ContactUsForm = () => {
             pattern="[1-9]{1}[0-9]{9}"
             
             // placeholder="number"
-            style={{ width: 165 }}
+            // style={{ width: 160}}
             onChange={(e) => setNumber(e.target.value)}
           />
         </div>

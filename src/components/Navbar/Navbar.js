@@ -13,9 +13,9 @@ import DateTimePicker from "react-datetime-picker";
 import Image1 from "../../images/Company_Logo/png ar.png";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 
-import { Tick } from "react-crude-animated-tick";
+import { resetWarningCache, Tick } from "react-crude-animated-tick";
 import { isValidPhoneNumber } from "react-phone-number-input";
 import { Input } from "@mui/material";
 import { getValue, isDisabled } from "@testing-library/user-event/dist/utils";
@@ -104,6 +104,7 @@ export default function Drawer() {
 
   const [modal3, setModal3] = useState(false);
   const [modal6, setModal6] = useState(false);
+  
   const customStyles = {
     content: {
       top: "50%",
@@ -166,7 +167,7 @@ export default function Drawer() {
   const handleClick = () => {
     setOpen(true);
   };
-
+  // const initialState = { name: null, email: null, number: null,Date_Time:null, type:null }
   /*const handleClose = () => setOpen(false);*/
 
   
@@ -662,6 +663,7 @@ export default function Drawer() {
               // type="submit"
               onClick={() => {
                 // setModal3(true)
+                
                 if (
                   name !== "" &&
                   email !== "" &&
@@ -806,6 +808,8 @@ export default function Drawer() {
                 borderRadius: "0px",
               }}
               type="submit"
+              
+              
               // disabled={}
               onClick={() => {
                 // setModal3(true)
@@ -857,7 +861,9 @@ export default function Drawer() {
             setModal3(false);
             setModal1(false);
             setModal6(false);
+
           }}
+          
         ></i>
 
         <div>

@@ -97,6 +97,13 @@ const ameneties=[
   // "",
   // image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206608.png?alt=media&token=04bab4be-8c14-45dc-b4cc-91ba76cb5f6a",
 },
+// {
+//   link: "not found",
+
+//   image:
+//     "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206411%20(1).png?alt=media&token=21a0b75a-0326-4017-be35-7429f6dd9fce",
+// },
+
 ]
   
 const details = [
@@ -609,9 +616,22 @@ export default function Harmony() {
           alt="Loading..."
           className="amenetiesharmony-images"
         />
+
         );
       })}
+       <img
+          src={"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206411%20(1).png?alt=media&token=21a0b75a-0326-4017-be35-7429f6dd9fce"}
+          alt="Loading..."
+          className="amenetiesharmony-imagess"
+          onClick={() => {
+            // setmodal1(true);
+            setModal2(true);
+            // setModal1(false)
+            // window.open(data.ameneties.brochure, '_blank')
+          }}
+        />
       </div>
+      
       <div className="floor-plan">
       <div className="floor-plan-heading">
         <div>FLOOR PLANS</div>

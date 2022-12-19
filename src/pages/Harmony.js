@@ -79,11 +79,11 @@ const  surrounding=[
 {
   surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206426.png?alt=media&token=ed1898d5-ebfa-4732-a730-dfe595679b6d",
 },]
-const  OngoingData=[
+const  OngoingDatas=[
 
 
 {
-  brochure:"",
+  brochure:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fbroucher%2FArchid%20Harmony%20Brochure%2025-11-22%20-%20Tapas%20Jana.pdf?alt=media&token=6085b37c-1cdc-45c2-bb97-4d16c5a92576",
 },]
 
     
@@ -369,8 +369,8 @@ export default function Harmony() {
   return (
     <Grid>
       <div className="background">
-        <div className="single-property-button-group">
-          {/* <div
+        <div className="single-property-button-groups">
+          <div
             className=" single-property-button single-property-request-button"
             onClick={() => {
               // setmodal1(true);
@@ -380,7 +380,7 @@ export default function Harmony() {
             }}
           >
             DOWNLOAD BROCHURE
-          </div> */}
+          </div>
           <div
             className=" single-property-button single-property-request-button"
             onClick={() => {
@@ -399,6 +399,10 @@ export default function Harmony() {
               alt="Loading..." />
           </div>
           </Link>
+          {OngoingDatas?.map((data, i) => {
+          
+
+          return (
           <Dropdown>
             <Dropdown.Toggle
               as="div"
@@ -411,7 +415,7 @@ export default function Harmony() {
 
             <Dropdown.Menu className="single-property-dropdown-menu">
               <FacebookShareButton
-                // url={data.ameneties.brochure}
+                url={data.brochure}
                
                 className="single-property-dropdown-menu-image"
                 alt="Loading..."
@@ -419,21 +423,21 @@ export default function Harmony() {
                 <FacebookIcon size={32} round={true} />
               </FacebookShareButton>
               <TwitterShareButton
-                // url={data.ameneties.brochure}
+                url={data.brochure}
                 className="single-property-dropdown-menu-image"
                 alt="Loading..."
               >
                 <TwitterIcon size={32} round={true} />
               </TwitterShareButton>
               <WhatsappShareButton
-                // url={data.ameneties.brochure}
+                url={data.brochure}
                 className="single-property-dropdown-menu-image"
                 alt="Loading..."
               >
                 <WhatsappIcon size={32} round={true} />
               </WhatsappShareButton>
               <EmailShareButton
-                // url={data.ameneties.brochure}
+                url={data.brochure}
                 className="single-property-dropdown-menu-image"
                 alt="Loading..."
               >
@@ -441,6 +445,8 @@ export default function Harmony() {
               </EmailShareButton>
             </Dropdown.Menu>
           </Dropdown>
+          );
+          })}
         </div>
         {/* </div> */}
       </div>
@@ -967,10 +973,8 @@ export default function Harmony() {
 
           We will Contact you soon..
         </h3> */}
-        {OngoingData?.map((data, i) => {
-          if (data.id !== id) {
-            return null;
-          }
+        {OngoingDatas?.map((data, i) => {
+          
 
           return (
             <button
@@ -990,7 +994,7 @@ export default function Harmony() {
                 // setModal2(false);
                 // setModal3(true)
                 // modal2 === false ? setModal2(false) : setModal3(true);
-                window.open(data.OngoingData.brochure, "_blank");
+                window.open(data.brochure, "_blank");
               }}
             >
               DOWNLOAD BROCHURE

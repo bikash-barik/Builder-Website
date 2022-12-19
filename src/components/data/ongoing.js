@@ -260,195 +260,7 @@ const OngoingData = [
 
   },
 
-  {
-    id: "2",
-    bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FShreekunj.jpg?alt=media&token=8d925b1d-71f5-4e95-8d72-603752a89aef",
-    title: "ARCHID SHREEKUNJ, RANASINGHPUR",
-    titles:"",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
-    tagLine: "FROM PREMIUM LIVING TO ABUNDANCE OF PEACE & GLORY",
-    description:"3 BHK DUPLEXES",
-    introduction:
-      "This gated community is well placed at the heart of a pristine location in Ranasinghpur, Bhubaneswar. Driven by design, the meticulous planning infuses spice into space. Whether yours is a nuclear or joint family, the smartly calibrated villas fit seamlessly into your individualised lifestyle. The upscale class reflects in quality of materials utilised to create the ambience you always wanted from your dream home.",
-      inter:"",
-    highlights: [
-      { 
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F1.svg?alt=media&token=d2c9cb0f-fcc9-4881-9ab6-e1e582293377",
-      },
-      { 
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F2.svg?alt=media&token=652f89ef-f55b-422f-9742-1cb70ad6394c",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F3.svg?alt=media&token=ad009ca3-ca78-4c10-9ca1-5cce25e9a0e4",
-      },
-      { 
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F4.svg?alt=media&token=7817a60f-3ff1-4e56-ae51-bc1543fa70b4",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F5.svg?alt=media&token=4eaa439b-6b33-481a-8eda-c1cf67243992",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F6.svg?alt=media&token=082f1712-8731-4342-a729-281e65150c1d",
-      },
-      { 
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F7.svg?alt=media&token=770e56f8-c569-46ba-8357-05ba1b020126",
-        link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FPayment%2FARCHID%20SHREEKUNJ%20PAYMENT%20SCHEDULE.pdf?alt=media&token=221c68fc-7b5e-40ea-bfe0-ff3f007bc942",  
-      },
-      { link:"not found",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F7.svg?alt=media&token=65e79009-5fed-4a45-9cdc-589ea89cfdbc",
-      },
-    ],
-    details: [
-      {
-        heading: "LUXURIOUS FEATURES",
-        description:
-          "From glorious living to luxurious features, the project has everything you need to make a lifestyle statement. The address accentuates warmth of a suburb with easy connectivity to every part of the city. ",
-
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%20%208.jpg?alt=media&token=95349da6-a9af-4be8-bf96-43522401b52c",
-      },
-      {
-        heading: "WELL-DESIGNED, SUPERIOR CONSTRUCTIONS",
-        description:
-          " The well-designed, superior construction sets the benchmark. After all, at ARCHID BUILDERS, its our passion to enhance your lifestyle and we have always strived in developing quality homes for life.",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2011.jpg?alt=media&token=44b59bb5-e26b-4dd3-b0a4-fb3704a0c658",
-      },
-      {
-        heading: "THE STANDARD OF PREMIUM LIVING",
-        description:
-          "The community play areas delight children of all ages, while the parks are perfect for family picnics. And if it gets too warm or you’ve had a long day at work, a few laps in the swimming pool and cozy moment in 6300 sqft exclusive club house will make you refreshed in no time. You’ll find 40% open space in the society which gives the residents a comfortable living.",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
-      },
-    ],
-    ameneties: {
-      head:"AMENETIES",
-      line:"_______________",
-      text: "Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community centre, and an impressive array of parks and walkways, the community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
-      brochure:
-      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
-      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAmeneties%2FShreekunj%20Ameneties.jpg?alt=media&token=10b7df85-8558-437a-80cd-d2164ed80ad7",
-    },
-    floorPlans: [
-      {
-        text: "ALL",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%201.jpg?alt=media&token=e8366975-f0aa-47a8-a23a-9d34ae9ea2e5",
-        text: "FIRST FLOOR",
-        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206519.jpg?alt=media&token=aeec86b6-67ac-4ca8-b2dc-55c2d576d385",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=5819bd4c-3727-4f14-8a93-8ca8c7c4076c",
-        text: "GROUND FLOOR",
-        fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206520.jpg?alt=media&token=cf03dd36-d390-431d-b0bd-8a370ed0bc59",
-      },
-    ],
-    images: [
-      {
-        image: "https://source.unsplash.com/1600x900/?house",
-      },
-      {
-        image: "https://source.unsplash.com/1600x900/?house",
-      },
-      {
-        image: "https://source.unsplash.com/1600x900/?house",
-      },
-      {
-        image: "https://source.unsplash.com/1600x900/?house",
-      },
-    ],
-    finance: [
-      {
-        text: "hdfc home loans",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FHDFC%20HOME%20LOANS.jpg?alt=media&token=64084d77-5533-4b5d-affa-40558985671c",
-      },
-      {
-        text: "axis bank",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FAXIS%20BANK.jpg?alt=media&token=f4bcee07-758d-460d-9034-363ef8c2b4d1",
-      },
-      {
-        text: "state bank of india",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FSTATE%20BANK%20OF%20INDIA.jpg?alt=media&token=2abb3a2a-5fd8-464a-b927-fd2ee83472d7",
-      },
-    ],
-    surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMajor%20in%20and%20around%2Fsurrounding.jpg?alt=media&token=58031671-1c3b-4dfa-a8b3-2f060d4362b5",
-
-    location: [
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP.jpg?alt=media&token=303e9361-8689-4619-a771-d387ac3ad590",
-      },
-      {
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP2.jpg?alt=media&token=5d89ed53-d1ae-4950-99e3-9772c0ac5664",
-      },
-    ],
-    construction:[],
-    gallery:[
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%201.jpg?alt=media&token=84478633-6bf9-43a0-8478-e3489931a93b",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%202.jpg?alt=media&token=788982cb-9b46-4dbb-b8bb-2b016aa0c9aa",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%203.jpg?alt=media&token=f2aca256-d4fe-47fa-8dc1-d9db7fc11459",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%204.jpg?alt=media&token=fc73fbe8-7b38-4438-b682-f21b83e9db8d",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%205.jpg?alt=media&token=c1b37d67-8436-42c8-88ca-1d9195811ba3",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%206.jpg?alt=media&token=d25ad429-379a-4eaa-8db0-6d7901703dc0",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%207.jpg?alt=media&token=8f54268d-e132-4e8b-9d89-ae27a051bdfb",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%20%208.jpg?alt=media&token=95349da6-a9af-4be8-bf96-43522401b52c",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%209.jpg?alt=media&token=d9d8fd6b-dc1d-4fe2-8f19-949a2b8ae81e",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2010.jpg?alt=media&token=70c1f6bc-1ec3-4074-ac3e-9f724341ff4a",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2011.jpg?alt=media&token=44b59bb5-e26b-4dd3-b0a4-fb3704a0c658",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2014.jpg?alt=media&token=3f025595-32f6-4dbf-8a86-c53da6a3d282",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2015.jpg?alt=media&token=3358a650-9867-4d4a-aab0-a19883049150",
-      },
-      {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2016.jpg?alt=media&token=b48f8023-277a-431e-a355-9ba379da938b",
-      },
-   
-    ],
-  },
+  
 
   {
     id: "3",
@@ -640,7 +452,7 @@ const OngoingData = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FHarmony%20(1).jpg?alt=media&token=6730b471-1008-464e-9947-1fe8f4d6f328",
     tagLine:
-      "Soothing & Advanced Duplex community",
+      "SOOTHING & ADVANCED DUPLEX COMMUNITY",
       description:"3 BHK Duplex",
 
 
@@ -680,7 +492,7 @@ const OngoingData = [
               },
               
             ],
-  }
+  },
 
 //     introduction:
 //       "This gated The residences in ARCHID HARMONY are beautifully tucked away from the madness of the city. Yet, they are close to every need you wish attended to. Strategically located on East side of Bhubaneswar at Atala ,4kms away from NH-5 ,these residences give you immediate access to the best that this city has to offer.Live in an environment where each element has been hand-picked, just for you.      ",
@@ -906,7 +718,195 @@ const OngoingData = [
 
 
 
+{
+  id: "2",
+  bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FShreekunj.jpg?alt=media&token=8d925b1d-71f5-4e95-8d72-603752a89aef",
+  title: "ARCHID SHREEKUNJ, RANASINGHPUR",
+  titles:"",
+  image:
+    "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
+  tagLine: "FROM PREMIUM LIVING TO ABUNDANCE OF PEACE & GLORY",
+  description:"3 BHK DUPLEXES",
+  introduction:
+    "This gated community is well placed at the heart of a pristine location in Ranasinghpur, Bhubaneswar. Driven by design, the meticulous planning infuses spice into space. Whether yours is a nuclear or joint family, the smartly calibrated villas fit seamlessly into your individualised lifestyle. The upscale class reflects in quality of materials utilised to create the ambience you always wanted from your dream home.",
+    inter:"",
+  highlights: [
+    { 
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F1.svg?alt=media&token=d2c9cb0f-fcc9-4881-9ab6-e1e582293377",
+    },
+    { 
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F2.svg?alt=media&token=652f89ef-f55b-422f-9742-1cb70ad6394c",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F3.svg?alt=media&token=ad009ca3-ca78-4c10-9ca1-5cce25e9a0e4",
+    },
+    { 
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F4.svg?alt=media&token=7817a60f-3ff1-4e56-ae51-bc1543fa70b4",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F5.svg?alt=media&token=4eaa439b-6b33-481a-8eda-c1cf67243992",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F6.svg?alt=media&token=082f1712-8731-4342-a729-281e65150c1d",
+    },
+    { 
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F7.svg?alt=media&token=770e56f8-c569-46ba-8357-05ba1b020126",
+      link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FPayment%2FARCHID%20SHREEKUNJ%20PAYMENT%20SCHEDULE.pdf?alt=media&token=221c68fc-7b5e-40ea-bfe0-ff3f007bc942",  
+    },
+    { link:"not found",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F7.svg?alt=media&token=65e79009-5fed-4a45-9cdc-589ea89cfdbc",
+    },
+  ],
+  details: [
+    {
+      heading: "LUXURIOUS FEATURES",
+      description:
+        "From glorious living to luxurious features, the project has everything you need to make a lifestyle statement. The address accentuates warmth of a suburb with easy connectivity to every part of the city. ",
+
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%20%208.jpg?alt=media&token=95349da6-a9af-4be8-bf96-43522401b52c",
+    },
+    {
+      heading: "WELL-DESIGNED, SUPERIOR CONSTRUCTIONS",
+      description:
+        " The well-designed, superior construction sets the benchmark. After all, at ARCHID BUILDERS, its our passion to enhance your lifestyle and we have always strived in developing quality homes for life.",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2011.jpg?alt=media&token=44b59bb5-e26b-4dd3-b0a4-fb3704a0c658",
+    },
+    {
+      heading: "THE STANDARD OF PREMIUM LIVING",
+      description:
+        "The community play areas delight children of all ages, while the parks are perfect for family picnics. And if it gets too warm or you’ve had a long day at work, a few laps in the swimming pool and cozy moment in 6300 sqft exclusive club house will make you refreshed in no time. You’ll find 40% open space in the society which gives the residents a comfortable living.",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
+    },
+  ],
+  ameneties: {
+    head:"AMENETIES",
+    line:"_______________",
+    text: "Break a sweat at the gym, soak up the sun by the pool or unwind your kid’s happiness at children play area. With a buzzing community centre, and an impressive array of parks and walkways, the community is designed to meet all your needs. All other necessary amenities just make your stay more comfortable.",
+    brochure:
+    "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FDownload%20Bronchure%2FArchid-Shreekunj-e-Brochure.pdf?alt=media&token=5e8127c0-ed1a-4c3f-954b-27b153055176",
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAmeneties%2FShreekunj%20Ameneties.jpg?alt=media&token=10b7df85-8558-437a-80cd-d2164ed80ad7",
+  },
+  floorPlans: [
+    {
+      text: "ALL",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%201.jpg?alt=media&token=e8366975-f0aa-47a8-a23a-9d34ae9ea2e5",
+      text: "FIRST FLOOR",
+      fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206519.jpg?alt=media&token=aeec86b6-67ac-4ca8-b2dc-55c2d576d385",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFLOOR%20PLAN%202.jpg?alt=media&token=5819bd4c-3727-4f14-8a93-8ca8c7c4076c",
+      text: "GROUND FLOOR",
+      fullImage:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFloor%20Plans%2FFloor%20Plans%20(On%20Click)%2FFrame%206520.jpg?alt=media&token=cf03dd36-d390-431d-b0bd-8a370ed0bc59",
+    },
+  ],
+  images: [
+    {
+      image: "https://source.unsplash.com/1600x900/?house",
+    },
+    {
+      image: "https://source.unsplash.com/1600x900/?house",
+    },
+    {
+      image: "https://source.unsplash.com/1600x900/?house",
+    },
+    {
+      image: "https://source.unsplash.com/1600x900/?house",
+    },
+  ],
+  finance: [
+    {
+      text: "hdfc home loans",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FHDFC%20HOME%20LOANS.jpg?alt=media&token=64084d77-5533-4b5d-affa-40558985671c",
+    },
+    {
+      text: "axis bank",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FAXIS%20BANK.jpg?alt=media&token=f4bcee07-758d-460d-9034-363ef8c2b4d1",
+    },
+    {
+      text: "state bank of india",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FFinance%20Facility%2FSTATE%20BANK%20OF%20INDIA.jpg?alt=media&token=2abb3a2a-5fd8-464a-b927-fd2ee83472d7",
+    },
+  ],
+  surrounding:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMajor%20in%20and%20around%2Fsurrounding.jpg?alt=media&token=58031671-1c3b-4dfa-a8b3-2f060d4362b5",
+
+  location: [
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP.jpg?alt=media&token=303e9361-8689-4619-a771-d387ac3ad590",
+    },
+    {
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FMap%20Section%20Photos%2FArchid%20Shreekunj%2C%20Ranasinghpur%20MAP2.jpg?alt=media&token=5d89ed53-d1ae-4950-99e3-9772c0ac5664",
+    },
+  ],
+  construction:[],
+  gallery:[
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%201.jpg?alt=media&token=84478633-6bf9-43a0-8478-e3489931a93b",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%202.jpg?alt=media&token=788982cb-9b46-4dbb-b8bb-2b016aa0c9aa",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%203.jpg?alt=media&token=f2aca256-d4fe-47fa-8dc1-d9db7fc11459",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%204.jpg?alt=media&token=fc73fbe8-7b38-4438-b682-f21b83e9db8d",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%205.jpg?alt=media&token=c1b37d67-8436-42c8-88ca-1d9195811ba3",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%206.jpg?alt=media&token=d25ad429-379a-4eaa-8db0-6d7901703dc0",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%207.jpg?alt=media&token=8f54268d-e132-4e8b-9d89-ae27a051bdfb",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%20%208.jpg?alt=media&token=95349da6-a9af-4be8-bf96-43522401b52c",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%209.jpg?alt=media&token=d9d8fd6b-dc1d-4fe2-8f19-949a2b8ae81e",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2010.jpg?alt=media&token=70c1f6bc-1ec3-4074-ac3e-9f724341ff4a",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2011.jpg?alt=media&token=44b59bb5-e26b-4dd3-b0a4-fb3704a0c658",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2013.jpg?alt=media&token=5e9f87a8-f993-481c-bde8-9b25420f28ba",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2014.jpg?alt=media&token=3f025595-32f6-4dbf-8a86-c53da6a3d282",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2015.jpg?alt=media&token=3358a650-9867-4d4a-aab0-a19883049150",
+    },
+    {
+      image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FGallery%2FGALLERY%2016.jpg?alt=media&token=b48f8023-277a-431e-a355-9ba379da938b",
+    },
  
+  ],
+},
 
   
 ];

@@ -1,11 +1,12 @@
 .main{
     background-color: white;
-    height: 120vh;
-    width: 100vw;
+    /* height: 0vh; */
+    /* width: 100vw; */
     
 }
 .main2{
     margin-left: 10%;
+    /* height: 20%; */
     margin-right: 10%;
 }
 .card{
@@ -13,8 +14,8 @@
     height: 45vw;
 }
 .carousel-indicators{
-    /* height: 0px; */
-    /* width: 0px; */
+    height: 0px;
+    width: 0px;
 }
 .carousel-control-prev-icon{
     /* background-image: url("https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FIcons%2FArchid%20Pramod%20Icons%2Farrow.png?alt=media&token=c0c8e1e3-847f-40c0-8302-4bcdeeaf83e2");  */

@@ -37,25 +37,38 @@ const SearchFilter = () => {
         handleOpen()  
       } 
       else if(property==="Duplex"){
-        if(priceRange==="90 Lakhs - 2 Crore"){
-          navigate('/communities/2')
-        } else if(priceRange==="70 - 90 Lakhs"){
+        if((bedroom === "2 BHK" ) && ( priceRange=== "60-80 Lakhs", "80 Lakhs - 1 Crore", "1 - 2 crore","2 crore & above")){
+          handleOpen()
+        }
+        else if((bedroom === "3 BHK" )&&(priceRange==="80 Lakhs - 1 Crore")){
           navigate('/communities/4')
+        } else if((bedroom === "3 BHK" )&&(priceRange==="1 - 2 crore")){
+          navigate('/communities/2')
           // handleOpen()  
+        }
+        else{
+          handleOpen()
         }
         
       }
       else if(property==="Apartment"){
 
-        if(priceRange==="90 Lakhs - 2 Crore")
+        if((bedroom === "2 BHK" || bedroom === "3 BHK") && ( priceRange==="80 Lakhs - 1 Crore" ))
         {
           navigate("/communities/1")
           
         }
-        else 
+        else if ((bedroom === "2 BHK" ) && ( priceRange==="1 - 2 crore" )) {
+          handleOpen()
+
+        }
+        else if((bedroom === "2 BHK" || bedroom === "3 BHK") && ( priceRange==="60-80 Lakhs"))
         {
           navigate("/communities/3")
   
+        }
+        else{
+          handleOpen()
         }
       }
       
@@ -83,7 +96,7 @@ const SearchFilter = () => {
         <Col xs={6} sm={3}>
           <Filter
             title="PRICE RANGE"
-            options={["70 - 90 Lakhs", "90 Lakhs - 2 Crore", "2 Crore & Above"]}
+            options={["60-80 Lakhs", "80 Lakhs - 1 Crore", "1 - 2 crore","2 crore & above"]}
             state={priceRange}
             
             setState={setPriceRange}

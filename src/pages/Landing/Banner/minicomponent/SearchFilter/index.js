@@ -32,10 +32,11 @@ const SearchFilter = () => {
   const [priceRange, setPriceRange] = useState("ANY");
   const handleClick = () => {
     if (property !== "ANY" || bedroom !== "ANY" || priceRange !== "ANY") {
-      if(property==="Apartment" || bedroom === "4 BHK" || priceRange==="2 Crore & Above" )
+      if( bedroom === "4 BHK" || priceRange==="2 Crore & Above" )
       {
         handleOpen()  
-      } else if(property==="Duplex"){
+      } 
+      else if(property==="Duplex"){
         if(priceRange==="90 Lakhs - 2 Crore"){
           navigate('/communities/2')
         } else if(priceRange==="70 - 90 Lakhs"){
@@ -44,7 +45,7 @@ const SearchFilter = () => {
         }
         
       }
-      else{
+      else if(property==="Apartment"){
 
         if(priceRange==="90 Lakhs - 2 Crore")
         {

@@ -62,6 +62,10 @@ const SearchFilter = () => {
           handleOpen()
 
         }
+        else if ((bedroom === "3 BHK" )&&(priceRange==="1 - 2 crore")){
+          navigate("/communities/1")
+
+        }
         else if((bedroom === "2 BHK" || bedroom === "3 BHK") && ( priceRange==="60-80 Lakhs"))
         {
           navigate("/communities/3")

@@ -165,7 +165,7 @@ const highlightImages = [
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206415.png?alt=media&token=332e6633-c704-4178-a168-ede12648c781",
+      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206411.png?alt=media&token=c67f2e8a-6dc2-42cc-8f9c-464b333126ba",
   },
   {
     image:
@@ -175,7 +175,7 @@ const highlightImages = [
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206410.png?alt=media&token=c7a0042f-2cd6-4bc4-82f5-787922ddabf0",
   }, {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206410.png?alt=media&token=c7a0042f-2cd6-4bc4-82f5-787922ddabf0",
+      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206416%20(2).png?alt=media&token=5e3b87ef-7414-4691-b864-806d5884d225",
   },
   {
     link: "not found",

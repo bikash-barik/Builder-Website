@@ -260,6 +260,57 @@ const OngoingData = [
 
   },
 
+
+  {
+    id: "4",
+    // bg: "https://i.ibb.co/fF2v070/Harmony-1-min.jpg",
+    title: "ARCHID HARMONY, ATALA BBSR",
+    // titles:  "Evolve & Energise – The Next Level Of Life",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fharmony.8c5221f0013b7602b43b.jpg?alt=media&token=54635471-0b5b-48de-8c44-a8af7e8c7a20",
+    tagLine:
+      "SOOTHING & ADVANCED DUPLEX COMMUNITY",
+      description:"3 BHK Duplex",
+
+
+       gallery:[
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_A_001.jpg?alt=media&token=001598c8-2490-4526-851e-0cd04d259be4",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_B_002.jpg?alt=media&token=14fe8202-f56a-4bf2-806b-080d6f67a201",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_C_003.jpg?alt=media&token=8c7d6b83-968e-412f-9fd6-d9b56aaa0c74",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_D_004.jpg?alt=media&token=27e67725-e461-41af-b54f-554c9e3494f4",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_E_005.jpg?alt=media&token=4787a540-e09f-41d2-bedf-ed471ff934f3",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_F_006.jpg?alt=media&token=3a51c260-37a2-464c-8677-ec4f86ce0345",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_G_007.jpg?alt=media&token=85d012d8-6729-4577-82b4-621a1816995d",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_H_008.jpg?alt=media&token=ec98ec24-97c4-49f0-b136-279aaec8a45a",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_SS_009.jpg?alt=media&token=65ca0cfa-a2c7-4dbd-afe0-22799f74d351",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_N_011.jpg?alt=media&token=9157e527-fd11-4659-8f20-456e07482f4c",
+              },
+              {
+                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_Top_View_010.jpg?alt=media&token=667b7ebd-9d30-4055-93f1-f3b6e51843d3",
+              },
+              
+            ],
+  },
+
   
 
   {
@@ -444,55 +495,7 @@ const OngoingData = [
       },
     ],
   },
-  {
-    id: "4",
-    // bg: "https://i.ibb.co/fF2v070/Harmony-1-min.jpg",
-    title: "ARCHID HARMONY, ATALA BBSR",
-    // titles:  "Evolve & Energise – The Next Level Of Life",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FHarmony%20(1).jpg?alt=media&token=6730b471-1008-464e-9947-1fe8f4d6f328",
-    tagLine:
-      "SOOTHING & ADVANCED DUPLEX COMMUNITY",
-      description:"3 BHK Duplex",
-
-
-       gallery:[
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_A_001.jpg?alt=media&token=001598c8-2490-4526-851e-0cd04d259be4",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_B_002.jpg?alt=media&token=14fe8202-f56a-4bf2-806b-080d6f67a201",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_C_003.jpg?alt=media&token=8c7d6b83-968e-412f-9fd6-d9b56aaa0c74",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_D_004.jpg?alt=media&token=27e67725-e461-41af-b54f-554c9e3494f4",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_E_005.jpg?alt=media&token=4787a540-e09f-41d2-bedf-ed471ff934f3",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_F_006.jpg?alt=media&token=3a51c260-37a2-464c-8677-ec4f86ce0345",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_G_007.jpg?alt=media&token=85d012d8-6729-4577-82b4-621a1816995d",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_H_008.jpg?alt=media&token=ec98ec24-97c4-49f0-b136-279aaec8a45a",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_SS_009.jpg?alt=media&token=65ca0cfa-a2c7-4dbd-afe0-22799f74d351",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_N_011.jpg?alt=media&token=9157e527-fd11-4659-8f20-456e07482f4c",
-              },
-              {
-                image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGALLARY%2Ffinal_Top_View_010.jpg?alt=media&token=667b7ebd-9d30-4055-93f1-f3b6e51843d3",
-              },
-              
-            ],
-  },
+  
 
 //     introduction:
 //       "This gated The residences in ARCHID HARMONY are beautifully tucked away from the madness of the city. Yet, they are close to every need you wish attended to. Strategically located on East side of Bhubaneswar at Atala ,4kms away from NH-5 ,these residences give you immediate access to the best that this city has to offer.Live in an environment where each element has been hand-picked, just for you.      ",

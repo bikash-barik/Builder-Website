@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import { HashLink } from 'react-router-hash-link';
 import Logo from "../../images/Company_Logo/png ar.png";
 
 import { NavLink } from "react-router-dom";
@@ -244,13 +244,15 @@ export default function Drawer() {
     <div className="archid-navbar">
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand>
-          <NavLink
+          <HashLink
+          smooth
+
             className="logoimg"
-            to="/"
+            to="/#top"
             style={{ paddingLeft: 27, paddingbottom: 0, borderWidth: 0 }}
           >
             <img src={Logo} style={{ height: 100 }} alt="Loading..." />
-          </NavLink>
+          </HashLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -260,9 +262,9 @@ export default function Drawer() {
               className="n-link"
               style={{ color: "#3171B1", fontWeight: 600 }}
             >
-              <NavLink to="/communities" style={{ padding: 10 }}>
+              <HashLink smooth to="/communities#top" style={{ padding: 10 }}>
                 COMMUNITIES
-              </NavLink>
+              </HashLink>
             </Nav.Link>
 
             <Nav.Link
@@ -270,9 +272,9 @@ export default function Drawer() {
               className="n-link"
               style={{ color: "#3171B1", fontWeight: 600 }}
             >
-              <NavLink to="/offers" style={{ padding: 10 }}>
+              <HashLink smooth to="/offers#top" style={{ padding: 10 }}>
                 OFFERS
-              </NavLink>
+              </HashLink>
             </Nav.Link>
 
             <Nav.Link
@@ -280,18 +282,18 @@ export default function Drawer() {
               className="n-link"
               style={{ color: "#3171B1", fontWeight: 600 }}
             >
-              <NavLink to="/event" style={{ padding: 10 }}>
+              <HashLink smooth to="/event#top" style={{ padding: 10 }}>
                 EVENTS
-              </NavLink>
+              </HashLink>
             </Nav.Link>
             <Nav.Link
               href="#home"
               className="n-link"
               style={{ color: "#3171B1", fontWeight: 600 }}
             >
-              <NavLink to="/latest-launch" style={{ padding: 10 }}>
+              <HashLink smooth to="/latest-launch#top" style={{ padding: 10 }}>
                 LATEST LAUNCHES
-              </NavLink>
+              </HashLink>
             </Nav.Link>
 
             <Nav.Link
@@ -299,9 +301,9 @@ export default function Drawer() {
               className="n-link"
               style={{ color: "#3171B1", fontWeight: 600 }}
             >
-              <NavLink to="/team" style={{ padding: 10 }}>
+              <HashLink smooth to="/team#top" style={{ padding: 10 }}>
                 OUR TEAM
-              </NavLink>
+              </HashLink>
             </Nav.Link>
           </Nav>
           <Nav className="rightnav">

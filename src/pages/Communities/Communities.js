@@ -15,7 +15,7 @@ export default function Communities() {
     {/* <Upcoming /> */}
     <Completed/>
             {/* <HashLink> */}
-    <Harmony/>
+    {/* <Harmony/> */}
     {/* </HashLink> */}
     </div>
 

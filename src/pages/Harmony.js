@@ -174,6 +174,8 @@ const highlightImages = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FGroup%206410.png?alt=media&token=c7a0042f-2cd6-4bc4-82f5-787922ddabf0",
   }, {
+    link: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FARCHID%20HARMONY%20PAYMENT%20SCHEDULE.pdf?alt=media&token=307ea816-a8f2-4ce2-8a01-1a1eed67de86",
+    
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FFrame%206416%20(2).png?alt=media&token=5e3b87ef-7414-4691-b864-806d5884d225",
   },

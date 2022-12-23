@@ -9,6 +9,7 @@ import image3 from "./PastEventsImages/image3.png";
 import image4 from "./PastEventsImages/image4.png";
 import image5 from "./PastEventsImages/image5.png";
 import image7 from "./PastEventsImages/image7.png";
+import image8 from "./PastEventsImages/image8.png";
 
 export default function PastEvents() {
   return (
@@ -44,6 +45,17 @@ export default function PastEvents() {
           overflowX: "hidden",
         }}
       >
+        <img
+          style={{
+            width: "100%",
+            height: "auto",
+
+            top: "1521px",
+          }}
+          src={image8}
+          alt=" "
+        ></img>
+            <div className="images_gap"></div>
         <img
           style={{
             width: "100%",

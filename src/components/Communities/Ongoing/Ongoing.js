@@ -30,11 +30,11 @@ export default function Ongoing(props) {
             // width={100}
             touchDrag={false}
             lazyLoad={true}
-            items={3}
+            items={2}
             slideBy={1}
             dots={true}
-            autoplay={true}
-            autoplayTimeout={2000}
+            // autoplay={true}
+            autoplayTimeout={8000}
             animateIn='fadeIn'
             autoplayHoverPause={false}
             // autoWidth
@@ -51,8 +51,8 @@ export default function Ongoing(props) {
                         </div>
                       </HashLink>
                       <p className=" " style={{ fontSize: "21px", fontWeight: "400", lineHeight: "29px", }}>{project.title}</p>
-                      <img src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FLine%2084.png?alt=media&token=d799dd00-e8fe-426c-9e4e-2c59c4f1723c" className="line_img" style={{ height: "4px", width: "180px" }}></img>
-                      <h5 className="my-3 com_heading" style={{ fontSize: "15px", fontWeight: "400", width: "280px", margin: "auto" }}>{project.tagLine}</h5>
+                      <img src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FLine%2084.png?alt=media&token=d799dd00-e8fe-426c-9e4e-2c59c4f1723c" className="line_img" style={{ height: "4px", width: "210px",marginLeft:"28%" }}></img>
+                      <h5 className="my-3 com_heading" style={{ fontSize: "15px", fontWeight: "400",  }}>{project.tagLine}</h5>
                       <p className="my-3 com_discription" style={{ fontSize: "15px", fontWeight: "400" }}>{project.description}</p>
                     </div> 
                   </div>

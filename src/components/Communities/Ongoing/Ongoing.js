@@ -31,10 +31,10 @@ export default function Ongoing(props) {
             touchDrag={false}
             lazyLoad={true}
             items={2}
-            slideBy={1}
+            slideBy={2}
             dots={true}
-            // autoplay={true}
-            autoplayTimeout={8000}
+            autoplay={true}
+            autoplayTimeout={3000}
             animateIn='fadeIn'
             autoplayHoverPause={false}
             // autoWidth

@@ -1,5 +1,6 @@
 import "./index.css";
 import { useNavigate } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 
 const LatestLaunches = () => {
@@ -20,9 +21,15 @@ const LatestLaunches = () => {
           lifestyle within a thriving community, supported by Archid Builders 
           community management team.
         </div>
-        <div className="view-all-button" onClick={()=>{
-          navigate("/communities")
-        }} >VIEW ALL PROPERTIES</div>
+        <HashLink className="view-all-button"
+         
+         smooth
+        // onClick={()=>{
+        //   navigate("/communities#top")
+        // }} 
+        to="/communities#top"
+        
+        >VIEW ALL PROPERTIES</HashLink>
       </div>
       <div className=" latest-launches-image-container1 image-container">
       <img  className="latest-launches-image"  src="https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/home%2FLatest%20Launches%2FlatestLaunches1.svg?alt=media&token=19740e92-4fce-4802-86aa-b3a9635ddbcc" alt="Loading..." />

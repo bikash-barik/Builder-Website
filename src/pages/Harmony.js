@@ -221,18 +221,34 @@ const  locationData = [
 
 const constructionData =[
   {
-    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FPHOTO-2022-07-04-13-16-59%203%201.png?alt=media&token=b6620b20-78f7-4457-aaa6-9fc96535ac65",
-    
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FPHOTO-2022-07-04-13-16-59%202%201.png?alt=media&token=5503ef0a-4220-4627-89c0-7c17558150ad"    
+  },
+ 
+  {
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.14.52%20PM%20(1).jpeg?alt=media&token=37984607-9fb4-48fe-b8eb-f1f18d5cca7b"    
   },
   {
-    // image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.53.jpeg?alt=media&token=6f5f0872-1647-4c1d-9328-eff9a5db8650",
-    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FPHOTO-2022-07-04-13-16-59%202%201.png?alt=media&token=5503ef0a-4220-4627-89c0-7c17558150ad",
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.14.52%20PM%20(2).jpeg?alt=media&token=9458410f-8d05-4e13-b6eb-48c39ebec42c"    
+  },
+  // {
+  //   image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.14.52%20PM.jpeg?alt=media&token=353bdaea-28e2-4db7-9cff-1cdef8cd2a4a"    
+  // },
+  // {
+  //   image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.14.53%20PM.jpeg?alt=media&token=b266b021-1879-4a26-8b5a-3b42a8573252"    
+  // },
+ ]
+const constructionData1 =[
+  
+  {
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.14.52%20PM.jpeg?alt=media&token=353bdaea-28e2-4db7-9cff-1cdef8cd2a4a"    
   },
   {
-    // image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-02%20at%209.36.39%20PM%20(2)%20(2).jpeg?alt=media&token=c7c2b510-78c9-4544-b881-270779ae1478",
-    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FPHOTO-2022-07-09-11-45-00%201.png?alt=media&token=639cd533-cd9b-41fe-9636-ecd0f19d6687",
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2FPHOTO-2022-07-04-13-16-59%203%201.png?alt=media&token=b6620b20-78f7-4457-aaa6-9fc96535ac65"    
   },
-]
+  {
+    image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.14.17%20PM.jpeg?alt=media&token=bd312aae-37d9-4415-b35d-3c326f9435c0"    
+  },
+ ]
 
 
 
@@ -728,6 +744,20 @@ export default function Harmony() {
         })
       }
       </div>
+      {/* <div className="construction-update-images-container">
+      {
+        constructionData1?.map((el,idx)=>{
+          console.log("construction-update-image-background"+idx)
+          return(
+
+            <div className={"construction-update-image-background construction-update-image-background-"+(idx+1)} key={idx}>
+            <img className="construction-update-image" src={el.image} alt="Loading..." />
+            </div>
+            )
+
+        })
+      }
+      </div> */}
     </div> 
     <Modal isOpen={modal} style={customStyles} contentLabel="Example Modal">
         <form className="">

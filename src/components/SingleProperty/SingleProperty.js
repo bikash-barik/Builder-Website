@@ -264,7 +264,11 @@ export default function SingleProperty({ OngoingData }) {
             <Location locationData={data.location} />
 
             {data?.construction?.length !== 0 && (
-              <ConstructionUpdates constructionData={data?.construction} />
+              <ConstructionUpdates 
+              constructionData={data?.construction} 
+              // constructionData1={data?.construction1} 
+               />
+              
             )}
           </div>
         );

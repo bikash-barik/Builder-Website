@@ -220,14 +220,15 @@ const OngoingData = [
     ],
     construction:[
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FConstruction%20Photos%2F1.jpeg?alt=media&token=8db1757c-8fed-4e20-afe0-1b116c0838f7",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(5).jpg?alt=media&token=a37198eb-37b1-4e02-ba4d-b5b00316356a",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FConstruction%20Photos%2F2.jpeg?alt=media&token=05f76c06-9172-4aa9-b9b9-568635e7b77a",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(3).jpg?alt=media&token=7c6c75e2-2fb7-464f-a887-484c0fe4908a",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FConstruction%20Photos%2FConstruction%20Photos%2F3.jpeg?alt=media&token=c640c363-ad5e-418e-93f2-e1e779f6e03c",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(6).jpg?alt=media&token=eaf1ef6d-31e8-4404-98be-70a6c0b0ac71",
       },
+      
   
     ],
     gallery:[
@@ -457,15 +458,16 @@ const OngoingData = [
     
     construction:[
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.54.jpeg?alt=media&token=a98fe4b0-e3b9-46e7-ad5c-7d870bd1495f",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.56.42%20PM.jpeg?alt=media&token=f4b39f72-679f-4287-bfcb-49e0d882a044",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-01%20at%2022.30.53.jpeg?alt=media&token=6f5f0872-1647-4c1d-9328-eff9a5db8650",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project.jpg?alt=media&token=27e59c58-07ef-4ffa-89cc-3720ec7811e6",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FConstruction%20Photos%2FWhatsApp%20Image%202022-11-02%20at%209.36.39%20PM%20(2)%20(2).jpeg?alt=media&token=c7c2b510-78c9-4544-b881-270779ae1478",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(1).jpg?alt=media&token=d061957e-92d6-4a62-a434-70eada766808",
       },
     ],
+   
     
     location: [
       {

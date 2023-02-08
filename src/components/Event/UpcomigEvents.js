@@ -33,26 +33,31 @@ export default function UpcomingEvents() {
           }}
         />
       </div>
-      <div className="row no-upcoming">
-        <div className="col-md-7 col-sm-6 m-auto">
-          <h1
-            className="text-center"
-            style={{
-              fontSize: "49px",
-              fontWeight: "800",
+      <div>
+    
+        
+      <div
+        style={{
+          margin: "0px",
+          padding: "0px",
+          overflowX: "hidden",
+        }}
+      >
+       
+            <div className="images_gap"></div>
+        <img
+          style={{
+            width: "100%",
+            height: "auto",
 
-              left: "139px",
-              width: "auto",
-              marginLeft: "2px",
-            }}
-          >
-            NO UPCOMING EVENTS
-          </h1>
-        </div>
-        <div className="col-md-5 col-sm-6">
-          <img src={noUpcomingImg} alt=" " className="img-fluid" />
-        </div>
+            top: "1521px",
+          }}
+          src={"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/event%2FGroup%206470.png?alt=media&token=df9f4c3f-8b92-44ad-9e50-0cddf95281d4"}
+          alt=" "
+        ></img>
+        
       </div>
+    </div>
     </div>
   );
 }

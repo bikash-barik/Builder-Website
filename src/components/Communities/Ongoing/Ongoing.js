@@ -41,13 +41,13 @@ export default function Ongoing(props) {
             >
             {
               OngoingData.map((project, i) => {
-                return (<Card>
+                return (<Card style={{width:"500px"}}>
                   <div className="col-lg-3 ongoing-box-container">
                     <div className="ongoing-box text-center align-items-center justify-content-center"
                       data-aos={i === 0 ? ("fade-right") : (i % 2 === 0 ? "fade-left" : "fade-up")} data-aos-duration="2000">
                       <HashLink smooth to={`/Communities/${project.id}#top`}>
                         <div className={i == 2 ? "img2" : ""}>
-                          <img src={project.image} className="img-responsive" style={{ height: "400px", }}></img>
+                          <img src={project.image} className="img-responsive" style={{ height: "500px",}}></img>
                         </div>
                       </HashLink>
                       <p className=" " style={{ fontSize: "21px", fontWeight: "400", lineHeight: "29px", }}>{project.title}</p>

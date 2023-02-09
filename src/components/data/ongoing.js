@@ -220,13 +220,13 @@ const OngoingData = [
     ],
     construction:[
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(5).jpg?alt=media&token=a37198eb-37b1-4e02-ba4d-b5b00316356a",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMy%20project%20(8).jpg?alt=media&token=50499a5b-f454-4b75-ad22-311b60ba88bf",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(3).jpg?alt=media&token=7c6c75e2-2fb7-464f-a887-484c0fe4908a",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMy%20project%20(9).jpg?alt=media&token=7979f754-e51a-45d6-9cd0-932aa37bda9c",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(6).jpg?alt=media&token=eaf1ef6d-31e8-4404-98be-70a6c0b0ac71",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FMy%20project%20(10).jpg?alt=media&token=b6026c38-5560-4269-baf6-3aa06f45c5c9",
       },
       
   
@@ -461,7 +461,7 @@ const OngoingData = [
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FWhatsApp%20Image%202022-12-28%20at%201.56.42%20PM.jpeg?alt=media&token=f4b39f72-679f-4287-bfcb-49e0d882a044",
       },
       {
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project.jpg?alt=media&token=27e59c58-07ef-4ffa-89cc-3720ec7811e6",
+        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FMy%20project%20(7).jpg?alt=media&token=62f17526-a924-467a-9ddf-386bb84cc3f1",
       },
       {
         image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ARCHID%20HARMONY%2Fconstruction%2FMy%20project%20(1).jpg?alt=media&token=d061957e-92d6-4a62-a434-70eada766808",

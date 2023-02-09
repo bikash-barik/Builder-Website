@@ -30,9 +30,9 @@ element.style {
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
-    width: 122vw !important;
+    width: 172vw !important;
     height: 100% !important;
-    margin-left: 20%;
+    margin-left: 8%;
 }
 
 

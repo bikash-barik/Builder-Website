@@ -189,14 +189,14 @@ const CompletedData =[
         category:"RESIDENTIAL PROJECT",
         date :"2019"
     },
-    {
-        id: 22,
-        title :"ARCHID HARMONY, BBSR  ",
-        // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
-        image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fresidential%2Ffinal_A_001-min.jpg?alt=media&token=b2d68c04-2030-4d99-a0a6-89467adf6012",
-        category:"RESIDENTIAL PROJECT",
-        date :"2022"
-    },
+    // {
+    //     id: 22,
+    //     title :"ARCHID HARMONY, BBSR  ",
+    //     // image:"https://www.archidbuilders.in/admin/ongoing/poster_2020-08-22-075358.png",
+    //     image:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/completed%2Fresidential%2Ffinal_A_001-min.jpg?alt=media&token=b2d68c04-2030-4d99-a0a6-89467adf6012",
+    //     category:"RESIDENTIAL PROJECT",
+    //     date :"2022"
+    // },
     
 ]
 export default CompletedData;

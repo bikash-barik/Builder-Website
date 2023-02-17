@@ -62,7 +62,7 @@ const OngoingData = [
       { 
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F9.svg?alt=media&token=5c06b3af-fe3f-4213-8c67-6fa3c6e5d145",
-        link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FPayment%20Schedule%20Button%2FARCHID%20PRAMOD%20RETREAT%20PAYMENT%20SCHEDULE.pdf?alt=media&token=46177e8e-7cdc-46d0-9424-82238b03278d",
+        link:"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FDownload%20Bronchure%20Button%2FARCHID%20PRAMOD%20RETREAT%20PAYMENT%20SCHEDULE.pdf?alt=media&token=893804ac-c4d6-4d66-85aa-892fd0ac58f5",
       },
       { 
         image:

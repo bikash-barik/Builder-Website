@@ -40,7 +40,19 @@
     
 }
 
+.contained{
+    height: 20px;
+    width: 20px;
+    background: #3171B1 !important;
+    color: #FFFFFF !important;
+    display: flex;
+    position: absolute;
+    top: 580px;
+    right: 93px;
+    margin-left: 10px;
 
+
+}
 .single-property-button img {
     margin-left: 10px;
    

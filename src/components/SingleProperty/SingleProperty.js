@@ -18,6 +18,7 @@ import ConstructionUpdates from "./subcomponent/ConstructionUpdates";
 import Dropdown from "react-bootstrap/Dropdown";
 import Confirmation from "../confirmationSnackbar";
 import { Tick } from "react-crude-animated-tick";
+import Button from '@mui/material/Button';
 
 import {
   EmailShareButton,
@@ -175,13 +176,25 @@ export default function SingleProperty({ OngoingData }) {
         if (data.id !== id) {
           return null;
         }
-
+        
         return (
           <div key={i}>
+
             <div
               className="landing-image"
               style={{ backgroundImage: `url(${data.bg})` }}
-            >
+              >
+              {/* <Button variant="contained"></Button> */}
+              <div className="col-md-2">
+                <div className="single-property-button single-property-request-button">{data.rpno}</div>
+              </div>
+
+
+
+
+
+
+              
               <div className="single-property-button-group">
                 <div
                   className=" single-property-button single-property-request-button"
@@ -193,6 +206,7 @@ export default function SingleProperty({ OngoingData }) {
                 >
                   DOWNLOAD BROCHURE
                 </div>
+
                 <div
                   className=" single-property-button single-property-request-button"
                   onClick={() => {

@@ -4,6 +4,7 @@ const OngoingData = [
     bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FGallery%2FGALLERY%201.jpg?alt=media&token=a4f214ac-76ab-4880-ba06-87ae9077348c",
     title: "ARCHID PRAMOD RETREAT, PATRAPADA",
     titles:"",
+    rpno:'RP/19/2021/00619',
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO.jpg?alt=media&token=d0a65701-4672-49f5-9609-b771d4c8e890",
     images: [
@@ -319,6 +320,7 @@ const OngoingData = [
     bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FGallery%2FGallery%201.jpg?alt=media&token=5dde8dab-36ad-49d8-a150-b8f7729b7c84",
     title: "ARCHID SAILABALA, OLD TOWN",
     titles:"",
+    rpno:'RP/19/2022/00748',
     image:
       "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%203.jpg?alt=media&token=0b36f879-7279-4238-a13a-680989144fb8",
     tagLine:
@@ -728,6 +730,7 @@ const OngoingData = [
   bg: "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FAbout%20Section%2FShreekunj.jpg?alt=media&token=8d925b1d-71f5-4e95-8d72-603752a89aef",
   title: "ARCHID SHREEKUNJ, RANASINGHPUR",
   titles:"",
+  rpno:'RP/19/2021/0046',
   image:
     "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/ongoing%2FONGOING%20PROJECT%20PHOTO%202.jpg?alt=media&token=96c1a81a-9b6c-45c2-816e-d8e78e6d9ffb",
   tagLine: "FROM PREMIUM LIVING TO ABUNDANCE OF PEACE & GLORY",

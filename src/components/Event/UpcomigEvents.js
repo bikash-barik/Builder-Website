@@ -20,7 +20,7 @@ export default function UpcomingEvents() {
             lineHeight: "40px",
           }}
         >
-          UPCOMING EVENTS
+          ONGOING EVENTS
         </h3>
         <hr className="upcoming_hr"
           style={{
@@ -46,21 +46,21 @@ export default function UpcomingEvents() {
       >
        
             <div className="images_gap"></div>
-        {/* <img
+        <img
           style={{
             width: "100%",
             height: "auto",
 
             top: "1521px",
           }}
-          src={"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/event%2FGroup%206470.png?alt=media&token=df9f4c3f-8b92-44ad-9e50-0cddf95281d4"}
+          src={"https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/event%2FGroup%206470.png?alt=media&token=3413b7d6-11c4-4b88-b2b0-2e99c188a6d1"}
           alt=" "
-        ></img> */}
+        ></img>
         <center>
 
-        <Typography style={{fontSize:80}}>
+        {/* <Typography style={{fontSize:80}}>
           NO UPCOMING EVENT
-        </Typography>
+        </Typography> */}
         </center>
         
       </div>

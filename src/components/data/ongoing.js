@@ -334,7 +334,7 @@ const OngoingData = [
       },
       {
         image:
-          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F2.svg?alt=media&token=b5d8db4e-f862-4698-a183-36d1974aa259",
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2Fsailabalsqft.png?alt=media&token=c8a581c0-b1ee-4657-a541-cfbdf39f277f",
       },
       { 
         image:

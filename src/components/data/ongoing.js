@@ -69,6 +69,10 @@ const OngoingData = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2F10.png?alt=media&token=90ccd237-d30b-4435-bf78-b1830abd91d5",
       },
+      { 
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Pramod%20Retreat%2CPatrapada%2FProject%20Highlights%2FPramod%20Retreat.png?alt=media&token=77e87935-4e7e-4c0e-b2ce-65b90dcb4206",
+      },
     ],
     details: [
       {
@@ -362,6 +366,10 @@ const OngoingData = [
       {
         image:
           "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2F8.png?alt=media&token=79e51e95-548d-4164-aa53-b42f4bb696b4",
+      },
+      {
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Sailabala%2COld%20Town%2FProject%20Highlights%2FSailabala.png?alt=media&token=a41fb085-8b8d-48fc-9af2-eef5b2705062",
       },
     ],
     details: [
@@ -772,6 +780,12 @@ const OngoingData = [
       image:
         "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2F7.svg?alt=media&token=65e79009-5fed-4a45-9cdc-589ea89cfdbc",
     },
+    { 
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/archid-builders.appspot.com/o/Archid%20Shreekunj%2C%20Ranasinghpur%2FProject%20highlights%2FShreekunj.png?alt=media&token=1904a587-347c-4922-9709-36e4a06b0151",
+    },
+
+    
   ],
   details: [
     {

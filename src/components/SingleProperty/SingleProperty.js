@@ -185,9 +185,9 @@ export default function SingleProperty({ OngoingData }) {
               style={{ backgroundImage: `url(${data.bg})` }}
               >
               {/* <Button variant="contained"></Button> */}
-              <div className="col-md-2">
+              {/* <div className="col-md-2">
                 <div className="single-property-button single-property-request-button">{data.rpno}</div>
-              </div>
+              </div> */}
 
 
 

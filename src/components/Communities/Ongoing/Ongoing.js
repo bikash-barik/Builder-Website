@@ -41,7 +41,9 @@ export default function Ongoing(props) {
             >
             {
               OngoingData.map((project, i) => {
-                return (<Card style={{width:"500px"}}>
+                return (
+                  <>
+                   <Card style={{width:"500px"}}>
                   <div className="col-lg-3 ongoing-box-container">
                     <div className="ongoing-box text-center align-items-center justify-content-center"
                       data-aos={i === 0 ? ("fade-right") : (i % 2 === 0 ? "fade-left" : "fade-up")} data-aos-duration="2000">
@@ -56,7 +58,9 @@ export default function Ongoing(props) {
                       <p className="my-3 com_discription" style={{ fontSize: "15px", fontWeight: "400" }}>{project.description}</p>
                     </div> 
                   </div>
-                </Card>)
+                </Card>
+                  </>
+               )
               })
             }
           </OwlCarousel>
